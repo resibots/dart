@@ -20,7 +20,7 @@ var searchData=
   ['crc32_5fcrc_5ftable',['Crc32_crc_table',['../dd/dc0/lodepng_8cpp.html#aca8bfab1ea1377cbd8172773f56ab4d3',1,'lodepng.cpp']]],
   ['crc32_5fcrc_5ftable_5fcomputed',['Crc32_crc_table_computed',['../dd/dc0/lodepng_8cpp.html#ac961612365e0c5c5633e7b88d8ade52f',1,'lodepng.cpp']]],
   ['custom_5fcontext',['custom_context',['../d0/d79/structLodePNGDecompressSettings.html#aa8d507077609be70ab1f260f04167d91',1,'LodePNGDecompressSettings::custom_context()'],['../d7/df2/structLodePNGCompressSettings.html#a04bda70a2bfb3ca23b26223405c4dd22',1,'LodePNGCompressSettings::custom_context()']]],
-  ['custom_5fdeflate',['custom_deflate',['../d7/df2/structLodePNGCompressSettings.html#a55dafebbbe017806fb2bbc32bb40a59b',1,'LodePNGCompressSettings']]],
-  ['custom_5finflate',['custom_inflate',['../d0/d79/structLodePNGDecompressSettings.html#a023aa5946c99934d40280850a4d8b204',1,'LodePNGDecompressSettings']]],
-  ['custom_5fzlib',['custom_zlib',['../d0/d79/structLodePNGDecompressSettings.html#a9dd432e46330dbd2ce3ef1929c64337d',1,'LodePNGDecompressSettings::custom_zlib()'],['../d7/df2/structLodePNGCompressSettings.html#a4a7835f394349f15f1302d11bcb0efa0',1,'LodePNGCompressSettings::custom_zlib()']]]
+  ['custom_5fdeflate',['custom_deflate',['../d7/df2/structLodePNGCompressSettings.html#ae0d6adc268768bce7e9117f3e0f2191a',1,'LodePNGCompressSettings']]],
+  ['custom_5finflate',['custom_inflate',['../d0/d79/structLodePNGDecompressSettings.html#a6e3d0cc225a66bba82a5b6ef9209b515',1,'LodePNGDecompressSettings']]],
+  ['custom_5fzlib',['custom_zlib',['../d0/d79/structLodePNGDecompressSettings.html#abc40604f104a1b2f6d64359c692c09e8',1,'LodePNGDecompressSettings::custom_zlib()'],['../d7/df2/structLodePNGCompressSettings.html#a7257310735acfa5553a7d3e1037c838f',1,'LodePNGCompressSettings::custom_zlib()']]]
 ];

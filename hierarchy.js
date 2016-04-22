@@ -165,7 +165,7 @@ var hierarchy =
       [ "dart::dynamics::EndEffector::Properties", "d2/d60/structdart_1_1dynamics_1_1EndEffector_1_1Properties.html", null ]
     ] ],
     [ "dart::dynamics::Joint::Properties", "d8/d60/structdart_1_1dynamics_1_1Joint_1_1Properties.html", [
-      [ "dart::dynamics::MultiDofJoint< DOF >::Properties", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties.html", [
+      [ "dart::dynamics::MultiDofJoint< size_t >::Properties", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties.html", [
         [ "dart::dynamics::BallJoint::Properties", "db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties.html", null ],
         [ "dart::dynamics::EulerJoint::Properties", "df/de0/structdart_1_1dynamics_1_1EulerJoint_1_1Properties.html", null ],
         [ "dart::dynamics::FreeJoint::Properties", "d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties.html", null ],
@@ -280,7 +280,7 @@ var hierarchy =
         [ "dart::dynamics::InverseKinematics::JacobianTranspose", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html", null ]
       ] ],
       [ "dart::dynamics::Joint", "d6/d5b/classdart_1_1dynamics_1_1Joint.html", [
-        [ "dart::dynamics::MultiDofJoint< DOF >", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", null ],
+        [ "dart::dynamics::MultiDofJoint< size_t >", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", null ],
         [ "dart::dynamics::SingleDofJoint", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html", [
           [ "dart::dynamics::PrismaticJoint", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html", null ],
           [ "dart::dynamics::RevoluteJoint", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html", null ],
@@ -362,8 +362,8 @@ var hierarchy =
     [ "dart::dynamics::RevoluteJoint::UniqueProperties", "da/de0/structdart_1_1dynamics_1_1RevoluteJoint_1_1UniqueProperties.html", [
       [ "dart::dynamics::RevoluteJoint::Properties", "d3/d99/structdart_1_1dynamics_1_1RevoluteJoint_1_1Properties.html", null ]
     ] ],
-    [ "dart::dynamics::MultiDofJoint< DOF >::UniqueProperties", "d1/dad/structdart_1_1dynamics_1_1MultiDofJoint_1_1UniqueProperties.html", [
-      [ "dart::dynamics::MultiDofJoint< DOF >::Properties", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties.html", null ]
+    [ "dart::dynamics::MultiDofJoint< size_t >::UniqueProperties", "d1/dad/structdart_1_1dynamics_1_1MultiDofJoint_1_1UniqueProperties.html", [
+      [ "dart::dynamics::MultiDofJoint< size_t >::Properties", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties.html", null ]
     ] ],
     [ "dart::dynamics::ScrewJoint::UniqueProperties", "dd/da2/structdart_1_1dynamics_1_1ScrewJoint_1_1UniqueProperties.html", [
       [ "dart::dynamics::ScrewJoint::Properties", "de/df9/structdart_1_1dynamics_1_1ScrewJoint_1_1Properties.html", null ]
