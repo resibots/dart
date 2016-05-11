@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d7/d41/classdart_1_1simulation_1_1Worl
 <p>class <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">World</a>  
  <a href="../../d7/d41/classdart_1_1simulation_1_1World.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d0/dbb/World_8hpp_source.html">World.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::simulation::World:</div>
 <div class="dyncontent">
@@ -164,49 +164,55 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ab96c5aaa4676ddea35d9a309c9680d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a8ab96c5aaa4676ddea35d9a309c9680d">getTimeStep</a> () const </td></tr>
 <tr class="memdesc:a8ab96c5aaa4676ddea35d9a309c9680d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get time step.  <a href="#a8ab96c5aaa4676ddea35d9a309c9680d">More...</a><br/></td></tr>
 <tr class="separator:a8ab96c5aaa4676ddea35d9a309c9680d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4fa7aaaf2c63d35f3e5f3b7047a1cd7"><td class="memItemLeft" align="right" valign="top">dynamics::SkeletonPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#af4fa7aaaf2c63d35f3e5f3b7047a1cd7">getSkeleton</a> (size_t _index) const </td></tr>
-<tr class="memdesc:af4fa7aaaf2c63d35f3e5f3b7047a1cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the indexed skeleton.  <a href="#af4fa7aaaf2c63d35f3e5f3b7047a1cd7">More...</a><br/></td></tr>
-<tr class="separator:af4fa7aaaf2c63d35f3e5f3b7047a1cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f5b3d35623d82c8105fe068bd1f3048"><td class="memItemLeft" align="right" valign="top">dynamics::SkeletonPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a0f5b3d35623d82c8105fe068bd1f3048">getSkeleton</a> (std::size_t _index) const </td></tr>
+<tr class="memdesc:a0f5b3d35623d82c8105fe068bd1f3048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the indexed skeleton.  <a href="#a0f5b3d35623d82c8105fe068bd1f3048">More...</a><br/></td></tr>
+<tr class="separator:a0f5b3d35623d82c8105fe068bd1f3048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa37316c0d59fdeffd0f0e12877e18efe"><td class="memItemLeft" align="right" valign="top">dynamics::SkeletonPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#aa37316c0d59fdeffd0f0e12877e18efe">getSkeleton</a> (const std::string &amp;_name) const </td></tr>
 <tr class="memdesc:aa37316c0d59fdeffd0f0e12877e18efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a Skeleton by name.  <a href="#aa37316c0d59fdeffd0f0e12877e18efe">More...</a><br/></td></tr>
 <tr class="separator:aa37316c0d59fdeffd0f0e12877e18efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a816530a06946f7d6e55d4b3746b5a3c9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a816530a06946f7d6e55d4b3746b5a3c9">getNumSkeletons</a> () const </td></tr>
-<tr class="memdesc:a816530a06946f7d6e55d4b3746b5a3c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of skeletons.  <a href="#a816530a06946f7d6e55d4b3746b5a3c9">More...</a><br/></td></tr>
-<tr class="separator:a816530a06946f7d6e55d4b3746b5a3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d091354a864e3cfc6ea936e96734cbf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a2d091354a864e3cfc6ea936e96734cbf">addSkeleton</a> (dynamics::SkeletonPtr _skeleton)</td></tr>
-<tr class="memdesc:a2d091354a864e3cfc6ea936e96734cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a skeleton to this world.  <a href="#a2d091354a864e3cfc6ea936e96734cbf">More...</a><br/></td></tr>
-<tr class="separator:a2d091354a864e3cfc6ea936e96734cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e094752ba0e79fd7da928aa7b5e92a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a9e094752ba0e79fd7da928aa7b5e92a2">removeSkeleton</a> (dynamics::SkeletonPtr _skeleton)</td></tr>
-<tr class="memdesc:a9e094752ba0e79fd7da928aa7b5e92a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a skeleton from this world.  <a href="#a9e094752ba0e79fd7da928aa7b5e92a2">More...</a><br/></td></tr>
-<tr class="separator:a9e094752ba0e79fd7da928aa7b5e92a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c3622e3304ad923806beae052f8d168"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a6c3622e3304ad923806beae052f8d168">getNumSkeletons</a> () const </td></tr>
+<tr class="memdesc:a6c3622e3304ad923806beae052f8d168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of skeletons.  <a href="#a6c3622e3304ad923806beae052f8d168">More...</a><br/></td></tr>
+<tr class="separator:a6c3622e3304ad923806beae052f8d168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae016beb18ed985f2cdd2bb882757f463"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ae016beb18ed985f2cdd2bb882757f463">addSkeleton</a> (const dynamics::SkeletonPtr &amp;_skeleton)</td></tr>
+<tr class="memdesc:ae016beb18ed985f2cdd2bb882757f463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a skeleton to this world.  <a href="#ae016beb18ed985f2cdd2bb882757f463">More...</a><br/></td></tr>
+<tr class="separator:ae016beb18ed985f2cdd2bb882757f463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d53c76bc16ed9b0c3aff1041696ae81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a6d53c76bc16ed9b0c3aff1041696ae81">removeSkeleton</a> (const dynamics::SkeletonPtr &amp;_skeleton)</td></tr>
+<tr class="memdesc:a6d53c76bc16ed9b0c3aff1041696ae81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a skeleton from this world.  <a href="#a6d53c76bc16ed9b0c3aff1041696ae81">More...</a><br/></td></tr>
+<tr class="separator:a6d53c76bc16ed9b0c3aff1041696ae81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e16c729076a67e36fe6e7af31c1c359"><td class="memItemLeft" align="right" valign="top">std::set&lt; dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a4e16c729076a67e36fe6e7af31c1c359">removeAllSkeletons</a> ()</td></tr>
 <tr class="memdesc:a4e16c729076a67e36fe6e7af31c1c359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all the skeletons in this world, and return a set of shared pointers to them, in case you want to recycle them.  <a href="#a4e16c729076a67e36fe6e7af31c1c359">More...</a><br/></td></tr>
 <tr class="separator:a4e16c729076a67e36fe6e7af31c1c359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49df83216e5015f198046d737e19a90f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a49df83216e5015f198046d737e19a90f">getIndex</a> (int _index) const </td></tr>
 <tr class="memdesc:a49df83216e5015f198046d737e19a90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dof index for the indexed skeleton.  <a href="#a49df83216e5015f198046d737e19a90f">More...</a><br/></td></tr>
 <tr class="separator:a49df83216e5015f198046d737e19a90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10df30bb9b6729df44b19575b39bbf8"><td class="memItemLeft" align="right" valign="top">dynamics::SimpleFramePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ae10df30bb9b6729df44b19575b39bbf8">getSimpleFrame</a> (size_t _index) const </td></tr>
-<tr class="memdesc:ae10df30bb9b6729df44b19575b39bbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the indexed Entity.  <a href="#ae10df30bb9b6729df44b19575b39bbf8">More...</a><br/></td></tr>
-<tr class="separator:ae10df30bb9b6729df44b19575b39bbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ac678633c9c5accdd5a0914d677ca7"><td class="memItemLeft" align="right" valign="top">dynamics::SimpleFramePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a80ac678633c9c5accdd5a0914d677ca7">getSimpleFrame</a> (std::size_t _index) const </td></tr>
+<tr class="memdesc:a80ac678633c9c5accdd5a0914d677ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the indexed Entity.  <a href="#a80ac678633c9c5accdd5a0914d677ca7">More...</a><br/></td></tr>
+<tr class="separator:a80ac678633c9c5accdd5a0914d677ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f50b12c440263a6d050cb469d8086c"><td class="memItemLeft" align="right" valign="top">dynamics::SimpleFramePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a58f50b12c440263a6d050cb469d8086c">getSimpleFrame</a> (const std::string &amp;_name) const </td></tr>
 <tr class="memdesc:a58f50b12c440263a6d050cb469d8086c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an Entity by name.  <a href="#a58f50b12c440263a6d050cb469d8086c">More...</a><br/></td></tr>
 <tr class="separator:a58f50b12c440263a6d050cb469d8086c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4b95a3d4426bad0ff275d9939ecece8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#af4b95a3d4426bad0ff275d9939ecece8">getNumSimpleFrames</a> () const </td></tr>
-<tr class="memdesc:af4b95a3d4426bad0ff275d9939ecece8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of Entities.  <a href="#af4b95a3d4426bad0ff275d9939ecece8">More...</a><br/></td></tr>
-<tr class="separator:af4b95a3d4426bad0ff275d9939ecece8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63ebe2d3e588076074821f4550e5f59"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ad63ebe2d3e588076074821f4550e5f59">addSimpleFrame</a> (dynamics::SimpleFramePtr _frame)</td></tr>
-<tr class="memdesc:ad63ebe2d3e588076074821f4550e5f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Entity to this world.  <a href="#ad63ebe2d3e588076074821f4550e5f59">More...</a><br/></td></tr>
-<tr class="separator:ad63ebe2d3e588076074821f4550e5f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affb31047859420ea0bb8ad2861fa355a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#affb31047859420ea0bb8ad2861fa355a">removeSimpleFrame</a> (dynamics::SimpleFramePtr _frame)</td></tr>
-<tr class="memdesc:affb31047859420ea0bb8ad2861fa355a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a SimpleFrame from this world.  <a href="#affb31047859420ea0bb8ad2861fa355a">More...</a><br/></td></tr>
-<tr class="separator:affb31047859420ea0bb8ad2861fa355a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6e7117de7a5a54d32716c281bdb92af"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ae6e7117de7a5a54d32716c281bdb92af">getNumSimpleFrames</a> () const </td></tr>
+<tr class="memdesc:ae6e7117de7a5a54d32716c281bdb92af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of Entities.  <a href="#ae6e7117de7a5a54d32716c281bdb92af">More...</a><br/></td></tr>
+<tr class="separator:ae6e7117de7a5a54d32716c281bdb92af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deb69dc4e21f50126fe6300763b92af"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a9deb69dc4e21f50126fe6300763b92af">addSimpleFrame</a> (const dynamics::SimpleFramePtr &amp;_frame)</td></tr>
+<tr class="memdesc:a9deb69dc4e21f50126fe6300763b92af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Entity to this world.  <a href="#a9deb69dc4e21f50126fe6300763b92af">More...</a><br/></td></tr>
+<tr class="separator:a9deb69dc4e21f50126fe6300763b92af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa2776290d75cf00344c28bc5a0273f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a9fa2776290d75cf00344c28bc5a0273f">removeSimpleFrame</a> (const dynamics::SimpleFramePtr &amp;_frame)</td></tr>
+<tr class="memdesc:a9fa2776290d75cf00344c28bc5a0273f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a SimpleFrame from this world.  <a href="#a9fa2776290d75cf00344c28bc5a0273f">More...</a><br/></td></tr>
+<tr class="separator:a9fa2776290d75cf00344c28bc5a0273f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d9761552dd73877b6c5eebb1cfe6b0"><td class="memItemLeft" align="right" valign="top">std::set<br class="typebreak"/>
 &lt; dynamics::SimpleFramePtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ad7d9761552dd73877b6c5eebb1cfe6b0">removeAllSimpleFrames</a> ()</td></tr>
 <tr class="memdesc:ad7d9761552dd73877b6c5eebb1cfe6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all SimpleFrames in this world, and return a set of shared pointers to them, in case you want to recycle them.  <a href="#ad7d9761552dd73877b6c5eebb1cfe6b0">More...</a><br/></td></tr>
 <tr class="separator:ad7d9761552dd73877b6c5eebb1cfe6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ed8cdf92593164f187ea744cb963010"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a1ed8cdf92593164f187ea744cb963010">checkCollision</a> (bool _checkAllCollisions=false)</td></tr>
-<tr class="memdesc:a1ed8cdf92593164f187ea744cb963010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether there is any collision between bodies.  <a href="#a1ed8cdf92593164f187ea744cb963010">More...</a><br/></td></tr>
-<tr class="separator:a1ed8cdf92593164f187ea744cb963010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d41631adc9693f691ba5f6b3507d8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ac4d41631adc9693f691ba5f6b3507d8c">checkCollision</a> (bool checkAllCollisions)</td></tr>
+<tr class="memdesc:ac4d41631adc9693f691ba5f6b3507d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated. Please use checkCollision(~) instead.  <a href="#ac4d41631adc9693f691ba5f6b3507d8c">More...</a><br/></td></tr>
+<tr class="separator:ac4d41631adc9693f691ba5f6b3507d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5058e3b4e2b96f935014becf9b8a2d68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a5058e3b4e2b96f935014becf9b8a2d68">checkCollision</a> (const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">collision::CollisionOption</a> &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#a6884f20bea413374e2bc81da54cb7cf7">option</a>=<a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">collision::CollisionOption</a>(false, 1u, nullptr), collision::CollisionResult *result=nullptr)</td></tr>
+<tr class="memdesc:a5058e3b4e2b96f935014becf9b8a2d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform collision checking with 'option' over all the feasible collision pairs in this <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">World</a>, and the result will be stored 'result'.  <a href="#a5058e3b4e2b96f935014becf9b8a2d68">More...</a><br/></td></tr>
+<tr class="separator:a5058e3b4e2b96f935014becf9b8a2d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372d0ef93fcca3ea1c7160017b634848"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d8/d41/classdart_1_1collision_1_1CollisionResult.html">collision::CollisionResult</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a372d0ef93fcca3ea1c7160017b634848">getLastCollisionResult</a> () const </td></tr>
+<tr class="memdesc:a372d0ef93fcca3ea1c7160017b634848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the collision checking result of the last simulation step.  <a href="#a372d0ef93fcca3ea1c7160017b634848">More...</a><br/></td></tr>
+<tr class="separator:a372d0ef93fcca3ea1c7160017b634848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7212df7957a3d17941dda4d199a30ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ab7212df7957a3d17941dda4d199a30ed">reset</a> ()</td></tr>
 <tr class="memdesc:ab7212df7957a3d17941dda4d199a30ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the time, frame counter and recorded histories.  <a href="#ab7212df7957a3d17941dda4d199a30ed">More...</a><br/></td></tr>
 <tr class="separator:ab7212df7957a3d17941dda4d199a30ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,9 +250,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a606ac7fbd3235840fe61a13ee0dbbb5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a606ac7fbd3235840fe61a13ee0dbbb5b">handleSkeletonNameChange</a> (dynamics::ConstMetaSkeletonPtr _skeleton)</td></tr>
-<tr class="memdesc:a606ac7fbd3235840fe61a13ee0dbbb5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register when a Skeleton's name is changed.  <a href="#a606ac7fbd3235840fe61a13ee0dbbb5b">More...</a><br/></td></tr>
-<tr class="separator:a606ac7fbd3235840fe61a13ee0dbbb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e9a33692caa411be686be012177b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ad6e9a33692caa411be686be012177b31">handleSkeletonNameChange</a> (const dynamics::ConstMetaSkeletonPtr &amp;_skeleton)</td></tr>
+<tr class="memdesc:ad6e9a33692caa411be686be012177b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register when a Skeleton's name is changed.  <a href="#ad6e9a33692caa411be686be012177b31">More...</a><br/></td></tr>
+<tr class="separator:ad6e9a33692caa411be686be012177b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f33f2cf8a5979fadb2b5a9899b400da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a2f33f2cf8a5979fadb2b5a9899b400da">handleSimpleFrameNameChange</a> (const <a class="el" href="../../d7/d42/classdart_1_1dynamics_1_1Entity.html">dynamics::Entity</a> *_entity)</td></tr>
 <tr class="memdesc:a2f33f2cf8a5979fadb2b5a9899b400da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register when a SimpleFrame's name is changed.  <a href="#a2f33f2cf8a5979fadb2b5a9899b400da">More...</a><br/></td></tr>
 <tr class="separator:a2f33f2cf8a5979fadb2b5a9899b400da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,14 +390,14 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad63ebe2d3e588076074821f4550e5f59"></a>
+<a class="anchor" id="a9deb69dc4e21f50126fe6300763b92af"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">std::string dart::simulation::World::addSimpleFrame </td>
           <td>(</td>
-          <td class="paramtype">dynamics::SimpleFramePtr&#160;</td>
+          <td class="paramtype">const dynamics::SimpleFramePtr &amp;&#160;</td>
           <td class="paramname"><em>_frame</em></td><td>)</td>
           <td></td>
         </tr>
@@ -402,14 +408,14 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="a2d091354a864e3cfc6ea936e96734cbf"></a>
+<a class="anchor" id="ae016beb18ed985f2cdd2bb882757f463"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">std::string dart::simulation::World::addSkeleton </td>
           <td>(</td>
-          <td class="paramtype">dynamics::SkeletonPtr&#160;</td>
+          <td class="paramtype">const dynamics::SkeletonPtr &amp;&#160;</td>
           <td class="paramname"><em>_skeleton</em></td><td>)</td>
           <td></td>
         </tr>
@@ -437,7 +443,7 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="a1ed8cdf92593164f187ea744cb963010"></a>
+<a class="anchor" id="ac4d41631adc9693f691ba5f6b3507d8c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -445,13 +451,42 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
           <td class="memname">bool dart::simulation::World::checkCollision </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_checkAllCollisions</em> = <code>false</code></td><td>)</td>
+          <td class="paramname"><em>checkAllCollisions</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return whether there is any collision between bodies. </p>
+<p>Deprecated. Please use checkCollision(~) instead. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5058e3b4e2b96f935014becf9b8a2d68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::simulation::World::checkCollision </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">collision::CollisionOption</a> &amp;&#160;</td>
+          <td class="paramname"><em>option</em> = <code><a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">collision::CollisionOption</a>(false,&#160;1u,&#160;nullptr)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d41/classdart_1_1collision_1_1CollisionResult.html">collision::CollisionResult</a> *&#160;</td>
+          <td class="paramname"><em>result</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform collision checking with 'option' over all the feasible collision pairs in this <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">World</a>, and the result will be stored 'result'. </p>
+<p>If no argument is passed in then it will return just whether there is collision or not without the contact information such as contact point, normal, and penetration depth. </p>
 
 </div>
 </div>
@@ -526,6 +561,24 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
+<a class="anchor" id="a372d0ef93fcca3ea1c7160017b634848"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d8/d41/classdart_1_1collision_1_1CollisionResult.html">collision::CollisionResult</a> &amp; dart::simulation::World::getLastCollisionResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the collision checking result of the last simulation step. </p>
+<p>If this world hasn't stepped forward yet, then the result would be empty. Note that this function does not return the collision checking result of <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ac4d41631adc9693f691ba5f6b3507d8c" title="Deprecated. Please use checkCollision(~) instead. ">World::checkCollision()</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a779a1d947049192ff99abd22344eec9f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -543,12 +596,12 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="af4b95a3d4426bad0ff275d9939ecece8"></a>
+<a class="anchor" id="ae6e7117de7a5a54d32716c281bdb92af"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::simulation::World::getNumSimpleFrames </td>
+          <td class="memname">std::size_t dart::simulation::World::getNumSimpleFrames </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -560,12 +613,12 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="a816530a06946f7d6e55d4b3746b5a3c9"></a>
+<a class="anchor" id="a6c3622e3304ad923806beae052f8d168"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::simulation::World::getNumSkeletons </td>
+          <td class="memname">std::size_t dart::simulation::World::getNumSkeletons </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -608,18 +661,18 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 </div><div class="memdoc">
 
 <p>Get the number of simulated frames. </p>
-<p>TODO(MXG): I think the name of this function is much too similar to <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ae10df30bb9b6729df44b19575b39bbf8" title="Get the indexed Entity. ">getSimpleFrame()</a> </p>
+<p>TODO(MXG): I think the name of this function is much too similar to <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#a80ac678633c9c5accdd5a0914d677ca7" title="Get the indexed Entity. ">getSimpleFrame()</a> </p>
 
 </div>
 </div>
-<a class="anchor" id="ae10df30bb9b6729df44b19575b39bbf8"></a>
+<a class="anchor" id="a80ac678633c9c5accdd5a0914d677ca7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">dynamics::SimpleFramePtr dart::simulation::World::getSimpleFrame </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_index</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -648,14 +701,14 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="af4fa7aaaf2c63d35f3e5f3b7047a1cd7"></a>
+<a class="anchor" id="a0f5b3d35623d82c8105fe068bd1f3048"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">dynamics::SkeletonPtr dart::simulation::World::getSkeleton </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_index</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -751,7 +804,7 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="a606ac7fbd3235840fe61a13ee0dbbb5b"></a>
+<a class="anchor" id="ad6e9a33692caa411be686be012177b31"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -761,7 +814,7 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
         <tr>
           <td class="memname">void dart::simulation::World::handleSkeletonNameChange </td>
           <td>(</td>
-          <td class="paramtype">dynamics::ConstMetaSkeletonPtr&#160;</td>
+          <td class="paramtype">const dynamics::ConstMetaSkeletonPtr &amp;&#160;</td>
           <td class="paramname"><em>_skeleton</em></td><td>)</td>
           <td></td>
         </tr>
@@ -811,14 +864,14 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="affb31047859420ea0bb8ad2861fa355a"></a>
+<a class="anchor" id="a9fa2776290d75cf00344c28bc5a0273f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void dart::simulation::World::removeSimpleFrame </td>
           <td>(</td>
-          <td class="paramtype">dynamics::SimpleFramePtr&#160;</td>
+          <td class="paramtype">const dynamics::SimpleFramePtr &amp;&#160;</td>
           <td class="paramname"><em>_frame</em></td><td>)</td>
           <td></td>
         </tr>
@@ -829,14 +882,14 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 
 </div>
 </div>
-<a class="anchor" id="a9e094752ba0e79fd7da928aa7b5e92a2"></a>
+<a class="anchor" id="a6d53c76bc16ed9b0c3aff1041696ae81"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void dart::simulation::World::removeSkeleton </td>
           <td>(</td>
-          <td class="paramtype">dynamics::SkeletonPtr&#160;</td>
+          <td class="paramtype">const dynamics::SkeletonPtr &amp;&#160;</td>
           <td class="paramname"><em>_skeleton</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1348,7 +1401,7 @@ dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d4/d0b/namespacedart_1_1simulation.html">simulation</a></li><li class="navelem"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html">World</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

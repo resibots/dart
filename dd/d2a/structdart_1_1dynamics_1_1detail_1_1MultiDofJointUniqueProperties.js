@@ -3,7 +3,7 @@ var structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties =
     [ "BoolArray", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a324406c2c16c024327f1d9ee15bf9586", null ],
     [ "StringArray", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7ec951a331ee4af0c8c1b3c75a5d302d", null ],
     [ "Vector", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa", null ],
-    [ "MultiDofJointUniqueProperties", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#afc64c4cb6764e47eaa0c66560a49333e", null ],
+    [ "MultiDofJointUniqueProperties", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#af7843868d739b7dad31093a040778bc4", null ],
     [ "MultiDofJointUniqueProperties", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a71d4f874992a5356b8db615e59baddd1", null ],
     [ "~MultiDofJointUniqueProperties", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#acf971c33367872a2bf2fc5a642a523f4", null ],
     [ "mAccelerationLowerLimits", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a730caa0e74f5205dd1d4ff06115d8224", null ],
@@ -22,5 +22,5 @@ var structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties =
     [ "mSpringStiffnesses", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a6a00aeb1146451cc6a2cecdedee013b6", null ],
     [ "mVelocityLowerLimits", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a041031b54b95083f91a087e05d485a1f", null ],
     [ "mVelocityUpperLimits", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a3d66c21579fdc753471778331824fb65", null ],
-    [ "NumDofs", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#ac1e88892fdb33f22b2ab2a0dd8d0d9ad", null ]
+    [ "NumDofs", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a1ca6b02e6df73e99ecfa4f58209d3f6d", null ]
 ];

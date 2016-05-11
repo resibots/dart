@@ -14,6 +14,7 @@ var namespacedart_1_1constraint =
     [ "LCPSolver", "db/d6c/classdart_1_1constraint_1_1LCPSolver.html", "db/d6c/classdart_1_1constraint_1_1LCPSolver" ],
     [ "PGSLCPSolver", "d2/d89/classdart_1_1constraint_1_1PGSLCPSolver.html", "d2/d89/classdart_1_1constraint_1_1PGSLCPSolver" ],
     [ "PGSOption", "d8/d55/structdart_1_1constraint_1_1PGSOption.html", "d8/d55/structdart_1_1constraint_1_1PGSOption" ],
+    [ "ServoMotorConstraint", "d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html", "d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint" ],
     [ "SoftContactConstraint", "d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html", "d4/d23/classdart_1_1constraint_1_1SoftContactConstraint" ],
     [ "WeldJointConstraint", "d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html", "d0/de1/classdart_1_1constraint_1_1WeldJointConstraint" ]
 ];

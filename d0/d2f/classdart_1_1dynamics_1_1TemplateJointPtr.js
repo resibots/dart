@@ -5,6 +5,7 @@ var classdart_1_1dynamics_1_1TemplateJointPtr =
     [ "TemplateJointPtr", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#a19f187da42d2f350af803981fc4866c4", null ],
     [ "TemplateJointPtr", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#a7e6da674b35ce44caa2e2558e5dfb024", null ],
     [ "get", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#aa50a858f1dac04af69c7defa8338479c", null ],
+    [ "getBodyNodePtr", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#ab373d6010e46d0e698d6b6f773fe7938", null ],
     [ "operator JointT *", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#a694f94ab66869156034ad76cbd7579fd", null ],
     [ "operator!=", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#a6f4242202898af077c71f50cc6ddbbef", null ],
     [ "operator*", "d0/d2f/classdart_1_1dynamics_1_1TemplateJointPtr.html#ab4046a932009f38322279528403b4848", null ],

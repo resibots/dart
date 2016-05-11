@@ -7,6 +7,7 @@ var classdart_1_1utils_1_1DartLoader =
     [ "createDartJointAndNode", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a9be96c086885f68097d5847743cb8ad3", null ],
     [ "createDartNodeProperties", "d8/d29/classdart_1_1utils_1_1DartLoader.html#aed7b65ebca78d70b4f712ec4076c54fa", null ],
     [ "createShape", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a141993f728bffb4e7aea5287cfebcff3", null ],
+    [ "createShapeNodes", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a7c03642bc47f8d654934c8e028fbb2f9", null ],
     [ "createSkeletonRecursive", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a1d3d0970f30e98e31f0f81080720359c", null ],
     [ "getResourceRetriever", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a7913d3f19e1d6bab426ec204cfe08c94", null ],
     [ "modelInterfaceToSkeleton", "d8/d29/classdart_1_1utils_1_1DartLoader.html#a34a30d37290706d6d28c8e213cf61fb0", null ],

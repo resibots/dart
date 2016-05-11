@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/gui/lodepng.h Source File</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/gui/lodepng.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -751,10 +751,10 @@ $(document).ready(function(){initNavTree('d2/ddf/lodepng_8h_source.html','../../
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#ad52897a6aecee7dde053c468c6bedda2">lodepng_chunk_length</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk);</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;</div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;<span class="comment">/*puts the 4-byte type in null terminated string*/</span></div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#a2ccd8bef4daad75002f72308a5cbd0dc">lodepng_chunk_type</a>(<span class="keywordtype">char</span> type[5], <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk);</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#a2ccd8bef4daad75002f72308a5cbd0dc">lodepng_chunk_type</a>(<span class="keywordtype">char</span> <a class="code" href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>[5], <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk);</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;</div>
 <div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;<span class="comment">/*check if the type is the given type*/</span></div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#a5153305d442f8332326ef332316b06be">lodepng_chunk_type_equals</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk, <span class="keyword">const</span> <span class="keywordtype">char</span>* type);</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#a5153305d442f8332326ef332316b06be">lodepng_chunk_type_equals</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk, <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>);</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;<span class="comment">/*0: it&#39;s one of the critical chunk types, 1: it&#39;s an ancillary chunk (see PNG standard)*/</span></div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#aabe8616184aa2adaa2a74ad989e6fb41">lodepng_chunk_ancillary</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* chunk);</div>
@@ -793,7 +793,7 @@ $(document).ready(function(){initNavTree('d2/ddf/lodepng_8h_source.html','../../
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;<span class="comment">Returne error code (0 if it went ok)</span></div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="../../d2/ddf/lodepng_8h.html#a2659e18b691b087c3b8610f44d9be8b1">lodepng_chunk_create</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>** out, <span class="keywordtype">size_t</span>* outlength, <span class="keywordtype">unsigned</span> length,</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">char</span>* type, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* data);</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* data);</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;</div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;<span class="comment">/*Calculate CRC32 of buffer*/</span></div>
@@ -1871,6 +1871,7 @@ $(document).ready(function(){initNavTree('d2/ddf/lodepng_8h_source.html','../../
 <div class="ttc" id="structLodePNGState_html_abd2c38ffc68f04b0e4159e1f97ba1f76"><div class="ttname"><a href="../../d1/d02/structLodePNGState.html#abd2c38ffc68f04b0e4159e1f97ba1f76">LodePNGState::decoder</a></div><div class="ttdeci">LodePNGDecoderSettings decoder</div><div class="ttdef"><b>Definition:</b> lodepng.h:582</div></div>
 <div class="ttc" id="structLodePNGEncoderSettings_html_a04dc9622ccd1d7c74c56291409aa512a"><div class="ttname"><a href="../../dc/d15/structLodePNGEncoderSettings.html#a04dc9622ccd1d7c74c56291409aa512a">LodePNGEncoderSettings::force_palette</a></div><div class="ttdeci">unsigned force_palette</div><div class="ttdef"><b>Definition:</b> lodepng.h:564</div></div>
 <div class="ttc" id="lodepng_8h_html_a2ccd8bef4daad75002f72308a5cbd0dc"><div class="ttname"><a href="../../d2/ddf/lodepng_8h.html#a2ccd8bef4daad75002f72308a5cbd0dc">lodepng_chunk_type</a></div><div class="ttdeci">void lodepng_chunk_type(char type[5], const unsigned char *chunk)</div><div class="ttdef"><b>Definition:</b> lodepng.cpp:2355</div></div>
+<div class="ttc" id="SdfParser_8cpp_html_a75b160f574a0be26114bae2c7686a5e1"><div class="ttname"><a href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a></div><div class="ttdeci">std::string type</div><div class="ttdef"><b>Definition:</b> SdfParser.cpp:83</div></div>
 <div class="ttc" id="structLodePNGTime_html_ac99cb7f3ce16a85f9f505b7f5f6e0aa7"><div class="ttname"><a href="../../d9/da9/structLodePNGTime.html#ac99cb7f3ce16a85f9f505b7f5f6e0aa7">LodePNGTime::hour</a></div><div class="ttdeci">unsigned hour</div><div class="ttdef"><b>Definition:</b> lodepng.h:383</div></div>
 <div class="ttc" id="structLodePNGInfo_html_a0af9bab3435084780ce8c1cb69bb2628"><div class="ttname"><a href="../../d0/dd6/structLodePNGInfo.html#a0af9bab3435084780ce8c1cb69bb2628">LodePNGInfo::color</a></div><div class="ttdeci">LodePNGColorMode color</div><div class="ttdef"><b>Definition:</b> lodepng.h:396</div></div>
 <div class="ttc" id="structLodePNGCompressSettings_html_a37a87bd874376f0298efad2870e70e7e"><div class="ttname"><a href="../../d7/df2/structLodePNGCompressSettings.html#a37a87bd874376f0298efad2870e70e7e">LodePNGCompressSettings::use_lz77</a></div><div class="ttdeci">unsigned use_lz77</div><div class="ttdef"><b>Definition:</b> lodepng.h:274</div></div>
@@ -1903,7 +1904,7 @@ $(document).ready(function(){initNavTree('d2/ddf/lodepng_8h_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_77df7651d5de09f92d5a9d7a4e71e16d.html">gui</a></li><li class="navelem"><a class="el" href="../../d2/ddf/lodepng_8h.html">lodepng.h</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:58 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:14 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

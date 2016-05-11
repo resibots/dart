@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/dynamics/BodyNode.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/dynamics/BodyNode.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -112,25 +112,28 @@ $(document).ready(function(){initNavTree('d0/db2/BodyNode_8cpp.html','../../');}
 <div class="title">BodyNode.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/dc6/BodyNode_8hpp_source.html">dart/dynamics/BodyNode.hpp</a>&quot;</code><br/>
 <code>#include &lt;algorithm&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d3f/Console_8h_source.html">dart/common/Console.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/df1/Helpers_8h_source.html">dart/math/Helpers.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/dc0/RenderInterface_8h_source.html">dart/renderer/RenderInterface.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d50/Joint_8h_source.html">dart/dynamics/Joint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d8f/Shape_8h_source.html">dart/dynamics/Shape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/ded/Skeleton_8h_source.html">dart/dynamics/Skeleton.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/da4/Chain_8h_source.html">dart/dynamics/Chain.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dc/dab/Marker_8h_source.html">dart/dynamics/Marker.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d9b/SoftBodyNode_8h_source.html">dart/dynamics/SoftBodyNode.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d2e/StlHelpers_8hpp_source.html">dart/common/StlHelpers.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/dd7/Helpers_8hpp_source.html">dart/math/Helpers.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/d4a/Joint_8hpp_source.html">dart/dynamics/Joint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/df8/Shape_8hpp_source.html">dart/dynamics/Shape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d4/d58/Skeleton_8hpp_source.html">dart/dynamics/Skeleton.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/ddb/Chain_8hpp_source.html">dart/dynamics/Chain.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d8/d1a/Marker_8hpp_source.html">dart/dynamics/Marker.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d3/d5b/SoftBodyNode_8hpp_source.html">dart/dynamics/SoftBodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d3/d78/EndEffector_8hpp_source.html">dart/dynamics/EndEffector.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d7/d5a/namespacedart_1_1dynamics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dart::dynamics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/dfe/namespacedart_1_1dynamics_1_1detail"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html">dart::dynamics::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -152,9 +155,20 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0a2112304a7478f4fab5881b08c0e5b5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0a2112304a7478f4fab5881b08c0e5b5"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a0a2112304a7478f4fab5881b08c0e5b5">dart::dynamics::getVectorObjectIfAvailable</a> (size_t _index, const std::vector&lt; T &gt; &amp;_vec)</td></tr>
-<tr class="separator:a0a2112304a7478f4fab5881b08c0e5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a1709d4355f5b7a23e2ff54dcf2394"><td class="memTemplParams" colspan="2">template&lt;class DataType , std::unique_ptr&lt; DataType &gt;(Node::*)() const getData, typename VectorType  = common::CloneableVector&lt; std::unique_ptr&lt;DataType&gt; &gt;, typename DataMap  = std::map&lt; std::type_index, std::unique_ptr&lt;VectorType&gt; &gt;&gt; </td></tr>
+<tr class="memitem:a87a1709d4355f5b7a23e2ff54dcf2394"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a87a1709d4355f5b7a23e2ff54dcf2394">dart::dynamics::extractDataFromNodeTypeMap</a> (DataMap &amp;dataMap, const BodyNode::NodeMap &amp;nodeMap)</td></tr>
+<tr class="separator:a87a1709d4355f5b7a23e2ff54dcf2394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec86d4e1019b2cfede999a88ef74fcbd"><td class="memTemplParams" colspan="2">template&lt;class DataType , void(Node::*)(const DataType &amp;) setData, typename VectorType  = common::CloneableVector&lt; std::unique_ptr&lt;DataType&gt; &gt;, typename DataMap  = std::map&lt; std::type_index, std::unique_ptr&lt;VectorType&gt; &gt;&gt; </td></tr>
+<tr class="memitem:aec86d4e1019b2cfede999a88ef74fcbd"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aec86d4e1019b2cfede999a88ef74fcbd">dart::dynamics::setNodesFromDataTypeMap</a> (BodyNode::NodeMap &amp;nodeMap, const DataMap &amp;dataMap)</td></tr>
+<tr class="separator:aec86d4e1019b2cfede999a88ef74fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e366ec5caeb45e4e6438941fef6845a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a7e366ec5caeb45e4e6438941fef6845a">dart::dynamics::detail::setAllNodeStates</a> (BodyNode *bodyNode, const AllNodeStates &amp;states)</td></tr>
+<tr class="separator:a7e366ec5caeb45e4e6438941fef6845a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aff6b16ec63babb4cc302e6e406d08e"><td class="memItemLeft" align="right" valign="top">AllNodeStates&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a2aff6b16ec63babb4cc302e6e406d08e">dart::dynamics::detail::getAllNodeStates</a> (const BodyNode *bodyNode)</td></tr>
+<tr class="separator:a2aff6b16ec63babb4cc302e6e406d08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6236f0f4250283f166a0e24091fdd204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a6236f0f4250283f166a0e24091fdd204">dart::dynamics::detail::setAllNodeProperties</a> (BodyNode *bodyNode, const AllNodeProperties &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a16bee8557055e219eab67ff97f8b5be9">properties</a>)</td></tr>
+<tr class="separator:a6236f0f4250283f166a0e24091fdd204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13831b6192989f6e2fdf966bd3caeb82"><td class="memItemLeft" align="right" valign="top">AllNodeProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a13831b6192989f6e2fdf966bd3caeb82">dart::dynamics::detail::getAllNodeProperties</a> (const BodyNode *bodyNode)</td></tr>
+<tr class="separator:a13831b6192989f6e2fdf966bd3caeb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a017de4d6b353f1c1881e496dc1066f90"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a017de4d6b353f1c1881e496dc1066f90">dart::dynamics::checkSkeletonNodeAgreement</a> (const BodyNode *_bodyNode, const ConstSkeletonPtr &amp;_newSkeleton, const BodyNode *_newParent, const std::string &amp;_function, const std::string &amp;_operation)</td></tr>
 <tr class="separator:a017de4d6b353f1c1881e496dc1066f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -224,7 +238,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_ce1d750ba4a7950ac0659613f96015b8.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d0/db2/BodyNode_8cpp.html">BodyNode.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

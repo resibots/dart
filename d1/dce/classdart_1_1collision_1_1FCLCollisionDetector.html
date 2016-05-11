@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -105,130 +105,227 @@ $(document).ready(function(){initNavTree('d1/dce/classdart_1_1collision_1_1FCLCo
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d7/d08/classdart_1_1collision_1_1FCLCollisionDetector-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">dart::collision::FCLCollisionDetector Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html" title="FCLCollisionDetector. ">FCLCollisionDetector</a>.  
- <a href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d9/dd0/FCLCollisionDetector_8h_source.html">FCLCollisionDetector.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/d9d/FCLCollisionDetector_8hpp_source.html">FCLCollisionDetector.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::collision::FCLCollisionDetector:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.png" usemap="#dart::collision::FCLCollisionDetector_map" alt=""/>
   <map id="dart::collision::FCLCollisionDetector_map" name="dart::collision::FCLCollisionDetector_map">
-<area href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html" title="class CollisionDetector " alt="dart::collision::CollisionDetector" shape="rect" coords="0,0,212,24"/>
+<area href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html" alt="dart::collision::CollisionDetector" shape="rect" coords="0,56,296,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html">FCLCollisionGeometryDeleter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This deleter is responsible for deleting fcl::CollisionGeometry and removing it from mShapeMap when it is not shared by any CollisionObjects.  <a href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aa4f84f2ddb992de4c2c75824317a2feb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">PrimitiveShape</a> { <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feba713b6c124735c60ea12c059d7b94846f">PRIMITIVE</a> = 0, 
+<a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2febac6e52b380ac2900185d0ed15a1fbfc15">MESH</a>
+ }</td></tr>
+<tr class="memdesc:aa4f84f2ddb992de4c2c75824317a2feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use analytic collision checking for primitive shapes.  <a href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">More...</a><br/></td></tr>
+<tr class="separator:aa4f84f2ddb992de4c2c75824317a2feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad0250fc8ec23e3748fce8ae636ecc62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">ContactPointComputationMethod</a> { <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62aab09b75d1e79a121b9629b03030bbe6b">FCL</a> = 0, 
+<a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62ac24618884af764ca6b74ed387d8ea832">DART</a>
+ }</td></tr>
+<tr class="memdesc:aad0250fc8ec23e3748fce8ae636ecc62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use FCL's contact point computation.  <a href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">More...</a><br/></td></tr>
+<tr class="separator:aad0250fc8ec23e3748fce8ae636ecc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a21016049c1f32c5683da660ef35a40cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a21016049c1f32c5683da660ef35a40cd">FCLCollisionDetector</a> ()</td></tr>
-<tr class="memdesc:a21016049c1f32c5683da660ef35a40cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a21016049c1f32c5683da660ef35a40cd">More...</a><br/></td></tr>
-<tr class="separator:a21016049c1f32c5683da660ef35a40cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc2fe2ddc2bda62839847bdb7267fd7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a6bc2fe2ddc2bda62839847bdb7267fd7">~FCLCollisionDetector</a> ()</td></tr>
-<tr class="memdesc:a6bc2fe2ddc2bda62839847bdb7267fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6bc2fe2ddc2bda62839847bdb7267fd7">More...</a><br/></td></tr>
+<tr class="memdesc:a6bc2fe2ddc2bda62839847bdb7267fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a6bc2fe2ddc2bda62839847bdb7267fd7">More...</a><br/></td></tr>
 <tr class="separator:a6bc2fe2ddc2bda62839847bdb7267fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe43892e73e2dae03ffc9d76fbf1f6f7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#afe43892e73e2dae03ffc9d76fbf1f6f7">detectCollision</a> (bool _checkAllCollisions, bool _calculateContactPoints) override</td></tr>
-<tr class="memdesc:afe43892e73e2dae03ffc9d76fbf1f6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there exists at least one contact.  <a href="#afe43892e73e2dae03ffc9d76fbf1f6f7">More...</a><br/></td></tr>
-<tr class="separator:afe43892e73e2dae03ffc9d76fbf1f6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36468dace79c4fbf08f1cc4a5dedb7d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa36468dace79c4fbf08f1cc4a5dedb7d">createCollisionNode</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_bodyNode) override</td></tr>
-<tr class="separator:aa36468dace79c4fbf08f1cc4a5dedb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a194f8c376db8d671173f157f1bf237ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a194f8c376db8d671173f157f1bf237ad">findCollisionNode</a> (const fcl::CollisionGeometry *_fclCollGeom) const </td></tr>
-<tr class="memdesc:a194f8c376db8d671173f157f1bf237ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collision node given FCL collision geometry.  <a href="#a194f8c376db8d671173f157f1bf237ad">More...</a><br/></td></tr>
-<tr class="separator:a194f8c376db8d671173f157f1bf237ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e5220e73956023334380071f279c65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d82/classdart_1_1collision_1_1FCLCollisionNode.html">FCLCollisionNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a37e5220e73956023334380071f279c65">findCollisionNode</a> (const fcl::CollisionObject *_fclCollObj) const </td></tr>
-<tr class="memdesc:a37e5220e73956023334380071f279c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collision node given FCL collision object.  <a href="#a37e5220e73956023334380071f279c65">More...</a><br/></td></tr>
-<tr class="separator:a37e5220e73956023334380071f279c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754645bd570aaf76c98f7f746c2ba172"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">CollisionDetector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a754645bd570aaf76c98f7f746c2ba172">cloneWithoutCollisionObjects</a> () override</td></tr>
+<tr class="memdesc:a754645bd570aaf76c98f7f746c2ba172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a clone of this <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">CollisionDetector</a>.  <a href="#a754645bd570aaf76c98f7f746c2ba172">More...</a><br/></td></tr>
+<tr class="separator:a754645bd570aaf76c98f7f746c2ba172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1c5d8e0eaf4f3661bc9556ab70874d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0e1c5d8e0eaf4f3661bc9556ab70874d">getType</a> () const override</td></tr>
+<tr class="memdesc:a0e1c5d8e0eaf4f3661bc9556ab70874d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return collision detection engine type as a std::string.  <a href="#a0e1c5d8e0eaf4f3661bc9556ab70874d">More...</a><br/></td></tr>
+<tr class="separator:a0e1c5d8e0eaf4f3661bc9556ab70874d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac396f443b89c583b32b7b53ea520314a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#ac396f443b89c583b32b7b53ea520314a">createCollisionGroup</a> () override</td></tr>
+<tr class="memdesc:ac396f443b89c583b32b7b53ea520314a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a collision group.  <a href="#ac396f443b89c583b32b7b53ea520314a">More...</a><br/></td></tr>
+<tr class="separator:ac396f443b89c583b32b7b53ea520314a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43cb2f36a415c752bb47a1f35a6b8b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa43cb2f36a415c752bb47a1f35a6b8b8">collide</a> (<a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *group, const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a> &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#a6884f20bea413374e2bc81da54cb7cf7">option</a>=<a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a>(false, 1u, nullptr), CollisionResult *result=nullptr) override</td></tr>
+<tr class="memdesc:aa43cb2f36a415c752bb47a1f35a6b8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform collision check for a single group.  <a href="#aa43cb2f36a415c752bb47a1f35a6b8b8">More...</a><br/></td></tr>
+<tr class="separator:aa43cb2f36a415c752bb47a1f35a6b8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aed57abb6a522eb9bd4fd039358993d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a9aed57abb6a522eb9bd4fd039358993d">collide</a> (<a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *group1, <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *group2, const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a> &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#a6884f20bea413374e2bc81da54cb7cf7">option</a>=<a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a>(false, 1u, nullptr), CollisionResult *result=nullptr) override</td></tr>
+<tr class="memdesc:a9aed57abb6a522eb9bd4fd039358993d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform collision check for two groups.  <a href="#a9aed57abb6a522eb9bd4fd039358993d">More...</a><br/></td></tr>
+<tr class="separator:a9aed57abb6a522eb9bd4fd039358993d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bef46a440a42a8586f18703e1107e3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a5bef46a440a42a8586f18703e1107e3f">setPrimitiveShapeType</a> (<a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">PrimitiveShape</a> <a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>)</td></tr>
+<tr class="memdesc:a5bef46a440a42a8586f18703e1107e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set primitive shape type.  <a href="#a5bef46a440a42a8586f18703e1107e3f">More...</a><br/></td></tr>
+<tr class="separator:a5bef46a440a42a8586f18703e1107e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa572f99603ba4a1d53fc3cc64a321db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">PrimitiveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa572f99603ba4a1d53fc3cc64a321db5">getPrimitiveShapeType</a> () const </td></tr>
+<tr class="memdesc:aa572f99603ba4a1d53fc3cc64a321db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get primitive shape type.  <a href="#aa572f99603ba4a1d53fc3cc64a321db5">More...</a><br/></td></tr>
+<tr class="separator:aa572f99603ba4a1d53fc3cc64a321db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289ed0134398749a5f2bfbd0f3ee4824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a289ed0134398749a5f2bfbd0f3ee4824">setContactPointComputationMethod</a> (<a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">ContactPointComputationMethod</a> method)</td></tr>
+<tr class="memdesc:a289ed0134398749a5f2bfbd0f3ee4824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set contact point computation method.  <a href="#a289ed0134398749a5f2bfbd0f3ee4824">More...</a><br/></td></tr>
+<tr class="separator:a289ed0134398749a5f2bfbd0f3ee4824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1a3be71515b1478408dcc0573f57b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">ContactPointComputationMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aca1a3be71515b1478408dcc0573f57b1">getContactPointComputationMethod</a> () const </td></tr>
+<tr class="memdesc:aca1a3be71515b1478408dcc0573f57b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get contact point computation method.  <a href="#aca1a3be71515b1478408dcc0573f57b1">More...</a><br/></td></tr>
+<tr class="separator:aca1a3be71515b1478408dcc0573f57b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdart_1_1collision_1_1CollisionDetector"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1collision_1_1CollisionDetector')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">dart::collision::CollisionDetector</a></td></tr>
-<tr class="memitem:a3251710bd10d8bc4f8ac4aa9633e461a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a3251710bd10d8bc4f8ac4aa9633e461a">CollisionDetector</a> ()</td></tr>
-<tr class="memdesc:a3251710bd10d8bc4f8ac4aa9633e461a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a3251710bd10d8bc4f8ac4aa9633e461a">More...</a><br/></td></tr>
-<tr class="separator:a3251710bd10d8bc4f8ac4aa9633e461a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a8c71739b03cfd4998019cab60d902 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a67a8c71739b03cfd4998019cab60d902">~CollisionDetector</a> ()</td></tr>
-<tr class="memdesc:a67a8c71739b03cfd4998019cab60d902 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a67a8c71739b03cfd4998019cab60d902">More...</a><br/></td></tr>
-<tr class="separator:a67a8c71739b03cfd4998019cab60d902 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a045f24758f6d26871c77b44178f54a8d inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a045f24758f6d26871c77b44178f54a8d">addSkeleton</a> (const dynamics::SkeletonPtr &amp;_skeleton)</td></tr>
-<tr class="memdesc:a045f24758f6d26871c77b44178f54a8d inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add skeleton.  <a href="#a045f24758f6d26871c77b44178f54a8d">More...</a><br/></td></tr>
-<tr class="separator:a045f24758f6d26871c77b44178f54a8d inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a346ff161de276478801df5030e0c8893 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a346ff161de276478801df5030e0c8893">removeSkeleton</a> (const dynamics::SkeletonPtr &amp;_skeleton)</td></tr>
-<tr class="memdesc:a346ff161de276478801df5030e0c8893 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove skeleton.  <a href="#a346ff161de276478801df5030e0c8893">More...</a><br/></td></tr>
-<tr class="separator:a346ff161de276478801df5030e0c8893 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abedbba8721f7cb7e2481a54efbd44164 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#abedbba8721f7cb7e2481a54efbd44164">removeAllSkeletons</a> ()</td></tr>
-<tr class="memdesc:abedbba8721f7cb7e2481a54efbd44164 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all skeletons.  <a href="#abedbba8721f7cb7e2481a54efbd44164">More...</a><br/></td></tr>
-<tr class="separator:abedbba8721f7cb7e2481a54efbd44164 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cfc6f9e9a5271f35059a9d57079e8f5 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a9cfc6f9e9a5271f35059a9d57079e8f5">addCollisionSkeletonNode</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_bodyNode, bool _isRecursive=false)</td></tr>
-<tr class="separator:a9cfc6f9e9a5271f35059a9d57079e8f5 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819f9b742f1dd5a7b4188383049d3323 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a819f9b742f1dd5a7b4188383049d3323">removeCollisionSkeletonNode</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_bodyNode, bool _isRecursive=false)</td></tr>
-<tr class="separator:a819f9b742f1dd5a7b4188383049d3323 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae694c3a1f2b9365955f3a7b047d5e7e0 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ae694c3a1f2b9365955f3a7b047d5e7e0">enablePair</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node1, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node2)</td></tr>
-<tr class="separator:ae694c3a1f2b9365955f3a7b047d5e7e0 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a141fcf588badc77e9d5a894b731a279a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a141fcf588badc77e9d5a894b731a279a">disablePair</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node1, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node2)</td></tr>
-<tr class="separator:a141fcf588badc77e9d5a894b731a279a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ccba1a776445d53483a0a4fe3eefd5a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a4ccba1a776445d53483a0a4fe3eefd5a">detectCollision</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node1, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_node2, bool _calculateContactPoints)</td></tr>
-<tr class="memdesc:a4ccba1a776445d53483a0a4fe3eefd5a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there exists contacts between two bodies.  <a href="#a4ccba1a776445d53483a0a4fe3eefd5a">More...</a><br/></td></tr>
-<tr class="separator:a4ccba1a776445d53483a0a4fe3eefd5a inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd74a660fdb273995fd40ee95c36792b inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#acd74a660fdb273995fd40ee95c36792b">getNumContacts</a> ()</td></tr>
-<tr class="separator:acd74a660fdb273995fd40ee95c36792b inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c0e54cc2bde682c3db6e856fbb391d7 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d36/structdart_1_1collision_1_1Contact.html">Contact</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a1c0e54cc2bde682c3db6e856fbb391d7">getContact</a> (int _idx)</td></tr>
-<tr class="separator:a1c0e54cc2bde682c3db6e856fbb391d7 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18430be883e538e2267fd3cfc4b2e758 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a18430be883e538e2267fd3cfc4b2e758">clearAllContacts</a> ()</td></tr>
-<tr class="separator:a18430be883e538e2267fd3cfc4b2e758 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02ef34a12905bb7a7c584ef4719049c inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ac02ef34a12905bb7a7c584ef4719049c">getNumMaxContacts</a> () const </td></tr>
-<tr class="separator:ac02ef34a12905bb7a7c584ef4719049c inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cb9d976135575a0fb63aae6cbdcab30 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a9cb9d976135575a0fb63aae6cbdcab30">setNumMaxContacs</a> (int _num)</td></tr>
-<tr class="separator:a9cb9d976135575a0fb63aae6cbdcab30 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3694c95501d0107a7bac7a2f0df0f05 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ae3694c95501d0107a7bac7a2f0df0f05">isCollidable</a> (const <a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *_node1, const <a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *_node2)</td></tr>
-<tr class="separator:ae3694c95501d0107a7bac7a2f0df0f05 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac892d69aaf2efb5781166d07053e388e inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ac892d69aaf2efb5781166d07053e388e">~CollisionDetector</a> ()=default</td></tr>
+<tr class="memdesc:ac892d69aaf2efb5781166d07053e388e inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ac892d69aaf2efb5781166d07053e388e">More...</a><br/></td></tr>
+<tr class="separator:ac892d69aaf2efb5781166d07053e388e inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e45c3c9acb18730448617fbe65f4d4 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a94e45c3c9acb18730448617fbe65f4d4">createCollisionGroupAsSharedPtr</a> ()</td></tr>
+<tr class="memdesc:a94e45c3c9acb18730448617fbe65f4d4 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that creates and returns <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> as a shared_ptr.  <a href="#a94e45c3c9acb18730448617fbe65f4d4">More...</a><br/></td></tr>
+<tr class="separator:a94e45c3c9acb18730448617fbe65f4d4 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada00af3bcb7e6a277a6395757fdccb78 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ada00af3bcb7e6a277a6395757fdccb78 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ada00af3bcb7e6a277a6395757fdccb78">createCollisionGroup</a> (const Args &amp;...args)</td></tr>
+<tr class="memdesc:ada00af3bcb7e6a277a6395757fdccb78 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a collision group from any objects that are supported by <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a2b107b09c69b4d89cd786b0d1ccae39b" title="Do nothing. ">CollisionGroup::addShapeFramesOf()</a>.  <a href="#ada00af3bcb7e6a277a6395757fdccb78">More...</a><br/></td></tr>
+<tr class="separator:ada00af3bcb7e6a277a6395757fdccb78 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7f36b2dd0ed0d5f050397bdcd1f0c6 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:adb7f36b2dd0ed0d5f050397bdcd1f0c6 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#adb7f36b2dd0ed0d5f050397bdcd1f0c6">createCollisionGroupAsSharedPtr</a> (const Args &amp;...args)</td></tr>
+<tr class="memdesc:adb7f36b2dd0ed0d5f050397bdcd1f0c6 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that creates and returns <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> as shared_ptr.  <a href="#adb7f36b2dd0ed0d5f050397bdcd1f0c6">More...</a><br/></td></tr>
+<tr class="separator:adb7f36b2dd0ed0d5f050397bdcd1f0c6 inherit pub_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9549aede63c5ccdde735dd662fe1b668"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html">FCLCollisionDetector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a9549aede63c5ccdde735dd662fe1b668">create</a> ()</td></tr>
+<tr class="separator:a9549aede63c5ccdde735dd662fe1b668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdb927a45535fc03d6b2daf8b1ad696"><td class="memItemLeft" align="right" valign="top">static const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a7cdb927a45535fc03d6b2daf8b1ad696">getStaticType</a> ()</td></tr>
+<tr class="memdesc:a7cdb927a45535fc03d6b2daf8b1ad696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get collision detector type for this class.  <a href="#a7cdb927a45535fc03d6b2daf8b1ad696">More...</a><br/></td></tr>
+<tr class="separator:a7cdb927a45535fc03d6b2daf8b1ad696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ae8614e48c1193cb654efd81ebf98d8b4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#ae8614e48c1193cb654efd81ebf98d8b4">detectCollision</a> (<a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *_node1, <a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *_node2, bool _calculateContactPoints) override</td></tr>
-<tr class="separator:ae8614e48c1193cb654efd81ebf98d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21016049c1f32c5683da660ef35a40cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a21016049c1f32c5683da660ef35a40cd">FCLCollisionDetector</a> ()</td></tr>
+<tr class="memdesc:a21016049c1f32c5683da660ef35a40cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a21016049c1f32c5683da660ef35a40cd">More...</a><br/></td></tr>
+<tr class="separator:a21016049c1f32c5683da660ef35a40cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8fb9d5e735c85597bafa13bcabee3a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a8c8fb9d5e735c85597bafa13bcabee3a">createCollisionObject</a> (const <a class="el" href="../../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html">dynamics::ShapeFrame</a> *shapeFrame) override</td></tr>
+<tr class="memdesc:a8c8fb9d5e735c85597bafa13bcabee3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a>.  <a href="#a8c8fb9d5e735c85597bafa13bcabee3a">More...</a><br/></td></tr>
+<tr class="separator:a8c8fb9d5e735c85597bafa13bcabee3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dde275e645aca2699b60543ed50e18"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr<br class="typebreak"/>
+&lt; fcl::CollisionGeometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a69dde275e645aca2699b60543ed50e18">claimFCLCollisionGeometry</a> (const dynamics::ConstShapePtr &amp;shape)</td></tr>
+<tr class="memdesc:a69dde275e645aca2699b60543ed50e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return fcl::CollisionGeometry associated with give Shape.  <a href="#a69dde275e645aca2699b60543ed50e18">More...</a><br/></td></tr>
+<tr class="separator:a69dde275e645aca2699b60543ed50e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classdart_1_1collision_1_1CollisionDetector"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classdart_1_1collision_1_1CollisionDetector')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">dart::collision::CollisionDetector</a></td></tr>
+<tr class="memitem:a445c2edcd3f63fcb0ac9e175f2101540 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a445c2edcd3f63fcb0ac9e175f2101540">CollisionDetector</a> ()=default</td></tr>
+<tr class="memdesc:a445c2edcd3f63fcb0ac9e175f2101540 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a445c2edcd3f63fcb0ac9e175f2101540">More...</a><br/></td></tr>
+<tr class="separator:a445c2edcd3f63fcb0ac9e175f2101540 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5668d53928f87dcc1db946a0523345c8 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a5668d53928f87dcc1db946a0523345c8">claimCollisionObject</a> (const <a class="el" href="../../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html">dynamics::ShapeFrame</a> *shapeFrame)</td></tr>
+<tr class="memdesc:a5668d53928f87dcc1db946a0523345c8 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Claim <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> associated with shapeFrame.  <a href="#a5668d53928f87dcc1db946a0523345c8">More...</a><br/></td></tr>
+<tr class="separator:a5668d53928f87dcc1db946a0523345c8 inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ebd2dbbf06c23919879040e42400bb inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a62ebd2dbbf06c23919879040e42400bb">notifyCollisionObjectDestroying</a> (<a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *object)</td></tr>
+<tr class="memdesc:a62ebd2dbbf06c23919879040e42400bb inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that a <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> is destroying. Do nothing by default.  <a href="#a62ebd2dbbf06c23919879040e42400bb">More...</a><br/></td></tr>
+<tr class="separator:a62ebd2dbbf06c23919879040e42400bb inherit pro_methods_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ad5e50c0ecc7f33c302e16e7662fc3a52"><td class="memItemLeft" align="right" valign="top">fcl::DynamicAABBTreeCollisionManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#ad5e50c0ecc7f33c302e16e7662fc3a52">mBroadPhaseAlg</a></td></tr>
-<tr class="memdesc:ad5e50c0ecc7f33c302e16e7662fc3a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broad-phase collision checker of FCL.  <a href="#ad5e50c0ecc7f33c302e16e7662fc3a52">More...</a><br/></td></tr>
-<tr class="separator:ad5e50c0ecc7f33c302e16e7662fc3a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad409fd66bd5c0da2dcb2be6845fac96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">PrimitiveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad409fd66bd5c0da2dcb2be6845fac96">mPrimitiveShapeType</a></td></tr>
+<tr class="separator:aad409fd66bd5c0da2dcb2be6845fac96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c35d7321a463ccdde749c189bb16e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">ContactPointComputationMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a10c35d7321a463ccdde749c189bb16e1">mContactPointComputationMethod</a></td></tr>
+<tr class="separator:a10c35d7321a463ccdde749c189bb16e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1collision_1_1CollisionDetector')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">dart::collision::CollisionDetector</a></td></tr>
-<tr class="memitem:acd6ce6732ea375327215f983a2d8fe08 inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/d36/structdart_1_1collision_1_1Contact.html">Contact</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#acd6ce6732ea375327215f983a2d8fe08">mContacts</a></td></tr>
-<tr class="separator:acd6ce6732ea375327215f983a2d8fe08 inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24dc8e655d0d138c38d7e58aefef389b inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a24dc8e655d0d138c38d7e58aefef389b">mCollisionNodes</a></td></tr>
-<tr class="separator:a24dc8e655d0d138c38d7e58aefef389b inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d452d1d39de4829cfe3741120228960 inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a7d452d1d39de4829cfe3741120228960">mNumMaxContacts</a></td></tr>
-<tr class="separator:a7d452d1d39de4829cfe3741120228960 inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6be24a3ec76c8ac23fc5ae1331ef2b inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::vector<br class="typebreak"/>
-&lt; dynamics::SkeletonPtr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a0e6be24a3ec76c8ac23fc5ae1331ef2b">mSkeletons</a></td></tr>
-<tr class="memdesc:a0e6be24a3ec76c8ac23fc5ae1331ef2b inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skeleton array.  <a href="#a0e6be24a3ec76c8ac23fc5ae1331ef2b">More...</a><br/></td></tr>
-<tr class="separator:a0e6be24a3ec76c8ac23fc5ae1331ef2b inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea23b0673ba25331926ad18ed4b27efd inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d1/d32/classdart_1_1collision_1_1CollisionDetector_1_1CollisionObjectManager.html">CollisionObjectManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#aea23b0673ba25331926ad18ed4b27efd">mCollisionObjectManager</a></td></tr>
+<tr class="separator:aea23b0673ba25331926ad18ed4b27efd inherit pro_attribs_classdart_1_1collision_1_1CollisionDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a0b91171d87103666dae5df1fe39d56a9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0b91171d87103666dae5df1fe39d56a9">ShapeMap</a> = std::map&lt; dynamics::ConstShapePtr, boost::weak_ptr&lt; fcl::CollisionGeometry &gt;&gt;</td></tr>
+<tr class="separator:a0b91171d87103666dae5df1fe39d56a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aad0dd76f235ee157e6ecd4713766947c"><td class="memItemLeft" align="right" valign="top">boost::shared_ptr<br class="typebreak"/>
+&lt; fcl::CollisionGeometry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0dd76f235ee157e6ecd4713766947c">createFCLCollisionGeometry</a> (const dynamics::ConstShapePtr &amp;shape, <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">FCLCollisionDetector::PrimitiveShape</a> <a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>, const <a class="el" href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html">FCLCollisionGeometryDeleter</a> &amp;deleter)</td></tr>
+<tr class="memdesc:aad0dd76f235ee157e6ecd4713766947c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create fcl::CollisionGeometry with the custom deleter <a class="el" href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html" title="This deleter is responsible for deleting fcl::CollisionGeometry and removing it from mShapeMap when i...">FCLCollisionGeometryDeleter</a>.  <a href="#aad0dd76f235ee157e6ecd4713766947c">More...</a><br/></td></tr>
+<tr class="separator:aad0dd76f235ee157e6ecd4713766947c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a44f8465420951485aed3853735482185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0b91171d87103666dae5df1fe39d56a9">ShapeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a44f8465420951485aed3853735482185">mShapeMap</a></td></tr>
+<tr class="separator:a44f8465420951485aed3853735482185"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html" title="FCLCollisionDetector. ">FCLCollisionDetector</a>. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a21016049c1f32c5683da660ef35a40cd"></a>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a0b91171d87103666dae5df1fe39d56a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0b91171d87103666dae5df1fe39d56a9">dart::collision::FCLCollisionDetector::ShapeMap</a> =  std::map&lt;dynamics::ConstShapePtr, boost::weak_ptr&lt;fcl::CollisionGeometry&gt;&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="aad0250fc8ec23e3748fce8ae636ecc62"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dart::collision::FCLCollisionDetector::FCLCollisionDetector </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">dart::collision::FCLCollisionDetector::ContactPointComputationMethod</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor. </p>
+<p>Whether to use FCL's contact point computation. </p>
+<p>FCL: Use FCL's contact point computation. DART: Use DART's own contact point computation</p>
+<p>Warning: FCL's contact computation is not correct. See: <a href="https://github.com/flexible-collision-library/fcl/issues/106">https://github.com/flexible-collision-library/fcl/issues/106</a> We recommend using DART until it's fixed in FCL. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="aad0250fc8ec23e3748fce8ae636ecc62aab09b75d1e79a121b9629b03030bbe6b"></a>FCL</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aad0250fc8ec23e3748fce8ae636ecc62ac24618884af764ca6b74ed387d8ea832"></a>DART</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
 
 </div>
 </div>
+<a class="anchor" id="aa4f84f2ddb992de4c2c75824317a2feb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">dart::collision::FCLCollisionDetector::PrimitiveShape</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to use analytic collision checking for primitive shapes. </p>
+<p>PRIMITIVE: Use FCL's analytic collision checking for primitive shapes. MESH: Don't use it. Instead, use approximate mesh shapes for the primitive shapes. The contact result is probably less accurate than the analytic result.</p>
+<p>Warning: FCL's primitive shape support is not complete. FCL 0.4.0 improved the support alot, but it still returns single contact point for a shape pair except for box-box collision. For this reason, we recommend using MESH until FCL fully supports primitive shapes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="aa4f84f2ddb992de4c2c75824317a2feba713b6c124735c60ea12c059d7b94846f"></a>PRIMITIVE</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aa4f84f2ddb992de4c2c75824317a2febac6e52b380ac2900185d0ed15a1fbfc15"></a>MESH</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a6bc2fe2ddc2bda62839847bdb7267fd7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -250,12 +347,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Destructor. </p>
+<p>Constructor. </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa36468dace79c4fbf08f1cc4a5dedb7d"></a>
+<a class="anchor" id="a21016049c1f32c5683da660ef35a40cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -263,157 +359,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> * dart::collision::FCLCollisionDetector::createCollisionNode </td>
+          <td class="memname">dart::collision::FCLCollisionDetector::FCLCollisionDetector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_bodyNode</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a82d26ba24f9e882bb6c7398a756656ce">dart::collision::CollisionDetector</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afe43892e73e2dae03ffc9d76fbf1f6f7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool dart::collision::FCLCollisionDetector::detectCollision </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_checkAllCollisions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_calculateContactPoints</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return true if there exists at least one contact. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">_checkAllCollision</td><td>True to detect every collisions </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">_calculateContactPoints</td><td>True to get contact points </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a167be95a849ac3e8da691e73b6f7352f">dart::collision::CollisionDetector</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae8614e48c1193cb654efd81ebf98d8b4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool dart::collision::FCLCollisionDetector::detectCollision </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *&#160;</td>
-          <td class="paramname"><em>_node1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> *&#160;</td>
-          <td class="paramname"><em>_node2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_calculateContactPoints</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a2ffe5a1964c70806f3c5d455daa0da6b">dart::collision::CollisionDetector</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a194f8c376db8d671173f157f1bf237ad"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/d54/classdart_1_1collision_1_1CollisionNode.html">CollisionNode</a> * dart::collision::FCLCollisionDetector::findCollisionNode </td>
-          <td>(</td>
-          <td class="paramtype">const fcl::CollisionGeometry *&#160;</td>
-          <td class="paramname"><em>_fclCollGeom</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get collision node given FCL collision geometry. </p>
-
-</div>
-</div>
-<a class="anchor" id="a37e5220e73956023334380071f279c65"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d82/classdart_1_1collision_1_1FCLCollisionNode.html">FCLCollisionNode</a> * dart::collision::FCLCollisionDetector::findCollisionNode </td>
-          <td>(</td>
-          <td class="paramtype">const fcl::CollisionObject *&#160;</td>
-          <td class="paramname"><em>_fclCollObj</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get collision node given FCL collision object. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ad5e50c0ecc7f33c302e16e7662fc3a52"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">fcl::DynamicAABBTreeCollisionManager* dart::collision::FCLCollisionDetector::mBroadPhaseAlg</td>
         </tr>
       </table>
   </td>
@@ -423,7 +372,462 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Broad-phase collision checker of FCL. </p>
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a69dde275e645aca2699b60543ed50e18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::shared_ptr&lt; fcl::CollisionGeometry &gt; dart::collision::FCLCollisionDetector::claimFCLCollisionGeometry </td>
+          <td>(</td>
+          <td class="paramtype">const dynamics::ConstShapePtr &amp;&#160;</td>
+          <td class="paramname"><em>shape</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return fcl::CollisionGeometry associated with give Shape. </p>
+<p>New fcl::CollisionGeome will be created if it hasn't created yet. </p>
+
+</div>
+</div>
+<a class="anchor" id="a754645bd570aaf76c98f7f746c2ba172"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">CollisionDetector</a> &gt; dart::collision::FCLCollisionDetector::cloneWithoutCollisionObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a clone of this <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html">CollisionDetector</a>. </p>
+<p>All the properties will be copied over, but not collision objects. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ab891509008a46ac377564c1e62331e7d">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa43cb2f36a415c752bb47a1f35a6b8b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::collision::FCLCollisionDetector::collide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a> &amp;&#160;</td>
+          <td class="paramname"><em>option</em> = <code><a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a>(false,&#160;1u,&#160;nullptr)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d41/classdart_1_1collision_1_1CollisionResult.html">CollisionResult</a> *&#160;</td>
+          <td class="paramname"><em>result</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform collision check for a single group. </p>
+<p>If nullptr is passed to result, then the this returns only simple information whether there is a collision of not. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a6301ecaf53b3c24d6ad9cb1bee8bd11a">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9aed57abb6a522eb9bd4fd039358993d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::collision::FCLCollisionDetector::collide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *&#160;</td>
+          <td class="paramname"><em>group1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *&#160;</td>
+          <td class="paramname"><em>group2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a> &amp;&#160;</td>
+          <td class="paramname"><em>option</em> = <code><a class="el" href="../../d4/d5b/structdart_1_1collision_1_1CollisionOption.html">CollisionOption</a>(false,&#160;1u,&#160;nullptr)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d41/classdart_1_1collision_1_1CollisionResult.html">CollisionResult</a> *&#160;</td>
+          <td class="paramname"><em>result</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform collision check for two groups. </p>
+<p>If nullptr is passed to result, then the this returns only simple information whether there is a collision of not. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ae826bf9e8793b92d525f5aced5c515fb">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9549aede63c5ccdde735dd662fe1b668"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html">FCLCollisionDetector</a> &gt; dart::collision::FCLCollisionDetector::create </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac396f443b89c583b32b7b53ea520314a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> &gt; dart::collision::FCLCollisionDetector::createCollisionGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a collision group. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#aed2371fb701fa8cf9505869a43527cfd">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c8fb9d5e735c85597bafa13bcabee3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> &gt; dart::collision::FCLCollisionDetector::createCollisionObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html">dynamics::ShapeFrame</a> *&#160;</td>
+          <td class="paramname"><em>shapeFrame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a>. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a65bc96505f5ca57896d22b85b17ae49b">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad0dd76f235ee157e6ecd4713766947c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::shared_ptr&lt; fcl::CollisionGeometry &gt; dart::collision::FCLCollisionDetector::createFCLCollisionGeometry </td>
+          <td>(</td>
+          <td class="paramtype">const dynamics::ConstShapePtr &amp;&#160;</td>
+          <td class="paramname"><em>shape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">FCLCollisionDetector::PrimitiveShape</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html">FCLCollisionGeometryDeleter</a> &amp;&#160;</td>
+          <td class="paramname"><em>deleter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create fcl::CollisionGeometry with the custom deleter <a class="el" href="../../d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html" title="This deleter is responsible for deleting fcl::CollisionGeometry and removing it from mShapeMap when i...">FCLCollisionGeometryDeleter</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aca1a3be71515b1478408dcc0573f57b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">FCLCollisionDetector::ContactPointComputationMethod</a> dart::collision::FCLCollisionDetector::getContactPointComputationMethod </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get contact point computation method. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa572f99603ba4a1d53fc3cc64a321db5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">FCLCollisionDetector::PrimitiveShape</a> dart::collision::FCLCollisionDetector::getPrimitiveShapeType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get primitive shape type. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7cdb927a45535fc03d6b2daf8b1ad696"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; dart::collision::FCLCollisionDetector::getStaticType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get collision detector type for this class. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0e1c5d8e0eaf4f3661bc9556ab70874d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; dart::collision::FCLCollisionDetector::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return collision detection engine type as a std::string. </p>
+
+<p>Implements <a class="el" href="../../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#aa34db48bb1bfcb0b70aee30125c6c308">dart::collision::CollisionDetector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a289ed0134398749a5f2bfbd0f3ee4824"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::collision::FCLCollisionDetector::setContactPointComputationMethod </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">FCLCollisionDetector::ContactPointComputationMethod</a>&#160;</td>
+          <td class="paramname"><em>method</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set contact point computation method. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5bef46a440a42a8586f18703e1107e3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::collision::FCLCollisionDetector::setPrimitiveShapeType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">FCLCollisionDetector::PrimitiveShape</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set primitive shape type. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a10c35d7321a463ccdde749c189bb16e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62">ContactPointComputationMethod</a> dart::collision::FCLCollisionDetector::mContactPointComputationMethod</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad409fd66bd5c0da2dcb2be6845fac96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa4f84f2ddb992de4c2c75824317a2feb">PrimitiveShape</a> dart::collision::FCLCollisionDetector::mPrimitiveShapeType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44f8465420951485aed3853735482185"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0b91171d87103666dae5df1fe39d56a9">ShapeMap</a> dart::collision::FCLCollisionDetector::mShapeMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -433,7 +837,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html">FCLCollisionDetector</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

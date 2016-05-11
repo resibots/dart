@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -117,25 +117,25 @@ $(document).ready(function(){initNavTree('d5/d78/classdart_1_1planning_1_1PathPl
 <p>The path planner class - a common interface to motion planners.  
  <a href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/d7c/PathPlanner_8h_source.html">PathPlanner.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d0b/PathPlanner_8hpp_source.html">PathPlanner.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9dc2cdafbe89cefebea994bfe07d98c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#ab9dc2cdafbe89cefebea994bfe07d98c">PathPlanner</a> ()</td></tr>
 <tr class="memdesc:ab9dc2cdafbe89cefebea994bfe07d98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default constructor.  <a href="#ab9dc2cdafbe89cefebea994bfe07d98c">More...</a><br/></td></tr>
 <tr class="separator:ab9dc2cdafbe89cefebea994bfe07d98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a813b752e3d35b72d5af83ba441a47d74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a813b752e3d35b72d5af83ba441a47d74">PathPlanner</a> (<a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html">simulation::World</a> &amp;<a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#aa19d63ffe4a313566d78fc0a5cb9a7ab">world</a>, bool bidirectional_=true, bool connect_=true, double stepSize_=0.1, size_t maxNodes_=1e6, double goalBias_=0.3)</td></tr>
-<tr class="memdesc:a813b752e3d35b72d5af83ba441a47d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">The desired constructor - you should use this one.  <a href="#a813b752e3d35b72d5af83ba441a47d74">More...</a><br/></td></tr>
-<tr class="separator:a813b752e3d35b72d5af83ba441a47d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e6026e1727686ed96aa4ec721df8d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a14e6026e1727686ed96aa4ec721df8d7">PathPlanner</a> (<a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html">simulation::World</a> &amp;<a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#aa19d63ffe4a313566d78fc0a5cb9a7ab">world</a>, bool bidirectional_=true, bool connect_=true, double stepSize_=0.1, std::size_t maxNodes_=1e6, double goalBias_=0.3)</td></tr>
+<tr class="memdesc:a14e6026e1727686ed96aa4ec721df8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The desired constructor - you should use this one.  <a href="#a14e6026e1727686ed96aa4ec721df8d7">More...</a><br/></td></tr>
+<tr class="separator:a14e6026e1727686ed96aa4ec721df8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dbc01a9ef0611103becc7510df20691"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a0dbc01a9ef0611103becc7510df20691">~PathPlanner</a> ()</td></tr>
 <tr class="memdesc:a0dbc01a9ef0611103becc7510df20691"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor.  <a href="#a0dbc01a9ef0611103becc7510df20691">More...</a><br/></td></tr>
 <tr class="separator:a0dbc01a9ef0611103becc7510df20691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9274294ccba1cc5da1de333b30e29071"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a9274294ccba1cc5da1de333b30e29071">planPath</a> (<a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *robot, const std::vector&lt; int &gt; &amp;dofs, const Eigen::VectorXd &amp;start, const Eigen::VectorXd &amp;goal, std::list&lt; Eigen::VectorXd &gt; &amp;path)</td></tr>
 <tr class="memdesc:a9274294ccba1cc5da1de333b30e29071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plan a path from a single start configuration to a single goal.  <a href="#a9274294ccba1cc5da1de333b30e29071">More...</a><br/></td></tr>
 <tr class="separator:a9274294ccba1cc5da1de333b30e29071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea74ed40cf7b33e6b86c084d767985c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a1ea74ed40cf7b33e6b86c084d767985c">planPath</a> (<a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *robot, const std::vector&lt; size_t &gt; &amp;dofs, const std::vector&lt; Eigen::VectorXd &gt; &amp;start, const std::vector&lt; Eigen::VectorXd &gt; &amp;goal, std::list&lt; Eigen::VectorXd &gt; &amp;path)</td></tr>
-<tr class="memdesc:a1ea74ed40cf7b33e6b86c084d767985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plan a path from a <em>set</em> of start configurations to a <em>set</em> of goals.  <a href="#a1ea74ed40cf7b33e6b86c084d767985c">More...</a><br/></td></tr>
-<tr class="separator:a1ea74ed40cf7b33e6b86c084d767985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560ca14db78a3718b924fa4ff3540ef9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a560ca14db78a3718b924fa4ff3540ef9">planPath</a> (<a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *robot, const std::vector&lt; std::size_t &gt; &amp;dofs, const std::vector&lt; Eigen::VectorXd &gt; &amp;start, const std::vector&lt; Eigen::VectorXd &gt; &amp;goal, std::list&lt; Eigen::VectorXd &gt; &amp;path)</td></tr>
+<tr class="memdesc:a560ca14db78a3718b924fa4ff3540ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plan a path from a <em>set</em> of start configurations to a <em>set</em> of goals.  <a href="#a560ca14db78a3718b924fa4ff3540ef9">More...</a><br/></td></tr>
+<tr class="separator:a560ca14db78a3718b924fa4ff3540ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -151,9 +151,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab8ce7158030f93c75c5fafc552d5e987"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#ab8ce7158030f93c75c5fafc552d5e987">goalBias</a></td></tr>
 <tr class="memdesc:ab8ce7158030f93c75c5fafc552d5e987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose btw goal and random value (for goal-biased search)  <a href="#ab8ce7158030f93c75c5fafc552d5e987">More...</a><br/></td></tr>
 <tr class="separator:ab8ce7158030f93c75c5fafc552d5e987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4991d17a397d1cd4d5a1e8ffdfd04e9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#ab4991d17a397d1cd4d5a1e8ffdfd04e9">maxNodes</a></td></tr>
-<tr class="memdesc:ab4991d17a397d1cd4d5a1e8ffdfd04e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations the sampling would continue.  <a href="#ab4991d17a397d1cd4d5a1e8ffdfd04e9">More...</a><br/></td></tr>
-<tr class="separator:ab4991d17a397d1cd4d5a1e8ffdfd04e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d20b307f8daeacc04c3eb2c2972bbc"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#a38d20b307f8daeacc04c3eb2c2972bbc">maxNodes</a></td></tr>
+<tr class="memdesc:a38d20b307f8daeacc04c3eb2c2972bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of iterations the sampling would continue.  <a href="#a38d20b307f8daeacc04c3eb2c2972bbc">More...</a><br/></td></tr>
+<tr class="separator:a38d20b307f8daeacc04c3eb2c2972bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19d63ffe4a313566d78fc0a5cb9a7ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0b/namespacedart_1_1simulation.html#a1db1abe159f77736177ead5172d44206">simulation::WorldPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html#aa19d63ffe4a313566d78fc0a5cb9a7ab">world</a></td></tr>
 <tr class="memdesc:aa19d63ffe4a313566d78fc0a5cb9a7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The world that the robot is in (for obstacles and etc.)  <a href="#aa19d63ffe4a313566d78fc0a5cb9a7ab">More...</a><br/></td></tr>
 <tr class="separator:aa19d63ffe4a313566d78fc0a5cb9a7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,7 +206,7 @@ template&lt;class R  = RRT&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a813b752e3d35b72d5af83ba441a47d74"></a>
+<a class="anchor" id="a14e6026e1727686ed96aa4ec721df8d7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -242,7 +242,7 @@ template&lt;class R  = RRT&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>maxNodes_</em> = <code>1e6</code>, </td>
         </tr>
         <tr>
@@ -409,7 +409,7 @@ template&lt;class R  = RRT&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1ea74ed40cf7b33e6b86c084d767985c"></a>
+<a class="anchor" id="a560ca14db78a3718b924fa4ff3540ef9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -424,7 +424,7 @@ template&lt;class R &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::size_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>dofs</em>, </td>
         </tr>
         <tr>
@@ -578,14 +578,14 @@ template&lt;class R  = RRT&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab4991d17a397d1cd4d5a1e8ffdfd04e9"></a>
+<a class="anchor" id="a38d20b307f8daeacc04c3eb2c2972bbc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class R  = RRT&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html">dart::planning::PathPlanner</a>&lt; R &gt;::maxNodes</td>
+          <td class="memname">std::size_t <a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html">dart::planning::PathPlanner</a>&lt; R &gt;::maxNodes</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -648,7 +648,7 @@ template&lt;class R  = RRT&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d6/dc4/namespacedart_1_1planning.html">planning</a></li><li class="navelem"><a class="el" href="../../d5/d78/classdart_1_1planning_1_1PathPlanner.html">PathPlanner</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

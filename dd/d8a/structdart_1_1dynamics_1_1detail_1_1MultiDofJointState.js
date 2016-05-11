@@ -8,5 +8,5 @@ var structdart_1_1dynamics_1_1detail_1_1MultiDofJointState =
     [ "mForces", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#ae1257a516a48a8bc6f05a3e07f45dffd", null ],
     [ "mPositions", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#ada6572cac1495a90ffe7f68fb7a2ee72", null ],
     [ "mVelocities", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#ad8d5ec9093651cd752332587c7ab44e0", null ],
-    [ "NumDofs", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#aa60ef8714a6831b2b1c464f514ed4bdc", null ]
+    [ "NumDofs", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#a58def67c95b92122ca6cf40207fa2f95", null ]
 ];

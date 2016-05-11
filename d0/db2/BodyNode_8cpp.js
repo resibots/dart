@@ -5,5 +5,10 @@ var BodyNode_8cpp =
     [ "SKEL_SET_FLAGS", "d0/db2/BodyNode_8cpp.html#a12950e5e7271c907db724cb529b7adf2", null ],
     [ "EntityPtrSet", "d0/db2/BodyNode_8cpp.html#ac56a7745ab08dd1273216cac7df61326", null ],
     [ "checkSkeletonNodeAgreement", "d0/db2/BodyNode_8cpp.html#a017de4d6b353f1c1881e496dc1066f90", null ],
-    [ "getVectorObjectIfAvailable", "d0/db2/BodyNode_8cpp.html#a0a2112304a7478f4fab5881b08c0e5b5", null ]
+    [ "extractDataFromNodeTypeMap", "d0/db2/BodyNode_8cpp.html#a87a1709d4355f5b7a23e2ff54dcf2394", null ],
+    [ "getAllNodeProperties", "d0/db2/BodyNode_8cpp.html#a13831b6192989f6e2fdf966bd3caeb82", null ],
+    [ "getAllNodeStates", "d0/db2/BodyNode_8cpp.html#a2aff6b16ec63babb4cc302e6e406d08e", null ],
+    [ "setAllNodeProperties", "d0/db2/BodyNode_8cpp.html#a6236f0f4250283f166a0e24091fdd204", null ],
+    [ "setAllNodeStates", "d0/db2/BodyNode_8cpp.html#a7e366ec5caeb45e4e6438941fef6845a", null ],
+    [ "setNodesFromDataTypeMap", "d0/db2/BodyNode_8cpp.html#aec86d4e1019b2cfede999a88ef74fcbd", null ]
 ];

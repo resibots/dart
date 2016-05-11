@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -105,8 +105,10 @@ $(document).ready(function(){initNavTree('dc/d01/classdart_1_1dynamics_1_1Invers
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../df/d4b/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">dart::dynamics::InverseKinematics::GradientMethod Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -116,24 +118,32 @@ $(document).ready(function(){initNavTree('dc/d01/classdart_1_1dynamics_1_1Invers
 <p><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a> is a base class for different ways of computing the gradient of an <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module.  
  <a href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/ded/InverseKinematics_8h_source.html">InverseKinematics.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/d6a/InverseKinematics_8hpp_source.html">InverseKinematics.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::dynamics::InverseKinematics::GradientMethod:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.png" usemap="#dart::dynamics::InverseKinematics::GradientMethod_map" alt=""/>
   <map id="dart::dynamics::InverseKinematics::GradientMethod_map" name="dart::dynamics::InverseKinematics::GradientMethod_map">
-<area href="../../d3/d73/classdart_1_1common_1_1Subject.html" title="The Subject class is a base class for any object that wants to report when it gets destroyed..." alt="dart::common::Subject" shape="rect" coords="164,0,482,24"/>
-<area href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html" title="JacobianDLS refers to the Damped Least Squares Jacobian Pseudoinverse (specifically, Moore-Penrose Pseudoinverse). " alt="dart::dynamics::InverseKinematics::JacobianDLS" shape="rect" coords="0,112,318,136"/>
-<area href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html" title="JacobianTranspose will simply apply the transpose of the Jacobian to the error vector in order to com..." alt="dart::dynamics::InverseKinematics::JacobianTranspose" shape="rect" coords="328,112,646,136"/>
+<area href="../../d3/d73/classdart_1_1common_1_1Subject.html" title="The Subject class is a base class for any object that wants to report when it gets destroyed..." alt="dart::common::Subject" shape="rect" coords="492,0,810,24"/>
+<area href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic..." alt="dart::dynamics::InverseKinematics::Analytical" shape="rect" coords="164,112,482,136"/>
+<area href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html" title="JacobianDLS refers to the Damped Least Squares Jacobian Pseudoinverse (specifically, Moore-Penrose Pseudoinverse). " alt="dart::dynamics::InverseKinematics::JacobianDLS" shape="rect" coords="492,112,810,136"/>
+<area href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html" title="JacobianTranspose will simply apply the transpose of the Jacobian to the error vector in order to com..." alt="dart::dynamics::InverseKinematics::JacobianTranspose" shape="rect" coords="820,112,1138,136"/>
+<area href="../../da/d3b/classHuboArmIK.html" title="The HuboArmIK is based on the derivation of Hubo&#39;s arm IK by Matt Zucker. " alt="HuboArmIK" shape="rect" coords="0,168,318,192"/>
+<area href="../../d0/db4/classHuboLegIK.html" alt="HuboLegIK" shape="rect" coords="328,168,646,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad923cf26d2e3ff4ac39388b712fe12f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ad923cf26d2e3ff4ac39388b712fe12f4">GradientMethod</a> (<a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *_ik, const std::string &amp;_methodName, double _clamp=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a06dc2b3d9522262637840806902b23e1">DefaultIKGradientComponentClamp</a>)</td></tr>
-<tr class="memdesc:ad923cf26d2e3ff4ac39388b712fe12f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ad923cf26d2e3ff4ac39388b712fe12f4">More...</a><br/></td></tr>
-<tr class="separator:ad923cf26d2e3ff4ac39388b712fe12f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade06ecdee4f1d1d74205001c1128040a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ade06ecdee4f1d1d74205001c1128040a">GradientMethod</a> (<a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *_ik, const std::string &amp;_methodName, const <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> &amp;_properties)</td></tr>
+<tr class="memdesc:ade06ecdee4f1d1d74205001c1128040a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ade06ecdee4f1d1d74205001c1128040a">More...</a><br/></td></tr>
+<tr class="separator:ade06ecdee4f1d1d74205001c1128040a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68b85fe5f92a58d0f9647c1ba35ed4f3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a68b85fe5f92a58d0f9647c1ba35ed4f3">~GradientMethod</a> ()=default</td></tr>
 <tr class="memdesc:a68b85fe5f92a58d0f9647c1ba35ed4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a68b85fe5f92a58d0f9647c1ba35ed4f3">More...</a><br/></td></tr>
 <tr class="separator:a68b85fe5f92a58d0f9647c1ba35ed4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +178,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d8887e76943852ff02a4423afae4aaa"><td class="memItemLeft" align="right" valign="top">const Eigen::VectorXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a4d8887e76943852ff02a4423afae4aaa">getComponentWeights</a> () const </td></tr>
 <tr class="memdesc:a4d8887e76943852ff02a4423afae4aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the weights of this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#a4d8887e76943852ff02a4423afae4aaa">More...</a><br/></td></tr>
 <tr class="separator:a4d8887e76943852ff02a4423afae4aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb09a078c009d83941a0d0bb163f2a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#abcb09a078c009d83941a0d0bb163f2a2">convertJacobianMethodOutputToGradient</a> (Eigen::VectorXd &amp;grad, const std::vector&lt; std::size_t &gt; &amp;dofs)</td></tr>
+<tr class="memdesc:abcb09a078c009d83941a0d0bb163f2a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the gradient that gets generated by Jacobian methods into a gradient that can be used by a GradientDescentSolver.  <a href="#abcb09a078c009d83941a0d0bb163f2a2">More...</a><br/></td></tr>
+<tr class="separator:abcb09a078c009d83941a0d0bb163f2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eedbc1f9c3a9783236393f984eafdc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a1eedbc1f9c3a9783236393f984eafdc7">getGradientMethodProperties</a> () const </td></tr>
+<tr class="memdesc:a1eedbc1f9c3a9783236393f984eafdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> of this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#a1eedbc1f9c3a9783236393f984eafdc7">More...</a><br/></td></tr>
+<tr class="separator:a1eedbc1f9c3a9783236393f984eafdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a888731b4b274a85406570a3448d6c471"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a888731b4b274a85406570a3448d6c471">clearCache</a> ()</td></tr>
 <tr class="memdesc:a888731b4b274a85406570a3448d6c471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the cache to force the gradient to be recomputed.  <a href="#a888731b4b274a85406570a3448d6c471">More...</a><br/></td></tr>
 <tr class="separator:a888731b4b274a85406570a3448d6c471"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,16 +207,19 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad07e1a8119541fb898652b466b4e55e1"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ad07e1a8119541fb898652b466b4e55e1">mLastGradient</a></td></tr>
 <tr class="memdesc:ad07e1a8119541fb898652b466b4e55e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last gradient that was computed by this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#ad07e1a8119541fb898652b466b4e55e1">More...</a><br/></td></tr>
 <tr class="separator:ad07e1a8119541fb898652b466b4e55e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab35c4e515779af0c1dbd86eff0d3e13"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#aab35c4e515779af0c1dbd86eff0d3e13">mComponentWiseClamp</a></td></tr>
-<tr class="memdesc:aab35c4e515779af0c1dbd86eff0d3e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The component-wise clamp for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#aab35c4e515779af0c1dbd86eff0d3e13">More...</a><br/></td></tr>
-<tr class="separator:aab35c4e515779af0c1dbd86eff0d3e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab3b3112e10656ab1912020d6bcb699a"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#aab3b3112e10656ab1912020d6bcb699a">mComponentWeights</a></td></tr>
-<tr class="memdesc:aab3b3112e10656ab1912020d6bcb699a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The weights for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#aab3b3112e10656ab1912020d6bcb699a">More...</a><br/></td></tr>
-<tr class="separator:aab3b3112e10656ab1912020d6bcb699a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e44c86f78b7126405a4513cc0a149a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ad6e44c86f78b7126405a4513cc0a149a">mGradientP</a></td></tr>
+<tr class="memdesc:ad6e44c86f78b7126405a4513cc0a149a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#ad6e44c86f78b7126405a4513cc0a149a">More...</a><br/></td></tr>
+<tr class="separator:ad6e44c86f78b7126405a4513cc0a149a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1common_1_1Subject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1common_1_1Subject')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html">dart::common::Subject</a></td></tr>
 <tr class="memitem:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d8/dc0/classdart_1_1common_1_1Observer.html">Observer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#acb21558de80efdc434cd64c90a205ba8">mObservers</a></td></tr>
 <tr class="memdesc:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current Observers.  <a href="#acb21558de80efdc434cd64c90a205ba8">More...</a><br/></td></tr>
 <tr class="separator:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a05f468e6ae18bdac2db0747a5001bad1"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a05f468e6ae18bdac2db0747a5001bad1">mInitialPositionsCache</a></td></tr>
+<tr class="memdesc:a05f468e6ae18bdac2db0747a5001bad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache used by convertJacobianMethodOutputToGradient to avoid reallocating this vector on each iteration.  <a href="#a05f468e6ae18bdac2db0747a5001bad1">More...</a><br/></td></tr>
+<tr class="separator:a05f468e6ae18bdac2db0747a5001bad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -218,7 +237,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a> is a base class for different ways of computing the gradient of an <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad923cf26d2e3ff4ac39388b712fe12f4"></a>
+<a class="anchor" id="ade06ecdee4f1d1d74205001c1128040a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -237,8 +256,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_clamp</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a06dc2b3d9522262637840806902b23e1">DefaultIKGradientComponentClamp</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> &amp;&#160;</td>
+          <td class="paramname"><em>_properties</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -356,7 +375,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Enable this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a> to be cloned to a new IK module. </p>
 
-<p>Implemented in <a class="el" href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a6b3f30d03bdb11a7a74f66c726e8cd9a">dart::dynamics::InverseKinematics::JacobianTranspose</a>, and <a class="el" href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a9fc6cc93f3c26491e1ef0aa8727145d3">dart::dynamics::InverseKinematics::JacobianDLS</a>.</p>
+<p>Implemented in <a class="el" href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adb013e3d2e0183079d8a5b70c1cf6cf0">dart::dynamics::InverseKinematics::JacobianTranspose</a>, <a class="el" href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a27aba2fa7f01366dfd6e01a1f4904742">dart::dynamics::InverseKinematics::JacobianDLS</a>, <a class="el" href="../../d0/db4/classHuboLegIK.html#a2710635890403853f1c6c49bdb278ec4">HuboLegIK</a>, and <a class="el" href="../../da/d3b/classHuboArmIK.html#afdf698f090763af9d67969ca3a77e0cc">HuboArmIK</a>.</p>
 
 </div>
 </div>
@@ -397,7 +416,36 @@ Additional Inherited Members</h2></td></tr>
 <p>The error vector that is passed in will be determined by the IK module's <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>. The expectation is that the first three components of the vector correspond to orientation error (in an angle-axis format) while the last three components correspond to translational error.</p>
 <p>When implementing this function, you should assume that the <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a>'s current joint positions corresponds to the positions that you must use to compute the error. This function will only get called when an update is needed. </p>
 
-<p>Implemented in <a class="el" href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adaf9267e18591703007f5b425550c8b1">dart::dynamics::InverseKinematics::JacobianTranspose</a>, and <a class="el" href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a80602d420aefd11714e5eb0f98e85fed">dart::dynamics::InverseKinematics::JacobianDLS</a>.</p>
+<p>Implemented in <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a8f2ab56bec3e0efdcc0d332cf1a2c83e">dart::dynamics::InverseKinematics::Analytical</a>, <a class="el" href="../../d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adaf9267e18591703007f5b425550c8b1">dart::dynamics::InverseKinematics::JacobianTranspose</a>, and <a class="el" href="../../d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a80602d420aefd11714e5eb0f98e85fed">dart::dynamics::InverseKinematics::JacobianDLS</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcb09a078c009d83941a0d0bb163f2a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::InverseKinematics::GradientMethod::convertJacobianMethodOutputToGradient </td>
+          <td>(</td>
+          <td class="paramtype">Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>grad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dofs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the gradient that gets generated by Jacobian methods into a gradient that can be used by a GradientDescentSolver. </p>
+<p>Not all <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> types can be integrated using standard addition (e.g. <a class="el" href="../../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html" title="class FreeJoint ">FreeJoint</a> and <a class="el" href="../../d7/de3/classdart_1_1dynamics_1_1BallJoint.html" title="class BallJoint ">BallJoint</a>), therefore Jacobian-based differential methods will tend to generate gradients that cannot be correctly used by a simple addition-based GradientDescentSolver. Running your gradient through this function before returning it will make the gradient suitable for a standard solver. </p>
 
 </div>
 </div>
@@ -463,6 +511,23 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1eedbc1f9c3a9783236393f984eafdc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">InverseKinematics::GradientMethod::Properties</a> dart::dynamics::InverseKinematics::GradientMethod::getGradientMethodProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> of this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a8b0d66d0a9586a32a9ce4257c0c10b29"></a>
 <div class="memitem">
 <div class="memproto">
@@ -519,7 +584,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aab3b3112e10656ab1912020d6bcb699a"></a>
+<a class="anchor" id="ad6e44c86f78b7126405a4513cc0a149a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -527,7 +592,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::VectorXd dart::dynamics::InverseKinematics::GradientMethod::mComponentWeights</td>
+          <td class="memname"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> dart::dynamics::InverseKinematics::GradientMethod::mGradientP</td>
         </tr>
       </table>
   </td>
@@ -537,29 +602,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The weights for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="aab35c4e515779af0c1dbd86eff0d3e13"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double dart::dynamics::InverseKinematics::GradientMethod::mComponentWiseClamp</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The component-wise clamp for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>. </p>
+<p><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> for this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>. </p>
 
 </div>
 </div>
@@ -582,6 +625,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The IK module that this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a> belongs to. </p>
+
+</div>
+</div>
+<a class="anchor" id="a05f468e6ae18bdac2db0747a5001bad1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd dart::dynamics::InverseKinematics::GradientMethod::mInitialPositionsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache used by convertJacobianMethodOutputToGradient to avoid reallocating this vector on each iteration. </p>
 
 </div>
 </div>
@@ -657,7 +722,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a></li><li class="navelem"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html">GradientMethod</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

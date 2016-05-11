@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/collision/fcl/FCLCollisionDetector.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/collision/fcl/FCLCollisionDetector.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -104,27 +104,37 @@ $(document).ready(function(){initNavTree('d2/d00/FCLCollisionDetector_8cpp.html'
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">FCLCollisionDetector.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dd0/FCLCollisionDetector_8h_source.html">dart/collision/fcl/FCLCollisionDetector.h</a>&quot;</code><br/>
-<code>#include &lt;vector&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d8f/Shape_8h_source.html">dart/dynamics/Shape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/ded/Skeleton_8h_source.html">dart/dynamics/Skeleton.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/d76/FCLCollisionNode_8h_source.html">dart/collision/fcl/FCLCollisionNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/dab/FCLTypes_8h_source.html">dart/collision/fcl/FCLTypes.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d9d/FCLCollisionDetector_8hpp_source.html">dart/collision/fcl/FCLCollisionDetector.hpp</a>&quot;</code><br/>
+<code>#include &lt;assimp/scene.h&gt;</code><br/>
+<code>#include &lt;fcl/collision.h&gt;</code><br/>
+<code>#include &lt;fcl/collision_object.h&gt;</code><br/>
+<code>#include &lt;fcl/collision_data.h&gt;</code><br/>
+<code>#include &lt;fcl/BVH/BVH_model.h&gt;</code><br/>
+<code>#include &lt;fcl/broadphase/broadphase.h&gt;</code><br/>
+<code>#include &lt;fcl/shape/geometric_shapes.h&gt;</code><br/>
+<code>#include &lt;fcl/shape/geometric_shape_to_BVH_model.h&gt;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d78/CollisionObject_8hpp_source.html">dart/collision/CollisionObject.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">dart/collision/CollisionFilter.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d6/df8/FCLTypes_8hpp_source.html">dart/collision/fcl/FCLTypes.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/def/FCLCollisionObject_8hpp_source.html">dart/collision/fcl/FCLCollisionObject.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d9/d30/FCLCollisionGroup_8hpp_source.html">dart/collision/fcl/FCLCollisionGroup.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d9/df5/tri__tri__intersection__test_8hpp_source.html">dart/collision/fcl/tri_tri_intersection_test.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/dd7/ShapeFrame_8hpp_source.html">dart/dynamics/ShapeFrame.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/df8/Shape_8hpp_source.html">dart/dynamics/Shape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/de1/PlaneShape_8hpp_source.html">dart/dynamics/PlaneShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d74/MeshShape_8hpp_source.html">dart/dynamics/MeshShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d8d/SoftMeshShape_8hpp_source.html">dart/dynamics/SoftMeshShape.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d20/structdart_1_1collision_1_1CollisionData.html">dart::collision::CollisionData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
@@ -132,54 +142,119 @@ Namespaces</h2></td></tr>
 <tr class="memitem:da/dcd/namespacedart_1_1collision"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">dart::collision</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a6791c3dd766d6e264155b65053d85bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#a6791c3dd766d6e264155b65053d85bf9">FCL_VERSION_AT_LEAST</a>(x, y, z)</td></tr>
-<tr class="separator:a6791c3dd766d6e264155b65053d85bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8314ed4d521bfb1a3f604452957344e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a8314ed4d521bfb1a3f604452957344e9">dart::collision::collisionCallBack</a> (fcl::CollisionObject *_o1, fcl::CollisionObject *_o2, void *_cdata)</td></tr>
-<tr class="separator:a8314ed4d521bfb1a3f604452957344e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5140bbf7847568e359958896d7a4077"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ab5140bbf7847568e359958896d7a4077">dart::collision::isClose</a> (const Eigen::Vector3d &amp;_point1, const Eigen::Vector3d &amp;_point2)</td></tr>
-<tr class="separator:ab5140bbf7847568e359958896d7a4077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82b1579f129bc71de11774cad7fddade"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a82b1579f129bc71de11774cad7fddade">dart::collision::hasClosePoint</a> (const std::vector&lt; Contact &gt; &amp;_contacts, const Eigen::Vector3d &amp;_point)</td></tr>
-<tr class="separator:a82b1579f129bc71de11774cad7fddade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b0e21997b89b43620b925d9ff1a1517"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a4b0e21997b89b43620b925d9ff1a1517">dart::collision::checkGroupValidity</a> (FCLCollisionDetector *cd, CollisionGroup *group)</td></tr>
+<tr class="separator:a4b0e21997b89b43620b925d9ff1a1517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a6791c3dd766d6e264155b65053d85bf9"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="aadf88e60d4c7fd3bb1e13a368ce8bb3a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FCL_VERSION_AT_LEAST</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">y, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">z&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">FCLCollisionDetector::ContactPointComputationMethod contactPointComputationMethod</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(FCL_MAJOR_VERSION &gt; x || (FCL_MAJOR_VERSION &gt;= x &amp;&amp; \</div>
-<div class="line">  (FCL_MINOR_VERSION &gt; y || (FCL_MINOR_VERSION &gt;= y &amp;&amp; \</div>
-<div class="line">  FCL_PATCH_VERSION &gt;= z))))</div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a class="anchor" id="a1d39aac66e12dae50a24cd7a9100ef33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool done</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the collision iteration can stop. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5e627085b05e70762d035642bc590dfa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fcl::CollisionRequest fclRequest</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FCL collision request. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae8111feed3c58ffd7eb44d7e72b695f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fcl::CollisionResult fclResult</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FCL collision result. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d0966c5c2775c123c0ea4447206fdd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool foundCollision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if at least one contact is found. </p>
+<p>This flag is used only when mResult is nullptr; otherwise the actual collision result is in mResult. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6884f20bea413374e2bc81da54cb7cf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CollisionOption&amp; option</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collision option of DART. </p>
+
+</div>
+</div>
+<a class="anchor" id="aac58a62951331b07d452f0da3ea45ab2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FCLCollisionDetector::PrimitiveShape primitiveShapeType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb2ddba315ea0578567a9c9f95271a10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CollisionResult* result</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collision result of DART. </p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -188,7 +263,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_d9bc0d3f4e4fe81f6b2799c71d86043d.html">fcl</a></li><li class="navelem"><a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html">FCLCollisionDetector.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:58 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -8,9 +8,9 @@ var classRecordingWorld =
     [ "grabTimeSlice", "d3/d35/classRecordingWorld.html#abaaef96a997c4c87c311eeae780865fe", null ],
     [ "moveBackward", "d3/d35/classRecordingWorld.html#a7139e587909ce72f84e8e3a9370948b6", null ],
     [ "moveForward", "d3/d35/classRecordingWorld.html#a2f642b64d0c0b5b163b83e8b46674e1d", null ],
-    [ "moveTo", "d3/d35/classRecordingWorld.html#ac497aaf2940f04551b385ef49ecb84f2", null ],
+    [ "moveTo", "d3/d35/classRecordingWorld.html#a6d44b61f5e7f4b58ca4c48b66330a402", null ],
     [ "moveToEnd", "d3/d35/classRecordingWorld.html#aac03c3f15af974b62ff93f6d89f9a4b2", null ],
     [ "restart", "d3/d35/classRecordingWorld.html#a1ab94d66539ee13fbae5cfe0063f8708", null ],
-    [ "mCurrentIndex", "d3/d35/classRecordingWorld.html#af81520510338c1834cccffa390e61e87", null ],
+    [ "mCurrentIndex", "d3/d35/classRecordingWorld.html#ad3dcc78ee54815812960bf88b6a536b7", null ],
     [ "mHistory", "d3/d35/classRecordingWorld.html#a8c9e84c6858dff6f91488d3ef3da287a", null ]
 ];

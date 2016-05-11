@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('d8/dd7/structdart_1_1dynamics_1_1Refer
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dd/de9/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -115,26 +116,75 @@ $(document).ready(function(){initNavTree('d8/dd7/structdart_1_1dynamics_1_1Refer
 <p>A simple struct that contains the indexing of a <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> and its parent DegreesOfFreedom.  
  <a href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d5/dcf/ReferentialSkeleton_8h_source.html">ReferentialSkeleton.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../db/d02/ReferentialSkeleton_8hpp_source.html">ReferentialSkeleton.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7abc7547ae09ab8ca493146ea0302e7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a7abc7547ae09ab8ca493146ea0302e7e">IndexMap</a> ()</td></tr>
+<tr class="memdesc:a7abc7547ae09ab8ca493146ea0302e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a7abc7547ae09ab8ca493146ea0302e7e">More...</a><br/></td></tr>
+<tr class="separator:a7abc7547ae09ab8ca493146ea0302e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76f0ffb3f67a1459800581ac9c61f96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#aa76f0ffb3f67a1459800581ac9c61f96">isExpired</a> () const </td></tr>
+<tr class="memdesc:aa76f0ffb3f67a1459800581ac9c61f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if nothing in this entry is mapping to a valid index any longer.  <a href="#aa76f0ffb3f67a1459800581ac9c61f96">More...</a><br/></td></tr>
+<tr class="separator:aa76f0ffb3f67a1459800581ac9c61f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5c9ee9f6fb1861b8a06e3f08a5299d40"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a5c9ee9f6fb1861b8a06e3f08a5299d40">mBodyNodeIndex</a></td></tr>
-<tr class="memdesc:a5c9ee9f6fb1861b8a06e3f08a5299d40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>.  <a href="#a5c9ee9f6fb1861b8a06e3f08a5299d40">More...</a><br/></td></tr>
-<tr class="separator:a5c9ee9f6fb1861b8a06e3f08a5299d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84c0b7f50c01f7bf0b649f74ec535ed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#af84c0b7f50c01f7bf0b649f74ec535ed">mDofIndices</a></td></tr>
-<tr class="memdesc:af84c0b7f50c01f7bf0b649f74ec535ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the DegreesOfFreedom.  <a href="#af84c0b7f50c01f7bf0b649f74ec535ed">More...</a><br/></td></tr>
-<tr class="separator:af84c0b7f50c01f7bf0b649f74ec535ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ca647fb6c13aeb41fa5de1496d8d67"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a51ca647fb6c13aeb41fa5de1496d8d67">mBodyNodeIndex</a></td></tr>
+<tr class="memdesc:a51ca647fb6c13aeb41fa5de1496d8d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>.  <a href="#a51ca647fb6c13aeb41fa5de1496d8d67">More...</a><br/></td></tr>
+<tr class="separator:a51ca647fb6c13aeb41fa5de1496d8d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f6f1478d195d1565f69396eae74b4e"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a54f6f1478d195d1565f69396eae74b4e">mJointIndex</a></td></tr>
+<tr class="memdesc:a54f6f1478d195d1565f69396eae74b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the parent <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>.  <a href="#a54f6f1478d195d1565f69396eae74b4e">More...</a><br/></td></tr>
+<tr class="separator:a54f6f1478d195d1565f69396eae74b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88e2c97db2379a1b54fabb87c050489"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#ae88e2c97db2379a1b54fabb87c050489">mDofIndices</a></td></tr>
+<tr class="memdesc:ae88e2c97db2379a1b54fabb87c050489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the parent DegreesOfFreedom.  <a href="#ae88e2c97db2379a1b54fabb87c050489">More...</a><br/></td></tr>
+<tr class="separator:ae88e2c97db2379a1b54fabb87c050489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple struct that contains the indexing of a <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> and its parent DegreesOfFreedom. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a5c9ee9f6fb1861b8a06e3f08a5299d40"></a>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a7abc7547ae09ab8ca493146ea0302e7e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::dynamics::ReferentialSkeleton::IndexMap::mBodyNodeIndex</td>
+          <td class="memname">dart::dynamics::ReferentialSkeleton::IndexMap::IndexMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<p>Initializes mBodyNodeIndex and mJointIndex to INVALID_INDEX </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa76f0ffb3f67a1459800581ac9c61f96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::dynamics::ReferentialSkeleton::IndexMap::isExpired </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if nothing in this entry is mapping to a valid index any longer. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a51ca647fb6c13aeb41fa5de1496d8d67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t dart::dynamics::ReferentialSkeleton::IndexMap::mBodyNodeIndex</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -143,17 +193,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af84c0b7f50c01f7bf0b649f74ec535ed"></a>
+<a class="anchor" id="ae88e2c97db2379a1b54fabb87c050489"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;size_t&gt; dart::dynamics::ReferentialSkeleton::IndexMap::mDofIndices</td>
+          <td class="memname">std::vector&lt;std::size_t&gt; dart::dynamics::ReferentialSkeleton::IndexMap::mDofIndices</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Indices of the DegreesOfFreedom. </p>
+<p>Indices of the parent DegreesOfFreedom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54f6f1478d195d1565f69396eae74b4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t dart::dynamics::ReferentialSkeleton::IndexMap::mJointIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Index of the parent <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>. </p>
 
 </div>
 </div>
@@ -163,7 +227,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html">ReferentialSkeleton</a></li><li class="navelem"><a class="el" href="../../d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html">IndexMap</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

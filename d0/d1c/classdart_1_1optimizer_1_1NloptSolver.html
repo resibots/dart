@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('d0/d1c/classdart_1_1optimizer_1_1Nlopt
 <p>class <a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html" title="class NloptSolver ">NloptSolver</a>  
  <a href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dd/d9d/NloptSolver_8h_source.html">NloptSolver.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dd/dbd/NloptSolver_8hpp_source.html">NloptSolver.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::optimizer::NloptSolver:</div>
 <div class="dyncontent">
@@ -139,15 +139,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad79cea312a068e78db1f57620a0280eb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#ad79cea312a068e78db1f57620a0280eb">~NloptSolver</a> ()</td></tr>
 <tr class="memdesc:ad79cea312a068e78db1f57620a0280eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad79cea312a068e78db1f57620a0280eb">More...</a><br/></td></tr>
 <tr class="separator:ad79cea312a068e78db1f57620a0280eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7e9e65a0653f6f846fd8ae4558c3979"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#ad7e9e65a0653f6f846fd8ae4558c3979">solve</a> ()</td></tr>
-<tr class="memdesc:ad7e9e65a0653f6f846fd8ae4558c3979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve optimization problem.  <a href="#ad7e9e65a0653f6f846fd8ae4558c3979">More...</a><br/></td></tr>
-<tr class="separator:ad7e9e65a0653f6f846fd8ae4558c3979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79971f94b37832ad0e0c01816a869a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#ad79971f94b37832ad0e0c01816a869a1">solve</a> () override</td></tr>
+<tr class="memdesc:ad79971f94b37832ad0e0c01816a869a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve optimization problem.  <a href="#ad79971f94b37832ad0e0c01816a869a1">More...</a><br/></td></tr>
+<tr class="separator:ad79971f94b37832ad0e0c01816a869a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a491ca0a6459504f029b6e2183a0069"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a7a491ca0a6459504f029b6e2183a0069">getLastConfiguration</a> () const </td></tr>
 <tr class="separator:a7a491ca0a6459504f029b6e2183a0069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10cf16baaf5c301ea72ffa8eb8b97d48"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a10cf16baaf5c301ea72ffa8eb8b97d48">getType</a> () const override</td></tr>
+<tr class="memitem:a10cf16baaf5c301ea72ffa8eb8b97d48"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a10cf16baaf5c301ea72ffa8eb8b97d48">getType</a> () const override</td></tr>
 <tr class="memdesc:a10cf16baaf5c301ea72ffa8eb8b97d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type (implementation) of this <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a>.  <a href="#a10cf16baaf5c301ea72ffa8eb8b97d48">More...</a><br/></td></tr>
 <tr class="separator:a10cf16baaf5c301ea72ffa8eb8b97d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8a0b0bd24baae2f2fca4b5b4389e3a"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html">Solver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a6b8a0b0bd24baae2f2fca4b5b4389e3a">clone</a> () const override</td></tr>
+<tr class="memitem:a6b8a0b0bd24baae2f2fca4b5b4389e3a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html">Solver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a6b8a0b0bd24baae2f2fca4b5b4389e3a">clone</a> () const override</td></tr>
 <tr class="memdesc:a6b8a0b0bd24baae2f2fca4b5b4389e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an identical clone of this <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a>.  <a href="#a6b8a0b0bd24baae2f2fca4b5b4389e3a">More...</a><br/></td></tr>
 <tr class="separator:a6b8a0b0bd24baae2f2fca4b5b4389e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfbb45cba3d3e46e8ef39aab43a10fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#abfbb45cba3d3e46e8ef39aab43a10fdb">copy</a> (const <a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html">NloptSolver</a> &amp;_other)</td></tr>
@@ -162,12 +162,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2f5308303039e63b60893c817917cf0"><td class="memItemLeft" align="right" valign="top">nlopt::algorithm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#ab2f5308303039e63b60893c817917cf0">getAlgorithm</a> () const </td></tr>
 <tr class="memdesc:ab2f5308303039e63b60893c817917cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the algorithm that is to be used by the nlopt solver.  <a href="#ab2f5308303039e63b60893c817917cf0">More...</a><br/></td></tr>
 <tr class="separator:ab2f5308303039e63b60893c817917cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ada3ef6191ad89f315b5ead4be93741"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#a4ada3ef6191ad89f315b5ead4be93741">setNumMaxEvaluations</a> (size_t _numVal)</td></tr>
-<tr class="memdesc:a4ada3ef6191ad89f315b5ead4be93741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set number of maximum evaluations.  <a href="#a4ada3ef6191ad89f315b5ead4be93741">More...</a><br/></td></tr>
-<tr class="separator:a4ada3ef6191ad89f315b5ead4be93741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb4a8515a15e656c98c634d6a59717e"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#aaeb4a8515a15e656c98c634d6a59717e">getNumEvaluationMax</a> () const </td></tr>
-<tr class="memdesc:aaeb4a8515a15e656c98c634d6a59717e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of maximum evaluations.  <a href="#aaeb4a8515a15e656c98c634d6a59717e">More...</a><br/></td></tr>
-<tr class="separator:aaeb4a8515a15e656c98c634d6a59717e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdart_1_1optimizer_1_1Solver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1optimizer_1_1Solver')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html">dart::optimizer::Solver</a></td></tr>
 <tr class="memitem:af480f5200ed42551a9f1392545aa772a inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#af480f5200ed42551a9f1392545aa772a">Solver</a> (const <a class="el" href="../../db/d48/structdart_1_1optimizer_1_1Solver_1_1Properties.html">Properties</a> &amp;_properties=<a class="el" href="../../db/d48/structdart_1_1optimizer_1_1Solver_1_1Properties.html">Properties</a>())</td></tr>
 <tr class="memdesc:af480f5200ed42551a9f1392545aa772a inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor.  <a href="#af480f5200ed42551a9f1392545aa772a">More...</a><br/></td></tr>
@@ -202,18 +196,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a910fab01853329b0fb05384a98e889d2 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a910fab01853329b0fb05384a98e889d2">getTolerance</a> () const </td></tr>
 <tr class="memdesc:a910fab01853329b0fb05384a98e889d2 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum step size allowed for the <a class="el" href="../../df/dbc/classdart_1_1optimizer_1_1Problem.html" title="class Problem ">Problem</a> to be considered converged.  <a href="#a910fab01853329b0fb05384a98e889d2">More...</a><br/></td></tr>
 <tr class="separator:a910fab01853329b0fb05384a98e889d2 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a7899c1fff9e54c3708772736a8e08 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a28a7899c1fff9e54c3708772736a8e08">setNumMaxIterations</a> (size_t _newMax)</td></tr>
-<tr class="memdesc:a28a7899c1fff9e54c3708772736a8e08 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum number of iterations that the <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a> should use.  <a href="#a28a7899c1fff9e54c3708772736a8e08">More...</a><br/></td></tr>
-<tr class="separator:a28a7899c1fff9e54c3708772736a8e08 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a976b9858e906623e573bcd967dd3b1af inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a976b9858e906623e573bcd967dd3b1af">getNumMaxIterations</a> () const </td></tr>
-<tr class="memdesc:a976b9858e906623e573bcd967dd3b1af inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum number of iterations that the <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a> should use.  <a href="#a976b9858e906623e573bcd967dd3b1af">More...</a><br/></td></tr>
-<tr class="separator:a976b9858e906623e573bcd967dd3b1af inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad47d862f1ec5ac4b3cbe9acd206ce10c inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#ad47d862f1ec5ac4b3cbe9acd206ce10c">setIterationsPerPrint</a> (size_t _newRatio)</td></tr>
-<tr class="memdesc:ad47d862f1ec5ac4b3cbe9acd206ce10c inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of iterations that should pass between printing progress to the terminal.  <a href="#ad47d862f1ec5ac4b3cbe9acd206ce10c">More...</a><br/></td></tr>
-<tr class="separator:ad47d862f1ec5ac4b3cbe9acd206ce10c inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cb4a4709ec67d1c3b9cf077387e5bbb inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a2cb4a4709ec67d1c3b9cf077387e5bbb">getIterationsPerPrint</a> () const </td></tr>
-<tr class="memdesc:a2cb4a4709ec67d1c3b9cf077387e5bbb inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of iterations that should pass between printing progress to the terminal.  <a href="#a2cb4a4709ec67d1c3b9cf077387e5bbb">More...</a><br/></td></tr>
-<tr class="separator:a2cb4a4709ec67d1c3b9cf077387e5bbb inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09df5d9b4356d459569c7947136245b inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#aa09df5d9b4356d459569c7947136245b">setNumMaxIterations</a> (std::size_t _newMax)</td></tr>
+<tr class="memdesc:aa09df5d9b4356d459569c7947136245b inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum number of iterations that the <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a> should use.  <a href="#aa09df5d9b4356d459569c7947136245b">More...</a><br/></td></tr>
+<tr class="separator:aa09df5d9b4356d459569c7947136245b inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa911af120087b79532a9579433963612 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#aa911af120087b79532a9579433963612">getNumMaxIterations</a> () const </td></tr>
+<tr class="memdesc:aa911af120087b79532a9579433963612 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum number of iterations that the <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a> should use.  <a href="#aa911af120087b79532a9579433963612">More...</a><br/></td></tr>
+<tr class="separator:aa911af120087b79532a9579433963612 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86aa1e861104d9bb2f3070bec5aff350 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a86aa1e861104d9bb2f3070bec5aff350">setIterationsPerPrint</a> (std::size_t _newRatio)</td></tr>
+<tr class="memdesc:a86aa1e861104d9bb2f3070bec5aff350 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of iterations that should pass between printing progress to the terminal.  <a href="#a86aa1e861104d9bb2f3070bec5aff350">More...</a><br/></td></tr>
+<tr class="separator:a86aa1e861104d9bb2f3070bec5aff350 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ad9b6a100a71bbd73428b01a88ccfc inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a57ad9b6a100a71bbd73428b01a88ccfc">getIterationsPerPrint</a> () const </td></tr>
+<tr class="memdesc:a57ad9b6a100a71bbd73428b01a88ccfc inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of iterations that should pass between printing progress to the terminal.  <a href="#a57ad9b6a100a71bbd73428b01a88ccfc">More...</a><br/></td></tr>
+<tr class="separator:a57ad9b6a100a71bbd73428b01a88ccfc inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246afc16ee8bbec331187e709b1a2e02 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a246afc16ee8bbec331187e709b1a2e02">setOutStream</a> (std::ostream *_os)</td></tr>
 <tr class="memdesc:a246afc16ee8bbec331187e709b1a2e02 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the output stream that prints the <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html" title="Abstract class that provides a common interface for different Solvers. ">Solver</a>'s progress.  <a href="#a246afc16ee8bbec331187e709b1a2e02">More...</a><br/></td></tr>
 <tr class="separator:a246afc16ee8bbec331187e709b1a2e02 inherit pub_methods_classdart_1_1optimizer_1_1Solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -533,32 +527,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaeb4a8515a15e656c98c634d6a59717e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t dart::optimizer::NloptSolver::getNumEvaluationMax </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get number of maximum evaluations. </p>
-<p>Deprecated: Please use <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a976b9858e906623e573bcd967dd3b1af" title="Get the maximum number of iterations that the Solver should use. ">getNumMaxIterations()</a> instead </p>
-
-</div>
-</div>
 <a class="anchor" id="a10cf16baaf5c301ea72ffa8eb8b97d48"></a>
 <div class="memitem">
 <div class="memproto">
@@ -622,34 +590,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4ada3ef6191ad89f315b5ead4be93741"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::optimizer::NloptSolver::setNumMaxEvaluations </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>_numVal</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set number of maximum evaluations. </p>
-<p>Deprecated: Please use <a class="el" href="../../d0/d68/classdart_1_1optimizer_1_1Solver.html#a28a7899c1fff9e54c3708772736a8e08" title="Set the maximum number of iterations that the Solver should use. ">setNumMaxIterations()</a> instead </p>
-
-</div>
-</div>
-<a class="anchor" id="ad7e9e65a0653f6f846fd8ae4558c3979"></a>
+<a class="anchor" id="ad79971f94b37832ad0e0c01816a869a1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -665,7 +606,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -771,7 +712,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html">optimizer</a></li><li class="navelem"><a class="el" href="../../d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html">NloptSolver</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

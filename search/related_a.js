@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pointmass',['PointMass',['../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a2891ad00d7d39eadfb0738378a56f5ce',1,'dart::dynamics::BodyNode::PointMass()'],['../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a2891ad00d7d39eadfb0738378a56f5ce',1,'dart::dynamics::SoftBodyNode::PointMass()']]],
-  ['pointmassnotifier',['PointMassNotifier',['../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#ac9edd703e63249dd212181b947b8a02a',1,'dart::dynamics::SoftBodyNode']]]
+  ['objective',['Objective',['../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a49a13cb2647058c4cf107bd6b82507a0',1,'dart::dynamics::InverseKinematics']]],
+  ['observer',['Observer',['../d3/d73/classdart_1_1common_1_1Subject.html#a1bc1613ca5d6d0e8b2fbce5ef15dd38f',1,'dart::common::Subject']]]
 ];

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('da/d5b/classdart_1_1constraint_1_1Bala
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d9/df7/classdart_1_1constraint_1_1BalanceConstraint-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -117,7 +118,7 @@ $(document).ready(function(){initNavTree('da/d5b/classdart_1_1constraint_1_1Bala
 <p><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html" title="BalanceConstraint is a kinematic constraint function designed to be passed into a HierarchicalIK modu...">BalanceConstraint</a> is a kinematic constraint function designed to be passed into a HierarchicalIK module.  
  <a href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/d16/BalanceConstraint_8h_source.html">BalanceConstraint.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d8/d37/BalanceConstraint_8hpp_source.html">BalanceConstraint.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::constraint::BalanceConstraint:</div>
 <div class="dyncontent">
@@ -180,9 +181,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72282a5bf1d18108ecff2af125cb6e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a72282a5bf1d18108ecff2af125cb6e14">setPseudoInverseDamping</a> (double _damping)</td></tr>
 <tr class="memdesc:a72282a5bf1d18108ecff2af125cb6e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the damping factor that will be used when computing the pseudoinverse.  <a href="#a72282a5bf1d18108ecff2af125cb6e14">More...</a><br/></td></tr>
 <tr class="separator:a72282a5bf1d18108ecff2af125cb6e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb912349b78a9a9e87765a2d77f3c0ef"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#adb912349b78a9a9e87765a2d77f3c0ef">getPseudoInverseDamping</a> ()</td></tr>
-<tr class="memdesc:adb912349b78a9a9e87765a2d77f3c0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the damping factor that will be used when computing the pseudoinverse.  <a href="#adb912349b78a9a9e87765a2d77f3c0ef">More...</a><br/></td></tr>
-<tr class="separator:adb912349b78a9a9e87765a2d77f3c0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d47e2b00960c4ffdde5bdf30793709"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#ae5d47e2b00960c4ffdde5bdf30793709">getPseudoInverseDamping</a> () const </td></tr>
+<tr class="memdesc:ae5d47e2b00960c4ffdde5bdf30793709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the damping factor that will be used when computing the pseudoinverse.  <a href="#ae5d47e2b00960c4ffdde5bdf30793709">More...</a><br/></td></tr>
+<tr class="separator:ae5d47e2b00960c4ffdde5bdf30793709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a778ca94dc73acf01564571563f524870"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector3d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a778ca94dc73acf01564571563f524870">getLastError</a> () const </td></tr>
 <tr class="memdesc:a778ca94dc73acf01564571563f524870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last error vector that was computed by this <a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html" title="BalanceConstraint is a kinematic constraint function designed to be passed into a HierarchicalIK modu...">BalanceConstraint</a>.  <a href="#a778ca94dc73acf01564571563f524870">More...</a><br/></td></tr>
 <tr class="separator:a778ca94dc73acf01564571563f524870"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,12 +203,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#afc47660e5f3588d3d52f525073b9d65b">getName</a> () const </td></tr>
 <tr class="memdesc:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html" title="class Function ">Function</a>.  <a href="#afc47660e5f3588d3d52f525073b9d65b">More...</a><br/></td></tr>
 <tr class="separator:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#af5477f8c6fe4e8dd42e0d9012a5a7758">eval</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x)</td></tr>
-<tr class="memdesc:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#af5477f8c6fe4e8dd42e0d9012a5a7758">More...</a><br/></td></tr>
-<tr class="separator:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a0345c57adad403090793dcc63ea185e6">evalGradient</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x, Eigen::Map&lt; Eigen::VectorXd &gt; _grad)</td></tr>
-<tr class="memdesc:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#a0345c57adad403090793dcc63ea185e6">More...</a><br/></td></tr>
-<tr class="separator:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#abaa94e0ae81238aac65e5dbddaeaeef1">evalGradient</a> (const Eigen::VectorXd &amp;_x, Eigen::VectorXd &amp;_grad)</td></tr>
 <tr class="memdesc:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#abaa94e0ae81238aac65e5dbddaeaeef1">More...</a><br/></td></tr>
 <tr class="separator:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +216,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1d0b1add8da7a879567176412c6f198 inherit pub_methods_classdart_1_1dynamics_1_1HierarchicalIK_1_1Function"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0e/classdart_1_1dynamics_1_1HierarchicalIK_1_1Function.html#ae1d0b1add8da7a879567176412c6f198">~Function</a> ()=default</td></tr>
 <tr class="memdesc:ae1d0b1add8da7a879567176412c6f198 inherit pub_methods_classdart_1_1dynamics_1_1HierarchicalIK_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#ae1d0b1add8da7a879567176412c6f198">More...</a><br/></td></tr>
 <tr class="separator:ae1d0b1add8da7a879567176412c6f198 inherit pub_methods_classdart_1_1dynamics_1_1HierarchicalIK_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a50391198bbb0a549c943a6c5460a7904"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a50391198bbb0a549c943a6c5460a7904">convertJacobianMethodOutputToGradient</a> (Eigen::Map&lt; Eigen::VectorXd &gt; &amp;grad)</td></tr>
+<tr class="memdesc:a50391198bbb0a549c943a6c5460a7904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the gradient that gets generated via Jacobian methods into a gradient that can be used by a GradientDescentSolver.  <a href="#a50391198bbb0a549c943a6c5460a7904">More...</a><br/></td></tr>
+<tr class="separator:a50391198bbb0a549c943a6c5460a7904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -240,18 +241,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a74491853d9d2296002c3d1101d8f993b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a74491853d9d2296002c3d1101d8f993b">mDamping</a></td></tr>
 <tr class="memdesc:a74491853d9d2296002c3d1101d8f993b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The damping factor for the pseudoinverse.  <a href="#a74491853d9d2296002c3d1101d8f993b">More...</a><br/></td></tr>
 <tr class="separator:a74491853d9d2296002c3d1101d8f993b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d2655bb329fee79cf0bff954635bee"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a25d2655bb329fee79cf0bff954635bee">mClosestEndEffector</a> [2]</td></tr>
-<tr class="memdesc:a25d2655bb329fee79cf0bff954635bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of the supporting end effectors that are closest to the center of mass.  <a href="#a25d2655bb329fee79cf0bff954635bee">More...</a><br/></td></tr>
-<tr class="separator:a25d2655bb329fee79cf0bff954635bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef0043dc3e4866cd024f6ce745033f4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a3ef0043dc3e4866cd024f6ce745033f4">mClosestEndEffector</a> [2]</td></tr>
+<tr class="memdesc:a3ef0043dc3e4866cd024f6ce745033f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of the supporting end effectors that are closest to the center of mass.  <a href="#a3ef0043dc3e4866cd024f6ce745033f4">More...</a><br/></td></tr>
+<tr class="separator:a3ef0043dc3e4866cd024f6ce745033f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c324ada106b22dd184b683b99525f7b"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a1c324ada106b22dd184b683b99525f7b">mLastError</a></td></tr>
 <tr class="memdesc:a1c324ada106b22dd184b683b99525f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The error vector points away from the direction that the center of mass should move in order to reduce the balance error.  <a href="#a1c324ada106b22dd184b683b99525f7b">More...</a><br/></td></tr>
 <tr class="separator:a1c324ada106b22dd184b683b99525f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6f219b81e9931a47f2764c52c56231"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a9e6f219b81e9931a47f2764c52c56231">mLastCOM</a></td></tr>
 <tr class="memdesc:a9e6f219b81e9931a47f2764c52c56231"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last computed location of the center of mass.  <a href="#a9e6f219b81e9931a47f2764c52c56231">More...</a><br/></td></tr>
 <tr class="separator:a9e6f219b81e9931a47f2764c52c56231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a112f3102bc4062c099087c11f0e2ec"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a3a112f3102bc4062c099087c11f0e2ec">mLastSupportVersion</a></td></tr>
-<tr class="memdesc:a3a112f3102bc4062c099087c11f0e2ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last version of the support polygon that was computed.  <a href="#a3a112f3102bc4062c099087c11f0e2ec">More...</a><br/></td></tr>
-<tr class="separator:a3a112f3102bc4062c099087c11f0e2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d603303eed425e907c758a3df19b10"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a91d603303eed425e907c758a3df19b10">mLastSupportVersion</a></td></tr>
+<tr class="memdesc:a91d603303eed425e907c758a3df19b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last version of the support polygon that was computed.  <a href="#a91d603303eed425e907c758a3df19b10">More...</a><br/></td></tr>
+<tr class="separator:a91d603303eed425e907c758a3df19b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0654f037ccda540bd27c75e71b3cdbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d96/namespacedart_1_1math.html#acaf385e0537db2db2df04bf8baf7543b">math::LinearJacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#ab0654f037ccda540bd27c75e71b3cdbe">mComJacCache</a></td></tr>
 <tr class="memdesc:ab0654f037ccda540bd27c75e71b3cdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for the center of mass Jacobian so that the memory space does not need to be reallocated each loop.  <a href="#ab0654f037ccda540bd27c75e71b3cdbe">More...</a><br/></td></tr>
 <tr class="separator:ab0654f037ccda540bd27c75e71b3cdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +269,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a4d5e68f31d032f3b1e11d52eb30e6d15"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a4d5e68f31d032f3b1e11d52eb30e6d15">mPartialNullSpaceCache</a></td></tr>
 <tr class="memdesc:a4d5e68f31d032f3b1e11d52eb30e6d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for an individual null space.  <a href="#a4d5e68f31d032f3b1e11d52eb30e6d15">More...</a><br/></td></tr>
 <tr class="separator:a4d5e68f31d032f3b1e11d52eb30e6d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad364427196fafdca37d2ec7d4bc5e4ab"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#ad364427196fafdca37d2ec7d4bc5e4ab">mInitialPositionsCache</a></td></tr>
+<tr class="memdesc:ad364427196fafdca37d2ec7d4bc5e4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache used by convertJacobianMethodOutputToGradient to avoid reallocating this vector on each iteration.  <a href="#ad364427196fafdca37d2ec7d4bc5e4ab">More...</a><br/></td></tr>
+<tr class="separator:ad364427196fafdca37d2ec7d4bc5e4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1optimizer_1_1Function"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1optimizer_1_1Function')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html">dart::optimizer::Function</a></td></tr>
 <tr class="memitem:a201fd012640c54e6c513af5a1a16db20 inherit pro_attribs_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a201fd012640c54e6c513af5a1a16db20">mName</a></td></tr>
 <tr class="memdesc:a201fd012640c54e6c513af5a1a16db20 inherit pro_attribs_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of this function.  <a href="#a201fd012640c54e6c513af5a1a16db20">More...</a><br/></td></tr>
@@ -425,6 +429,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a50391198bbb0a549c943a6c5460a7904"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::constraint::BalanceConstraint::convertJacobianMethodOutputToGradient </td>
+          <td>(</td>
+          <td class="paramtype">Eigen::Map&lt; Eigen::VectorXd &gt; &amp;&#160;</td>
+          <td class="paramname"><em>grad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert the gradient that gets generated via Jacobian methods into a gradient that can be used by a GradientDescentSolver. </p>
+
+</div>
+</div>
 <a class="anchor" id="a8bbd30bda55aec5e11a9a04bf6fba66e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -449,7 +479,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Evaluate and return the objective function at the point x. </p>
 
-<p>Reimplemented from <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a199d4e95b540face3f38123c151c5bb1">dart::optimizer::Function</a>.</p>
+<p>Implements <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a784a3d006fa04c88b78770060e68399e">dart::optimizer::Function</a>.</p>
 
 </div>
 </div>
@@ -559,7 +589,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adb912349b78a9a9e87765a2d77f3c0ef"></a>
+<a class="anchor" id="ae5d47e2b00960c4ffdde5bdf30793709"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -567,7 +597,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">double dart::constraint::BalanceConstraint::getPseudoInverseDamping </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -673,7 +703,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a25d2655bb329fee79cf0bff954635bee"></a>
+<a class="anchor" id="a3ef0043dc3e4866cd024f6ce745033f4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -681,7 +711,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::constraint::BalanceConstraint::mClosestEndEffector[2]</td>
+          <td class="memname">std::size_t dart::constraint::BalanceConstraint::mClosestEndEffector[2]</td>
         </tr>
       </table>
   </td>
@@ -807,6 +837,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad364427196fafdca37d2ec7d4bc5e4ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd dart::constraint::BalanceConstraint::mInitialPositionsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache used by convertJacobianMethodOutputToGradient to avoid reallocating this vector on each iteration. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9e6f219b81e9931a47f2764c52c56231"></a>
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +903,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3a112f3102bc4062c099087c11f0e2ec"></a>
+<a class="anchor" id="a91d603303eed425e907c758a3df19b10"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -859,7 +911,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::constraint::BalanceConstraint::mLastSupportVersion</td>
+          <td class="memname">std::size_t dart::constraint::BalanceConstraint::mLastSupportVersion</td>
         </tr>
       </table>
   </td>
@@ -967,7 +1019,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li><li class="navelem"><a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html">BalanceConstraint</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

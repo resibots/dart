@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node',['Node',['../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a6db9d28bd448a131448276ee03de1e6d',1,'dart::dynamics::BodyNode']]]
+  ['multidofjoint',['MultiDofJoint',['../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#added7c08f59c0cac1eea44589343b7ec',1,'dart::dynamics::DegreeOfFreedom::MultiDofJoint()'],['../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#added7c08f59c0cac1eea44589343b7ec',1,'dart::dynamics::Skeleton::MultiDofJoint()']]]
 ];

@@ -30,7 +30,7 @@ var classdart_1_1gui_1_1GlutWindow =
     [ "mMouseDrag", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#a7453760e52d92db1310d68e26127a8f5", null ],
     [ "mMouseX", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#abfd95d5ec55d2dc4fb379153fbd9f0bd", null ],
     [ "mMouseY", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#a6044c4060180b3b1aed11a642d3ebaa9", null ],
-    [ "mRI", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#aa9f70a8401cbee32cc10fec5c0b90ce2", null ],
+    [ "mRI", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#a53eb0b7eac4c0e8bdcff317f55692a0e", null ],
     [ "mScreenshotTemp", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#a909e0f34027645d02193a4ad6d94e9ff", null ],
     [ "mScreenshotTemp2", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#a8b511f1180c2f1014a303bf4bdd78721", null ],
     [ "mWindows", "d1/d33/classdart_1_1gui_1_1GlutWindow.html#aad788cd617640cfc0fdfa7c3a14d5fa7", null ],

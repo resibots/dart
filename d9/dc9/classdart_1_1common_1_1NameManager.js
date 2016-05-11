@@ -1,11 +1,11 @@
 var classdart_1_1common_1_1NameManager =
 [
     [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html#a2e7bd233950b82eb1a5b3bfd556787fb", null ],
-    [ "~NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html#a1f60954418bd48fb3489d8b8c8952e7f", null ],
+    [ "~NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html#a160e5ec93df6b51bae740b4952e26c77", null ],
     [ "addName", "d9/dc9/classdart_1_1common_1_1NameManager.html#a8868a11da41608e76b87ddb41e760b92", null ],
     [ "changeObjectName", "d9/dc9/classdart_1_1common_1_1NameManager.html#a81b1bd14c914c5e211ad53db5ada59e5", null ],
     [ "clear", "d9/dc9/classdart_1_1common_1_1NameManager.html#a29e5d196cbad9ce2dc72e0463f0521a7", null ],
-    [ "getCount", "d9/dc9/classdart_1_1common_1_1NameManager.html#ac24b15877a63c691652f672d53e46f26", null ],
+    [ "getCount", "d9/dc9/classdart_1_1common_1_1NameManager.html#ab131be1b6b03a8d1bce6082f495dd766", null ],
     [ "getDefaultName", "d9/dc9/classdart_1_1common_1_1NameManager.html#a21d1177beb6af61d9e5a763d469d3f83", null ],
     [ "getManagerName", "d9/dc9/classdart_1_1common_1_1NameManager.html#ae49b3c6102a3f27304dac5184508c207", null ],
     [ "getName", "d9/dc9/classdart_1_1common_1_1NameManager.html#afc70fd20cf56b550aa66e2434f2d4332", null ],

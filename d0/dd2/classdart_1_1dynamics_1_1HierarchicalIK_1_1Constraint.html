@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d0/dd2/classdart_1_1dynamics_1_1Hierar
 <p>The <a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html" title="The HierarchicalIK::Constraint Function is simply used to merge the constraints of the InverseKinemat...">HierarchicalIK::Constraint</a> <a class="el" href="../../de/d0e/classdart_1_1dynamics_1_1HierarchicalIK_1_1Function.html" title="This class should be inherited by optimizer::Function classes that have a dependency on the Hierarchi...">Function</a> is simply used to merge the constraints of the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> modules that belong to the hierarchy of this <a class="el" href="../../d5/de6/classdart_1_1dynamics_1_1HierarchicalIK.html" title="The HierarchicalIK class provides a convenient way of setting up a hierarchical inverse kinematics op...">HierarchicalIK</a> module.  
  <a href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/dc9/HierarchicalIK_8h_source.html">HierarchicalIK.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/d9a/HierarchicalIK_8hpp_source.html">HierarchicalIK.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::dynamics::HierarchicalIK::Constraint:</div>
 <div class="dyncontent">
@@ -162,12 +162,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#afc47660e5f3588d3d52f525073b9d65b">getName</a> () const </td></tr>
 <tr class="memdesc:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html" title="class Function ">Function</a>.  <a href="#afc47660e5f3588d3d52f525073b9d65b">More...</a><br/></td></tr>
 <tr class="separator:afc47660e5f3588d3d52f525073b9d65b inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#af5477f8c6fe4e8dd42e0d9012a5a7758">eval</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x)</td></tr>
-<tr class="memdesc:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#af5477f8c6fe4e8dd42e0d9012a5a7758">More...</a><br/></td></tr>
-<tr class="separator:af5477f8c6fe4e8dd42e0d9012a5a7758 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a0345c57adad403090793dcc63ea185e6">evalGradient</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x, Eigen::Map&lt; Eigen::VectorXd &gt; _grad)</td></tr>
-<tr class="memdesc:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#a0345c57adad403090793dcc63ea185e6">More...</a><br/></td></tr>
-<tr class="separator:a0345c57adad403090793dcc63ea185e6 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#abaa94e0ae81238aac65e5dbddaeaeef1">evalGradient</a> (const Eigen::VectorXd &amp;_x, Eigen::VectorXd &amp;_grad)</td></tr>
 <tr class="memdesc:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#abaa94e0ae81238aac65e5dbddaeaeef1">More...</a><br/></td></tr>
 <tr class="separator:abaa94e0ae81238aac65e5dbddaeaeef1 inherit pub_methods_classdart_1_1optimizer_1_1Function"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,7 +285,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Evaluate and return the objective function at the point x. </p>
 
-<p>Reimplemented from <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a199d4e95b540face3f38123c151c5bb1">dart::optimizer::Function</a>.</p>
+<p>Implements <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a784a3d006fa04c88b78770060e68399e">dart::optimizer::Function</a>.</p>
 
 </div>
 </div>
@@ -406,7 +400,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d5/de6/classdart_1_1dynamics_1_1HierarchicalIK.html">HierarchicalIK</a></li><li class="navelem"><a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html">Constraint</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

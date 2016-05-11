@@ -1,18 +1,20 @@
 var classdart_1_1dynamics_1_1Frame =
 [
-    [ "ConstructAbstract_t", "db/d38/classdart_1_1dynamics_1_1Frame.html#a5cb1d2564e2836177b7bfa6c3b32dbd3", [
-      [ "ConstructAbstract", "db/d38/classdart_1_1dynamics_1_1Frame.html#a5cb1d2564e2836177b7bfa6c3b32dbd3ab3f1d69a3074c5b221b7c37f7a5bf3e0", null ]
+    [ "ConstructAbstractTag", "db/d38/classdart_1_1dynamics_1_1Frame.html#a3ad121708fa138cbb8cee29c123d9b39", [
+      [ "ConstructAbstract", "db/d38/classdart_1_1dynamics_1_1Frame.html#a3ad121708fa138cbb8cee29c123d9b39ab3f1d69a3074c5b221b7c37f7a5bf3e0", null ]
     ] ],
-    [ "ConstructWorld_t", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae6f548bcdbdb5ec26df7de116fd2cf1f", [
-      [ "ConstructWorld", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae6f548bcdbdb5ec26df7de116fd2cf1fa0f22a2cb742313a96324231a4a1eeedd", null ]
+    [ "ConstructWorldTag", "db/d38/classdart_1_1dynamics_1_1Frame.html#a7885fed0f95dd721da216d553b70ae60", [
+      [ "ConstructWorld", "db/d38/classdart_1_1dynamics_1_1Frame.html#a7885fed0f95dd721da216d553b70ae60a0f22a2cb742313a96324231a4a1eeedd", null ]
     ] ],
     [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#ad9a0a07845f5042d17e271c7449eff68", null ],
     [ "~Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#af9603dedf9dcb0cb65f60356fafc6699", null ],
-    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#ac3df347a45d070ce29a47362541434e9", null ],
-    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#af6371243d3bc9591695ac9b61073fefc", null ],
-    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a62c24d853255cfa765652f6cbcb80d53", null ],
+    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a8683db56565dec586cb20f61adc76cf5", null ],
+    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#aabc87d5de28139a116fbce4fcf17c85a", null ],
+    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a30eb83ef7adfe617e659f4519fd17f52", null ],
+    [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a4fffa772feca904ae0d5f93be700fc80", null ],
+    [ "asShapeFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a14c965cf0bf138f4ad4dab22e941029b", null ],
+    [ "asShapeFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a72333568b459a7113e409b4f37578558", null ],
     [ "changeParentFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a2ed3bd11ddad0473f2c3687c7606bd91", null ],
-    [ "draw", "db/d38/classdart_1_1dynamics_1_1Frame.html#a29aef49d04490515236529e168cf0fd7", null ],
     [ "getAngularAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#af2aea6060c7be8408001d82ad654f062", null ],
     [ "getAngularVelocity", "db/d38/classdart_1_1dynamics_1_1Frame.html#a55d2e26a410701f1ad9d00a7ce596e2d", null ],
     [ "getChildEntities", "db/d38/classdart_1_1dynamics_1_1Frame.html#a282869ec36877e519a5fd52afa2fd37f", null ],
@@ -23,8 +25,8 @@ var classdart_1_1dynamics_1_1Frame =
     [ "getLinearAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#ad60d3dc2ad85ab00af59bab96da618b7", null ],
     [ "getLinearVelocity", "db/d38/classdart_1_1dynamics_1_1Frame.html#a751a640d050f860a64fa1a72d8ded34a", null ],
     [ "getLinearVelocity", "db/d38/classdart_1_1dynamics_1_1Frame.html#a48fcf199aceab5e81018e562344a8255", null ],
-    [ "getNumChildEntities", "db/d38/classdart_1_1dynamics_1_1Frame.html#a4e19dd811c97b7b447c903f755e34a68", null ],
-    [ "getNumChildFrames", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae1d419bad68007629c4bdf93aec860c3", null ],
+    [ "getNumChildEntities", "db/d38/classdart_1_1dynamics_1_1Frame.html#a7a99516915e4700b0e14a1c9408533f4", null ],
+    [ "getNumChildFrames", "db/d38/classdart_1_1dynamics_1_1Frame.html#ad966588e11423b064e7ec4664906826a", null ],
     [ "getPartialAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#a2f0f4068238a39f6aff37428d5e42378", null ],
     [ "getPrimaryRelativeAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#a79abd92e6bef6efb58ffae4b2988a72f", null ],
     [ "getRelativeSpatialAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae6a85312c5dbfba5c78b18e89fa2519d", null ],
@@ -41,6 +43,7 @@ var classdart_1_1dynamics_1_1Frame =
     [ "getTransform", "db/d38/classdart_1_1dynamics_1_1Frame.html#aa78f1921a5743eaa9af041b1c71a60b8", null ],
     [ "getTransform", "db/d38/classdart_1_1dynamics_1_1Frame.html#a9befce37ccf4c831ad569538fae2b057", null ],
     [ "getWorldTransform", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae90b9401bcdbdbbbaa4dfe280ce94769", null ],
+    [ "isShapeFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a2106f505a2ac7dd03969928dc59f9dbe", null ],
     [ "isWorld", "db/d38/classdart_1_1dynamics_1_1Frame.html#ad21e049e9bac9c61d69a5865a50852f3", null ],
     [ "notifyAccelerationUpdate", "db/d38/classdart_1_1dynamics_1_1Frame.html#afbaa31c92bfa9c4b6048a6c570818182", null ],
     [ "notifyTransformUpdate", "db/d38/classdart_1_1dynamics_1_1Frame.html#ae18d442162b1e7dd1cd55c2502e40c5c", null ],
@@ -49,8 +52,10 @@ var classdart_1_1dynamics_1_1Frame =
     [ "processRemovedEntity", "db/d38/classdart_1_1dynamics_1_1Frame.html#a682ad78a596a6b23a4f039bd5b9213c4", null ],
     [ "World", "db/d38/classdart_1_1dynamics_1_1Frame.html#a6531fc7ae10eb122b887cb10946bc9d8", null ],
     [ "Entity", "db/d38/classdart_1_1dynamics_1_1Frame.html#a614439ccac0344926adc4c0165d64060", null ],
+    [ "ShapeFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a5da04225ea21f1c299f7587aa8e00d98", null ],
     [ "WorldFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a289ce3131b796e0e3ec34d284249cdaa", null ],
     [ "mAcceleration", "db/d38/classdart_1_1dynamics_1_1Frame.html#afc58a2afca86b1629ad00fa4888ea67c", null ],
+    [ "mAmShapeFrame", "db/d38/classdart_1_1dynamics_1_1Frame.html#a2cb32c1420beed97d7ac97f02c7cec90", null ],
     [ "mAmWorld", "db/d38/classdart_1_1dynamics_1_1Frame.html#a3bd1e48a1fcdd3ad084f89a3e33fdd1e", null ],
     [ "mChildEntities", "db/d38/classdart_1_1dynamics_1_1Frame.html#a017f7a11835dadf9ab5155fd9fc3616e", null ],
     [ "mChildFrames", "db/d38/classdart_1_1dynamics_1_1Frame.html#a5c6fb9d277328a7f383124d903f252bf", null ],

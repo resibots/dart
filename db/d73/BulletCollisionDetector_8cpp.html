@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/collision/bullet/BulletCollisionDetector.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/collision/bullet/BulletCollisionDetector.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -104,37 +104,113 @@ $(document).ready(function(){initNavTree('db/d73/BulletCollisionDetector_8cpp.ht
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">BulletCollisionDetector.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d57/BulletCollisionDetector_8h_source.html">dart/collision/bullet/BulletCollisionDetector.h</a>&quot;</code><br/>
-<code>#include &lt;vector&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/d63/BulletCollisionNode_8h_source.html">dart/collision/bullet/BulletCollisionNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/ded/Skeleton_8h_source.html">dart/dynamics/Skeleton.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;dart/config.hpp&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d9/d70/BulletCollisionDetector_8hpp_source.html">dart/collision/bullet/BulletCollisionDetector.hpp</a>&quot;</code><br/>
+<code>#include &lt;bullet/BulletCollision/Gimpact/btGImpactShape.h&gt;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d78/CollisionObject_8hpp_source.html">dart/collision/CollisionObject.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">dart/collision/CollisionFilter.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/dc4/BulletTypes_8hpp_source.html">dart/collision/bullet/BulletTypes.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/dc2/BulletCollisionObject_8hpp_source.html">dart/collision/bullet/BulletCollisionObject.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/d12/BulletCollisionGroup_8hpp_source.html">dart/collision/bullet/BulletCollisionGroup.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/dd7/ShapeFrame_8hpp_source.html">dart/dynamics/ShapeFrame.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/df8/Shape_8hpp_source.html">dart/dynamics/Shape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/de1/PlaneShape_8hpp_source.html">dart/dynamics/PlaneShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d74/MeshShape_8hpp_source.html">dart/dynamics/MeshShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d8d/SoftMeshShape_8hpp_source.html">dart/dynamics/SoftMeshShape.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5b/structdart_1_1collision_1_1CollisionFilter.html">dart::collision::CollisionFilter</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/dcd/namespacedart_1_1collision"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">dart::collision</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a182ab6f87ec676fa33c9ded227e47d73"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a182ab6f87ec676fa33c9ded227e47d73">dart::collision::checkGroupValidity</a> (BulletCollisionDetector *cd, CollisionGroup *group)</td></tr>
+<tr class="separator:a182ab6f87ec676fa33c9ded227e47d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1bfaaced4362d8990a1c5fc7bf23aea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ac1bfaaced4362d8990a1c5fc7bf23aea">dart::collision::isCollision</a> (btCollisionWorld *world)</td></tr>
+<tr class="separator:ac1bfaaced4362d8990a1c5fc7bf23aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a1d39aac66e12dae50a24cd7a9100ef33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool done</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the collision iteration can stop. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d0966c5c2775c123c0ea4447206fdd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool foundCollision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if at least one contact is found. </p>
+<p>This flag is used only when mResult is nullptr; otherwise the actual collision result is in mResult. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6884f20bea413374e2bc81da54cb7cf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CollisionOption&amp; option</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a307052d9252e1c264c8637a90413f343"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CollisionResult* result</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_b637490a2ad2244ddde6a51ab145510e.html">bullet</a></li><li class="navelem"><a class="el" href="../../db/d73/BulletCollisionDetector_8cpp.html">BulletCollisionDetector.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:58 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('da/d56/classdart_1_1gui_1_1osg_1_1View
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/d05/Viewer_8h_source.html">Viewer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/db5/Viewer_8hpp_source.html">Viewer.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::gui::osg::Viewer:</div>
 <div class="dyncontent">
@@ -136,9 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c2cff5b9fe69492e8bb5f5364fc492a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a8c2cff5b9fe69492e8bb5f5364fc492a">captureScreen</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a8c2cff5b9fe69492e8bb5f5364fc492a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capture the current screen in a png file.  <a href="#a8c2cff5b9fe69492e8bb5f5364fc492a">More...</a><br/></td></tr>
 <tr class="separator:a8c2cff5b9fe69492e8bb5f5364fc492a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a1c5cd2b90b83519e8fe36ddc765d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ad3a1c5cd2b90b83519e8fe36ddc765d6">record</a> (const std::string &amp;directory, const std::string &amp;prefix=&quot;image&quot;, bool restart=false, size_t digits=6)</td></tr>
-<tr class="memdesc:ad3a1c5cd2b90b83519e8fe36ddc765d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">As the screen refreshes, save screen capture images to the specified directory.  <a href="#ad3a1c5cd2b90b83519e8fe36ddc765d6">More...</a><br/></td></tr>
-<tr class="separator:ad3a1c5cd2b90b83519e8fe36ddc765d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335ca4263df4ac8c80278a36c3fb1c6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a335ca4263df4ac8c80278a36c3fb1c6d">record</a> (const std::string &amp;directory, const std::string &amp;prefix=&quot;image&quot;, bool restart=false, std::size_t digits=6)</td></tr>
+<tr class="memdesc:a335ca4263df4ac8c80278a36c3fb1c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">As the screen refreshes, save screen capture images to the specified directory.  <a href="#a335ca4263df4ac8c80278a36c3fb1c6d">More...</a><br/></td></tr>
+<tr class="separator:a335ca4263df4ac8c80278a36c3fb1c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9df40b2c302adc3c727651f5973c33a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ab9df40b2c302adc3c727651f5973c33a">pauseRecording</a> ()</td></tr>
 <tr class="memdesc:ab9df40b2c302adc3c727651f5973c33a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the <a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html">Viewer</a> is recording, then pause the recording.  <a href="#ab9df40b2c302adc3c727651f5973c33a">More...</a><br/></td></tr>
 <tr class="separator:ab9df40b2c302adc3c727651f5973c33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,12 +265,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a583d50f9bcab1ea88ffb64af494f66dd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a583d50f9bcab1ea88ffb64af494f66dd">mImageSequenceNum</a></td></tr>
-<tr class="memdesc:a583d50f9bcab1ea88ffb64af494f66dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current number of the image sequence for screen recording.  <a href="#a583d50f9bcab1ea88ffb64af494f66dd">More...</a><br/></td></tr>
-<tr class="separator:a583d50f9bcab1ea88ffb64af494f66dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45004a109af6c68fc7a66689b69f10ed"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a45004a109af6c68fc7a66689b69f10ed">mImageDigits</a></td></tr>
-<tr class="memdesc:a45004a109af6c68fc7a66689b69f10ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of digits to use when saving an image sequence.  <a href="#a45004a109af6c68fc7a66689b69f10ed">More...</a><br/></td></tr>
-<tr class="separator:a45004a109af6c68fc7a66689b69f10ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c54c2309604785d016e4e2d3dc05feb"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a5c54c2309604785d016e4e2d3dc05feb">mImageSequenceNum</a></td></tr>
+<tr class="memdesc:a5c54c2309604785d016e4e2d3dc05feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current number of the image sequence for screen recording.  <a href="#a5c54c2309604785d016e4e2d3dc05feb">More...</a><br/></td></tr>
+<tr class="separator:a5c54c2309604785d016e4e2d3dc05feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebe0592a3c3ae64cd4c84689651eb17"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#adebe0592a3c3ae64cd4c84689651eb17">mImageDigits</a></td></tr>
+<tr class="memdesc:adebe0592a3c3ae64cd4c84689651eb17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of digits to use when saving an image sequence.  <a href="#adebe0592a3c3ae64cd4c84689651eb17">More...</a><br/></td></tr>
+<tr class="separator:adebe0592a3c3ae64cd4c84689651eb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8ad2c4d4c1667bcd86c8d4afcecf103"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#af8ad2c4d4c1667bcd86c8d4afcecf103">mRecording</a></td></tr>
 <tr class="memdesc:af8ad2c4d4c1667bcd86c8d4afcecf103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the <a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html">Viewer</a> is currently recording.  <a href="#af8ad2c4d4c1667bcd86c8d4afcecf103">More...</a><br/></td></tr>
 <tr class="separator:af8ad2c4d4c1667bcd86c8d4afcecf103"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -941,11 +941,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If the <a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html">Viewer</a> is recording, then pause the recording. </p>
-<p>The next time <a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ad3a1c5cd2b90b83519e8fe36ddc765d6" title="As the screen refreshes, save screen capture images to the specified directory. ">record()</a> is called, the numbering of the images will resume from where it left off. </p>
+<p>The next time <a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a335ca4263df4ac8c80278a36c3fb1c6d" title="As the screen refreshes, save screen capture images to the specified directory. ">record()</a> is called, the numbering of the images will resume from where it left off. </p>
 
 </div>
 </div>
-<a class="anchor" id="ad3a1c5cd2b90b83519e8fe36ddc765d6"></a>
+<a class="anchor" id="a335ca4263df4ac8c80278a36c3fb1c6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -970,7 +970,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>digits</em> = <code>6</code>&#160;</td>
         </tr>
         <tr>
@@ -1392,7 +1392,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a45004a109af6c68fc7a66689b69f10ed"></a>
+<a class="anchor" id="adebe0592a3c3ae64cd4c84689651eb17"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1400,7 +1400,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::gui::osg::Viewer::mImageDigits</td>
+          <td class="memname">std::size_t dart::gui::osg::Viewer::mImageDigits</td>
         </tr>
       </table>
   </td>
@@ -1458,7 +1458,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a583d50f9bcab1ea88ffb64af494f66dd"></a>
+<a class="anchor" id="a5c54c2309604785d016e4e2d3dc05feb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1466,7 +1466,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::gui::osg::Viewer::mImageSequenceNum</td>
+          <td class="memname">std::size_t dart::gui::osg::Viewer::mImageSequenceNum</td>
         </tr>
       </table>
   </td>
@@ -1862,7 +1862,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d0/dcf/namespacedart_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html">osg</a></li><li class="navelem"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html">Viewer</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:14:37 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

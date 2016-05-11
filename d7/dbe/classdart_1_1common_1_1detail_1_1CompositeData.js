@@ -5,5 +5,6 @@ var classdart_1_1common_1_1detail_1_1CompositeData =
     [ "create", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a03029d3b3d217a525a486d5771635f1d", null ],
     [ "get", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a94668cea5f7031f900c9b2d83a385c84", null ],
     [ "get", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a94853c0e9b1d63ab5ff7a3db6536e8ce", null ],
-    [ "getOrCreate", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#afbfa389e7f2280650b42644135460d8a", null ]
+    [ "getOrCreate", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#afbfa389e7f2280650b42644135460d8a", null ],
+    [ "has", "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a9a6771eb477fa64c1bfb42e445a0a4d7", null ]
 ];

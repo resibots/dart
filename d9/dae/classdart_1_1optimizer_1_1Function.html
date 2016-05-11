@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -109,27 +109,29 @@ $(document).ready(function(){initNavTree('d9/dae/classdart_1_1optimizer_1_1Funct
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d4/de6/classdart_1_1optimizer_1_1Function-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">dart::optimizer::Function Class Reference</div>  </div>
+<div class="title">dart::optimizer::Function Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>class <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html" title="class Function ">Function</a>  
  <a href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../df/df5/Function_8h_source.html">Function.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/d59/Function_8hpp_source.html">Function.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::optimizer::Function:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../d9/dae/classdart_1_1optimizer_1_1Function.png" usemap="#dart::optimizer::Function_map" alt=""/>
   <map id="dart::optimizer::Function_map" name="dart::optimizer::Function_map">
-<area href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html" title="BalanceConstraint is a kinematic constraint function designed to be passed into a HierarchicalIK modu..." alt="dart::constraint::BalanceConstraint" shape="rect" coords="0,56,264,80"/>
-<area href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html" title="The HierarchicalIK::Constraint Function is simply used to merge the constraints of the InverseKinemat..." alt="dart::dynamics::HierarchicalIK::Constraint" shape="rect" coords="274,56,538,80"/>
-<area href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html" title="The HierarchicalIK::Objective Function is simply used to merge the objective and null space objective..." alt="dart::dynamics::HierarchicalIK::Objective" shape="rect" coords="548,56,812,80"/>
-<area href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html" title="The InverseKinematics::Constraint Function is simply meant to be used to merge the ErrorMethod and Gr..." alt="dart::dynamics::InverseKinematics::Constraint" shape="rect" coords="822,56,1086,80"/>
-<area href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html" title="The InverseKinematics::Objective Function is simply used to merge the objective and null space object..." alt="dart::dynamics::InverseKinematics::Objective" shape="rect" coords="1096,56,1360,80"/>
-<area href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html" title="ModularFunction uses C++11 std::function to allow you to easily swap out the cost function..." alt="dart::optimizer::ModularFunction" shape="rect" coords="1370,56,1634,80"/>
-<area href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html" title="NullFunction is a constant-zero Function. " alt="dart::optimizer::NullFunction" shape="rect" coords="1644,56,1908,80"/>
+<area href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html" title="BalanceConstraint is a kinematic constraint function designed to be passed into a HierarchicalIK modu..." alt="dart::constraint::BalanceConstraint" shape="rect" coords="274,56,538,80"/>
+<area href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html" title="The HierarchicalIK::Constraint Function is simply used to merge the constraints of the InverseKinemat..." alt="dart::dynamics::HierarchicalIK::Constraint" shape="rect" coords="274,112,538,136"/>
+<area href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html" title="The HierarchicalIK::Objective Function is simply used to merge the objective and null space objective..." alt="dart::dynamics::HierarchicalIK::Objective" shape="rect" coords="274,168,538,192"/>
+<area href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html" title="The InverseKinematics::Constraint Function is simply meant to be used to merge the ErrorMethod and Gr..." alt="dart::dynamics::InverseKinematics::Constraint" shape="rect" coords="274,224,538,248"/>
+<area href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html" title="The InverseKinematics::Objective Function is simply used to merge the objective and null space object..." alt="dart::dynamics::InverseKinematics::Objective" shape="rect" coords="274,280,538,304"/>
+<area href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html" title="ModularFunction uses C++11 std::function to allow you to easily swap out the cost function..." alt="dart::optimizer::ModularFunction" shape="rect" coords="274,336,538,360"/>
+<area href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html" title="NullFunction is a constant-zero Function. " alt="dart::optimizer::NullFunction" shape="rect" coords="274,392,538,416"/>
+<area href="../../df/d20/classRelaxedPosture.html" alt="RelaxedPosture" shape="rect" coords="274,448,538,472"/>
+<area href="../../df/d20/classRelaxedPosture.html" alt="RelaxedPosture" shape="rect" coords="274,504,538,528"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -147,15 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc47660e5f3588d3d52f525073b9d65b"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#afc47660e5f3588d3d52f525073b9d65b">getName</a> () const </td></tr>
 <tr class="memdesc:afc47660e5f3588d3d52f525073b9d65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html" title="class Function ">Function</a>.  <a href="#afc47660e5f3588d3d52f525073b9d65b">More...</a><br/></td></tr>
 <tr class="separator:afc47660e5f3588d3d52f525073b9d65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5477f8c6fe4e8dd42e0d9012a5a7758"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#af5477f8c6fe4e8dd42e0d9012a5a7758">eval</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x)</td></tr>
-<tr class="memdesc:af5477f8c6fe4e8dd42e0d9012a5a7758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#af5477f8c6fe4e8dd42e0d9012a5a7758">More...</a><br/></td></tr>
-<tr class="separator:af5477f8c6fe4e8dd42e0d9012a5a7758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a199d4e95b540face3f38123c151c5bb1"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a199d4e95b540face3f38123c151c5bb1">eval</a> (const Eigen::VectorXd &amp;_x)</td></tr>
-<tr class="memdesc:a199d4e95b540face3f38123c151c5bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#a199d4e95b540face3f38123c151c5bb1">More...</a><br/></td></tr>
-<tr class="separator:a199d4e95b540face3f38123c151c5bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0345c57adad403090793dcc63ea185e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a0345c57adad403090793dcc63ea185e6">evalGradient</a> (Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;_x, Eigen::Map&lt; Eigen::VectorXd &gt; _grad)</td></tr>
-<tr class="memdesc:a0345c57adad403090793dcc63ea185e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#a0345c57adad403090793dcc63ea185e6">More...</a><br/></td></tr>
-<tr class="separator:a0345c57adad403090793dcc63ea185e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784a3d006fa04c88b78770060e68399e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#a784a3d006fa04c88b78770060e68399e">eval</a> (const Eigen::VectorXd &amp;_x)=0</td></tr>
+<tr class="memdesc:a784a3d006fa04c88b78770060e68399e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#a784a3d006fa04c88b78770060e68399e">More...</a><br/></td></tr>
+<tr class="separator:a784a3d006fa04c88b78770060e68399e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe460f53b91a4e0445d9a10f77bcf827"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html#afe460f53b91a4e0445d9a10f77bcf827">evalGradient</a> (const Eigen::VectorXd &amp;_x, Eigen::Map&lt; Eigen::VectorXd &gt; _grad)</td></tr>
 <tr class="memdesc:afe460f53b91a4e0445d9a10f77bcf827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate and return the objective function at the point x.  <a href="#afe460f53b91a4e0445d9a10f77bcf827">More...</a><br/></td></tr>
 <tr class="separator:afe460f53b91a4e0445d9a10f77bcf827"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +223,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af5477f8c6fe4e8dd42e0d9012a5a7758"></a>
+<a class="anchor" id="a784a3d006fa04c88b78770060e68399e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -235,34 +231,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double dart::optimizer::Function::eval </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;&#160;</td>
-          <td class="paramname"><em>_x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Evaluate and return the objective function at the point x. </p>
-<p>Note: This function is deprecated in favor of the const Eigen::VectorXd&amp; version </p>
-
-</div>
-</div>
-<a class="anchor" id="a199d4e95b540face3f38123c151c5bb1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double dart::optimizer::Function::eval </td>
+          <td class="memname">virtual double dart::optimizer::Function::eval </td>
           <td>(</td>
           <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
           <td class="paramname"><em>_x</em></td><td>)</td>
@@ -271,51 +240,14 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Evaluate and return the objective function at the point x. </p>
 
-<p>Reimplemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#ab9fc38c4ae83c10a81dbd3842ffa0b3b">dart::dynamics::InverseKinematics::Constraint</a>, <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a7cb118e6f3a2d4aacc90849d51e6bf4f">dart::dynamics::InverseKinematics::Objective</a>, <a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html#afe31c9f91a4ec19ceaf57791ec657be9">dart::dynamics::HierarchicalIK::Constraint</a>, <a class="el" href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html#a76e6f4dd1158a76ba7d2f0c7dc4005e5">dart::dynamics::HierarchicalIK::Objective</a>, <a class="el" href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html#acb4e30788249d26c15fed53f61c40502">dart::optimizer::NullFunction</a>, <a class="el" href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html#aa01834a9a48e4cb2d0b2a30690a108de">dart::optimizer::ModularFunction</a>, and <a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a8bbd30bda55aec5e11a9a04bf6fba66e">dart::constraint::BalanceConstraint</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0345c57adad403090793dcc63ea185e6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::optimizer::Function::evalGradient </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;&#160;</td>
-          <td class="paramname"><em>_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Map&lt; Eigen::VectorXd &gt;&#160;</td>
-          <td class="paramname"><em>_grad</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Evaluate and return the objective function at the point x. </p>
-<p>Note: This function is deprecated in favor of the const Eigen::VectorXd&amp; version </p>
+<p>Implemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#ab9fc38c4ae83c10a81dbd3842ffa0b3b">dart::dynamics::InverseKinematics::Constraint</a>, <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a7cb118e6f3a2d4aacc90849d51e6bf4f">dart::dynamics::InverseKinematics::Objective</a>, <a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html#afe31c9f91a4ec19ceaf57791ec657be9">dart::dynamics::HierarchicalIK::Constraint</a>, <a class="el" href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html#a76e6f4dd1158a76ba7d2f0c7dc4005e5">dart::dynamics::HierarchicalIK::Objective</a>, <a class="el" href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html#acb4e30788249d26c15fed53f61c40502">dart::optimizer::NullFunction</a>, <a class="el" href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html#aa01834a9a48e4cb2d0b2a30690a108de">dart::optimizer::ModularFunction</a>, <a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a8bbd30bda55aec5e11a9a04bf6fba66e">dart::constraint::BalanceConstraint</a>, <a class="el" href="../../df/d20/classRelaxedPosture.html#ad90f081ab2e360e56730c73646ae2990">RelaxedPosture</a>, and <a class="el" href="../../df/d20/classRelaxedPosture.html#ad90f081ab2e360e56730c73646ae2990">RelaxedPosture</a>.</p>
 
 </div>
 </div>
@@ -353,7 +285,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Evaluate and return the objective function at the point x. </p>
 
-<p>Reimplemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#a64a47e89b80334e339446f10d7dc6349">dart::dynamics::InverseKinematics::Constraint</a>, <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a048f699547283ac079138cba2c3aac01">dart::dynamics::InverseKinematics::Objective</a>, <a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html#a5612a45345ba9317b75ab1dbbc150ee7">dart::dynamics::HierarchicalIK::Constraint</a>, <a class="el" href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html#aecbed757bbfd434e6f018845d687b79b">dart::dynamics::HierarchicalIK::Objective</a>, <a class="el" href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html#a63db7cdd1ca136bd990fe4d98ae24952">dart::optimizer::NullFunction</a>, <a class="el" href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html#aa676e52319c2159a6edb2a378162c40c">dart::optimizer::ModularFunction</a>, and <a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a33e3b69359c73c5980d07b17a00dbbc3">dart::constraint::BalanceConstraint</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#a64a47e89b80334e339446f10d7dc6349">dart::dynamics::InverseKinematics::Constraint</a>, <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a048f699547283ac079138cba2c3aac01">dart::dynamics::InverseKinematics::Objective</a>, <a class="el" href="../../d0/dd2/classdart_1_1dynamics_1_1HierarchicalIK_1_1Constraint.html#a5612a45345ba9317b75ab1dbbc150ee7">dart::dynamics::HierarchicalIK::Constraint</a>, <a class="el" href="../../d3/d24/classdart_1_1dynamics_1_1HierarchicalIK_1_1Objective.html#aecbed757bbfd434e6f018845d687b79b">dart::dynamics::HierarchicalIK::Objective</a>, <a class="el" href="../../dd/dfa/classdart_1_1optimizer_1_1NullFunction.html#a63db7cdd1ca136bd990fe4d98ae24952">dart::optimizer::NullFunction</a>, <a class="el" href="../../d9/d98/classdart_1_1optimizer_1_1ModularFunction.html#aa676e52319c2159a6edb2a378162c40c">dart::optimizer::ModularFunction</a>, <a class="el" href="../../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a33e3b69359c73c5980d07b17a00dbbc3">dart::constraint::BalanceConstraint</a>, <a class="el" href="../../df/d20/classRelaxedPosture.html#a07eb7859337fbd897ff2686c2ae10eae">RelaxedPosture</a>, and <a class="el" href="../../df/d20/classRelaxedPosture.html#a07eb7859337fbd897ff2686c2ae10eae">RelaxedPosture</a>.</p>
 
 </div>
 </div>
@@ -496,7 +428,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html">optimizer</a></li><li class="navelem"><a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html">Function</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joint',['Joint',['../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a2b27269e818d7b63995be0e0f812bf54',1,'dart::dynamics::BodyNode::Joint()'],['../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#a2b27269e818d7b63995be0e0f812bf54',1,'dart::dynamics::DegreeOfFreedom::Joint()'],['../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a2b27269e818d7b63995be0e0f812bf54',1,'dart::dynamics::Skeleton::Joint()']]]
+  ['ipoptsolver',['IpoptSolver',['../df/d64/classdart_1_1optimizer_1_1DartTNLP.html#ab7a6727f9083807e04f404d44fb028b3',1,'dart::optimizer::DartTNLP']]]
 ];

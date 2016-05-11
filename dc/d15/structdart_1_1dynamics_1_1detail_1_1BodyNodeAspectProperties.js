@@ -6,7 +6,6 @@ var structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties =
     [ "mGravityMode", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a6508e646a7228647c4926acb285da423", null ],
     [ "mInertia", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a9dfce3850823ff0b02daf5e5f312ebb5", null ],
     [ "mIsCollidable", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#aebb3c15a2d9f6cf69f3623d2e03f53da", null ],
-    [ "mMarkerProperties", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a17f324e434db303ff0fb45f228f7d1ea", null ],
     [ "mName", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a6745459c8a9104efd3d585548ba9ae59", null ],
     [ "mRestitutionCoeff", "dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a4d27ae3295cf475bf95251e8ee2c425a", null ]
 ];

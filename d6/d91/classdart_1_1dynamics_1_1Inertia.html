@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d6/d91/classdart_1_1dynamics_1_1Inerti
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/d17/Inertia_8h_source.html">Inertia.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/d13/Inertia_8hpp_source.html">Inertia.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -182,6 +182,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6bbeabd3938f1403744ee239eb3c35c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a6bbeabd3938f1403744ee239eb3c35c2">verify</a> (bool _printWarnings=true, double _tolerance=1e-8) const </td></tr>
 <tr class="memdesc:a6bbeabd3938f1403744ee239eb3c35c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff this <a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html">Inertia</a> object is physically valid.  <a href="#a6bbeabd3938f1403744ee239eb3c35c2">More...</a><br/></td></tr>
 <tr class="separator:a6bbeabd3938f1403744ee239eb3c35c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94db529e2772415513f96bf0eede12ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a94db529e2772415513f96bf0eede12ba">operator==</a> (const <a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html">Inertia</a> &amp;other) const </td></tr>
+<tr class="memdesc:a94db529e2772415513f96bf0eede12ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for equality.  <a href="#a94db529e2772415513f96bf0eede12ba">More...</a><br/></td></tr>
+<tr class="separator:a94db529e2772415513f96bf0eede12ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -513,6 +516,24 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a94db529e2772415513f96bf0eede12ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::dynamics::Inertia::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html">Inertia</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check for equality. </p>
+
+</div>
+</div>
 <a class="anchor" id="a5d2cc45655068902f494da81bb52be05"></a>
 <div class="memitem">
 <div class="memproto">
@@ -645,7 +666,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">  <a class="code" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a9d346a8c4109414a61ade222ec65927f">computeSpatialTensor</a>()</div>
-<div class="ttc" id="classdart_1_1dynamics_1_1Inertia_html_a9d346a8c4109414a61ade222ec65927f"><div class="ttname"><a href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a9d346a8c4109414a61ade222ec65927f">dart::dynamics::Inertia::computeSpatialTensor</a></div><div class="ttdeci">void computeSpatialTensor()</div><div class="ttdoc">Compute the spatial tensor based on the inertial parameters. </div><div class="ttdef"><b>Definition:</b> Inertia.cpp:388</div></div>
+<div class="ttc" id="classdart_1_1dynamics_1_1Inertia_html_a9d346a8c4109414a61ade222ec65927f"><div class="ttname"><a href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a9d346a8c4109414a61ade222ec65927f">dart::dynamics::Inertia::computeSpatialTensor</a></div><div class="ttdeci">void computeSpatialTensor()</div><div class="ttdoc">Compute the spatial tensor based on the inertial parameters. </div><div class="ttdef"><b>Definition:</b> Inertia.cpp:394</div></div>
 </div><!-- fragment -->
 <p>Set an inertial parameter. </p>
 
@@ -876,7 +897,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d6/d91/classdart_1_1dynamics_1_1Inertia.html">Inertia</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

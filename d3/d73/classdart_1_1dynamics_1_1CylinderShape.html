@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('d3/d73/classdart_1_1dynamics_1_1Cylind
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -115,7 +116,7 @@ $(document).ready(function(){initNavTree('d3/d73/classdart_1_1dynamics_1_1Cylind
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d73/CylinderShape_8h_source.html">CylinderShape.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">CylinderShape.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::dynamics::CylinderShape:</div>
 <div class="dyncontent">
@@ -140,10 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac580922aa36bfcf93b197a26bd1fe703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aa79d94f90ae5b4326b869e769ab6b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a7aa79d94f90ae5b4326b869e769ab6b0">setHeight</a> (double _height)</td></tr>
 <tr class="separator:a7aa79d94f90ae5b4326b869e769ab6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa093997ab44a6027a2c5306a15f94316"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#aa093997ab44a6027a2c5306a15f94316">draw</a> (<a class="el" href="../../da/ddb/classdart_1_1renderer_1_1RenderInterface.html">renderer::RenderInterface</a> *_ri=nullptr, const Eigen::Vector4d &amp;_color=Eigen::Vector4d::Ones(), bool _useDefaultColor=true) const </td></tr>
-<tr class="separator:aa093997ab44a6027a2c5306a15f94316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7e5abb92c993730ac157160347e870"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a3f7e5abb92c993730ac157160347e870">computeInertia</a> (double _mass) const </td></tr>
-<tr class="separator:a3f7e5abb92c993730ac157160347e870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c0a3d18fd968c7ae49747a75e5dd2e"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a54c0a3d18fd968c7ae49747a75e5dd2e">computeInertia</a> (double mass) const override</td></tr>
+<tr class="separator:a54c0a3d18fd968c7ae49747a75e5dd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdart_1_1dynamics_1_1Shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1dynamics_1_1Shape')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">dart::dynamics::Shape</a></td></tr>
 <tr class="memitem:a75aa60456007c8a607c0ca5b3066f460 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a75aa60456007c8a607c0ca5b3066f460">Shape</a> (<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0d">ShapeType</a> _type)</td></tr>
 <tr class="memdesc:a75aa60456007c8a607c0ca5b3066f460 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a75aa60456007c8a607c0ca5b3066f460">More...</a><br/></td></tr>
@@ -151,45 +150,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb636289f25b7ca29ad5701212fd85bd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aeb636289f25b7ca29ad5701212fd85bd">~Shape</a> ()</td></tr>
 <tr class="memdesc:aeb636289f25b7ca29ad5701212fd85bd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aeb636289f25b7ca29ad5701212fd85bd">More...</a><br/></td></tr>
 <tr class="separator:aeb636289f25b7ca29ad5701212fd85bd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da5d594c646155d6bb9b7589aff84c2 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a3da5d594c646155d6bb9b7589aff84c2">setColor</a> (const Eigen::Vector3d &amp;_color)</td></tr>
-<tr class="memdesc:a3da5d594c646155d6bb9b7589aff84c2 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RGB color components (leave alpha alone).  <a href="#a3da5d594c646155d6bb9b7589aff84c2">More...</a><br/></td></tr>
-<tr class="separator:a3da5d594c646155d6bb9b7589aff84c2 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea0f5662e890a37109ec2aba027b10b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aaea0f5662e890a37109ec2aba027b10b">setColor</a> (const Eigen::Vector4d &amp;_color)</td></tr>
-<tr class="memdesc:aaea0f5662e890a37109ec2aba027b10b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RGBA color components.  <a href="#aaea0f5662e890a37109ec2aba027b10b">More...</a><br/></td></tr>
-<tr class="separator:aaea0f5662e890a37109ec2aba027b10b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5179f714bdaa6a504a2191ee9119b1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aeb5179f714bdaa6a504a2191ee9119b1">setRGB</a> (const Eigen::Vector3d &amp;_rgb)</td></tr>
-<tr class="memdesc:aeb5179f714bdaa6a504a2191ee9119b1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RGB color components (leave alpha alone)  <a href="#aeb5179f714bdaa6a504a2191ee9119b1">More...</a><br/></td></tr>
-<tr class="separator:aeb5179f714bdaa6a504a2191ee9119b1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f4536851e2859d9bbd530d43e4e8c1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a26f4536851e2859d9bbd530d43e4e8c1">setRGBA</a> (const Eigen::Vector4d &amp;_rgba)</td></tr>
-<tr class="memdesc:a26f4536851e2859d9bbd530d43e4e8c1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set RGBA color components.  <a href="#a26f4536851e2859d9bbd530d43e4e8c1">More...</a><br/></td></tr>
-<tr class="separator:a26f4536851e2859d9bbd530d43e4e8c1 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c976e9f3f431935fed64645f7757598 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a3c976e9f3f431935fed64645f7757598">getColor</a> () const </td></tr>
-<tr class="memdesc:a3c976e9f3f431935fed64645f7757598 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get color.  <a href="#a3c976e9f3f431935fed64645f7757598">More...</a><br/></td></tr>
-<tr class="separator:a3c976e9f3f431935fed64645f7757598 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a308e91051d3c31df6820298b67af4b1b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a308e91051d3c31df6820298b67af4b1b">getRGB</a> () const </td></tr>
-<tr class="memdesc:a308e91051d3c31df6820298b67af4b1b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get RGB color components.  <a href="#a308e91051d3c31df6820298b67af4b1b">More...</a><br/></td></tr>
-<tr class="separator:a308e91051d3c31df6820298b67af4b1b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69a89649388bdb5e2fe9644d94315741 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector4d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a69a89649388bdb5e2fe9644d94315741">getRGBA</a> () const </td></tr>
-<tr class="memdesc:a69a89649388bdb5e2fe9644d94315741 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get RGBA color components.  <a href="#a69a89649388bdb5e2fe9644d94315741">More...</a><br/></td></tr>
-<tr class="separator:a69a89649388bdb5e2fe9644d94315741 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41155ea94a17916ee89a5931bb12911b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a41155ea94a17916ee89a5931bb12911b">setAlpha</a> (double _alpha)</td></tr>
-<tr class="memdesc:a41155ea94a17916ee89a5931bb12911b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the transparency of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a>.  <a href="#a41155ea94a17916ee89a5931bb12911b">More...</a><br/></td></tr>
-<tr class="separator:a41155ea94a17916ee89a5931bb12911b inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e83cd0732a160c608fb67b1d666bd67 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector3d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9e83cd0732a160c608fb67b1d666bd67">getBoundingBoxDim</a> () const </td></tr>
-<tr class="memdesc:a9e83cd0732a160c608fb67b1d666bd67 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get dimensions of bounding box.  <a href="#a9e83cd0732a160c608fb67b1d666bd67">More...</a><br/></td></tr>
-<tr class="separator:a9e83cd0732a160c608fb67b1d666bd67 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa6ae6fa812bb268e35415772fe2f838 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#afa6ae6fa812bb268e35415772fe2f838">setLocalTransform</a> (const Eigen::Isometry3d &amp;_Transform)</td></tr>
-<tr class="memdesc:afa6ae6fa812bb268e35415772fe2f838 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set local transformation of the shape w.r.t. parent frame.  <a href="#afa6ae6fa812bb268e35415772fe2f838">More...</a><br/></td></tr>
-<tr class="separator:afa6ae6fa812bb268e35415772fe2f838 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddd9a24347fc510ce020a35a37fafaa inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">const Eigen::Isometry3d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a0ddd9a24347fc510ce020a35a37fafaa">getLocalTransform</a> () const </td></tr>
-<tr class="memdesc:a0ddd9a24347fc510ce020a35a37fafaa inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get local transformation of the shape w.r.t. parent frame.  <a href="#a0ddd9a24347fc510ce020a35a37fafaa">More...</a><br/></td></tr>
-<tr class="separator:a0ddd9a24347fc510ce020a35a37fafaa inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f8d913f8f6c8bcf32d93c9dd6194fd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aa6f8d913f8f6c8bcf32d93c9dd6194fd">setOffset</a> (const Eigen::Vector3d &amp;_offset)</td></tr>
-<tr class="memdesc:aa6f8d913f8f6c8bcf32d93c9dd6194fd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set local transformation of the shape The offset is translational part of the local transformation.  <a href="#aa6f8d913f8f6c8bcf32d93c9dd6194fd">More...</a><br/></td></tr>
-<tr class="separator:aa6f8d913f8f6c8bcf32d93c9dd6194fd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e94d3a019bc76e77478c4b48940c11 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a19e94d3a019bc76e77478c4b48940c11">getOffset</a> () const </td></tr>
-<tr class="memdesc:a19e94d3a019bc76e77478c4b48940c11 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get local offset of the shape w.r.t.  <a href="#a19e94d3a019bc76e77478c4b48940c11">More...</a><br/></td></tr>
-<tr class="separator:a19e94d3a019bc76e77478c4b48940c11 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b65c33aeb523ea716523e76c169bec7 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/d06/classdart_1_1math_1_1BoundingBox.html">math::BoundingBox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9b65c33aeb523ea716523e76c169bec7">getBoundingBox</a> () const </td></tr>
+<tr class="memdesc:a9b65c33aeb523ea716523e76c169bec7 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounding box of the shape in its local coordinate frame.  <a href="#a9b65c33aeb523ea716523e76c169bec7">More...</a><br/></td></tr>
+<tr class="separator:a9b65c33aeb523ea716523e76c169bec7 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80641879346f6a7c9becd36fa169a2d inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ae80641879346f6a7c9becd36fa169a2d">computeInertiaFromDensity</a> (double density) const </td></tr>
+<tr class="separator:ae80641879346f6a7c9becd36fa169a2d inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12fd625a058eef4a4af7bafcad10f0f inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aa12fd625a058eef4a4af7bafcad10f0f">computeInertiaFromMass</a> (double mass) const </td></tr>
+<tr class="separator:aa12fd625a058eef4a4af7bafcad10f0f inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8824b5ebb8b738ce0431d58e162877 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a0a8824b5ebb8b738ce0431d58e162877">getVolume</a> () const </td></tr>
 <tr class="memdesc:a0a8824b5ebb8b738ce0431d58e162877 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get volume of this shape.  <a href="#a0a8824b5ebb8b738ce0431d58e162877">More...</a><br/></td></tr>
 <tr class="separator:a0a8824b5ebb8b738ce0431d58e162877 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,30 +176,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a709cc0dc204d0c086f10ac4d1200c10f inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a709cc0dc204d0c086f10ac4d1200c10f">getDataVariance</a> () const </td></tr>
 <tr class="memdesc:a709cc0dc204d0c086f10ac4d1200c10f inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the data variance of this shape.  <a href="#a709cc0dc204d0c086f10ac4d1200c10f">More...</a><br/></td></tr>
 <tr class="separator:a709cc0dc204d0c086f10ac4d1200c10f inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae551d28e14c1fc637b85228b0280808e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ae551d28e14c1fc637b85228b0280808e">checkDataVariance</a> (<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0f">DataVariance</a> type) const </td></tr>
+<tr class="memitem:ae551d28e14c1fc637b85228b0280808e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ae551d28e14c1fc637b85228b0280808e">checkDataVariance</a> (<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0f">DataVariance</a> <a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>) const </td></tr>
 <tr class="memdesc:ae551d28e14c1fc637b85228b0280808e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">True iff this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> has the specified type of DataVariance.  <a href="#ae551d28e14c1fc637b85228b0280808e">More...</a><br/></td></tr>
 <tr class="separator:ae551d28e14c1fc637b85228b0280808e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d3a188f020eb6b01b1472602247c010 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9d3a188f020eb6b01b1472602247c010">refreshData</a> ()</td></tr>
 <tr class="memdesc:a9d3a188f020eb6b01b1472602247c010 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruct this shape to update its data.  <a href="#a9d3a188f020eb6b01b1472602247c010">More...</a><br/></td></tr>
 <tr class="separator:a9d3a188f020eb6b01b1472602247c010 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f9617279ee6e7e6578c1f3cee92ffd5 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a4f9617279ee6e7e6578c1f3cee92ffd5">setHidden</a> (bool _hide=true)</td></tr>
-<tr class="memdesc:a4f9617279ee6e7e6578c1f3cee92ffd5 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass in true to prevent this shape from being rendered.  <a href="#a4f9617279ee6e7e6578c1f3cee92ffd5">More...</a><br/></td></tr>
-<tr class="separator:a4f9617279ee6e7e6578c1f3cee92ffd5 inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1158f76c0e7794dc54eed4600ca0b63e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a1158f76c0e7794dc54eed4600ca0b63e">isHidden</a> () const </td></tr>
-<tr class="memdesc:a1158f76c0e7794dc54eed4600ca0b63e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">True iff this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> is set to be hidden.  <a href="#a1158f76c0e7794dc54eed4600ca0b63e">More...</a><br/></td></tr>
-<tr class="separator:a1158f76c0e7794dc54eed4600ca0b63e inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675ea9bc41741a4a62c8288c75f09fdd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a675ea9bc41741a4a62c8288c75f09fdd">notifyAlphaUpdate</a> (double alpha)</td></tr>
+<tr class="memdesc:a675ea9bc41741a4a62c8288c75f09fdd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that the alpha of this shape has updated.  <a href="#a675ea9bc41741a4a62c8288c75f09fdd">More...</a><br/></td></tr>
+<tr class="separator:a675ea9bc41741a4a62c8288c75f09fdd inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17cd8fb09091d770ea8af4ebde9b48c inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ad17cd8fb09091d770ea8af4ebde9b48c">notifyColorUpdate</a> (const Eigen::Vector4d &amp;color)</td></tr>
+<tr class="memdesc:ad17cd8fb09091d770ea8af4ebde9b48c inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that the color (rgba) of this shape has updated.  <a href="#ad17cd8fb09091d770ea8af4ebde9b48c">More...</a><br/></td></tr>
+<tr class="separator:ad17cd8fb09091d770ea8af4ebde9b48c inherit pub_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdart_1_1common_1_1Subject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1common_1_1Subject')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html">dart::common::Subject</a></td></tr>
 <tr class="memitem:a20261c0b76e064db6b310e98059f2dc7 inherit pub_methods_classdart_1_1common_1_1Subject"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a20261c0b76e064db6b310e98059f2dc7">~Subject</a> ()</td></tr>
 <tr class="memdesc:a20261c0b76e064db6b310e98059f2dc7 inherit pub_methods_classdart_1_1common_1_1Subject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor will notify all Observers that it is destructing.  <a href="#a20261c0b76e064db6b310e98059f2dc7">More...</a><br/></td></tr>
 <tr class="separator:a20261c0b76e064db6b310e98059f2dc7 inherit pub_methods_classdart_1_1common_1_1Subject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c25cb54bf9e750701deb54f58a7357d"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a2c25cb54bf9e750701deb54f58a7357d">computeVolume</a> (double radius, double height)</td></tr>
+<tr class="memdesc:a2c25cb54bf9e750701deb54f58a7357d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute volume from given properties.  <a href="#a2c25cb54bf9e750701deb54f58a7357d">More...</a><br/></td></tr>
+<tr class="separator:a2c25cb54bf9e750701deb54f58a7357d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7cd9f64678925e0bb3da348a95aea5"><td class="memItemLeft" align="right" valign="top">static Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#aad7cd9f64678925e0bb3da348a95aea5">computeInertia</a> (double radius, double height, double mass)</td></tr>
+<tr class="memdesc:aad7cd9f64678925e0bb3da348a95aea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute moments of inertia of a cylinder.  <a href="#aad7cd9f64678925e0bb3da348a95aea5">More...</a><br/></td></tr>
+<tr class="separator:aad7cd9f64678925e0bb3da348a95aea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4302bffc339ea9b6362417729fb5ad9e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a4302bffc339ea9b6362417729fb5ad9e">computeVolume</a> ()</td></tr>
-<tr class="separator:a4302bffc339ea9b6362417729fb5ad9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classdart_1_1dynamics_1_1Shape"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classdart_1_1dynamics_1_1Shape')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">dart::dynamics::Shape</a></td></tr>
-<tr class="memitem:a5eceaa8f57891694c4867c6fabdc0441 inherit pro_methods_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a5eceaa8f57891694c4867c6fabdc0441">initMeshes</a> ()</td></tr>
-<tr class="separator:a5eceaa8f57891694c4867c6fabdc0441 inherit pro_methods_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745daeffbcd3eb3c521c4249b43a20a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a745daeffbcd3eb3c521c4249b43a20a9">updateVolume</a> () override</td></tr>
+<tr class="memdesc:a745daeffbcd3eb3c521c4249b43a20a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update volume.  <a href="#a745daeffbcd3eb3c521c4249b43a20a9">More...</a><br/></td></tr>
+<tr class="separator:a745daeffbcd3eb3c521c4249b43a20a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classdart_1_1common_1_1Subject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classdart_1_1common_1_1Subject')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html">dart::common::Subject</a></td></tr>
 <tr class="memitem:a137b5f1e7fb760e29084a42dabec1eb3 inherit pro_methods_classdart_1_1common_1_1Subject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a137b5f1e7fb760e29084a42dabec1eb3">sendDestructionNotification</a> () const </td></tr>
 <tr class="memdesc:a137b5f1e7fb760e29084a42dabec1eb3 inherit pro_methods_classdart_1_1common_1_1Subject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a destruction notification to all Observers.  <a href="#a137b5f1e7fb760e29084a42dabec1eb3">More...</a><br/></td></tr>
@@ -286,27 +260,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a61d01bb71d80b589ee363abd755e9f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">DataVariance can be used by renderers to determine whether it should expect data for this shape to change during each update.  <a href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0f">More...</a><br/></td></tr>
 <tr class="separator:a61d01bb71d80b589ee363abd755e9f0f inherit pub_types_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1dynamics_1_1Shape"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1dynamics_1_1Shape')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">dart::dynamics::Shape</a></td></tr>
-<tr class="memitem:a806daf43c119d2f4563ca4d5863855d0 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a806daf43c119d2f4563ca4d5863855d0">mBoundingBoxDim</a></td></tr>
-<tr class="memdesc:a806daf43c119d2f4563ca4d5863855d0 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions for bounding box.  <a href="#a806daf43c119d2f4563ca4d5863855d0">More...</a><br/></td></tr>
-<tr class="separator:a806daf43c119d2f4563ca4d5863855d0 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3482c31f2aaf40f450ebac6951bf1033 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d06/classdart_1_1math_1_1BoundingBox.html">math::BoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a3482c31f2aaf40f450ebac6951bf1033">mBoundingBox</a></td></tr>
+<tr class="memdesc:a3482c31f2aaf40f450ebac6951bf1033 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounding box (in the local coordinate frame) of the shape.  <a href="#a3482c31f2aaf40f450ebac6951bf1033">More...</a><br/></td></tr>
+<tr class="separator:a3482c31f2aaf40f450ebac6951bf1033 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9eb76ab4c229100cba7ccc833aee0e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a0d9eb76ab4c229100cba7ccc833aee0e">mVolume</a></td></tr>
 <tr class="memdesc:a0d9eb76ab4c229100cba7ccc833aee0e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume enclosed by the geometry.  <a href="#a0d9eb76ab4c229100cba7ccc833aee0e">More...</a><br/></td></tr>
 <tr class="separator:a0d9eb76ab4c229100cba7ccc833aee0e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adefad047400d9d53ed10a07816c3636e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#adefad047400d9d53ed10a07816c3636e">mID</a></td></tr>
 <tr class="memdesc:adefad047400d9d53ed10a07816c3636e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique id.  <a href="#adefad047400d9d53ed10a07816c3636e">More...</a><br/></td></tr>
 <tr class="separator:adefad047400d9d53ed10a07816c3636e inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5592a8e31030dd80c7ad3118c18e3430 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Vector4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a5592a8e31030dd80c7ad3118c18e3430">mColor</a></td></tr>
-<tr class="memdesc:a5592a8e31030dd80c7ad3118c18e3430 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/dbc/namespacedart_1_1Color.html">Color</a> for the primitive.  <a href="#a5592a8e31030dd80c7ad3118c18e3430">More...</a><br/></td></tr>
-<tr class="separator:a5592a8e31030dd80c7ad3118c18e3430 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc7befa7f83453481dae2f89d22c8340 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">Eigen::Isometry3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#adc7befa7f83453481dae2f89d22c8340">mTransform</a></td></tr>
-<tr class="memdesc:adc7befa7f83453481dae2f89d22c8340 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local geometric transformation of the <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> w.r.t. parent frame.  <a href="#adc7befa7f83453481dae2f89d22c8340">More...</a><br/></td></tr>
-<tr class="separator:adc7befa7f83453481dae2f89d22c8340 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ec0172edc2d98894b5a41228b598a8 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aa4ec0172edc2d98894b5a41228b598a8">mVariance</a></td></tr>
 <tr class="memdesc:aa4ec0172edc2d98894b5a41228b598a8 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">The DataVariance of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a>.  <a href="#aa4ec0172edc2d98894b5a41228b598a8">More...</a><br/></td></tr>
 <tr class="separator:aa4ec0172edc2d98894b5a41228b598a8 inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27090a2654107ad0b3565e48657d2f0b inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a27090a2654107ad0b3565e48657d2f0b">mHidden</a></td></tr>
-<tr class="memdesc:a27090a2654107ad0b3565e48657d2f0b inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this shape should be kept from rendering.  <a href="#a27090a2654107ad0b3565e48657d2f0b">More...</a><br/></td></tr>
-<tr class="separator:a27090a2654107ad0b3565e48657d2f0b inherit pro_attribs_classdart_1_1dynamics_1_1Shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1common_1_1Subject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1common_1_1Subject')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html">dart::common::Subject</a></td></tr>
 <tr class="memitem:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d8/dc0/classdart_1_1common_1_1Observer.html">Observer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#acb21558de80efdc434cd64c90a205ba8">mObservers</a></td></tr>
 <tr class="memdesc:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current Observers.  <a href="#acb21558de80efdc434cd64c90a205ba8">More...</a><br/></td></tr>
@@ -368,7 +333,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3f7e5abb92c993730ac157160347e870"></a>
+<a class="anchor" id="aad7cd9f64678925e0bb3da348a95aea5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -379,22 +344,64 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">Eigen::Matrix3d dart::dynamics::CylinderShape::computeInertia </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_mass</em></td><td>)</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute moments of inertia of a cylinder. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54c0a3d18fd968c7ae49747a75e5dd2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix3d dart::dynamics::CylinderShape::computeInertia </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mass</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ad9b50c0c0befade7f7c21b80a7ee574e">dart::dynamics::Shape</a>.</p>
+<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#af069973a7f686f89cdc61ce103fec747">dart::dynamics::Shape</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4302bffc339ea9b6362417729fb5ad9e"></a>
+<a class="anchor" id="a2c25cb54bf9e750701deb54f58a7357d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -402,62 +409,31 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void dart::dynamics::CylinderShape::computeVolume </td>
+          <td class="memname">double dart::dynamics::CylinderShape::computeVolume </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aa581749811aa859eb00413c05fda4c55">dart::dynamics::Shape</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa093997ab44a6027a2c5306a15f94316"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::dynamics::CylinderShape::draw </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/ddb/classdart_1_1renderer_1_1RenderInterface.html">renderer::RenderInterface</a> *&#160;</td>
-          <td class="paramname"><em>_ri</em> = <code>nullptr</code>, </td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Eigen::Vector4d &amp;&#160;</td>
-          <td class="paramname"><em>_color</em> = <code>Eigen::Vector4d::Ones()</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_useDefaultColor</em> = <code>true</code>&#160;</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a69be8755ee56a1785a81159245d54779">dart::dynamics::Shape</a>.</p>
+<p>Compute volume from given properties. </p>
 
 </div>
 </div>
@@ -523,6 +499,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a745daeffbcd3eb3c521c4249b43a20a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::CylinderShape::updateVolume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update volume. </p>
+
+<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9d1982da4bc9c22f2b3cf6f32401a7f6">dart::dynamics::Shape</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="aa759ba117b9136bd01a9b314e63af8c8"></a>
 <div class="memitem">
@@ -572,7 +575,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html">CylinderShape</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

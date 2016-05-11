@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d8/d29/classdart_1_1utils_1_1DartLoade
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/dff/DartLoader_8h_source.html">DartLoader.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dd/d70/DartLoader_8hpp_source.html">DartLoader.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -142,10 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
 <tr class="memitem:ad32e354ef1c16caa2794094356bfa646"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#ad32e354ef1c16caa2794094356bfa646">BodyPropPtr</a></td></tr>
+&lt; <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#ad32e354ef1c16caa2794094356bfa646">BodyPropPtr</a></td></tr>
 <tr class="separator:ad32e354ef1c16caa2794094356bfa646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa087dce657ab67a763b995935fd2f6bc"><td class="memItemLeft" align="right" valign="top">typedef std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../d8/d60/structdart_1_1dynamics_1_1Joint_1_1Properties.html">dynamics::Joint::Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aa087dce657ab67a763b995935fd2f6bc">JointPropPtr</a></td></tr>
+&lt; <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a50ab28a753b66dbcce46b4a4fb28fe64">dynamics::Joint::Properties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aa087dce657ab67a763b995935fd2f6bc">JointPropPtr</a></td></tr>
 <tr class="separator:aa087dce657ab67a763b995935fd2f6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -164,12 +164,14 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a141993f728bffb4e7aea5287cfebcff3"><td class="memTemplItemLeft" align="right" valign="top">static dynamics::ShapePtr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#a141993f728bffb4e7aea5287cfebcff3">createShape</a> (const VisualOrCollision *_vizOrCol, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;_baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;_resourceRetriever)</td></tr>
 <tr class="memdesc:a141993f728bffb4e7aea5287cfebcff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">createShape  <a href="#a141993f728bffb4e7aea5287cfebcff3">More...</a><br/></td></tr>
 <tr class="separator:a141993f728bffb4e7aea5287cfebcff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be96c086885f68097d5847743cb8ad3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#a9be96c086885f68097d5847743cb8ad3">createDartJointAndNode</a> (const urdf::Joint *_jt, const <a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a> &amp;_body, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_parent, dynamics::SkeletonPtr _skeleton, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;_baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;_resourceRetriever)</td></tr>
+<tr class="memitem:a9be96c086885f68097d5847743cb8ad3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#a9be96c086885f68097d5847743cb8ad3">createDartJointAndNode</a> (const urdf::Joint *_jt, const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &amp;_body, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_parent, dynamics::SkeletonPtr _skeleton, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;_baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;_resourceRetriever)</td></tr>
 <tr class="memdesc:a9be96c086885f68097d5847743cb8ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">createDartJoint  <a href="#a9be96c086885f68097d5847743cb8ad3">More...</a><br/></td></tr>
 <tr class="separator:a9be96c086885f68097d5847743cb8ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed7b65ebca78d70b4f712ec4076c54fa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aed7b65ebca78d70b4f712ec4076c54fa">createDartNodeProperties</a> (const urdf::Link *_lk, <a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a> &amp;properties, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;_baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;_resourceRetriever)</td></tr>
+<tr class="memitem:aed7b65ebca78d70b4f712ec4076c54fa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aed7b65ebca78d70b4f712ec4076c54fa">createDartNodeProperties</a> (const urdf::Link *_lk, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a16bee8557055e219eab67ff97f8b5be9">properties</a>, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;_baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;_resourceRetriever)</td></tr>
 <tr class="memdesc:aed7b65ebca78d70b4f712ec4076c54fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">createDartNode  <a href="#aed7b65ebca78d70b4f712ec4076c54fa">More...</a><br/></td></tr>
 <tr class="separator:aed7b65ebca78d70b4f712ec4076c54fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c03642bc47f8d654934c8e028fbb2f9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#a7c03642bc47f8d654934c8e028fbb2f9">createShapeNodes</a> (const urdf::Link *lk, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *bodyNode, const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;baseUri, const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;resourceRetriever)</td></tr>
+<tr class="separator:a7c03642bc47f8d654934c8e028fbb2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18adad8888cbbbfb99cae596585f46bf"><td class="memItemLeft" align="right" valign="top">static Eigen::Isometry3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#a18adad8888cbbbfb99cae596585f46bf">toEigen</a> (const urdf::Pose &amp;_pose)</td></tr>
 <tr class="memdesc:a18adad8888cbbbfb99cae596585f46bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">pose2Affine3d  <a href="#a18adad8888cbbbfb99cae596585f46bf">More...</a><br/></td></tr>
 <tr class="separator:a18adad8888cbbbfb99cae596585f46bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +199,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a>&gt; <a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#ad32e354ef1c16caa2794094356bfa646">dart::utils::DartLoader::BodyPropPtr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a>&gt; <a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#ad32e354ef1c16caa2794094356bfa646">dart::utils::DartLoader::BodyPropPtr</a></td>
         </tr>
       </table>
   </td>
@@ -217,7 +219,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="../../d8/d60/structdart_1_1dynamics_1_1Joint_1_1Properties.html">dynamics::Joint::Properties</a>&gt; <a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aa087dce657ab67a763b995935fd2f6bc">dart::utils::DartLoader::JointPropPtr</a></td>
+          <td class="memname">typedef std::shared_ptr&lt;<a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a50ab28a753b66dbcce46b4a4fb28fe64">dynamics::Joint::Properties</a>&gt; <a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html#aa087dce657ab67a763b995935fd2f6bc">dart::utils::DartLoader::JointPropPtr</a></td>
         </tr>
       </table>
   </td>
@@ -299,7 +301,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &amp;&#160;</td>
           <td class="paramname"><em>_body</em>, </td>
         </tr>
         <tr>
@@ -359,7 +361,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/df3/structdart_1_1dynamics_1_1BodyNode_1_1Properties.html">dynamics::BodyNode::Properties</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &amp;&#160;</td>
           <td class="paramname"><em>properties</em>, </td>
         </tr>
         <tr>
@@ -432,6 +434,52 @@ template&lt;class VisualOrCollision &gt; </div>
 </div><div class="memdoc">
 
 <p>createShape </p>
+
+</div>
+</div>
+<a class="anchor" id="a7c03642bc47f8d654934c8e028fbb2f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::utils::DartLoader::createShapeNodes </td>
+          <td>(</td>
+          <td class="paramtype">const urdf::Link *&#160;</td>
+          <td class="paramname"><em>lk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
+          <td class="paramname"><em>bodyNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d8/d07/structdart_1_1common_1_1Uri.html">common::Uri</a> &amp;&#160;</td>
+          <td class="paramname"><em>baseUri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a79a12a817633757c8465245b78d91bfc">common::ResourceRetrieverPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>resourceRetriever</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -837,7 +885,7 @@ template&lt;class VisualOrCollision &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="../../d8/d29/classdart_1_1utils_1_1DartLoader.html">DartLoader</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

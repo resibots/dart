@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/utils/SkelParser.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/utils/SkelParser.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -104,103 +104,434 @@ $(document).ready(function(){initNavTree('d8/d35/SkelParser_8cpp.html','../../')
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">SkelParser.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;algorithm&gt;</code><br/>
-<code>#include &lt;string&gt;</code><br/>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d93/SkelParser_8hpp_source.html">dart/utils/SkelParser.hpp</a>&quot;</code><br/>
+<code>#include &lt;algorithm&gt;</code><br/>
+<code>#include &lt;cstddef&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;Eigen/Dense&gt;</code><br/>
-<code>#include &quot;dart/config.h&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d3f/Console_8h_source.html">dart/common/Console.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/dc0/DARTCollisionDetector_8h_source.html">dart/collision/dart/DARTCollisionDetector.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d9/dd0/FCLCollisionDetector_8h_source.html">dart/collision/fcl/FCLCollisionDetector.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/dd5/FCLMeshCollisionDetector_8h_source.html">dart/collision/fcl_mesh/FCLMeshCollisionDetector.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/db5/ConstraintSolver_8h_source.html">dart/constraint/ConstraintSolver.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d9b/SoftBodyNode_8h_source.html">dart/dynamics/SoftBodyNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d9/d49/BoxShape_8h_source.html">dart/dynamics/BoxShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d73/CylinderShape_8h_source.html">dart/dynamics/CylinderShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d25/EllipsoidShape_8h_source.html">dart/dynamics/EllipsoidShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d65/PlaneShape_8h_source.html">dart/dynamics/PlaneShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d7e/MeshShape_8h_source.html">dart/dynamics/MeshShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/db8/SoftMeshShape_8h_source.html">dart/dynamics/SoftMeshShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d1a/WeldJoint_8h_source.html">dart/dynamics/WeldJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/d7a/PrismaticJoint_8h_source.html">dart/dynamics/PrismaticJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/d44/RevoluteJoint_8h_source.html">dart/dynamics/RevoluteJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/db8/ScrewJoint_8h_source.html">dart/dynamics/ScrewJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/dec/TranslationalJoint_8h_source.html">dart/dynamics/TranslationalJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/ddc/BallJoint_8h_source.html">dart/dynamics/BallJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/da7/FreeJoint_8h_source.html">dart/dynamics/FreeJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d40/EulerJoint_8h_source.html">dart/dynamics/EulerJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dd/d4c/UniversalJoint_8h_source.html">dart/dynamics/UniversalJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d0a/PlanarJoint_8h_source.html">dart/dynamics/PlanarJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/ded/Skeleton_8h_source.html">dart/dynamics/Skeleton.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dc/dab/Marker_8h_source.html">dart/dynamics/Marker.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dd/d5b/World_8h_source.html">dart/simulation/World.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/ded/SkelParser_8h_source.html">dart/utils/SkelParser.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d5/d13/LocalResourceRetriever_8h_source.html">dart/common/LocalResourceRetriever.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/d26/Uri_8h_source.html">dart/common/Uri.h</a>&quot;</code><br/>
+<code>#include &lt;Eigen/StdVector&gt;</code><br/>
+<code>#include &quot;dart/config.hpp&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d78/CollisionObject_8hpp_source.html">dart/collision/CollisionObject.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/dc2/DARTCollisionDetector_8hpp_source.html">dart/collision/dart/DARTCollisionDetector.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d4/d9d/FCLCollisionDetector_8hpp_source.html">dart/collision/fcl/FCLCollisionDetector.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/ddb/ConstraintSolver_8hpp_source.html">dart/constraint/ConstraintSolver.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/dc6/BodyNode_8hpp_source.html">dart/dynamics/BodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d3/d5b/SoftBodyNode_8hpp_source.html">dart/dynamics/SoftBodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/de3/dynamics_2ShapeNode_8hpp_source.html">dart/dynamics/ShapeNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/de1/PlaneShape_8hpp_source.html">dart/dynamics/PlaneShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d74/MeshShape_8hpp_source.html">dart/dynamics/MeshShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d8d/SoftMeshShape_8hpp_source.html">dart/dynamics/SoftMeshShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/d4a/Joint_8hpp_source.html">dart/dynamics/Joint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d3/ddf/SingleDofJoint_8hpp_source.html">dart/dynamics/SingleDofJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d1a/MultiDofJoint_8hpp_source.html">dart/dynamics/MultiDofJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/de8/WeldJoint_8hpp_source.html">dart/dynamics/WeldJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d07/PrismaticJoint_8hpp_source.html">dart/dynamics/PrismaticJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/ded/RevoluteJoint_8hpp_source.html">dart/dynamics/RevoluteJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d1/dca/ScrewJoint_8hpp_source.html">dart/dynamics/ScrewJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d9/d26/TranslationalJoint_8hpp_source.html">dart/dynamics/TranslationalJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/d41/BallJoint_8hpp_source.html">dart/dynamics/BallJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d1/d8d/FreeJoint_8hpp_source.html">dart/dynamics/FreeJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d5/d0a/EulerJoint_8hpp_source.html">dart/dynamics/EulerJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d57/UniversalJoint_8hpp_source.html">dart/dynamics/UniversalJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/ded/PlanarJoint_8hpp_source.html">dart/dynamics/PlanarJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d4/d58/Skeleton_8hpp_source.html">dart/dynamics/Skeleton.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d8/d1a/Marker_8hpp_source.html">dart/dynamics/Marker.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/d95/XmlHelpers_8hpp_source.html">dart/utils/XmlHelpers.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/structdart_1_1utils_1_1DofProxy.html">dart::utils::DofProxy</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d5a/namespacedart_1_1dynamics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dart::dynamics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d0b/namespacedart_1_1simulation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0b/namespacedart_1_1simulation.html">dart::simulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d8/d28/namespacedart_1_1utils"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html">dart::utils</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4615d94670cb9a8340ba253911c9584a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a4615d94670cb9a8340ba253911c9584a">dart::utils::NextResult</a> { <a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a4615d94670cb9a8340ba253911c9584aac2971741cb0cd9f48cff28f70e970c10">dart::utils::VALID</a>, 
-<a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a4615d94670cb9a8340ba253911c9584aa5559cfc6a9e39c00e71c65ab5d1ebf52">dart::utils::CONTINUE</a>, 
-<a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a4615d94670cb9a8340ba253911c9584aac31e12ac7858cf846123437330409641">dart::utils::BREAK</a>, 
-<a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a4615d94670cb9a8340ba253911c9584aa02ebbbb0881979114d75b6ae9e3a1693">dart::utils::CREATE_FREEJOINT_ROOT</a>
- }</td></tr>
-<tr class="separator:a4615d94670cb9a8340ba253911c9584a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a751d65746eeed6b73b6cd96508eda14b"><td class="memItemLeft" align="right" valign="top">static tinyxml2::XMLElement *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a751d65746eeed6b73b6cd96508eda14b">dart::utils::checkFormatAndGetWorldElement</a> (tinyxml2::XMLDocument &amp;_document)</td></tr>
-<tr class="separator:a751d65746eeed6b73b6cd96508eda14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab275d434d55b631fd43f3926e1cf9b20"><td class="memItemLeft" align="right" valign="top">static NextResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ab275d434d55b631fd43f3926e1cf9b20">dart::utils::getNextJointAndNodePair</a> (SkelParser::JointMap::iterator &amp;it, SkelParser::BodyMap::const_iterator &amp;child, dynamics::BodyNode *&amp;parent, const dynamics::SkeletonPtr skeleton, SkelParser::JointMap &amp;joints, const SkelParser::BodyMap &amp;bodyNodes)</td></tr>
-<tr class="separator:ab275d434d55b631fd43f3926e1cf9b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6975963546d4f1e242bfa800132b52ad"><td class="memTemplParams" colspan="2">template&lt;typename BodyType &gt; </td></tr>
-<tr class="memitem:a6975963546d4f1e242bfa800132b52ad"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; dynamics::Joint <br class="typebreak"/>
-*, dynamics::BodyNode * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a6975963546d4f1e242bfa800132b52ad">dart::utils::createJointAndNodePair</a> (dynamics::SkeletonPtr skeleton, dynamics::BodyNode *parent, const SkelParser::SkelJoint &amp;joint, const typename BodyType::Properties &amp;body)</td></tr>
-<tr class="separator:a6975963546d4f1e242bfa800132b52ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e0b608e37761de56ed4043f271479c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a42e0b608e37761de56ed4043f271479c">dart::utils::createJointAndNodePair</a> (dynamics::SkeletonPtr skeleton, dynamics::BodyNode *parent, const SkelParser::SkelJoint &amp;joint, const SkelParser::SkelBodyNode &amp;body)</td></tr>
-<tr class="separator:a42e0b608e37761de56ed4043f271479c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b853441bc656ba4cc49855258fce8ff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a7b853441bc656ba4cc49855258fce8ff">dart::utils::getDofAttributeIfItExists</a> (const std::string &amp;_attribute, double *_value, const std::string &amp;_element_type, const tinyxml2::XMLElement *_xmlElement, const std::string &amp;_jointName, size_t _index)</td></tr>
-<tr class="separator:a7b853441bc656ba4cc49855258fce8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc0a25784ec5728c93b4db6946dd3594"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#adc0a25784ec5728c93b4db6946dd3594">dart::utils::setDofLimitAttributes</a> (tinyxml2::XMLElement *_dofElement, const std::string &amp;_element_type, const std::string &amp;_jointName, size_t _index, double *lower, double *upper, double *initial)</td></tr>
-<tr class="separator:adc0a25784ec5728c93b4db6946dd3594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47aeb94703b27e22cf583e7076217f43"><td class="memTemplParams" colspan="2">template&lt;typename PropertyType &gt; </td></tr>
-<tr class="memitem:a47aeb94703b27e22cf583e7076217f43"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a47aeb94703b27e22cf583e7076217f43">dart::utils::readAllDegreesOfFreedom</a> (tinyxml2::XMLElement *_jointElement, PropertyType &amp;_properties, SkelParser::SkelJoint &amp;_joint, const std::string &amp;_jointName, size_t _numDofs)</td></tr>
-<tr class="separator:a47aeb94703b27e22cf583e7076217f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d2fceeca840fef69524ae18e03f6466"><td class="memTemplParams" colspan="2">template&lt;typename PropertyType &gt; </td></tr>
-<tr class="memitem:a1d2fceeca840fef69524ae18e03f6466"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a1d2fceeca840fef69524ae18e03f6466">dart::utils::readDegreeOfFreedom</a> (tinyxml2::XMLElement *_dofElement, PropertyType &amp;properties, SkelParser::SkelJoint &amp;joint, const std::string &amp;jointName, size_t numDofs)</td></tr>
-<tr class="separator:a1d2fceeca840fef69524ae18e03f6466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab74efd6dcce1cf638c59dda90a041623"><td class="memTemplParams" colspan="2">template&lt;typename PropertyType &gt; </td></tr>
-<tr class="memitem:ab74efd6dcce1cf638c59dda90a041623"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ab74efd6dcce1cf638c59dda90a041623">dart::utils::readJointDynamicsAndLimit</a> (tinyxml2::XMLElement *_jointElement, PropertyType &amp;_properties, SkelParser::SkelJoint &amp;_joint, const std::string &amp;_name, size_t _numAxis)</td></tr>
-<tr class="separator:ab74efd6dcce1cf638c59dda90a041623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ba63d353a9b2385fbd191d5a1be7e6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>NextResult</b> </td></tr>
+<tr class="separator:a42ba63d353a9b2385fbd191d5a1be7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac60d16cdfa12f65d0feb3b49d1fd6804"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd acceleration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a931be7d4b1532bf0fb0f638d90c0bb6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string childName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25230d663729295b78232c493956fd51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* dampingCoefficient</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa698c70fbd5e93c7e75fd1318e2edc52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd force</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac666c3f3b589e845270d4cc978575568"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* friction</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac28efa16fb8062e271f8b7a373cc1734"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abe224224b7bf24bd77286c68690609fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* initalPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a78ab011eedf58a9d8601728ecfb0c8b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* initialAcceleration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef05cc1aa3b68821e158b244ea11a10f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* initialForce</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9476171ef900579a8e3f733110b98f47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* initialVelocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7c5bb3d0832428c93605e98dd49e6866"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Isometry3d initTransform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed53f2dca60e04f45f85ca59ae8673a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* lowerAcceleration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a73922327c270004a4481b4e20225e89d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* lowerForce</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afa9e50168275f5d392eb0ad1ba6d8859"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* lowerPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad648a755142fe3c8eba31eec49cce806"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* lowerVelocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3bc5be252e2dee0cf6b0b0e64bc18e07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;dynamics::Marker::BasicProperties&gt; markers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a34be977ed742b42533411161886fd21d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string* name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a94ac364d10883e621704a6d94d83c6f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string parentName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aceccc0cd449d679775c9c519a9eca6ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd position</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48bce5c862dfd4823e95f1d218539ddc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool* preserveName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16bee8557055e219eab67ff97f8b5be9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JointPropPtr properties</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada17cc2279296b4a407a22f5317f758c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* restPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a069432aaea7b4b9536a9ba1e8c57d206"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* springStiffness</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75b160f574a0be26114bae2c7686a5e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a0eac01d669ffb6248cfa11e76133f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* upperAcceleration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a85b4a598cf8f5a1f34da5ab075fae030"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* upperForce</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac81934465341dc462a7f340609a4945d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* upperPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af59d53e4236d73424202d4d80b7b2b35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* upperVelocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a28e3c179a86f337095088b3ca02a2b2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool valid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b8ed6098c4b60174de155ac04b776b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd velocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_558fb1470c9a14158ce5db1674bc31a0.html">utils</a></li><li class="navelem"><a class="el" href="../../d8/d35/SkelParser_8cpp.html">SkelParser.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -2,15 +2,41 @@ var dir_7aaf2eefc9c12d3855f042d5a221f589 =
 [
     [ "bullet", "dir_b637490a2ad2244ddde6a51ab145510e.html", "dir_b637490a2ad2244ddde6a51ab145510e" ],
     [ "dart", "dir_131dbabb1e3b2d47fa0af3a8336591fd.html", "dir_131dbabb1e3b2d47fa0af3a8336591fd" ],
+    [ "detail", "dir_d37fbd86ac25490fcdffc3a13c046523.html", "dir_d37fbd86ac25490fcdffc3a13c046523" ],
     [ "fcl", "dir_d9bc0d3f4e4fe81f6b2799c71d86043d.html", "dir_d9bc0d3f4e4fe81f6b2799c71d86043d" ],
-    [ "fcl_mesh", "dir_068f4d95e1aeda0452dcd594189e7f0a.html", "dir_068f4d95e1aeda0452dcd594189e7f0a" ],
-    [ "CollisionDetector.cpp", "d6/d5e/CollisionDetector_8cpp.html", "d6/d5e/CollisionDetector_8cpp" ],
-    [ "CollisionDetector.h", "d4/d58/CollisionDetector_8h.html", [
-      [ "Contact", "db/d36/structdart_1_1collision_1_1Contact.html", "db/d36/structdart_1_1collision_1_1Contact" ],
-      [ "CollisionDetector", "d6/de8/classdart_1_1collision_1_1CollisionDetector.html", "d6/de8/classdart_1_1collision_1_1CollisionDetector" ]
+    [ "CollisionDetector.cpp", "d6/d5e/CollisionDetector_8cpp.html", null ],
+    [ "CollisionDetector.hpp", "d1/d6e/CollisionDetector_8hpp.html", [
+      [ "CollisionDetector", "d6/de8/classdart_1_1collision_1_1CollisionDetector.html", "d6/de8/classdart_1_1collision_1_1CollisionDetector" ],
+      [ "CollisionObjectManager", "d1/d32/classdart_1_1collision_1_1CollisionDetector_1_1CollisionObjectManager.html", "d1/d32/classdart_1_1collision_1_1CollisionDetector_1_1CollisionObjectManager" ],
+      [ "ManagerForUnsharableCollisionObjects", "d1/d88/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects.html", "d1/d88/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects" ],
+      [ "CollisionObjectDeleter", "d0/dd8/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html", "d0/dd8/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter" ],
+      [ "ManagerForSharableCollisionObjects", "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html", "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects" ],
+      [ "CollisionObjectDeleter", "de/d5e/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter.html", "de/d5e/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter" ]
     ] ],
-    [ "CollisionNode.cpp", "dd/d0f/CollisionNode_8cpp.html", null ],
-    [ "CollisionNode.h", "dd/d3f/CollisionNode_8h.html", [
-      [ "CollisionNode", "d7/d54/classdart_1_1collision_1_1CollisionNode.html", "d7/d54/classdart_1_1collision_1_1CollisionNode" ]
-    ] ]
+    [ "CollisionFilter.cpp", "d1/de0/CollisionFilter_8cpp.html", null ],
+    [ "CollisionFilter.hpp", "d6/de0/CollisionFilter_8hpp.html", [
+      [ "CollisionFilter", "d5/d5b/structdart_1_1collision_1_1CollisionFilter.html", "d5/d5b/structdart_1_1collision_1_1CollisionFilter" ],
+      [ "BodyNodeCollisionFilter", "d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html", "d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter" ]
+    ] ],
+    [ "CollisionGroup.cpp", "d1/dac/CollisionGroup_8cpp.html", null ],
+    [ "CollisionGroup.hpp", "db/d05/CollisionGroup_8hpp.html", [
+      [ "CollisionGroup", "d2/d7a/classdart_1_1collision_1_1CollisionGroup.html", "d2/d7a/classdart_1_1collision_1_1CollisionGroup" ]
+    ] ],
+    [ "CollisionObject.cpp", "db/d4c/CollisionObject_8cpp.html", null ],
+    [ "CollisionObject.hpp", "dc/d78/CollisionObject_8hpp.html", [
+      [ "CollisionObject", "dd/d11/classdart_1_1collision_1_1CollisionObject.html", "dd/d11/classdart_1_1collision_1_1CollisionObject" ]
+    ] ],
+    [ "Contact.cpp", "d4/d26/Contact_8cpp.html", null ],
+    [ "Contact.hpp", "df/d90/Contact_8hpp.html", [
+      [ "Contact", "db/d36/structdart_1_1collision_1_1Contact.html", "db/d36/structdart_1_1collision_1_1Contact" ]
+    ] ],
+    [ "Option.cpp", "d7/d0a/Option_8cpp.html", null ],
+    [ "Option.hpp", "dc/d86/Option_8hpp.html", [
+      [ "CollisionOption", "d4/d5b/structdart_1_1collision_1_1CollisionOption.html", "d4/d5b/structdart_1_1collision_1_1CollisionOption" ]
+    ] ],
+    [ "Result.cpp", "d9/d55/Result_8cpp.html", null ],
+    [ "Result.hpp", "d3/db2/Result_8hpp.html", [
+      [ "CollisionResult", "d8/d41/classdart_1_1collision_1_1CollisionResult.html", "d8/d41/classdart_1_1collision_1_1CollisionResult" ]
+    ] ],
+    [ "SmartPointer.hpp", "da/d45/collision_2SmartPointer_8hpp.html", null ]
 ];

@@ -1,37 +1,25 @@
 var classdart_1_1dynamics_1_1Entity =
 [
-    [ "Properties", "d8/d61/structdart_1_1dynamics_1_1Entity_1_1Properties.html", "d8/d61/structdart_1_1dynamics_1_1Entity_1_1Properties" ],
     [ "EntitySignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab332df71302a880dcdc570ebdd452bb3", null ],
     [ "FrameChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aa4699d7172811d709b069d584d63b829", null ],
     [ "NameChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a1ff3fce90beff5cf6f5abda6c4dd1b36", null ],
-    [ "VizShapeAddedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a4146d0d8d1eeb7b62bf421c252cf3859", null ],
-    [ "VizShapeRemovedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ad088ab7fbe939a9345df8567acb61b16", null ],
-    [ "ConstructAbstract_t", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a60693f2b2e6b22fd5ed2a3faddda6374", [
-      [ "ConstructAbstract", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a60693f2b2e6b22fd5ed2a3faddda6374a0376d0cc62fda4f1de1ed180db40c418", null ]
+    [ "ConstructAbstractTag", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab7b77e0b87e7af9c8525c2b4749f228d", [
+      [ "ConstructAbstract", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab7b77e0b87e7af9c8525c2b4749f228da0376d0cc62fda4f1de1ed180db40c418", null ]
     ] ],
-    [ "ConstructFrame_t", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a6afd736c6528075fe201f7eba1820931", [
-      [ "ConstructFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a6afd736c6528075fe201f7eba1820931abc1e3dd9885e9dbc8c5d4da3af679ec5", null ]
+    [ "ConstructFrameTag", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a25b5b95ea4987e4fc165a17f90d327f4", [
+      [ "ConstructFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a25b5b95ea4987e4fc165a17f90d327f4abc1e3dd9885e9dbc8c5d4da3af679ec5", null ]
     ] ],
-    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a23f997010dba7bd9c1424e074827cf58", null ],
+    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#abd18504ee3491fc9fef953e947edc2f9", null ],
+    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a1b9a1d2e6b7af7d3cfc1e4332c8816bc", null ],
     [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#abf7d735bc5013e746620a91a671b85ee", null ],
     [ "~Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a69539cfb17b2b8c6f39d5cd3aa988c9f", null ],
-    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a86a404b6489a7cc1532a84278c6b0f33", null ],
-    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a31e8a9f0d19008b36dd5c4578e3c4c61", null ],
-    [ "addVisualizationShape", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aef462dfe3a23e10a4ea615105b88493d", null ],
+    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a72caf8d522dc4b0408a597b198d8c2d2", null ],
+    [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a9ba81ff65e1dd34c841a422c1661ef76", null ],
     [ "changeParentFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a65d524a41527aa134b586405f2a0f5e6", null ],
-    [ "copy", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aae2d21b64396e3f4a40620ded33e3876", null ],
-    [ "copy", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a5f1f78022b901078dbace24f7c092469", null ],
     [ "descendsFrom", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aa04f3ce00045e926c7c87c33affcf9b9", null ],
-    [ "draw", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aaad025a3526a6ccc0fcabd96187c82a0", null ],
-    [ "getEntityProperties", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a89d0c0c84ec66c109753c18b8ab9453c", null ],
-    [ "getName", "d7/d42/classdart_1_1dynamics_1_1Entity.html#af2d2a856387f1462d1040fda6e537c74", null ],
-    [ "getNumVisualizationShapes", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a3b465437d7cbea30e4a71e5fbf711a96", null ],
+    [ "getName", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a7853339a43da6c645e0e7e82ab4fe9d9", null ],
     [ "getParentFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a10c4c8b43980159e9bb8570ba50f0da6", null ],
     [ "getParentFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a9fa665e65bc5d84c75ca058d1f3095ef", null ],
-    [ "getVisualizationShape", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a8bb0c3cd898e0fb27b195c2792c0fa0d", null ],
-    [ "getVisualizationShape", "d7/d42/classdart_1_1dynamics_1_1Entity.html#afdaf722ad3b2a7bdd0c2fceef29452c9", null ],
-    [ "getVisualizationShapes", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a294da46f1ea08d4cf73b59773969d79f", null ],
-    [ "getVisualizationShapes", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a974812b276480910ccde5384b6560aef", null ],
     [ "isFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#acb790b0d5c01f9e3c393e01b31802dd6", null ],
     [ "isQuiet", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ac29c9312055acba0453bfb1b13d35c1f", null ],
     [ "needsAccelerationUpdate", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a1d79f755abc93dceddf79200f9fd46f5", null ],
@@ -40,16 +28,11 @@ var classdart_1_1dynamics_1_1Entity =
     [ "notifyAccelerationUpdate", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a618443c8bad16c985f432897381396cc", null ],
     [ "notifyTransformUpdate", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab67377987c332b0e8158b16ed204ea1b", null ],
     [ "notifyVelocityUpdate", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab116df52d83cb7b6edc3b3f9b1bc96ae", null ],
-    [ "operator=", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a9da6cd8cd0e46b9bf68456c7ac6d9223", null ],
-    [ "removeAllVisualizationShapes", "d7/d42/classdart_1_1dynamics_1_1Entity.html#abb964d1de78cbe0c3161748d70eaf889", null ],
-    [ "removeVisualizationShape", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a9b6570ed652043f8ea7daea39a3af9a2", null ],
-    [ "setName", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aa33107c44376136b415fab0fbd918810", null ],
-    [ "setProperties", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a8025e750b8fe09094d52f4bd30a553ac", null ],
+    [ "setName", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a1a07773b34d8cb828c7e9fb0b546537d", null ],
     [ "Frame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aee3a66b0ddf3b769f015c89b610db0c7", null ],
     [ "mAccelerationChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a11c38bdf0fafb4c16bb17c17676b0522", null ],
     [ "mAmFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a1b1ed11d66b4113ebd8577927c3766f1", null ],
     [ "mAmQuiet", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a4169c654d2a5e50d95b22922379f88dc", null ],
-    [ "mEntityP", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aae19930f19f26e8b45d9d09021733e25", null ],
     [ "mFrameChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a3c139811e7f4cfc361a868fac330c2ae", null ],
     [ "mNameChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aadfdfede108bfa24d07cdd9920bf64cd", null ],
     [ "mNeedAccelerationUpdate", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a91cbe1081892564b1f84d2d09470c93d", null ],
@@ -58,12 +41,9 @@ var classdart_1_1dynamics_1_1Entity =
     [ "mParentFrame", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a5cec7baa6bc3c423742d36e14e99edee", null ],
     [ "mTransformUpdatedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a6714c8e1ce5b89d01ad6bea5894d7ecd", null ],
     [ "mVelocityChangedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a7b6717c5b297dc3f65519eef2615c559", null ],
-    [ "mVizShapeAddedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a99a7c1eaedaf9ae33555195152b387b4", null ],
-    [ "mVizShapeRemovedSignal", "d7/d42/classdart_1_1dynamics_1_1Entity.html#adad0cdc06b4a1c2587e05ce95e54721c", null ],
     [ "onAccelerationChanged", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aed12275bbcbca8e518590ea10307748c", null ],
     [ "onFrameChanged", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a89f99a8be1ca0eb6188bc2304b53dfcf", null ],
     [ "onNameChanged", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ae2c6b33adbe52d11d254b0876d63026c", null ],
     [ "onTransformUpdated", "d7/d42/classdart_1_1dynamics_1_1Entity.html#ab2bb7564cd388637e5f4a479ed5ee928", null ],
-    [ "onVelocityChanged", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a7310594d6402a9dca7a886ba14a9bdd4", null ],
-    [ "onVizShapeAdded", "d7/d42/classdart_1_1dynamics_1_1Entity.html#aa3f0cf00f4aaca6134858f00dedf80ec", null ]
+    [ "onVelocityChanged", "d7/d42/classdart_1_1dynamics_1_1Entity.html#a7310594d6402a9dca7a886ba14a9bdd4", null ]
 ];

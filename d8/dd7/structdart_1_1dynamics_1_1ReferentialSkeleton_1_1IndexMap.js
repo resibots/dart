@@ -1,5 +1,8 @@
 var structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap =
 [
-    [ "mBodyNodeIndex", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a5c9ee9f6fb1861b8a06e3f08a5299d40", null ],
-    [ "mDofIndices", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#af84c0b7f50c01f7bf0b649f74ec535ed", null ]
+    [ "IndexMap", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a7abc7547ae09ab8ca493146ea0302e7e", null ],
+    [ "isExpired", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#aa76f0ffb3f67a1459800581ac9c61f96", null ],
+    [ "mBodyNodeIndex", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a51ca647fb6c13aeb41fa5de1496d8d67", null ],
+    [ "mDofIndices", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#ae88e2c97db2379a1b54fabb87c050489", null ],
+    [ "mJointIndex", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html#a54f6f1478d195d1565f69396eae74b4e", null ]
 ];

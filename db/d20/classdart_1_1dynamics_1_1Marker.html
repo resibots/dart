@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -105,169 +105,173 @@ $(document).ready(function(){initNavTree('db/d20/classdart_1_1dynamics_1_1Marker
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../df/d44/classdart_1_1dynamics_1_1Marker-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">dart::dynamics::Marker Class Reference</div>  </div>
+<div class="title">dart::dynamics::Marker Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/dab/Marker_8h_source.html">Marker.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d8/d1a/Marker_8hpp_source.html">Marker.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for dart::dynamics::Marker:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../db/d20/classdart_1_1dynamics_1_1Marker.png" usemap="#dart::dynamics::Marker_map" alt=""/>
+  <map id="dart::dynamics::Marker_map" name="dart::dynamics::Marker_map">
+<area href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html" alt="dart::common::EmbedPropertiesOnTopOf&lt; Marker, detail::MarkerProperties, FixedJacobianNode &gt;" shape="rect" coords="0,56,623,80"/>
+<area href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html" alt="dart::common::CompositeJoiner&lt; EmbedProperties&lt; Marker, detail::MarkerProperties &gt;, CompositeBases...&gt;" shape="rect" coords="0,0,623,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:abf12fda6c4c28ac7c13a174e48ced31c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">ConstraintType</a> { <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31ca8c87070614bd6061dd6273c40031e33f">NO</a>, 
-<a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31cad7fe116edd099cd2213828a477117d41">HARD</a>, 
-<a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31cadd5bc06d7e67103cd748f8a7ab315d74">SOFT</a>
- }</td></tr>
-<tr class="separator:abf12fda6c4c28ac7c13a174e48ced31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47a9e756a2763b98c9f94c43558b5a0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#af47a9e756a2763b98c9f94c43558b5a0">ConstraintType</a> = <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">detail::MarkerProperties::ConstraintType</a></td></tr>
+<tr class="separator:af47a9e756a2763b98c9f94c43558b5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0462e93ba85a5c9b7e6b8999cc8341e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a0462e93ba85a5c9b7e6b8999cc8341e3">BasicProperties</a> = <a class="el" href="../../d1/d90/classdart_1_1common_1_1Composite.html#ae44cace295c694f8867986c7eb810c51">common::Composite::MakeProperties</a>&lt; NameAspect, <a class="el" href="../../d8/d17/classdart_1_1dynamics_1_1FixedFrame.html">FixedFrame</a>, <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a> &gt;</td></tr>
+<tr class="separator:a0462e93ba85a5c9b7e6b8999cc8341e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aedac8ac137a3a2586f66904505cd30"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a4aedac8ac137a3a2586f66904505cd30">Properties</a> = <a class="el" href="../../d1/d90/classdart_1_1common_1_1Composite.html#aab357df00be0b5b9261204966c07583e">common::Composite::Properties</a></td></tr>
+<tr class="separator:a4aedac8ac137a3a2586f66904505cd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf')"><img src="../../closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html">dart::common::EmbedPropertiesOnTopOf&lt; Marker, detail::MarkerProperties, FixedJacobianNode &gt;</a></td></tr>
+<tr class="memitem:a11332640ee8bf15a4d85852ee5073d80 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a11332640ee8bf15a4d85852ee5073d80">Impl</a> = <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html">EmbedProperties</a>&lt; Marker, detail::MarkerProperties &gt;</td></tr>
+<tr class="separator:a11332640ee8bf15a4d85852ee5073d80 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7c44cb7dfd94ea61cadb38ff619116 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a1e7c44cb7dfd94ea61cadb38ff619116">Derived</a> = typename <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#a97ea5474e8a99d03350e48a531c87ec7">Impl::Derived</a></td></tr>
+<tr class="separator:a1e7c44cb7dfd94ea61cadb38ff619116 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5e9d784c674edc0763646d88870ba6 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a2c5e9d784c674edc0763646d88870ba6">AspectPropertiesData</a> = typename <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#a667fc3b7d3c507750e75c1be918acb48">Impl::AspectPropertiesData</a></td></tr>
+<tr class="separator:a2c5e9d784c674edc0763646d88870ba6 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc9941aced02c95143557599e8bccf5 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#addc9941aced02c95143557599e8bccf5">AspectProperties</a> = typename <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#a9fe1dd1e36565464bf9cd87e8380b96c">Impl::AspectProperties</a></td></tr>
+<tr class="separator:addc9941aced02c95143557599e8bccf5 inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a09a3abbcd10a188a9dafff5a420cfb inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> = typename <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#acd58d0c7b37e0750b83ddac696629f6f">Impl::Aspect</a></td></tr>
+<tr class="separator:a7a09a3abbcd10a188a9dafff5a420cfb inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9af78a0e035eb90052912c29cf2895c inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#ad9af78a0e035eb90052912c29cf2895c">Base</a> = <a class="el" href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html">CompositeJoiner</a>&lt; <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a11332640ee8bf15a4d85852ee5073d80">Impl</a>, CompositeBases...&gt;</td></tr>
+<tr class="separator:ad9af78a0e035eb90052912c29cf2895c inherit pub_types_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a865fbb99c57f5c3b14c05590c85061f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a865fbb99c57f5c3b14c05590c85061f1">Marker</a> (const std::string &amp;_name, const Eigen::Vector3d &amp;_offset, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *_bodyNode, <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">ConstraintType</a> _type=<a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31ca8c87070614bd6061dd6273c40031e33f">NO</a>)</td></tr>
-<tr class="separator:a865fbb99c57f5c3b14c05590c85061f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f2f4281a1ed999a146a1f60e2e6725"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ab8f2f4281a1ed999a146a1f60e2e6725">~Marker</a> ()</td></tr>
-<tr class="separator:ab8f2f4281a1ed999a146a1f60e2e6725"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afabccbbe6f9605c938b305d8f2f1d1eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#afabccbbe6f9605c938b305d8f2f1d1eb">draw</a> (<a class="el" href="../../da/ddb/classdart_1_1renderer_1_1RenderInterface.html">renderer::RenderInterface</a> *_ri=nullptr, bool _offset=true, const Eigen::Vector4d &amp;_color=Eigen::Vector4d::Identity(), bool _useDefaultColor=true) const </td></tr>
-<tr class="separator:afabccbbe6f9605c938b305d8f2f1d1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1503673bc5639e842acf43566c6307"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a5d1503673bc5639e842acf43566c6307">~Marker</a> ()=default</td></tr>
+<tr class="memdesc:a5d1503673bc5639e842acf43566c6307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5d1503673bc5639e842acf43566c6307">More...</a><br/></td></tr>
+<tr class="separator:a5d1503673bc5639e842acf43566c6307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d257b91c0afc8bed9a2b2f500e5b6d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a1d257b91c0afc8bed9a2b2f500e5b6d7">setAspectProperties</a> (const <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#addc9941aced02c95143557599e8bccf5">AspectProperties</a> &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a16bee8557055e219eab67ff97f8b5be9">properties</a>)</td></tr>
+<tr class="memdesc:a1d257b91c0afc8bed9a2b2f500e5b6d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the AspectProperties of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>.  <a href="#a1d257b91c0afc8bed9a2b2f500e5b6d7">More...</a><br/></td></tr>
+<tr class="separator:a1d257b91c0afc8bed9a2b2f500e5b6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4461f7a28e3ed7df9f2e15e7c93bc8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a4461f7a28e3ed7df9f2e15e7c93bc8c3">getBodyNode</a> ()</td></tr>
 <tr class="memdesc:a4461f7a28e3ed7df9f2e15e7c93bc8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a> belongs to.  <a href="#a4461f7a28e3ed7df9f2e15e7c93bc8c3">More...</a><br/></td></tr>
 <tr class="separator:a4461f7a28e3ed7df9f2e15e7c93bc8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a304ad05cdaf7a4b509d1b577269310bf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a304ad05cdaf7a4b509d1b577269310bf">getBodyNode</a> () const </td></tr>
 <tr class="memdesc:a304ad05cdaf7a4b509d1b577269310bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the (const) <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a> belongs to.  <a href="#a304ad05cdaf7a4b509d1b577269310bf">More...</a><br/></td></tr>
 <tr class="separator:a304ad05cdaf7a4b509d1b577269310bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45ba035138b7fcf9b1a5a913434a106"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector3d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#aa45ba035138b7fcf9b1a5a913434a106">getLocalPosition</a> () const </td></tr>
-<tr class="separator:aa45ba035138b7fcf9b1a5a913434a106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e37770f348d2680fb4f6236b3093a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a7e37770f348d2680fb4f6236b3093a79">setLocalPosition</a> (const Eigen::Vector3d &amp;_offset)</td></tr>
-<tr class="separator:a7e37770f348d2680fb4f6236b3093a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e9e82af25d84ba6b3492ae5f8acb99"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ad4e9e82af25d84ba6b3492ae5f8acb99">getLocalPosition</a> () const </td></tr>
+<tr class="memdesc:ad4e9e82af25d84ba6b3492ae5f8acb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position of this marker in the parent body node coordinates.  <a href="#ad4e9e82af25d84ba6b3492ae5f8acb99">More...</a><br/></td></tr>
+<tr class="separator:ad4e9e82af25d84ba6b3492ae5f8acb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb4b1e7375563d0f0c7955b5b24c856"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abeb4b1e7375563d0f0c7955b5b24c856">setLocalPosition</a> (const Eigen::Vector3d &amp;offset)</td></tr>
+<tr class="memdesc:abeb4b1e7375563d0f0c7955b5b24c856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set position of this marker in the parent body node coordinates.  <a href="#abeb4b1e7375563d0f0c7955b5b24c856">More...</a><br/></td></tr>
+<tr class="separator:abeb4b1e7375563d0f0c7955b5b24c856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9540c2d2342fef3eaae7b447c70e45c"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ab9540c2d2342fef3eaae7b447c70e45c">getWorldPosition</a> () const </td></tr>
-<tr class="memdesc:ab9540c2d2342fef3eaae7b447c70e45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position w.r.t. world frame.  <a href="#ab9540c2d2342fef3eaae7b447c70e45c">More...</a><br/></td></tr>
+<tr class="memdesc:ab9540c2d2342fef3eaae7b447c70e45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get position in the world coordinates.  <a href="#ab9540c2d2342fef3eaae7b447c70e45c">More...</a><br/></td></tr>
 <tr class="separator:ab9540c2d2342fef3eaae7b447c70e45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36106e528a94af325dbf23f7d5d0ba2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#aa36106e528a94af325dbf23f7d5d0ba2">getIndexInSkeleton</a> () const </td></tr>
-<tr class="separator:aa36106e528a94af325dbf23f7d5d0ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348925e935dab4e79feee472a9983d56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a348925e935dab4e79feee472a9983d56">setSkeletonIndex</a> (int _idx)</td></tr>
-<tr class="separator:a348925e935dab4e79feee472a9983d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb94ae64171cede1b442517f18f01f9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abb94ae64171cede1b442517f18f01f9e">getID</a> () const </td></tr>
+<tr class="memdesc:abb94ae64171cede1b442517f18f01f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global unique ID.  <a href="#abb94ae64171cede1b442517f18f01f9e">More...</a><br/></td></tr>
 <tr class="separator:abb94ae64171cede1b442517f18f01f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a774cc7e75bbc29a6059a6eb9d9b6685b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a774cc7e75bbc29a6059a6eb9d9b6685b">setName</a> (const std::string &amp;)</td></tr>
-<tr class="separator:a774cc7e75bbc29a6059a6eb9d9b6685b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad936a2b9535a1c18bd3d76a70c200e2e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ad936a2b9535a1c18bd3d76a70c200e2e">getName</a> () const </td></tr>
-<tr class="separator:ad936a2b9535a1c18bd3d76a70c200e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6539d7277e70cb75fd732583e0058c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">ConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a6539d7277e70cb75fd732583e0058c2f">getConstraintType</a> () const </td></tr>
+<tr class="memitem:ac10a33077ad0dad9612a0f7ca1514a7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ac10a33077ad0dad9612a0f7ca1514a7e">setConstraintType</a> (<a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">ConstraintType</a> <a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>)</td></tr>
+<tr class="memdesc:ac10a33077ad0dad9612a0f7ca1514a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set constraint type. which will be useful for inverse kinematics.  <a href="#ac10a33077ad0dad9612a0f7ca1514a7e">More...</a><br/></td></tr>
+<tr class="separator:ac10a33077ad0dad9612a0f7ca1514a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6539d7277e70cb75fd732583e0058c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">ConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a6539d7277e70cb75fd732583e0058c2f">getConstraintType</a> () const </td></tr>
+<tr class="memdesc:a6539d7277e70cb75fd732583e0058c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get constraint type. which will be useful for inverse kinematics.  <a href="#a6539d7277e70cb75fd732583e0058c2f">More...</a><br/></td></tr>
 <tr class="separator:a6539d7277e70cb75fd732583e0058c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac135f4af1115a229d1c931c1932ba0a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ac135f4af1115a229d1c931c1932ba0a3">setConstraintType</a> (<a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">ConstraintType</a> _type)</td></tr>
-<tr class="separator:ac135f4af1115a229d1c931c1932ba0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d36b59c3587b3daff487690760ccd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a66d36b59c3587b3daff487690760ccd3">setColor</a> (const Eigen::Vector4d &amp;color)</td></tr>
+<tr class="memdesc:a66d36b59c3587b3daff487690760ccd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the color of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>.  <a href="#a66d36b59c3587b3daff487690760ccd3">More...</a><br/></td></tr>
+<tr class="separator:a66d36b59c3587b3daff487690760ccd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a84629682ad0259bb11136473e4cfbd"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector4d &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a8a84629682ad0259bb11136473e4cfbd">getColor</a> () const </td></tr>
+<tr class="memdesc:a8a84629682ad0259bb11136473e4cfbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return color of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>.  <a href="#a8a84629682ad0259bb11136473e4cfbd">More...</a><br/></td></tr>
+<tr class="separator:a8a84629682ad0259bb11136473e4cfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html">dart::common::EmbedPropertiesOnTopOf&lt; Marker, detail::MarkerProperties, FixedJacobianNode &gt;</a></td></tr>
+<tr class="memitem:aca83aa7c07ea98bc5bf6b110fa11c9ba inherit pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#aca83aa7c07ea98bc5bf6b110fa11c9ba">EmbedPropertiesOnTopOf</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="separator:aca83aa7c07ea98bc5bf6b110fa11c9ba inherit pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4787c497762d53dc9fe23a47f1d8e2 inherit pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a9f4787c497762d53dc9fe23a47f1d8e2">~EmbedPropertiesOnTopOf</a> ()=default</td></tr>
+<tr class="separator:a9f4787c497762d53dc9fe23a47f1d8e2 inherit pub_methods_classdart_1_1common_1_1EmbedPropertiesOnTopOf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classdart_1_1common_1_1CompositeJoiner"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1common_1_1CompositeJoiner')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html">dart::common::CompositeJoiner&lt; EmbedProperties&lt; Marker, detail::MarkerProperties &gt;, CompositeBases...&gt;</a></td></tr>
+<tr class="memitem:a2625749716d77980fea7d8759f95ab9e inherit pub_methods_classdart_1_1common_1_1CompositeJoiner"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html#a2625749716d77980fea7d8759f95ab9e">~CompositeJoiner</a> ()=default</td></tr>
+<tr class="separator:a2625749716d77980fea7d8759f95ab9e inherit pub_methods_classdart_1_1common_1_1CompositeJoiner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a532fe872390da9afb89b53b181fb6d4b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">ConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a532fe872390da9afb89b53b181fb6d4b">NO</a> = detail::MarkerProperties::NO</td></tr>
+<tr class="separator:a532fe872390da9afb89b53b181fb6d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9cd854ade37a2b40ffa0f8b65d9f5ca"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">ConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ab9cd854ade37a2b40ffa0f8b65d9f5ca">HARD</a> = detail::MarkerProperties::HARD</td></tr>
+<tr class="separator:ab9cd854ade37a2b40ffa0f8b65d9f5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c35b25cc51cd318d9798a9342e391e"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">ConstraintType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a55c35b25cc51cd318d9798a9342e391e">SOFT</a> = detail::MarkerProperties::SOFT</td></tr>
+<tr class="separator:a55c35b25cc51cd318d9798a9342e391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4d5e19a2792d68f17f3d84b5bb7f0657"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a4d5e19a2792d68f17f3d84b5bb7f0657">Marker</a> (const <a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a> &amp;_properties, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *_parent)</td></tr>
-<tr class="memdesc:a4d5e19a2792d68f17f3d84b5bb7f0657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor used by <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>.  <a href="#a4d5e19a2792d68f17f3d84b5bb7f0657">More...</a><br/></td></tr>
-<tr class="separator:a4d5e19a2792d68f17f3d84b5bb7f0657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:abb5dea5dd11d660abb83968ff165ecd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abb5dea5dd11d660abb83968ff165ecd5">mProperties</a></td></tr>
-<tr class="memdesc:abb5dea5dd11d660abb83968ff165ecd5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a> of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>.  <a href="#abb5dea5dd11d660abb83968ff165ecd5">More...</a><br/></td></tr>
-<tr class="separator:abb5dea5dd11d660abb83968ff165ecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efa4f8ce6b0ce0acd2bbbf3804c2757"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a5efa4f8ce6b0ce0acd2bbbf3804c2757">mBodyNode</a></td></tr>
-<tr class="memdesc:a5efa4f8ce6b0ce0acd2bbbf3804c2757"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this marker belongs to.  <a href="#a5efa4f8ce6b0ce0acd2bbbf3804c2757">More...</a><br/></td></tr>
-<tr class="separator:a5efa4f8ce6b0ce0acd2bbbf3804c2757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a963a1bd1b1da44c8fa8c8c4477109151"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a963a1bd1b1da44c8fa8c8c4477109151">mSkelIndex</a></td></tr>
-<tr class="memdesc:a963a1bd1b1da44c8fa8c8c4477109151"><td class="mdescLeft">&#160;</td><td class="mdescRight">position in the model class marker vector.  <a href="#a963a1bd1b1da44c8fa8c8c4477109151">More...</a><br/></td></tr>
-<tr class="separator:a963a1bd1b1da44c8fa8c8c4477109151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898f0f1e7098afc42ca7f676673be134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a898f0f1e7098afc42ca7f676673be134">Marker</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *parent, const <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a0462e93ba85a5c9b7e6b8999cc8341e3">BasicProperties</a> &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a16bee8557055e219eab67ff97f8b5be9">properties</a>)</td></tr>
+<tr class="memdesc:a898f0f1e7098afc42ca7f676673be134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor used by <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>.  <a href="#a898f0f1e7098afc42ca7f676673be134">More...</a><br/></td></tr>
+<tr class="separator:a898f0f1e7098afc42ca7f676673be134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2476e3fb4cf9d830542bd36164b061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a1c2476e3fb4cf9d830542bd36164b061">cloneNode</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *parent) const override</td></tr>
+<tr class="separator:a1c2476e3fb4cf9d830542bd36164b061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4f706ac3268e88f6e6a9499cff052802"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a4f706ac3268e88f6e6a9499cff052802">mID</a></td></tr>
-<tr class="memdesc:a4f706ac3268e88f6e6a9499cff052802"><td class="mdescLeft">&#160;</td><td class="mdescRight">a unique ID of this marker globally.  <a href="#a4f706ac3268e88f6e6a9499cff052802">More...</a><br/></td></tr>
+<tr class="memdesc:a4f706ac3268e88f6e6a9499cff052802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique ID of this marker globally.  <a href="#a4f706ac3268e88f6e6a9499cff052802">More...</a><br/></td></tr>
 <tr class="separator:a4f706ac3268e88f6e6a9499cff052802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:abec01dbc256f15cb2d785b946b4581b8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abec01dbc256f15cb2d785b946b4581b8">msMarkerCount</a> = 0</td></tr>
-<tr class="memdesc:abec01dbc256f15cb2d785b946b4581b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">counts the number of markers globally.  <a href="#abec01dbc256f15cb2d785b946b4581b8">More...</a><br/></td></tr>
+<tr class="memdesc:abec01dbc256f15cb2d785b946b4581b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of markers globally.  <a href="#abec01dbc256f15cb2d785b946b4581b8">More...</a><br/></td></tr>
 <tr class="separator:abec01dbc256f15cb2d785b946b4581b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a6a11291b70c2cbded85d321ce539c62f"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a6a11291b70c2cbded85d321ce539c62f">Skeleton</a></td></tr>
-<tr class="separator:a6a11291b70c2cbded85d321ce539c62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab59408dd3d4e7a025ca332d546a5688b"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#ab59408dd3d4e7a025ca332d546a5688b">BodyNode</a></td></tr>
 <tr class="separator:ab59408dd3d4e7a025ca332d546a5688b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="abf12fda6c4c28ac7c13a174e48ced31c"></a>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a0462e93ba85a5c9b7e6b8999cc8341e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">dart::dynamics::Marker::ConstraintType</a></td>
+          <td class="memname">using <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a0462e93ba85a5c9b7e6b8999cc8341e3">dart::dynamics::Marker::BasicProperties</a> =  <a class="el" href="../../d1/d90/classdart_1_1common_1_1Composite.html#ae44cace295c694f8867986c7eb810c51">common::Composite::MakeProperties</a>&lt; NameAspect, <a class="el" href="../../d8/d17/classdart_1_1dynamics_1_1FixedFrame.html">FixedFrame</a>, <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abf12fda6c4c28ac7c13a174e48ced31ca8c87070614bd6061dd6273c40031e33f"></a>NO</em>&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abf12fda6c4c28ac7c13a174e48ced31cad7fe116edd099cd2213828a477117d41"></a>HARD</em>&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abf12fda6c4c28ac7c13a174e48ced31cadd5bc06d7e67103cd748f8a7ab315d74"></a>SOFT</em>&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
+
+</div>
+</div>
+<a class="anchor" id="af47a9e756a2763b98c9f94c43558b5a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">dart::dynamics::Marker::ConstraintType</a> =  <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">detail::MarkerProperties::ConstraintType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4aedac8ac137a3a2586f66904505cd30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a4aedac8ac137a3a2586f66904505cd30">dart::dynamics::Marker::Properties</a> =  <a class="el" href="../../d1/d90/classdart_1_1common_1_1Composite.html#aab357df00be0b5b9261204966c07583e">common::Composite::Properties</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a865fbb99c57f5c3b14c05590c85061f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">dart::dynamics::Marker::Marker </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
-          <td class="paramname"><em>_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_bodyNode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">ConstraintType</a>&#160;</td>
-          <td class="paramname"><em>_type</em> = <code><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31ca8c87070614bd6061dd6273c40031e33f">NO</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab8f2f4281a1ed999a146a1f60e2e6725"></a>
+<a class="anchor" id="a5d1503673bc5639e842acf43566c6307"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -275,7 +279,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">dart::dynamics::Marker::~Marker </td>
+          <td class="memname">virtual dart::dynamics::Marker::~Marker </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -283,14 +287,16 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Destructor. </p>
+
 </div>
 </div>
-<a class="anchor" id="a4d5e19a2792d68f17f3d84b5bb7f0657"></a>
+<a class="anchor" id="a898f0f1e7098afc42ca7f676673be134"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -300,14 +306,14 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">dart::dynamics::Marker::Marker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a> &amp;&#160;</td>
-          <td class="paramname"><em>_properties</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_parent</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#a0462e93ba85a5c9b7e6b8999cc8341e3">BasicProperties</a> &amp;&#160;</td>
+          <td class="paramname"><em>properties</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -327,40 +333,26 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="afabccbbe6f9605c938b305d8f2f1d1eb"></a>
+<a class="anchor" id="a1c2476e3fb4cf9d830542bd36164b061"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void dart::dynamics::Marker::draw </td>
+          <td class="memname"><a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html">Node</a> * dart::dynamics::Marker::cloneNode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/ddb/classdart_1_1renderer_1_1RenderInterface.html">renderer::RenderInterface</a> *&#160;</td>
-          <td class="paramname"><em>_ri</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_offset</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Eigen::Vector4d &amp;&#160;</td>
-          <td class="paramname"><em>_color</em> = <code>Eigen::Vector4d::Identity()</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>_useDefaultColor</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a> *&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -379,6 +371,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a> belongs to. </p>
+<p>Deprecated: Use getBodyNodePtr() instead </p>
 
 </div>
 </div>
@@ -396,6 +389,24 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the (const) <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a> belongs to. </p>
+<p>Deprecated: Use getBodyNodePtr() instead </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a84629682ad0259bb11136473e4cfbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Eigen::Vector4d &amp; dart::dynamics::Marker::getColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return color of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>. </p>
 
 </div>
 </div>
@@ -404,13 +415,15 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">Marker::ConstraintType</a> dart::dynamics::Marker::getConstraintType </td>
+          <td class="memname"><a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">Marker::ConstraintType</a> dart::dynamics::Marker::getConstraintType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get constraint type. which will be useful for inverse kinematics. </p>
 
 </div>
 </div>
@@ -427,14 +440,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get global unique ID. </p>
+
 </div>
 </div>
-<a class="anchor" id="aa36106e528a94af325dbf23f7d5d0ba2"></a>
+<a class="anchor" id="ad4e9e82af25d84ba6b3492ae5f8acb99"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int dart::dynamics::Marker::getIndexInSkeleton </td>
+          <td class="memname">Eigen::Vector3d dart::dynamics::Marker::getLocalPosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -442,35 +457,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="aa45ba035138b7fcf9b1a5a913434a106"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Eigen::Vector3d &amp; dart::dynamics::Marker::getLocalPosition </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad936a2b9535a1c18bd3d76a70c200e2e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; dart::dynamics::Marker::getName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Get position of this marker in the parent body node coordinates. </p>
 
 </div>
 </div>
@@ -487,27 +474,65 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get position w.r.t. world frame. </p>
+<p>Get position in the world coordinates. </p>
 
 </div>
 </div>
-<a class="anchor" id="ac135f4af1115a229d1c931c1932ba0a3"></a>
+<a class="anchor" id="a1d257b91c0afc8bed9a2b2f500e5b6d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::Marker::setAspectProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#addc9941aced02c95143557599e8bccf5">AspectProperties</a> &amp;&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the AspectProperties of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a66d36b59c3587b3daff487690760ccd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::Marker::setColor </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector4d &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the color of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac10a33077ad0dad9612a0f7ca1514a7e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void dart::dynamics::Marker::setConstraintType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31c">Marker::ConstraintType</a>&#160;</td>
-          <td class="paramname"><em>_type</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">Marker::ConstraintType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set constraint type. which will be useful for inverse kinematics. </p>
+
 </div>
 </div>
-<a class="anchor" id="a7e37770f348d2680fb4f6236b3093a79"></a>
+<a class="anchor" id="abeb4b1e7375563d0f0c7955b5b24c856"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -515,43 +540,13 @@ Friends</h2></td></tr>
           <td class="memname">void dart::dynamics::Marker::setLocalPosition </td>
           <td>(</td>
           <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
-          <td class="paramname"><em>_offset</em></td><td>)</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a774cc7e75bbc29a6059a6eb9d9b6685b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::dynamics::Marker::setName </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>_name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a348925e935dab4e79feee472a9983d56"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::dynamics::Marker::setSkeletonIndex </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>_idx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Set position of this marker in the parent body node coordinates. </p>
 
 </div>
 </div>
@@ -576,28 +571,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6a11291b70c2cbded85d321ce539c62f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">Skeleton</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a5efa4f8ce6b0ce0acd2bbbf3804c2757"></a>
+<a class="anchor" id="ab9cd854ade37a2b40ffa0f8b65d9f5ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -605,17 +580,15 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a>* dart::dynamics::Marker::mBodyNode</td>
+          <td class="memname">constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">Marker::ConstraintType</a> dart::dynamics::Marker::HARD = detail::MarkerProperties::HARD</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> this marker belongs to. </p>
 
 </div>
 </div>
@@ -637,51 +610,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>a unique ID of this marker globally. </p>
-
-</div>
-</div>
-<a class="anchor" id="abb5dea5dd11d660abb83968ff165ecd5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a> dart::dynamics::Marker::mProperties</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html">Properties</a> of this <a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="a963a1bd1b1da44c8fa8c8c4477109151"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int dart::dynamics::Marker::mSkelIndex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>position in the model class marker vector. </p>
+<p>Unique ID of this marker globally. </p>
 
 </div>
 </div>
@@ -703,7 +632,47 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>counts the number of markers globally. </p>
+<p>Counts the number of markers globally. </p>
+
+</div>
+</div>
+<a class="anchor" id="a532fe872390da9afb89b53b181fb6d4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">Marker::ConstraintType</a> dart::dynamics::Marker::NO = detail::MarkerProperties::NO</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55c35b25cc51cd318d9798a9342e391e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1">Marker::ConstraintType</a> dart::dynamics::Marker::SOFT = detail::MarkerProperties::SOFT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -713,7 +682,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d20/classdart_1_1dynamics_1_1Marker.html">Marker</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

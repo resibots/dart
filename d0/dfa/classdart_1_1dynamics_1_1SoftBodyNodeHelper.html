@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -112,45 +112,45 @@ $(document).ready(function(){initNavTree('d0/dfa/classdart_1_1dynamics_1_1SoftBo
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/d9b/SoftBodyNode_8h_source.html">SoftBodyNode.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/d5b/SoftBodyNode_8hpp_source.html">SoftBodyNode.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8609677d2a88176391f2c672f5827d1a"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
-<a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a8609677d2a88176391f2c672f5827d1a">makeBoxProperties</a> (const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a8609677d2a88176391f2c672f5827d1a">makeBoxProperties</a> (const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
 <tr class="memdesc:a8609677d2a88176391f2c672f5827d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for a box-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a> with 8 PointMasses.  <a href="#a8609677d2a88176391f2c672f5827d1a">More...</a><br/></td></tr>
 <tr class="separator:a8609677d2a88176391f2c672f5827d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f4ae6ece7d14231257ca7c3ae4181b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a5f4ae6ece7d14231257ca7c3ae4181b7">setBox</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:a5f4ae6ece7d14231257ca7c3ae4181b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called.  <a href="#a5f4ae6ece7d14231257ca7c3ae4181b7">More...</a><br/></td></tr>
+<tr class="memitem:a5f4ae6ece7d14231257ca7c3ae4181b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a5f4ae6ece7d14231257ca7c3ae4181b7">setBox</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:a5f4ae6ece7d14231257ca7c3ae4181b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called.  <a href="#a5f4ae6ece7d14231257ca7c3ae4181b7">More...</a><br/></td></tr>
 <tr class="separator:a5f4ae6ece7d14231257ca7c3ae4181b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8056c6ebc67563349bd98ee603719f0"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
-<a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#aa8056c6ebc67563349bd98ee603719f0">makeBoxProperties</a> (const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, const Eigen::Vector3i &amp;_frags, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#aa8056c6ebc67563349bd98ee603719f0">makeBoxProperties</a> (const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, const Eigen::Vector3i &amp;_frags, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
 <tr class="memdesc:aa8056c6ebc67563349bd98ee603719f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for a box-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a>.  <a href="#aa8056c6ebc67563349bd98ee603719f0">More...</a><br/></td></tr>
 <tr class="separator:aa8056c6ebc67563349bd98ee603719f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56dd702c1bc0a41b47085f8ec76264ea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a56dd702c1bc0a41b47085f8ec76264ea">setBox</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, const Eigen::Vector3i &amp;_frags, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:a56dd702c1bc0a41b47085f8ec76264ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called.  <a href="#a56dd702c1bc0a41b47085f8ec76264ea">More...</a><br/></td></tr>
+<tr class="memitem:a56dd702c1bc0a41b47085f8ec76264ea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a56dd702c1bc0a41b47085f8ec76264ea">setBox</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, const Eigen::Isometry3d &amp;_localTransform, const Eigen::Vector3i &amp;_frags, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:a56dd702c1bc0a41b47085f8ec76264ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called.  <a href="#a56dd702c1bc0a41b47085f8ec76264ea">More...</a><br/></td></tr>
 <tr class="separator:a56dd702c1bc0a41b47085f8ec76264ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a877f02436b19c7586955b6d72d84247d"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
-<a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a877f02436b19c7586955b6d72d84247d">makeSinglePointMassProperties</a> (double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a877f02436b19c7586955b6d72d84247d">makeSinglePointMassProperties</a> (double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
 <tr class="memdesc:a877f02436b19c7586955b6d72d84247d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for a <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a> with a single <a class="el" href="../../d5/d55/classdart_1_1dynamics_1_1PointMass.html">PointMass</a>.  <a href="#a877f02436b19c7586955b6d72d84247d">More...</a><br/></td></tr>
 <tr class="separator:a877f02436b19c7586955b6d72d84247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47927fd58b674bf3cd484077b959f20b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a47927fd58b674bf3cd484077b959f20b">setSinglePointMass</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:a47927fd58b674bf3cd484077b959f20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called.  <a href="#a47927fd58b674bf3cd484077b959f20b">More...</a><br/></td></tr>
+<tr class="memitem:a47927fd58b674bf3cd484077b959f20b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a47927fd58b674bf3cd484077b959f20b">setSinglePointMass</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:a47927fd58b674bf3cd484077b959f20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called.  <a href="#a47927fd58b674bf3cd484077b959f20b">More...</a><br/></td></tr>
 <tr class="separator:a47927fd58b674bf3cd484077b959f20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7631b222e0f6049770d4ff42a7642adb"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
-<a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a7631b222e0f6049770d4ff42a7642adb">makeEllipsoidProperties</a> (const Eigen::Vector3d &amp;_size, size_t _nSlices, size_t _nStacks, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:a7631b222e0f6049770d4ff42a7642adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for an Ellipsoid-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a>.  <a href="#a7631b222e0f6049770d4ff42a7642adb">More...</a><br/></td></tr>
-<tr class="separator:a7631b222e0f6049770d4ff42a7642adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ca7d89fddf8dc11ed6832daa2eaea4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#ac9ca7d89fddf8dc11ed6832daa2eaea4">setEllipsoid</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, size_t _nSlices, size_t _nStacks, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:ac9ca7d89fddf8dc11ed6832daa2eaea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called.  <a href="#ac9ca7d89fddf8dc11ed6832daa2eaea4">More...</a><br/></td></tr>
-<tr class="separator:ac9ca7d89fddf8dc11ed6832daa2eaea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7c764d8b23d8e764581727b585387be"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
-<a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#ad7c764d8b23d8e764581727b585387be">makeCylinderProperties</a> (double _radius, double _height, size_t _nSlices, size_t _nStacks, size_t _nRings, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:ad7c764d8b23d8e764581727b585387be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for a cylinder-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a>.  <a href="#ad7c764d8b23d8e764581727b585387be">More...</a><br/></td></tr>
-<tr class="separator:ad7c764d8b23d8e764581727b585387be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27cafa19b02f0bed7c786fa6c1b15ad6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a27cafa19b02f0bed7c786fa6c1b15ad6">setCylinder</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, double _radius, double _height, size_t _nSlices, size_t _nStacks, size_t _nRings, double _totalMass, double _vertexStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
-<tr class="memdesc:a27cafa19b02f0bed7c786fa6c1b15ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called.  <a href="#a27cafa19b02f0bed7c786fa6c1b15ad6">More...</a><br/></td></tr>
-<tr class="separator:a27cafa19b02f0bed7c786fa6c1b15ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58564eb81b3e3553d01063698532715b"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
+<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a58564eb81b3e3553d01063698532715b">makeEllipsoidProperties</a> (const Eigen::Vector3d &amp;_size, std::size_t _nSlices, std::size_t _nStacks, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:a58564eb81b3e3553d01063698532715b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for an Ellipsoid-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a>.  <a href="#a58564eb81b3e3553d01063698532715b">More...</a><br/></td></tr>
+<tr class="separator:a58564eb81b3e3553d01063698532715b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadd22b2d53d0db08a18d5d316151b57"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#adadd22b2d53d0db08a18d5d316151b57">setEllipsoid</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, const Eigen::Vector3d &amp;_size, std::size_t _nSlices, std::size_t _nStacks, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:adadd22b2d53d0db08a18d5d316151b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called.  <a href="#adadd22b2d53d0db08a18d5d316151b57">More...</a><br/></td></tr>
+<tr class="separator:adadd22b2d53d0db08a18d5d316151b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3679b662c3f4293976bb75738592010"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
+<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#ab3679b662c3f4293976bb75738592010">makeCylinderProperties</a> (double _radius, double _height, std::size_t _nSlices, std::size_t _nStacks, std::size_t _nRings, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:ab3679b662c3f4293976bb75738592010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Properties struct for a cylinder-shaped <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. ">SoftBodyNode</a>.  <a href="#ab3679b662c3f4293976bb75738592010">More...</a><br/></td></tr>
+<tr class="separator:ab3679b662c3f4293976bb75738592010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd544d4082dff17d82fb1df02db8347"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a1dd544d4082dff17d82fb1df02db8347">setCylinder</a> (<a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html">SoftBodyNode</a> *_softBodyNode, double _radius, double _height, std::size_t _nSlices, std::size_t _nStacks, std::size_t _nRings, double _totalMass, double _vertexStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a>, double _edgeStiffness=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a>, double _dampingCoeff=<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a>)</td></tr>
+<tr class="memdesc:a1dd544d4082dff17d82fb1df02db8347"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called.  <a href="#a1dd544d4082dff17d82fb1df02db8347">More...</a><br/></td></tr>
+<tr class="separator:a1dd544d4082dff17d82fb1df02db8347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a8609677d2a88176391f2c672f5827d1a"></a>
@@ -161,7 +161,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeBoxProperties </td>
+          <td class="memname"><a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeBoxProperties </td>
           <td>(</td>
           <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
           <td class="paramname"><em>_size</em>, </td>
@@ -182,19 +182,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -221,7 +221,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeBoxProperties </td>
+          <td class="memname"><a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeBoxProperties </td>
           <td>(</td>
           <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
           <td class="paramname"><em>_size</em>, </td>
@@ -248,19 +248,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -280,7 +280,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad7c764d8b23d8e764581727b585387be"></a>
+<a class="anchor" id="ab3679b662c3f4293976bb75738592010"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -288,7 +288,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeCylinderProperties </td>
+          <td class="memname"><a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeCylinderProperties </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>_radius</em>, </td>
@@ -302,19 +302,19 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nSlices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nStacks</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nRings</em>, </td>
         </tr>
         <tr>
@@ -327,19 +327,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -358,7 +358,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7631b222e0f6049770d4ff42a7642adb"></a>
+<a class="anchor" id="a58564eb81b3e3553d01063698532715b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -366,7 +366,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeEllipsoidProperties </td>
+          <td class="memname"><a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeEllipsoidProperties </td>
           <td>(</td>
           <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
           <td class="paramname"><em>_size</em>, </td>
@@ -374,13 +374,13 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nSlices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nStacks</em>, </td>
         </tr>
         <tr>
@@ -393,19 +393,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -432,7 +432,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d2b/structdart_1_1dynamics_1_1SoftBodyNode_1_1UniqueProperties.html">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeSinglePointMassProperties </td>
+          <td class="memname"><a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5403f21b51580545872a442dbcfe1051">SoftBodyNode::UniqueProperties</a> dart::dynamics::SoftBodyNodeHelper::makeSinglePointMassProperties </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>_totalMass</em>, </td>
@@ -441,19 +441,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -507,19 +507,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -534,7 +534,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called. </p>
+<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called. </p>
 
 </div>
 </div>
@@ -579,19 +579,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -606,7 +606,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called. </p>
+<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">_frags</td><td>Number of vertices of box mesh. Each component should be equal or greater than 3. For example, [3 3 3] is allowed but [2 2 2] is not. </td></tr>
@@ -616,7 +616,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a27cafa19b02f0bed7c786fa6c1b15ad6"></a>
+<a class="anchor" id="a1dd544d4082dff17d82fb1df02db8347"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -644,19 +644,19 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nSlices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nStacks</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nRings</em>, </td>
         </tr>
         <tr>
@@ -669,19 +669,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -696,11 +696,11 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called. </p>
+<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called. </p>
 
 </div>
 </div>
-<a class="anchor" id="ac9ca7d89fddf8dc11ed6832daa2eaea4"></a>
+<a class="anchor" id="adadd22b2d53d0db08a18d5d316151b57"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -722,13 +722,13 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nSlices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_nStacks</em>, </td>
         </tr>
         <tr>
@@ -741,19 +741,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -768,7 +768,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called. </p>
+<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called. </p>
 
 </div>
 </div>
@@ -795,19 +795,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#a7358e39e5226213a2605f0b1d913b60c">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
+          <td class="paramname"><em>_vertexStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aaa243f1bb20e8b5cb57f10cd9283d686">DART_DEFAULT_VERTEX_STIFFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#aa5416e545a7043002f402316c3ca9ec4">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
+          <td class="paramname"><em>_edgeStiffness</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff">DART_DEFAULT_EDGE_STIFNESS</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d0/d9b/SoftBodyNode_8h.html#abde107e6f50e8925f3e5a1a16e91b285">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
+          <td class="paramname"><em>_dampingCoeff</em> = <code><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af">DART_DEFAULT_DAMPING_COEFF</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -822,7 +822,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa" title="Initialize the vector members with proper sizes. ">SoftBodyNode::init()</a> is called. </p>
+<p>This should be called before <a class="el" href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa">SoftBodyNode::init()</a> is called. </p>
 
 </div>
 </div>
@@ -832,7 +832,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html">SoftBodyNodeHelper</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

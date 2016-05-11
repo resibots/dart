@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('dd/dec/classdart_1_1dynamics_1_1Invers
 <p><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is a base class that should be inherited by methods that are made to solve the IK analytically instead of iteratively.  
  <a href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/ded/InverseKinematics_8h_source.html">InverseKinematics.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/d6a/InverseKinematics_8hpp_source.html">InverseKinematics.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::dynamics::InverseKinematics::Analytical:</div>
 <div class="dyncontent">
@@ -151,12 +151,13 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a3b7b030cb29c20fe67a45af603738802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitwise enumerations that are used to describe some properties of each solution produced by the analytical IK.  <a href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a3b7b030cb29c20fe67a45af603738802">More...</a><br/></td></tr>
 <tr class="separator:a3b7b030cb29c20fe67a45af603738802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60760f61761919ff8045f6f070f1b689"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">ExtraDofUtilization_t</a> { <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689a76d7c10b0ef14d9cc269e1a1bd103006">UNUSED</a> = 0, 
-<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689ad7bab23eea8845b11e5accb5b8f79f26">PRE_ANALYTICAL</a>, 
-<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689abfe4db21302486aa09517a5571d3c29a">POST_ANALYTICAL</a>
+<tr class="memitem:a7f0ed15c333011eac3f7f47b131ccf4d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a> { <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4da76d7c10b0ef14d9cc269e1a1bd103006">UNUSED</a> = 0, 
+<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4dad7bab23eea8845b11e5accb5b8f79f26">PRE_ANALYTICAL</a>, 
+<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4dabfe4db21302486aa09517a5571d3c29a">POST_ANALYTICAL</a>, 
+<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4da1e9e2a822c4592331b8a67ed7791dd8b">PRE_AND_POST_ANALYTICAL</a>
  }</td></tr>
-<tr class="memdesc:a60760f61761919ff8045f6f070f1b689"><td class="mdescLeft">&#160;</td><td class="mdescRight">If there are extra DOFs in the IK module which your <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solver implementation does not make use of, those DOFs can be used to supplement the analytical solver using Jacobian transpose iteration.  <a href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">More...</a><br/></td></tr>
-<tr class="separator:a60760f61761919ff8045f6f070f1b689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a7f0ed15c333011eac3f7f47b131ccf4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If there are extra DOFs in the IK module which your <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solver implementation does not make use of, those DOFs can be used to supplement the analytical solver using Jacobian transpose iteration.  <a href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">More...</a><br/></td></tr>
+<tr class="separator:a7f0ed15c333011eac3f7f47b131ccf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af571c39110b25c8cee0387db23b47bab"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(const <br class="typebreak"/>
 Eigen::VectorXd &amp;_better, <br class="typebreak"/>
 const Eigen::VectorXd &amp;_worse, <br class="typebreak"/>
@@ -184,22 +185,22 @@ Public Member Functions</h2></td></tr>
 &lt; <a class="el" href="../../d6/d5d/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Solution.html">Solution</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a955c43dfc590e6c9df9a7f7625b77abc">computeSolutions</a> (const Eigen::Isometry3d &amp;_desiredBodyTf)=0</td></tr>
 <tr class="memdesc:a955c43dfc590e6c9df9a7f7625b77abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this function to fill the entries of the mSolutions variable.  <a href="#a955c43dfc590e6c9df9a7f7625b77abc">More...</a><br/></td></tr>
 <tr class="separator:a955c43dfc590e6c9df9a7f7625b77abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3b060e23cf3f39a0329c0e4dbc3d830"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
-&lt; size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830">getDofs</a> () const =0</td></tr>
-<tr class="memdesc:ad3b060e23cf3f39a0329c0e4dbc3d830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of the DOFs that will be included in the entries of the solutions returned by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7a024b60e94b1b98c9662f3cf29dc7d0" title="Get the solutions for this IK module, along with a tag indicating whether each solution is valid...">getSolutions()</a>.  <a href="#ad3b060e23cf3f39a0329c0e4dbc3d830">More...</a><br/></td></tr>
-<tr class="separator:ad3b060e23cf3f39a0329c0e4dbc3d830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94bcd3431573c66dc1fa1c4d1dd5174"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
+&lt; std::size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174">getDofs</a> () const =0</td></tr>
+<tr class="memdesc:ad94bcd3431573c66dc1fa1c4d1dd5174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of the DOFs that will be included in the entries of the solutions returned by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7a024b60e94b1b98c9662f3cf29dc7d0" title="Get the solutions for this IK module, along with a tag indicating whether each solution is valid...">getSolutions()</a>.  <a href="#ad94bcd3431573c66dc1fa1c4d1dd5174">More...</a><br/></td></tr>
+<tr class="separator:ad94bcd3431573c66dc1fa1c4d1dd5174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a954b31284057f17a2b658da4e58c284b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a954b31284057f17a2b658da4e58c284b">setPositions</a> (const Eigen::VectorXd &amp;_config)</td></tr>
 <tr class="memdesc:a954b31284057f17a2b658da4e58c284b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configuration of the DOFs.  <a href="#a954b31284057f17a2b658da4e58c284b">More...</a><br/></td></tr>
 <tr class="separator:a954b31284057f17a2b658da4e58c284b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67ae7427f6ef5d54b515b6c3964a385f"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a67ae7427f6ef5d54b515b6c3964a385f">getPositions</a> () const </td></tr>
 <tr class="memdesc:a67ae7427f6ef5d54b515b6c3964a385f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the configuration of the DOFs.  <a href="#a67ae7427f6ef5d54b515b6c3964a385f">More...</a><br/></td></tr>
 <tr class="separator:a67ae7427f6ef5d54b515b6c3964a385f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bff44aa27c60ecf8d152d2baa93541b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a3bff44aa27c60ecf8d152d2baa93541b">setExtraDofUtilization</a> (<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">ExtraDofUtilization_t</a> _utilization)</td></tr>
-<tr class="memdesc:a3bff44aa27c60ecf8d152d2baa93541b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how you want extra DOFs to be utilized by the IK module.  <a href="#a3bff44aa27c60ecf8d152d2baa93541b">More...</a><br/></td></tr>
-<tr class="separator:a3bff44aa27c60ecf8d152d2baa93541b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c3d05801e166f851a281c1aa00f27c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">ExtraDofUtilization_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a79c3d05801e166f851a281c1aa00f27c">getExtraDofUtilization</a> () const </td></tr>
-<tr class="memdesc:a79c3d05801e166f851a281c1aa00f27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get how extra DOFs are being utilized by the IK module.  <a href="#a79c3d05801e166f851a281c1aa00f27c">More...</a><br/></td></tr>
-<tr class="separator:a79c3d05801e166f851a281c1aa00f27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab9f40502831d4831a530146ce07e962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#aab9f40502831d4831a530146ce07e962">setExtraDofUtilization</a> (<a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a> _utilization)</td></tr>
+<tr class="memdesc:aab9f40502831d4831a530146ce07e962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how you want extra DOFs to be utilized by the IK module.  <a href="#aab9f40502831d4831a530146ce07e962">More...</a><br/></td></tr>
+<tr class="separator:aab9f40502831d4831a530146ce07e962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527385c8fd355b6b070f6d337e529011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a527385c8fd355b6b070f6d337e529011">getExtraDofUtilization</a> () const </td></tr>
+<tr class="memdesc:a527385c8fd355b6b070f6d337e529011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get how extra DOFs are being utilized by the IK module.  <a href="#a527385c8fd355b6b070f6d337e529011">More...</a><br/></td></tr>
+<tr class="separator:a527385c8fd355b6b070f6d337e529011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68683f502955da71bfa491194c8e5903"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a68683f502955da71bfa491194c8e5903">setExtraErrorLengthClamp</a> (double _clamp)</td></tr>
 <tr class="memdesc:a68683f502955da71bfa491194c8e5903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how much to clamp the error vector that gets applied to extra DOFs.  <a href="#a68683f502955da71bfa491194c8e5903">More...</a><br/></td></tr>
 <tr class="separator:a68683f502955da71bfa491194c8e5903"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,7 +217,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4986fda2417f88a479d97aae951826d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d3/d04/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Properties.html">Properties</a> for this <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> class.  <a href="#a4986fda2417f88a479d97aae951826d6">More...</a><br/></td></tr>
 <tr class="separator:a4986fda2417f88a479d97aae951826d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c0e0d86d08ec418117082adf89cbac2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a0c0e0d86d08ec418117082adf89cbac2">constructDofMap</a> ()</td></tr>
-<tr class="memdesc:a0c0e0d86d08ec418117082adf89cbac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a mapping from the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their indices within the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs.  <a href="#a0c0e0d86d08ec418117082adf89cbac2">More...</a><br/></td></tr>
+<tr class="memdesc:a0c0e0d86d08ec418117082adf89cbac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a mapping from the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their indices within the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs.  <a href="#a0c0e0d86d08ec418117082adf89cbac2">More...</a><br/></td></tr>
 <tr class="separator:a0c0e0d86d08ec418117082adf89cbac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html">dart::dynamics::InverseKinematics::GradientMethod</a></td></tr>
 <tr class="memitem:ade06ecdee4f1d1d74205001c1128040a inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ade06ecdee4f1d1d74205001c1128040a">GradientMethod</a> (<a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *_ik, const std::string &amp;_methodName, const <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> &amp;_properties)</td></tr>
@@ -253,6 +254,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d8887e76943852ff02a4423afae4aaa inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memItemLeft" align="right" valign="top">const Eigen::VectorXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a4d8887e76943852ff02a4423afae4aaa">getComponentWeights</a> () const </td></tr>
 <tr class="memdesc:a4d8887e76943852ff02a4423afae4aaa inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the weights of this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#a4d8887e76943852ff02a4423afae4aaa">More...</a><br/></td></tr>
 <tr class="separator:a4d8887e76943852ff02a4423afae4aaa inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb09a078c009d83941a0d0bb163f2a2 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#abcb09a078c009d83941a0d0bb163f2a2">convertJacobianMethodOutputToGradient</a> (Eigen::VectorXd &amp;grad, const std::vector&lt; std::size_t &gt; &amp;dofs)</td></tr>
+<tr class="memdesc:abcb09a078c009d83941a0d0bb163f2a2 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the gradient that gets generated by Jacobian methods into a gradient that can be used by a GradientDescentSolver.  <a href="#abcb09a078c009d83941a0d0bb163f2a2">More...</a><br/></td></tr>
+<tr class="separator:abcb09a078c009d83941a0d0bb163f2a2 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eedbc1f9c3a9783236393f984eafdc7 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a1eedbc1f9c3a9783236393f984eafdc7">getGradientMethodProperties</a> () const </td></tr>
 <tr class="memdesc:a1eedbc1f9c3a9783236393f984eafdc7 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html">Properties</a> of this <a class="el" href="../../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html" title="GradientMethod is a base class for different ways of computing the gradient of an InverseKinematics m...">GradientMethod</a>.  <a href="#a1eedbc1f9c3a9783236393f984eafdc7">More...</a><br/></td></tr>
 <tr class="separator:a1eedbc1f9c3a9783236393f984eafdc7 inherit pub_methods_classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,6 +270,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a85673851706f4e73e28c0d776a3f9b55"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a85673851706f4e73e28c0d776a3f9b55">addExtraDofGradient</a> (Eigen::VectorXd &amp;grad, const <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a> &amp;error, <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a> utilization)</td></tr>
+<tr class="memdesc:a85673851706f4e73e28c0d776a3f9b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function will compute a gradient which utilizes the extra DOFs that go unused by the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solution and then it will add the components of that gradient to the output parameter: grad.  <a href="#a85673851706f4e73e28c0d776a3f9b55">More...</a><br/></td></tr>
+<tr class="separator:a85673851706f4e73e28c0d776a3f9b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a616ee175659ccaf8fa6872b9e593480e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a616ee175659ccaf8fa6872b9e593480e">checkSolutionJointLimits</a> ()</td></tr>
 <tr class="memdesc:a616ee175659ccaf8fa6872b9e593480e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the mSolutions vector and tag entries with LIMIT_VIOLATED if any components of their configuration are outside of their position limits.  <a href="#a616ee175659ccaf8fa6872b9e593480e">More...</a><br/></td></tr>
 <tr class="separator:a616ee175659ccaf8fa6872b9e593480e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,11 +320,11 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af77d07227fc6612145ef11772b89c797"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#af77d07227fc6612145ef11772b89c797">mDofMap</a></td></tr>
-<tr class="memdesc:af77d07227fc6612145ef11772b89c797"><td class="mdescLeft">&#160;</td><td class="mdescRight">This maps the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their index in the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs.  <a href="#af77d07227fc6612145ef11772b89c797">More...</a><br/></td></tr>
+<tr class="memdesc:af77d07227fc6612145ef11772b89c797"><td class="mdescLeft">&#160;</td><td class="mdescRight">This maps the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their index in the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs.  <a href="#af77d07227fc6612145ef11772b89c797">More...</a><br/></td></tr>
 <tr class="separator:af77d07227fc6612145ef11772b89c797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ac91771d76006d9f756861cdd5dd86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a90ac91771d76006d9f756861cdd5dd86">mExtraDofs</a></td></tr>
-<tr class="memdesc:a90ac91771d76006d9f756861cdd5dd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of extra DOFs in the module which are not covered by the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> IK implementation.  <a href="#a90ac91771d76006d9f756861cdd5dd86">More...</a><br/></td></tr>
-<tr class="separator:a90ac91771d76006d9f756861cdd5dd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac62d5856582226d268c4142c2dbb7c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#aac62d5856582226d268c4142c2dbb7c4">mExtraDofs</a></td></tr>
+<tr class="memdesc:aac62d5856582226d268c4142c2dbb7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of extra DOFs in the module which are not covered by the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> IK implementation.  <a href="#aac62d5856582226d268c4142c2dbb7c4">More...</a><br/></td></tr>
+<tr class="separator:aac62d5856582226d268c4142c2dbb7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a248cf474c0e45cd02c14dc18ca363de0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d6/d5d/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Solution.html">Solution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a248cf474c0e45cd02c14dc18ca363de0">mValidSolutionsCache</a></td></tr>
 <tr class="memdesc:a248cf474c0e45cd02c14dc18ca363de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cache for the valid solutions.  <a href="#a248cf474c0e45cd02c14dc18ca363de0">More...</a><br/></td></tr>
 <tr class="separator:a248cf474c0e45cd02c14dc18ca363de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,6 +340,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1326e228b7002c909a2d0318aeb64d84"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a1326e228b7002c909a2d0318aeb64d84">mRestoreConfigCache</a></td></tr>
 <tr class="memdesc:a1326e228b7002c909a2d0318aeb64d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cache for storing the current configuration so that it can be restored later.  <a href="#a1326e228b7002c909a2d0318aeb64d84">More...</a><br/></td></tr>
 <tr class="separator:a1326e228b7002c909a2d0318aeb64d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcb9715069ed79c4df73f7bf0eed33c"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a1dcb9715069ed79c4df73f7bf0eed33c">mExtraDofGradCache</a></td></tr>
+<tr class="memdesc:a1dcb9715069ed79c4df73f7bf0eed33c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cache for storing the gradient for the extra DOFs.  <a href="#a1dcb9715069ed79c4df73f7bf0eed33c">More...</a><br/></td></tr>
+<tr class="separator:a1dcb9715069ed79c4df73f7bf0eed33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is a base class that should be inherited by methods that are made to solve the IK analytically instead of iteratively. </p>
@@ -352,12 +362,12 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a60760f61761919ff8045f6f070f1b689"></a>
+<a class="anchor" id="a7f0ed15c333011eac3f7f47b131ccf4d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">dart::dynamics::InverseKinematics::Analytical::ExtraDofUtilization_t</a></td>
+          <td class="memname">enum <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">dart::dynamics::InverseKinematics::Analytical::ExtraDofUtilization</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -367,11 +377,13 @@ Private Attributes</h2></td></tr>
 <p>Jacobian transpose is used for the extra DOFs because it is inexpensive and robust to degenerate Jacobians which are common in low dimensional joint spaces. The primary advantage of pseudoinverse methods over Jacobian transpose methods is their precision, but analytical methods are even more precise than pseudoinverse methods, so that precision is not needed in this case.</p>
 <p>If you want the extra DOFs to use a different method than Jacobian transpose, you can create two seperate IK modules (one which is analytical and one with the iterative method of your choice) and combine them in a <a class="el" href="../../d5/de6/classdart_1_1dynamics_1_1HierarchicalIK.html" title="The HierarchicalIK class provides a convenient way of setting up a hierarchical inverse kinematics op...">HierarchicalIK</a>. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a60760f61761919ff8045f6f070f1b689a76d7c10b0ef14d9cc269e1a1bd103006"></a>UNUSED</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a7f0ed15c333011eac3f7f47b131ccf4da76d7c10b0ef14d9cc269e1a1bd103006"></a>UNUSED</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a60760f61761919ff8045f6f070f1b689ad7bab23eea8845b11e5accb5b8f79f26"></a>PRE_ANALYTICAL</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a7f0ed15c333011eac3f7f47b131ccf4dad7bab23eea8845b11e5accb5b8f79f26"></a>PRE_ANALYTICAL</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a60760f61761919ff8045f6f070f1b689abfe4db21302486aa09517a5571d3c29a"></a>POST_ANALYTICAL</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a7f0ed15c333011eac3f7f47b131ccf4dabfe4db21302486aa09517a5571d3c29a"></a>POST_ANALYTICAL</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a7f0ed15c333011eac3f7f47b131ccf4da1e9e2a822c4592331b8a67ed7791dd8b"></a>PRE_AND_POST_ANALYTICAL</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -463,6 +475,50 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a85673851706f4e73e28c0d776a3f9b55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::InverseKinematics::Analytical::addExtraDofGradient </td>
+          <td>(</td>
+          <td class="paramtype">Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>grad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a> &amp;&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a>&#160;</td>
+          <td class="paramname"><em>utilization</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function will compute a gradient which utilizes the extra DOFs that go unused by the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solution and then it will add the components of that gradient to the output parameter: grad. </p>
+<p>You can override this function to customize how the extra DOFs are used. The default behavior is to use a simple Jacobian Transpose method.</p>
+<p>The utilization flag will be PRE_ANALYTICAL if the function is being called before the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solution is computed; it will be POST_ANALYTICAL if the function is being called after the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> solution is computed. </p>
+
+</div>
+</div>
 <a class="anchor" id="a616ee175659ccaf8fa6872b9e593480e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -570,8 +626,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct a mapping from the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their indices within the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs. </p>
-<p>This will be called immediately after the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is constructed; this one call is sufficient as long as the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">Analytical::getDofs()</a> is not changed. However, if your <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is able to change the DOFs that it operates on, then you will need to call this function each time the DOFs have changed. </p>
+<p>Construct a mapping from the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their indices within the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs. </p>
+<p>This will be called immediately after the <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is constructed; this one call is sufficient as long as the DOFs of <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">Analytical::getDofs()</a> is not changed. However, if your <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html" title="Analytical is a base class that should be inherited by methods that are made to solve the IK analytic...">Analytical</a> is able to change the DOFs that it operates on, then you will need to call this function each time the DOFs have changed. </p>
 
 </div>
 </div>
@@ -592,7 +648,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad3b060e23cf3f39a0329c0e4dbc3d830"></a>
+<a class="anchor" id="ad94bcd3431573c66dc1fa1c4d1dd5174"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -600,7 +656,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const std::vector&lt;size_t&gt;&amp; dart::dynamics::InverseKinematics::Analytical::getDofs </td>
+          <td class="memname">virtual const std::vector&lt;std::size_t&gt;&amp; dart::dynamics::InverseKinematics::Analytical::getDofs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -616,16 +672,16 @@ Private Attributes</h2></td></tr>
 <p>Get a list of the DOFs that will be included in the entries of the solutions returned by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7a024b60e94b1b98c9662f3cf29dc7d0" title="Get the solutions for this IK module, along with a tag indicating whether each solution is valid...">getSolutions()</a>. </p>
 <p>Ideally, this should match up with the DOFs being used by the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module, but this might not always be possible, so this function ensures that solutions can be interpreted correctly. </p>
 
-<p>Implemented in <a class="el" href="../../d0/db4/classHuboLegIK.html#aba41c92751e20830f92f16d40fd963e2">HuboLegIK</a>, and <a class="el" href="../../da/d3b/classHuboArmIK.html#a3b33260d6d499ce9795a3f8a04f05a53">HuboArmIK</a>.</p>
+<p>Implemented in <a class="el" href="../../d0/db4/classHuboLegIK.html#a125b527be32354ac9aca3325812e184a">HuboLegIK</a>, and <a class="el" href="../../da/d3b/classHuboArmIK.html#a255f891b24b2c877f24e45df2a1d3bc4">HuboArmIK</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a79c3d05801e166f851a281c1aa00f27c"></a>
+<a class="anchor" id="a527385c8fd355b6b070f6d337e529011"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">IK::Analytical::ExtraDofUtilization_t</a> dart::dynamics::IK::Analytical::getExtraDofUtilization </td>
+          <td class="memname"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">IK::Analytical::ExtraDofUtilization</a> dart::dynamics::IK::Analytical::getExtraDofUtilization </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -668,7 +724,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the configuration of the DOFs. </p>
-<p>The components of this vector will correspond to the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a>. </p>
+<p>The components of this vector will correspond to the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a>. </p>
 
 </div>
 </div>
@@ -726,14 +782,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3bff44aa27c60ecf8d152d2baa93541b"></a>
+<a class="anchor" id="aab9f40502831d4831a530146ce07e962"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void dart::dynamics::InverseKinematics::Analytical::setExtraDofUtilization </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a60760f61761919ff8045f6f070f1b689">ExtraDofUtilization_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7f0ed15c333011eac3f7f47b131ccf4d">ExtraDofUtilization</a>&#160;</td>
           <td class="paramname"><em>_utilization</em></td><td>)</td>
           <td></td>
         </tr>
@@ -777,7 +833,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the configuration of the DOFs. </p>
-<p>The components of _config must correspond to the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a>. </p>
+<p>The components of _config must correspond to the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a>. </p>
 
 </div>
 </div>
@@ -865,12 +921,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>This maps the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad3b060e23cf3f39a0329c0e4dbc3d830" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their index in the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs. </p>
+<p>This maps the DOFs provided by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad94bcd3431573c66dc1fa1c4d1dd5174" title="Get a list of the DOFs that will be included in the entries of the solutions returned by getSolutions...">getDofs()</a> to their index in the <a class="el" href="../../db/dc8/classdart_1_1dynamics_1_1Node.html" title="The Node class is a base class for BodyNode and any object that attaches to a BodyNode. ">Node</a>'s list of dependent DOFs. </p>
 <p>This map is constructed by <a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a0c0e0d86d08ec418117082adf89cbac2" title="Construct a mapping from the DOFs of getDofs() to their indices within the Node&#39;s list of dependent D...">constructDofMap()</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="a90ac91771d76006d9f756861cdd5dd86"></a>
+<a class="anchor" id="a1dcb9715069ed79c4df73f7bf0eed33c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -878,7 +934,29 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;size_t&gt; dart::dynamics::InverseKinematics::Analytical::mExtraDofs</td>
+          <td class="memname">Eigen::VectorXd dart::dynamics::InverseKinematics::Analytical::mExtraDofGradCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A cache for storing the gradient for the extra DOFs. </p>
+
+</div>
+</div>
+<a class="anchor" id="aac62d5856582226d268c4142c2dbb7c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::size_t&gt; dart::dynamics::InverseKinematics::Analytical::mExtraDofs</td>
         </tr>
       </table>
   </td>
@@ -1011,7 +1089,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a></li><li class="navelem"><a class="el" href="../../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html">Analytical</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:14:36 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

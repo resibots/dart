@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/collision/dart/DARTCollide.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/collision/dart/DARTCollide.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -114,13 +114,14 @@ $(document).ready(function(){initNavTree('d2/db2/DARTCollide_8cpp.html','../../'
 <div class="title">DARTCollide.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d8a/DARTCollide_8h_source.html">dart/collision/dart/DARTCollide.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/dbd/DARTCollide_8hpp_source.html">dart/collision/dart/DARTCollide.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d78/CollisionObject_8hpp_source.html">dart/collision/CollisionObject.hpp</a>&quot;</code><br/>
 <code>#include &lt;memory&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/df1/Helpers_8h_source.html">dart/math/Helpers.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d9/d49/BoxShape_8h_source.html">dart/dynamics/BoxShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d25/EllipsoidShape_8h_source.html">dart/dynamics/EllipsoidShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d73/CylinderShape_8h_source.html">dart/dynamics/CylinderShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/dc6/BodyNode_8hpp_source.html">dart/dynamics/BodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/dd7/Helpers_8hpp_source.html">dart/math/Helpers.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -192,22 +193,22 @@ Functions</h2></td></tr>
 <tr class="separator:a3a0ff848fc18f09ae206645081fcab0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bbea9f76289149a458a4b776ff71e97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a8bbea9f76289149a458a4b776ff71e97">dart::collision::dClosestLineBoxPoints</a> (const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p1, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p2, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> c, const <a class="el" href="../../dc/d54/common_8h.html#a7df642a17fc01c939c1ecfb4604641fa">dMatrix3</a> R, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> side, <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> lret, <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> bret)</td></tr>
 <tr class="separator:a8bbea9f76289149a458a4b776ff71e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25cacdc5959f6018d3ec73f549fe75c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a25cacdc5959f6018d3ec73f549fe75c6">dart::collision::dBoxBox</a> (const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p1, const <a class="el" href="../../dc/d54/common_8h.html#a7df642a17fc01c939c1ecfb4604641fa">dMatrix3</a> R1, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> side1, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p2, const <a class="el" href="../../dc/d54/common_8h.html#a7df642a17fc01c939c1ecfb4604641fa">dMatrix3</a> R2, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> side2, std::vector&lt; Contact &gt; &amp;result)</td></tr>
-<tr class="separator:a25cacdc5959f6018d3ec73f549fe75c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9843f8d5c225b021193e8c54e3dfa79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ab9843f8d5c225b021193e8c54e3dfa79">dart::collision::collideBoxBox</a> (const Eigen::Vector3d &amp;size0, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;size1, const Eigen::Isometry3d &amp;T1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:ab9843f8d5c225b021193e8c54e3dfa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa37e5f03947916b8f3da016a5572f795"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#aa37e5f03947916b8f3da016a5572f795">dart::collision::collideBoxSphere</a> (const Eigen::Vector3d &amp;size0, const Eigen::Isometry3d &amp;T0, const double &amp;r1, const Eigen::Isometry3d &amp;T1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:aa37e5f03947916b8f3da016a5572f795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ad125996af8462bb6b494d90f3fa43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#af5ad125996af8462bb6b494d90f3fa43">dart::collision::collideSphereBox</a> (const double &amp;r0, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;size1, const Eigen::Isometry3d &amp;T1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:af5ad125996af8462bb6b494d90f3fa43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92de52212abc3e2d52442597b44b56a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a92de52212abc3e2d52442597b44b56a1">dart::collision::collideSphereSphere</a> (const double &amp;_r0, const Eigen::Isometry3d &amp;c0, const double &amp;_r1, const Eigen::Isometry3d &amp;c1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:a92de52212abc3e2d52442597b44b56a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57ae18620eae66a8812e1784acb9de1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a57ae18620eae66a8812e1784acb9de1b">dart::collision::collideCylinderSphere</a> (const double &amp;cyl_rad, const double &amp;half_height, const Eigen::Isometry3d &amp;T0, const double &amp;sphere_rad, const Eigen::Isometry3d &amp;T1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:a57ae18620eae66a8812e1784acb9de1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d6cbac277625331a4a0adeb7d7c0cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a74d6cbac277625331a4a0adeb7d7c0cd">dart::collision::collideCylinderPlane</a> (const double &amp;cyl_rad, const double &amp;half_height, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;plane_normal, const Eigen::Isometry3d &amp;T1, std::vector&lt; Contact &gt; *result)</td></tr>
-<tr class="separator:a74d6cbac277625331a4a0adeb7d7c0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a95a1596a7c4011fb36b22af90cbadd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a5a95a1596a7c4011fb36b22af90cbadd">dart::collision::collide</a> (dynamics::ConstShapePtr _shape0, const Eigen::Isometry3d &amp;_T0, dynamics::ConstShapePtr _shape1, const Eigen::Isometry3d &amp;_T1, std::vector&lt; Contact &gt; *_result)</td></tr>
-<tr class="separator:a5a95a1596a7c4011fb36b22af90cbadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7409462147751a0632c98ea71b3fc564"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a7409462147751a0632c98ea71b3fc564">dart::collision::dBoxBox</a> (CollisionObject *o1, CollisionObject *o2, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p1, const <a class="el" href="../../dc/d54/common_8h.html#a7df642a17fc01c939c1ecfb4604641fa">dMatrix3</a> R1, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> side1, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> p2, const <a class="el" href="../../dc/d54/common_8h.html#a7df642a17fc01c939c1ecfb4604641fa">dMatrix3</a> R2, const <a class="el" href="../../dc/d54/common_8h.html#a5096ea3ec8604e70924150084194e6a5">dVector3</a> side2, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a7409462147751a0632c98ea71b3fc564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a499c2347bdc35fbe5ff0489644bc98"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a6a499c2347bdc35fbe5ff0489644bc98">dart::collision::collideBoxBox</a> (CollisionObject *o1, CollisionObject *o2, const Eigen::Vector3d &amp;size0, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;size1, const Eigen::Isometry3d &amp;T1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a6a499c2347bdc35fbe5ff0489644bc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48703ab40948227ad20b3469a15c24b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a48703ab40948227ad20b3469a15c24b2">dart::collision::collideBoxSphere</a> (CollisionObject *o1, CollisionObject *o2, const Eigen::Vector3d &amp;size0, const Eigen::Isometry3d &amp;T0, const double &amp;r1, const Eigen::Isometry3d &amp;T1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a48703ab40948227ad20b3469a15c24b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688aee8a11cd6c22f133ede3bc6ce6a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a688aee8a11cd6c22f133ede3bc6ce6a8">dart::collision::collideSphereBox</a> (CollisionObject *o1, CollisionObject *o2, const double &amp;r0, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;size1, const Eigen::Isometry3d &amp;T1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a688aee8a11cd6c22f133ede3bc6ce6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4453cc30dabf1e28b86d1ff0e1bfe302"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a4453cc30dabf1e28b86d1ff0e1bfe302">dart::collision::collideSphereSphere</a> (CollisionObject *o1, CollisionObject *o2, const double &amp;_r0, const Eigen::Isometry3d &amp;c0, const double &amp;_r1, const Eigen::Isometry3d &amp;c1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a4453cc30dabf1e28b86d1ff0e1bfe302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a39956d9986c714d982e6661bd3558f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a9a39956d9986c714d982e6661bd3558f">dart::collision::collideCylinderSphere</a> (CollisionObject *o1, CollisionObject *o2, const double &amp;cyl_rad, const double &amp;half_height, const Eigen::Isometry3d &amp;T0, const double &amp;sphere_rad, const Eigen::Isometry3d &amp;T1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a9a39956d9986c714d982e6661bd3558f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac644b76c4859b4252238750710da3413"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ac644b76c4859b4252238750710da3413">dart::collision::collideCylinderPlane</a> (CollisionObject *o1, CollisionObject *o2, const double &amp;cyl_rad, const double &amp;half_height, const Eigen::Isometry3d &amp;T0, const Eigen::Vector3d &amp;plane_normal, const Eigen::Isometry3d &amp;T1, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:ac644b76c4859b4252238750710da3413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6edd9ffac5cdd22908b5fc9d5d49c5fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a6edd9ffac5cdd22908b5fc9d5d49c5fc">dart::collision::collide</a> (CollisionObject *o1, CollisionObject *o2, CollisionResult &amp;<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#acb2ddba315ea0578567a9c9f95271a10">result</a>)</td></tr>
+<tr class="separator:a6edd9ffac5cdd22908b5fc9d5d49c5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -269,7 +270,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">(A)[0] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a582e2b248c47e0301f4f53bc9fbc9fd5">Inner</a>((B),(C)); \</div>
 <div class="line">  (A)[1] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a582e2b248c47e0301f4f53bc9fbc9fd5">Inner</a>((B+4),(C)); \</div>
 <div class="line">  (A)[2] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a582e2b248c47e0301f4f53bc9fbc9fd5">Inner</a>((B+8),(C));</div>
-<div class="ttc" id="namespacedart_1_1collision_html_a582e2b248c47e0301f4f53bc9fbc9fd5"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a582e2b248c47e0301f4f53bc9fbc9fd5">dart::collision::Inner</a></div><div class="ttdeci">double Inner(const double *a, const double *b)</div><div class="ttdef"><b>Definition:</b> DARTCollide.cpp:89</div></div>
+<div class="ttc" id="namespacedart_1_1collision_html_a582e2b248c47e0301f4f53bc9fbc9fd5"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a582e2b248c47e0301f4f53bc9fbc9fd5">dart::collision::Inner</a></div><div class="ttdeci">double Inner(const double *a, const double *b)</div><div class="ttdef"><b>Definition:</b> DARTCollide.cpp:90</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -311,7 +312,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">(A)[0] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a5930bfa267cb2944c3f9b3e3dbd9b314">Inner41</a>((B),(C)); \</div>
 <div class="line">  (A)[1] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a5930bfa267cb2944c3f9b3e3dbd9b314">Inner41</a>((B+1),(C)); \</div>
 <div class="line">  (A)[2] op <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a5930bfa267cb2944c3f9b3e3dbd9b314">Inner41</a>((B+2),(C));</div>
-<div class="ttc" id="namespacedart_1_1collision_html_a5930bfa267cb2944c3f9b3e3dbd9b314"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a5930bfa267cb2944c3f9b3e3dbd9b314">dart::collision::Inner41</a></div><div class="ttdeci">double Inner41(const double *a, const double *b)</div><div class="ttdef"><b>Definition:</b> DARTCollide.cpp:95</div></div>
+<div class="ttc" id="namespacedart_1_1collision_html_a5930bfa267cb2944c3f9b3e3dbd9b314"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a5930bfa267cb2944c3f9b3e3dbd9b314">dart::collision::Inner41</a></div><div class="ttdeci">double Inner41(const double *a, const double *b)</div><div class="ttdef"><b>Definition:</b> DARTCollide.cpp:96</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -470,7 +471,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_131dbabb1e3b2d47fa0af3a8336591fd.html">dart</a></li><li class="navelem"><a class="el" href="../../d2/db2/DARTCollide_8cpp.html">DARTCollide.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:58 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

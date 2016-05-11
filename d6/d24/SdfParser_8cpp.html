@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DART: /home/js/dev/pr/dart/doxygen_tag_file/dart/utils/sdf/SdfParser.cpp File Reference</title>
+<title>DART: /home/js/dev/pr/dart/6.0/dart/utils/sdf/SdfParser.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('d6/d24/SdfParser_8cpp.html','../../');
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">SdfParser.cpp File Reference</div>  </div>
@@ -113,27 +114,33 @@ $(document).ready(function(){initNavTree('d6/d24/SdfParser_8cpp.html','../../');
 <div class="textblock"><code>#include &lt;map&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;fstream&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d3f/Console_8h_source.html">dart/common/Console.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d87/BodyNode_8h_source.html">dart/dynamics/BodyNode.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d9/d49/BoxShape_8h_source.html">dart/dynamics/BoxShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d73/CylinderShape_8h_source.html">dart/dynamics/CylinderShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d25/EllipsoidShape_8h_source.html">dart/dynamics/EllipsoidShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d7e/MeshShape_8h_source.html">dart/dynamics/MeshShape.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d1a/WeldJoint_8h_source.html">dart/dynamics/WeldJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/d7a/PrismaticJoint_8h_source.html">dart/dynamics/PrismaticJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/d44/RevoluteJoint_8h_source.html">dart/dynamics/RevoluteJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/db8/ScrewJoint_8h_source.html">dart/dynamics/ScrewJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/dec/TranslationalJoint_8h_source.html">dart/dynamics/TranslationalJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/ddc/BallJoint_8h_source.html">dart/dynamics/BallJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/da7/FreeJoint_8h_source.html">dart/dynamics/FreeJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d0/d40/EulerJoint_8h_source.html">dart/dynamics/EulerJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dd/d4c/UniversalJoint_8h_source.html">dart/dynamics/UniversalJoint.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/ded/Skeleton_8h_source.html">dart/dynamics/Skeleton.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dd/d5b/World_8h_source.html">dart/simulation/World.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/ded/SkelParser_8h_source.html">dart/utils/SkelParser.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d5/d13/LocalResourceRetriever_8h_source.html">dart/common/LocalResourceRetriever.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/d26/Uri_8h_source.html">dart/common/Uri.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d3d/SdfParser_8h_source.html">dart/utils/sdf/SdfParser.h</a>&quot;</code><br/>
+<code>#include &lt;string&gt;</code><br/>
+<code>#include &lt;functional&gt;</code><br/>
+<code>#include &lt;Eigen/Dense&gt;</code><br/>
+<code>#include &lt;Eigen/StdVector&gt;</code><br/>
+<code>#include &lt;tinyxml2.h&gt;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d8/dfb/LocalResourceRetriever_8hpp_source.html">dart/common/LocalResourceRetriever.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../da/d83/ResourceRetriever_8hpp_source.html">dart/common/ResourceRetriever.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d85/Uri_8hpp_source.html">dart/common/Uri.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/dc6/BodyNode_8hpp_source.html">dart/dynamics/BodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d3/d5b/SoftBodyNode_8hpp_source.html">dart/dynamics/SoftBodyNode.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d74/MeshShape_8hpp_source.html">dart/dynamics/MeshShape.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/de8/WeldJoint_8hpp_source.html">dart/dynamics/WeldJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../de/d07/PrismaticJoint_8hpp_source.html">dart/dynamics/PrismaticJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/ded/RevoluteJoint_8hpp_source.html">dart/dynamics/RevoluteJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d1/dca/ScrewJoint_8hpp_source.html">dart/dynamics/ScrewJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d7/d41/BallJoint_8hpp_source.html">dart/dynamics/BallJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d1/d8d/FreeJoint_8hpp_source.html">dart/dynamics/FreeJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../dc/d57/UniversalJoint_8hpp_source.html">dart/dynamics/UniversalJoint.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d4/d58/Skeleton_8hpp_source.html">dart/dynamics/Skeleton.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/dbb/World_8hpp_source.html">dart/simulation/World.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d5/d93/SkelParser_8hpp_source.html">dart/utils/SkelParser.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../db/d95/XmlHelpers_8hpp_source.html">dart/utils/XmlHelpers.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../da/df7/SdfParser_8hpp_source.html">dart/utils/sdf/SdfParser.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -141,21 +148,93 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d8/d28/namespacedart_1_1utils"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html">dart::utils</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d5c/namespacedart_1_1utils_1_1SdfParser"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5c/namespacedart_1_1utils_1_1SdfParser.html">dart::utils::SdfParser</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a22a504f48261b0b68e5a1d89622f54b4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>NextResult</b> </td></tr>
+<tr class="separator:a22a504f48261b0b68e5a1d89622f54b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aefcc208cfca7633c72f311da0e4c1ec2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aefcc208cfca7633c72f311da0e4c1ec2">dart::utils::reportMissingElement</a> (const std::string &amp;functionName, const std::string &amp;elementName, const std::string &amp;objectType, const std::string &amp;objectName)</td></tr>
-<tr class="separator:aefcc208cfca7633c72f311da0e4c1ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa451b1fb5fb5ee8d0b494e70d77f247"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aaa451b1fb5fb5ee8d0b494e70d77f247">dart::utils::readAxisElement</a> (tinyxml2::XMLElement *axisElement, const Eigen::Isometry3d &amp;_parentModelFrame, Eigen::Vector3d &amp;axis, double &amp;lower, double &amp;upper, double &amp;initial, double &amp;rest, double &amp;damping)</td></tr>
-<tr class="separator:aaa451b1fb5fb5ee8d0b494e70d77f247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f62a756f7c7898d0d682cd88ce7c4f"><td class="memItemLeft" align="right" valign="top">simulation::WorldPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5c/namespacedart_1_1utils_1_1SdfParser.html#a35f62a756f7c7898d0d682cd88ce7c4f">dart::utils::SdfParser::readSdfFile</a> (const common::Uri &amp;fileUri, const common::ResourceRetrieverPtr &amp;nullOrRetriever)</td></tr>
+<tr class="separator:a35f62a756f7c7898d0d682cd88ce7c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2368f68a40482356cc12cdbb93b3cb02"><td class="memItemLeft" align="right" valign="top">simulation::WorldPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5c/namespacedart_1_1utils_1_1SdfParser.html#a2368f68a40482356cc12cdbb93b3cb02">dart::utils::SdfParser::readWorld</a> (const common::Uri &amp;fileUri, const common::ResourceRetrieverPtr &amp;nullOrRetriever)</td></tr>
+<tr class="memdesc:a2368f68a40482356cc12cdbb93b3cb02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read World from skel file.  <a href="#a2368f68a40482356cc12cdbb93b3cb02">More...</a><br/></td></tr>
+<tr class="separator:a2368f68a40482356cc12cdbb93b3cb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538a98a24edbaf5506ff92ba93b8a218"><td class="memItemLeft" align="right" valign="top">dynamics::SkeletonPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5c/namespacedart_1_1utils_1_1SdfParser.html#a538a98a24edbaf5506ff92ba93b8a218">dart::utils::SdfParser::readSkeleton</a> (const common::Uri &amp;fileUri, const common::ResourceRetrieverPtr &amp;nullOrRetriever)</td></tr>
+<tr class="memdesc:a538a98a24edbaf5506ff92ba93b8a218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Skeleton from skel file.  <a href="#a538a98a24edbaf5506ff92ba93b8a218">More...</a><br/></td></tr>
+<tr class="separator:a538a98a24edbaf5506ff92ba93b8a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a931be7d4b1532bf0fb0f638d90c0bb6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string childName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7c5bb3d0832428c93605e98dd49e6866"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Isometry3d initTransform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a94ac364d10883e621704a6d94d83c6f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string parentName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16bee8557055e219eab67ff97f8b5be9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JointPropPtr properties</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75b160f574a0be26114bae2c7686a5e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_558fb1470c9a14158ce5db1674bc31a0.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_aac3146568c74976f5f3de3ab0035948.html">sdf</a></li><li class="navelem"><a class="el" href="../../d6/d24/SdfParser_8cpp.html">SdfParser.cpp</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

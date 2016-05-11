@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('df/d29/classdart_1_1constraint_1_1Cons
 <p>Constraint is a base class of concrete constraints classes.  
  <a href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/da5/ConstraintBase_8h_source.html">ConstraintBase.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d9/d4f/ConstraintBase_8hpp_source.html">ConstraintBase.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::constraint::ConstraintBase:</div>
 <div class="dyncontent">
@@ -130,7 +130,8 @@ Inheritance diagram for dart::constraint::ConstraintBase:</div>
 <area href="../../dc/d0c/classdart_1_1constraint_1_1JointConstraint.html" title="class JointConstraint " alt="dart::constraint::JointConstraint" shape="rect" coords="287,56,564,80"/>
 <area href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html" title="Joint Coulomb friction constraint. " alt="dart::constraint::JointCoulombFrictionConstraint" shape="rect" coords="574,56,851,80"/>
 <area href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html" title="JointLimitConstraint handles joint position or velocity limits. " alt="dart::constraint::JointLimitConstraint" shape="rect" coords="861,56,1138,80"/>
-<area href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html" title="SoftContactConstraint represents a contact constraint between two bodies. " alt="dart::constraint::SoftContactConstraint" shape="rect" coords="1148,56,1425,80"/>
+<area href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html" title="Servo motor constraint. " alt="dart::constraint::ServoMotorConstraint" shape="rect" coords="1148,56,1425,80"/>
+<area href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html" title="SoftContactConstraint represents a contact constraint between two bodies. " alt="dart::constraint::SoftContactConstraint" shape="rect" coords="1435,56,1712,80"/>
 <area href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html" title="BallJointConstraint represents ball joint constraint between a body and the world or between two bodi..." alt="dart::constraint::BallJointConstraint" shape="rect" coords="143,112,420,136"/>
 <area href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html" title="WeldJointConstraint represents weld joint constraint between a body and the world or between two bodi..." alt="dart::constraint::WeldJointConstraint" shape="rect" coords="430,112,707,136"/>
 </map>
@@ -138,18 +139,18 @@ Inheritance diagram for dart::constraint::ConstraintBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a813ea2e97a20fb5132f43132d9609a7d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a813ea2e97a20fb5132f43132d9609a7d">getDimension</a> () const </td></tr>
-<tr class="memdesc:a813ea2e97a20fb5132f43132d9609a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return dimesion of this constranit.  <a href="#a813ea2e97a20fb5132f43132d9609a7d">More...</a><br/></td></tr>
-<tr class="separator:a813ea2e97a20fb5132f43132d9609a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09e2b60c56a380f9b7433f4318f51d4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#aa09e2b60c56a380f9b7433f4318f51d4">getDimension</a> () const </td></tr>
+<tr class="memdesc:aa09e2b60c56a380f9b7433f4318f51d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return dimesion of this constranit.  <a href="#aa09e2b60c56a380f9b7433f4318f51d4">More...</a><br/></td></tr>
+<tr class="separator:aa09e2b60c56a380f9b7433f4318f51d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae811d09cb2dcecdc09253dbff8c6f693"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#ae811d09cb2dcecdc09253dbff8c6f693">update</a> ()=0</td></tr>
 <tr class="memdesc:ae811d09cb2dcecdc09253dbff8c6f693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update constraint using updated Skeleton's states.  <a href="#ae811d09cb2dcecdc09253dbff8c6f693">More...</a><br/></td></tr>
 <tr class="separator:ae811d09cb2dcecdc09253dbff8c6f693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b3bcdc399a65d8265c60296b294e4ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a0b3bcdc399a65d8265c60296b294e4ba">getInformation</a> (<a class="el" href="../../dc/d9c/structdart_1_1constraint_1_1ConstraintInfo.html">ConstraintInfo</a> *_info)=0</td></tr>
 <tr class="memdesc:a0b3bcdc399a65d8265c60296b294e4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill LCP variables.  <a href="#a0b3bcdc399a65d8265c60296b294e4ba">More...</a><br/></td></tr>
 <tr class="separator:a0b3bcdc399a65d8265c60296b294e4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d492d4fd55cb390fa492a9a46f4e986"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a6d492d4fd55cb390fa492a9a46f4e986">applyUnitImpulse</a> (size_t _index)=0</td></tr>
-<tr class="memdesc:a6d492d4fd55cb390fa492a9a46f4e986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply unit impulse to constraint space.  <a href="#a6d492d4fd55cb390fa492a9a46f4e986">More...</a><br/></td></tr>
-<tr class="separator:a6d492d4fd55cb390fa492a9a46f4e986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55887e9dc49113de80d8e1e452ff395e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a55887e9dc49113de80d8e1e452ff395e">applyUnitImpulse</a> (std::size_t _index)=0</td></tr>
+<tr class="memdesc:a55887e9dc49113de80d8e1e452ff395e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply unit impulse to constraint space.  <a href="#a55887e9dc49113de80d8e1e452ff395e">More...</a><br/></td></tr>
+<tr class="separator:a55887e9dc49113de80d8e1e452ff395e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e731a9c1d930f36ebf1d99d6aa0883a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a2e731a9c1d930f36ebf1d99d6aa0883a">getVelocityChange</a> (double *_vel, bool _withCfm)=0</td></tr>
 <tr class="memdesc:a2e731a9c1d930f36ebf1d99d6aa0883a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get velocity change due to the uint impulse.  <a href="#a2e731a9c1d930f36ebf1d99d6aa0883a">More...</a><br/></td></tr>
 <tr class="separator:a2e731a9c1d930f36ebf1d99d6aa0883a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaa65531a6ce147ec94afcc5a129da208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b19def48ad79687b8b414d09321219e"><td class="memItemLeft" align="right" valign="top">virtual dynamics::SkeletonPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a5b19def48ad79687b8b414d09321219e">getRootSkeleton</a> () const =0</td></tr>
 <tr class="separator:a5b19def48ad79687b8b414d09321219e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c927e47066a904013058d1061522841"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a3c927e47066a904013058d1061522841">uniteSkeletons</a> ()</td></tr>
-<tr class="separator:a3c927e47066a904013058d1061522841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f95673631df4139625f750c67ab5ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a71f95673631df4139625f750c67ab5ab">uniteSkeletons</a> ()</td></tr>
+<tr class="separator:a71f95673631df4139625f750c67ab5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -188,9 +189,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a459e62c194f32c636cd5210bdeba6914"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a459e62c194f32c636cd5210bdeba6914">mDim</a></td></tr>
-<tr class="memdesc:a459e62c194f32c636cd5210bdeba6914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimension of constraint.  <a href="#a459e62c194f32c636cd5210bdeba6914">More...</a><br/></td></tr>
-<tr class="separator:a459e62c194f32c636cd5210bdeba6914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af10036c25d9109ff568ee7776c55a0"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html#a2af10036c25d9109ff568ee7776c55a0">mDim</a></td></tr>
+<tr class="memdesc:a2af10036c25d9109ff568ee7776c55a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimension of constraint.  <a href="#a2af10036c25d9109ff568ee7776c55a0">More...</a><br/></td></tr>
+<tr class="separator:a2af10036c25d9109ff568ee7776c55a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -277,11 +278,11 @@ Friends</h2></td></tr>
 
 <p>Apply computed constraint impulse to constrained skeletons. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#afc4bf02b761fa6813984f21cf43e7a85">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a3775be2587ea337ce39eab9b25547e73">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a4bc58e9611826dbee323acc05ee0f390">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a1dbcf414c1612fae984c5b709c880ee0">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a2087d1fba6f3887e51197ced8ca416dc">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a3ac1f4894b2f25d0b415d4a348110ff1">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a61561361f629b0dd4e39fe65144922e7">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a6c05df6c8d13f4fc63a8e0b0db5f1df1">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#ae8f5d2ab1c767d4e8b07ac64fd48028c">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a8f7dc06fefbecb08eeea7a6c6f04dbe8">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a77215627f93155e34f601608b44790b6">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a59c2be32a7d7c4cd7af2f9a5fb3e3ee9">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a8f94871fc300f1f748a8f5971affcb7e">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6d492d4fd55cb390fa492a9a46f4e986"></a>
+<a class="anchor" id="a55887e9dc49113de80d8e1e452ff395e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -291,7 +292,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">virtual void dart::constraint::ConstraintBase::applyUnitImpulse </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>_index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -305,7 +306,7 @@ Friends</h2></td></tr>
 
 <p>Apply unit impulse to constraint space. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a5ae11cdaaa4da575bbbea677d8c989dd">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a502f4146a4053264f48ee9f05ce25277">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a258d5fdf18d412b1a77b90c06f82c22f">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a84133cc1d3ab674ba64f43ef40ce7349">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a83da3ef177a60993d66c8081b7d39b0f">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#acc15519f11bbca45851f5c755686b8b0">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a6a2906e39188fed8a87f6b390c9eea4c">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a369ef5279cb961ee4b3aa902bfdfbfd7">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a56d20523137c902ae2118d2d2e62f789">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a823368a83cb6d51694f8af3dbaae73ee">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a9d3c17b913725c36b8d470d3e418c757">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a6e752ca0fe7649156806fc2dd809df35">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a1e929199e6028bb039f77d6dd6f35a83">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -356,16 +357,16 @@ Friends</h2></td></tr>
 
 <p>Excite the constraint. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a874a0ed6c2a91dbc73279979d82be6cc">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#aca52a5fdd2ce5f2aa24375b67d129bc5">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a78002a625a59361967cd6baea17b88f6">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a0b2ea7d388ae137fdfe50e6065a850ab">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#af72b0ae2c777c849563b3902b9ee9cea">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a3973c3933209af0ff2f1a1bc6d9c8f48">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a9d15b79679f5d34c1d7f9a5dab19d95c">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a2a92584ad79e33ad7877bb94342918dc">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#af1e97d6335f16df0c1135f0be81327bb">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a4963a67d92a32ac1616bc5534992785d">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a8625e05a4ff571556498849a814fdfab">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a265e1e0344b6d136d297715d0791ff2a">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a5ac3c12a82240cb905521e70b62a08e6">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a813ea2e97a20fb5132f43132d9609a7d"></a>
+<a class="anchor" id="aa09e2b60c56a380f9b7433f4318f51d4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::constraint::ConstraintBase::getDimension </td>
+          <td class="memname">std::size_t dart::constraint::ConstraintBase::getDimension </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -401,7 +402,7 @@ Friends</h2></td></tr>
 
 <p>Fill LCP variables. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a5a859a0e8279aefb9f0ff0ef1ee60bea">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ad0419647866dad77771c0ae4cdb4e8c1">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a60eee3dc022e86b3caced8121fa17448">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a87e4acac8fc1ca685b3cbb2bc5a71e17">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#aa04970af68831dce0b10eef087e70013">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a2319b25ae152bd78ded570aa783db58a">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a4ab16857935e74eb41dfad68dab0b77f">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a7067eae56d51d8601fa3e3d46742edd2">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a9119f99aba82c9c9a084f4ffe8c1991a">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#af154d2e0f2d87aad5577b7497c703f92">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a7077f20527a4a3f630a18cb75e9bdbe7">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a324fcc67863ce8412b74f1ee33424d5d">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#ab50e7aee09a136ec4a798ec2e302d302">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -426,7 +427,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#ad6268d6016d1ae8dc631216ced4e25c2">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#af97071d84e9aa2bbbd44bdfface420ba">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a123de0f4470b0280bbc0a13bcd758be4">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#aaa4378fc266c5131b46dc10052739a6b">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#acac0f413f97a65434c38ef70ac49bacb">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a5419af38d4b938ae2e83636018bd85ce">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a263a8fd19fab5f67295e30e6d4889ed4">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#aea9d381362ee421864b9f6539dec5ddc">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a4c864c02a769579d86db3fa0c1813102">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ab33081e2699f7bf31173e1c790807640">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a9ed023676cb8df59736bb510dbd8e4d1">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a5e92f03fc916863eb98975381baa25fe">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a0a010ea41033876a25dc98a63ff9892a">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -488,7 +489,7 @@ Friends</h2></td></tr>
 
 <p>Get velocity change due to the uint impulse. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#adf23882261275d46f078496430df5838">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a517cccf7a41f308669d11ffa7dafd728">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#abfc38344dbadea4732810dc428494a8d">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a894b50916598a86fe207b13a225cbbf7">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#ae05fb557b58639ccd0251da04721c482">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#ad5eda60a3e34eadbd1b517578543a3af">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#af30d87b623aa5c07bfc8661dcec324a8">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a06bbbd8c1467a78b5db57c3536e279f4">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a34186e5d489ea6ad0330f003f5b02ad1">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ad2abbc5fe7a780419f5778f4d16630bb">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a0a466a948b20d7b4ce7ab72331da66e9">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#ae42198d929d5acb1427e4214a01853c0">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a1c32cec20aa789991bc820f356950e87">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -515,7 +516,7 @@ Friends</h2></td></tr>
 
 <p>Return true if this constraint is active. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#ad7fee406ef32001d2fc1577a73fabc12">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ad5805eee32c91c737d0b215d8189c94b">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a6dc99cdf5e0edc66308376a7eaeb565d">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ad0bd0d5855ab3aa1f3d17aac4988c236">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a60c40d932b4b95d69c8492e588ea0401">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a4fbefd472a2a09bb427f1befb0d2b39c">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#adf4b34946c5358b51f111d74b80d4b78">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a46f8958fac1402aa870be198b395fed8">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a9439607ee88327810965bc5c90d26b93">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#a99c0af94bc6b1d85798dac864a68726b">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a03a2c608514578d96a711728455618ff">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a90777621d5216d98ebe7062787b08b85">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#af98a9db8464dc432c5dfca673d7681fa">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -542,11 +543,11 @@ Friends</h2></td></tr>
 
 <p>Unexcite the constraint. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a94f0ae821709bd51c3b2217c9946c2ea">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ab8506ced10f78d44c3ee6336ad13466d">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a0e2922019344064b671396cad50379da">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ae1eebd10fee351a923f94df6ea8ba62f">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a62d32918c42e7ebd7586fc5e10430ae5">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a4e925c2f4cb48d3bfc17b04191daa0a9">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a6a4d1b1f271301db6a49bbcf9286ebb2">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#abe44a1888ce53c1e6a42c0c63df37ea2">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a24fc0f7f16da4633e56f45b6430193d9">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#abcec98eccccdf2e61263c3c66938bf72">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a5f359ad34312eec00276a33139c79aec">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a2ce8914c3b9a96c57fc9faeea626a09c">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a357d70e5cf426bd54b64e24646f49b9c">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3c927e47066a904013058d1061522841"></a>
+<a class="anchor" id="a71f95673631df4139625f750c67ab5ab"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -554,7 +555,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::constraint::ConstraintBase::uniteSkeletons </td>
+          <td class="memname">void dart::constraint::ConstraintBase::uniteSkeletons </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -562,12 +563,12 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a269474343564f16a03c8005fb44c5d46">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#af31cc4c2bd7e16f22a94a3baa77fcb1f">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a270d6b8ad40ca389e650175b9738d3ef">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a53b6f559d3bf18215174fc48aabc2bab">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a35aad41dee8b1051faa436f44dc6d71e">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ad2a9c2fabc0e45d0d6e917cab5594afc">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#a6d91dba1d8b9900c7adf4e761b5216d1">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#ac959454cb72b96c020119993f5076250">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -594,7 +595,7 @@ Friends</h2></td></tr>
 
 <p>Update constraint using updated Skeleton's states. </p>
 
-<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a500151593b08b6761998eb980a637e39">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a6fc10fbe95ad027d4aaf27f7e3ad3b6b">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a44e07327eebbd4b17a016ec7edafc12a">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ac3fde2c2fafdf210023792d343175db4">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#aae1fc737ea13834aa80798a90686f786">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a0951af3c963970cd5f1afe73fee4cb73">dart::constraint::WeldJointConstraint</a>.</p>
+<p>Implemented in <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#ac4e1271964563ecca6746f669fb7c8af">dart::constraint::SoftContactConstraint</a>, <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a17713b702609fae7d4625ed58dc21aaa">dart::constraint::ContactConstraint</a>, <a class="el" href="../../d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a90a3b5a106b6ed01f67c85546da6413e">dart::constraint::JointLimitConstraint</a>, <a class="el" href="../../dd/d61/classdart_1_1constraint_1_1JointCoulombFrictionConstraint.html#ae2c3b8a1c0ca1e8bd244ab6587997430">dart::constraint::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a805570c0d57dc9dc2b6ae8b51948c44a">dart::constraint::ServoMotorConstraint</a>, <a class="el" href="../../d9/d4e/classdart_1_1constraint_1_1BallJointConstraint.html#acbd1e143b66ba1fd17af452223c924cb">dart::constraint::BallJointConstraint</a>, and <a class="el" href="../../d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#a0644ae662b396064f6228d5e6ccb155d">dart::constraint::WeldJointConstraint</a>.</p>
 
 </div>
 </div>
@@ -640,7 +641,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a459e62c194f32c636cd5210bdeba6914"></a>
+<a class="anchor" id="a2af10036c25d9109ff568ee7776c55a0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -648,7 +649,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t dart::constraint::ConstraintBase::mDim</td>
+          <td class="memname">std::size_t dart::constraint::ConstraintBase::mDim</td>
         </tr>
       </table>
   </td>
@@ -668,7 +669,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li><li class="navelem"><a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html">ConstraintBase</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

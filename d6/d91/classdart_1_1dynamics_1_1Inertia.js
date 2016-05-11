@@ -22,6 +22,7 @@ var classdart_1_1dynamics_1_1Inertia =
     [ "getMoment", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a5ff08f7cab0a1dc6ad847ec6f658ae15", null ],
     [ "getParameter", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a6187920f726b2b4a60427ab9972cda4f", null ],
     [ "getSpatialTensor", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#aeba2ec22bd692bffe85c913085ea46b2", null ],
+    [ "operator==", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a94db529e2772415513f96bf0eede12ba", null ],
     [ "setLocalCOM", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a5d2cc45655068902f494da81bb52be05", null ],
     [ "setMass", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a6f46ab2c4fd917945e409c6da9c353b2", null ],
     [ "setMoment", "d6/d91/classdart_1_1dynamics_1_1Inertia.html#a4116bf64fe31b72b2ba14269fd242de4", null ],

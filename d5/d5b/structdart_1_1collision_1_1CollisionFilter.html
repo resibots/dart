@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -108,25 +108,28 @@ $(document).ready(function(){initNavTree('d5/d5b/structdart_1_1collision_1_1Coll
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="../../dd/d3a/structdart_1_1collision_1_1CollisionFilter-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">dart::collision::CollisionFilter Struct Reference</div>  </div>
+<div class="title">dart::collision::CollisionFilter Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">CollisionFilter.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::collision::CollisionFilter:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../d5/d5b/structdart_1_1collision_1_1CollisionFilter.png" usemap="#dart::collision::CollisionFilter_map" alt=""/>
   <map id="dart::collision::CollisionFilter_map" name="dart::collision::CollisionFilter_map">
+<area href="../../d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html" alt="dart::collision::BodyNodeCollisionFilter" shape="rect" coords="0,56,228,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae10be09a494ce2458d23e210747da45a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5b/structdart_1_1collision_1_1CollisionFilter.html#ae10be09a494ce2458d23e210747da45a">needBroadphaseCollision</a> (btBroadphaseProxy *_proxy0, btBroadphaseProxy *_proxy1) const </td></tr>
-<tr class="separator:ae10be09a494ce2458d23e210747da45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a84576327337501fcbf95fc7d1440cc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d5b/structdart_1_1collision_1_1CollisionFilter.html#a0a84576327337501fcbf95fc7d1440cc">needCollision</a> (const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *object1, const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *object2) const =0</td></tr>
+<tr class="separator:a0a84576327337501fcbf95fc7d1440cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae10be09a494ce2458d23e210747da45a"></a>
+<a class="anchor" id="a0a84576327337501fcbf95fc7d1440cc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -134,16 +137,16 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool dart::collision::CollisionFilter::needBroadphaseCollision </td>
+          <td class="memname">virtual bool dart::collision::CollisionFilter::needCollision </td>
           <td>(</td>
-          <td class="paramtype">btBroadphaseProxy *&#160;</td>
-          <td class="paramname"><em>_proxy0</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *&#160;</td>
+          <td class="paramname"><em>object1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">btBroadphaseProxy *&#160;</td>
-          <td class="paramname"><em>_proxy1</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *&#160;</td>
+          <td class="paramname"><em>object2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -153,10 +156,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html#a2552fb3c9234f0f9427919fde213cc43">dart::collision::BodyNodeCollisionFilter</a>.</p>
 
 </div>
 </div>
@@ -166,7 +171,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="../../d5/d5b/structdart_1_1collision_1_1CollisionFilter.html">CollisionFilter</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

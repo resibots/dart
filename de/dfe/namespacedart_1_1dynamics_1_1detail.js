@@ -14,6 +14,7 @@ var namespacedart_1_1dynamics_1_1detail =
     [ "EulerJointProperties", "df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.html", "df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties" ],
     [ "FixedFrameProperties", "d8/d8b/structdart_1_1dynamics_1_1detail_1_1FixedFrameProperties.html", "d8/d8b/structdart_1_1dynamics_1_1detail_1_1FixedFrameProperties" ],
     [ "JointProperties", "da/d99/structdart_1_1dynamics_1_1detail_1_1JointProperties.html", "da/d99/structdart_1_1dynamics_1_1detail_1_1JointProperties" ],
+    [ "MarkerProperties", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties" ],
     [ "MultiDofJointState", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html", "dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState" ],
     [ "MultiDofJointUniqueProperties", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html", "dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties" ],
     [ "MultiDofJointProperties", "dc/d3d/structdart_1_1dynamics_1_1detail_1_1MultiDofJointProperties.html", "dc/d3d/structdart_1_1dynamics_1_1detail_1_1MultiDofJointProperties" ],

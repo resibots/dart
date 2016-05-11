@@ -2,224 +2,254 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
 [
     [ "detail", "dir_d3413d487e3f281ac8dda0a2946d4186.html", "dir_d3413d487e3f281ac8dda0a2946d4186" ],
     [ "ArrowShape.cpp", "df/dbf/ArrowShape_8cpp.html", "df/dbf/ArrowShape_8cpp" ],
-    [ "ArrowShape.h", "d9/d86/ArrowShape_8h.html", [
+    [ "ArrowShape.hpp", "d2/de6/ArrowShape_8hpp.html", [
       [ "ArrowShape", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape" ],
       [ "Properties", "dc/dc5/structdart_1_1dynamics_1_1ArrowShape_1_1Properties.html", "dc/dc5/structdart_1_1dynamics_1_1ArrowShape_1_1Properties" ]
     ] ],
     [ "AssimpInputResourceAdaptor.cpp", "d3/d4c/AssimpInputResourceAdaptor_8cpp.html", "d3/d4c/AssimpInputResourceAdaptor_8cpp" ],
-    [ "AssimpInputResourceAdaptor.h", "de/dbe/AssimpInputResourceAdaptor_8h.html", "de/dbe/AssimpInputResourceAdaptor_8h" ],
+    [ "AssimpInputResourceAdaptor.hpp", "dd/d0a/AssimpInputResourceAdaptor_8hpp.html", "dd/d0a/AssimpInputResourceAdaptor_8hpp" ],
     [ "BallJoint.cpp", "dc/dfc/BallJoint_8cpp.html", null ],
-    [ "BallJoint.h", "d3/ddc/BallJoint_8h.html", [
+    [ "BallJoint.hpp", "d7/d41/BallJoint_8hpp.html", [
       [ "BallJoint", "d7/de3/classdart_1_1dynamics_1_1BallJoint.html", "d7/de3/classdart_1_1dynamics_1_1BallJoint" ],
       [ "Properties", "db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties.html", "db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties" ]
     ] ],
     [ "BodyNode.cpp", "d0/db2/BodyNode_8cpp.html", "d0/db2/BodyNode_8cpp" ],
-    [ "BodyNode.h", "d7/d87/BodyNode_8h.html", "d7/d87/BodyNode_8h" ],
+    [ "BodyNode.hpp", "d7/dc6/BodyNode_8hpp.html", [
+      [ "BodyNode", "d5/d2e/classdart_1_1dynamics_1_1BodyNode.html", "d5/d2e/classdart_1_1dynamics_1_1BodyNode" ]
+    ] ],
     [ "BoxShape.cpp", "d8/db4/BoxShape_8cpp.html", null ],
-    [ "BoxShape.h", "d9/d49/BoxShape_8h.html", [
+    [ "BoxShape.hpp", "df/d22/BoxShape_8hpp.html", [
       [ "BoxShape", "d4/d45/classdart_1_1dynamics_1_1BoxShape.html", "d4/d45/classdart_1_1dynamics_1_1BoxShape" ]
     ] ],
     [ "Branch.cpp", "d2/d4d/Branch_8cpp.html", null ],
-    [ "Branch.h", "d1/d9a/Branch_8h.html", [
+    [ "Branch.hpp", "d4/d98/Branch_8hpp.html", [
       [ "Branch", "dd/d80/classdart_1_1dynamics_1_1Branch.html", "dd/d80/classdart_1_1dynamics_1_1Branch" ],
       [ "Criteria", "d1/d21/structdart_1_1dynamics_1_1Branch_1_1Criteria.html", "d1/d21/structdart_1_1dynamics_1_1Branch_1_1Criteria" ]
     ] ],
     [ "Chain.cpp", "dc/d94/Chain_8cpp.html", null ],
-    [ "Chain.h", "de/da4/Chain_8h.html", [
+    [ "Chain.hpp", "df/ddb/Chain_8hpp.html", [
       [ "Chain", "d3/d43/classdart_1_1dynamics_1_1Chain.html", "d3/d43/classdart_1_1dynamics_1_1Chain" ],
       [ "Criteria", "d3/d0c/structdart_1_1dynamics_1_1Chain_1_1Criteria.html", "d3/d0c/structdart_1_1dynamics_1_1Chain_1_1Criteria" ]
     ] ],
+    [ "CompositeNode.hpp", "d8/def/CompositeNode_8hpp.html", [
+      [ "CompositeStateNode", "d7/d3d/classdart_1_1dynamics_1_1CompositeStateNode.html", "d7/d3d/classdart_1_1dynamics_1_1CompositeStateNode" ],
+      [ "CompositePropertiesNode", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode" ],
+      [ "CompositeNode", "d9/de8/classdart_1_1dynamics_1_1CompositeNode.html", "d9/de8/classdart_1_1dynamics_1_1CompositeNode" ]
+    ] ],
     [ "CylinderShape.cpp", "d2/d9f/CylinderShape_8cpp.html", null ],
-    [ "CylinderShape.h", "d2/d73/CylinderShape_8h.html", [
+    [ "CylinderShape.hpp", "d0/d3e/CylinderShape_8hpp.html", [
       [ "CylinderShape", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html", "d3/d73/classdart_1_1dynamics_1_1CylinderShape" ]
     ] ],
     [ "DegreeOfFreedom.cpp", "d4/d56/DegreeOfFreedom_8cpp.html", null ],
-    [ "DegreeOfFreedom.h", "d9/dc4/DegreeOfFreedom_8h.html", [
+    [ "DegreeOfFreedom.hpp", "da/d28/DegreeOfFreedom_8hpp.html", [
       [ "MultiDofJoint", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint" ],
       [ "DegreeOfFreedom", "de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html", "de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom" ]
     ] ],
     [ "EllipsoidShape.cpp", "d0/d4f/EllipsoidShape_8cpp.html", null ],
-    [ "EllipsoidShape.h", "de/d25/EllipsoidShape_8h.html", [
+    [ "EllipsoidShape.hpp", "dd/d4f/EllipsoidShape_8hpp.html", [
       [ "EllipsoidShape", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape" ]
     ] ],
-    [ "EndEffector.cpp", "d1/d4b/EndEffector_8cpp.html", null ],
-    [ "EndEffector.h", "d9/da1/EndEffector_8h.html", [
+    [ "EndEffector.cpp", "d1/d4b/EndEffector_8cpp.html", "d1/d4b/EndEffector_8cpp" ],
+    [ "EndEffector.hpp", "d3/d78/EndEffector_8hpp.html", [
       [ "Support", "d9/d4f/classdart_1_1dynamics_1_1Support.html", "d9/d4f/classdart_1_1dynamics_1_1Support" ],
-      [ "EndEffector", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html", "db/d3c/classdart_1_1dynamics_1_1EndEffector" ],
-      [ "UniqueProperties", "d8/de9/structdart_1_1dynamics_1_1EndEffector_1_1UniqueProperties.html", "d8/de9/structdart_1_1dynamics_1_1EndEffector_1_1UniqueProperties" ],
-      [ "Properties", "d2/d60/structdart_1_1dynamics_1_1EndEffector_1_1Properties.html", "d2/d60/structdart_1_1dynamics_1_1EndEffector_1_1Properties" ]
+      [ "EndEffector", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html", "db/d3c/classdart_1_1dynamics_1_1EndEffector" ]
     ] ],
-    [ "Entity.cpp", "df/de9/Entity_8cpp.html", "df/de9/Entity_8cpp" ],
-    [ "Entity.h", "d4/da0/Entity_8h.html", [
+    [ "Entity.cpp", "df/de9/Entity_8cpp.html", null ],
+    [ "Entity.hpp", "de/da6/Entity_8hpp.html", [
       [ "Entity", "d7/d42/classdart_1_1dynamics_1_1Entity.html", "d7/d42/classdart_1_1dynamics_1_1Entity" ],
-      [ "Properties", "d8/d61/structdart_1_1dynamics_1_1Entity_1_1Properties.html", "d8/d61/structdart_1_1dynamics_1_1Entity_1_1Properties" ],
       [ "Detachable", "df/dc4/classdart_1_1dynamics_1_1Detachable.html", "df/dc4/classdart_1_1dynamics_1_1Detachable" ]
     ] ],
+    [ "EntityNode.hpp", "de/d24/EntityNode_8hpp.html", [
+      [ "EntityNode", "d4/d4c/classdart_1_1dynamics_1_1EntityNode.html", "d4/d4c/classdart_1_1dynamics_1_1EntityNode" ]
+    ] ],
     [ "EulerJoint.cpp", "d6/d32/EulerJoint_8cpp.html", null ],
-    [ "EulerJoint.h", "d0/d40/EulerJoint_8h.html", [
-      [ "EulerJoint", "d2/d87/classdart_1_1dynamics_1_1EulerJoint.html", "d2/d87/classdart_1_1dynamics_1_1EulerJoint" ],
-      [ "UniqueProperties", "d0/dcc/structdart_1_1dynamics_1_1EulerJoint_1_1UniqueProperties.html", "d0/dcc/structdart_1_1dynamics_1_1EulerJoint_1_1UniqueProperties" ],
-      [ "Properties", "df/de0/structdart_1_1dynamics_1_1EulerJoint_1_1Properties.html", "df/de0/structdart_1_1dynamics_1_1EulerJoint_1_1Properties" ]
+    [ "EulerJoint.hpp", "d5/d0a/EulerJoint_8hpp.html", [
+      [ "EulerJoint", "d2/d87/classdart_1_1dynamics_1_1EulerJoint.html", "d2/d87/classdart_1_1dynamics_1_1EulerJoint" ]
     ] ],
     [ "FixedFrame.cpp", "df/dec/FixedFrame_8cpp.html", null ],
-    [ "FixedFrame.h", "d1/d67/FixedFrame_8h.html", [
+    [ "FixedFrame.hpp", "d6/d97/FixedFrame_8hpp.html", [
       [ "FixedFrame", "d8/d17/classdart_1_1dynamics_1_1FixedFrame.html", "d8/d17/classdart_1_1dynamics_1_1FixedFrame" ]
     ] ],
+    [ "FixedJacobianNode.cpp", "d2/d9a/FixedJacobianNode_8cpp.html", null ],
+    [ "FixedJacobianNode.hpp", "d7/dc3/FixedJacobianNode_8hpp.html", [
+      [ "FixedJacobianNode", "df/d75/classdart_1_1dynamics_1_1FixedJacobianNode.html", "df/d75/classdart_1_1dynamics_1_1FixedJacobianNode" ],
+      [ "Cache", "d9/d66/structdart_1_1dynamics_1_1FixedJacobianNode_1_1Cache.html", "d9/d66/structdart_1_1dynamics_1_1FixedJacobianNode_1_1Cache" ]
+    ] ],
     [ "Frame.cpp", "d5/de0/Frame_8cpp.html", "d5/de0/Frame_8cpp" ],
-    [ "Frame.h", "d7/db3/Frame_8h.html", [
+    [ "Frame.hpp", "d3/dae/Frame_8hpp.html", [
       [ "Frame", "db/d38/classdart_1_1dynamics_1_1Frame.html", "db/d38/classdart_1_1dynamics_1_1Frame" ],
       [ "WorldFrame", "d0/df8/classdart_1_1dynamics_1_1WorldFrame.html", "d0/df8/classdart_1_1dynamics_1_1WorldFrame" ]
     ] ],
     [ "FreeJoint.cpp", "dd/d98/FreeJoint_8cpp.html", null ],
-    [ "FreeJoint.h", "db/da7/FreeJoint_8h.html", [
+    [ "FreeJoint.hpp", "d1/d8d/FreeJoint_8hpp.html", [
       [ "FreeJoint", "d3/df1/classdart_1_1dynamics_1_1FreeJoint.html", "d3/df1/classdart_1_1dynamics_1_1FreeJoint" ],
       [ "Properties", "d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties.html", "d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties" ]
     ] ],
     [ "Group.cpp", "de/d74/Group_8cpp.html", null ],
-    [ "Group.h", "de/d3d/Group_8h.html", [
+    [ "Group.hpp", "d1/d6f/Group_8hpp.html", [
       [ "Group", "db/db4/classdart_1_1dynamics_1_1Group.html", "db/db4/classdart_1_1dynamics_1_1Group" ]
     ] ],
     [ "HierarchicalIK.cpp", "d4/dfa/HierarchicalIK_8cpp.html", "d4/dfa/HierarchicalIK_8cpp" ],
-    [ "HierarchicalIK.h", "d2/dc9/HierarchicalIK_8h.html", "d2/dc9/HierarchicalIK_8h" ],
+    [ "HierarchicalIK.hpp", "d1/d9a/HierarchicalIK_8hpp.html", "d1/d9a/HierarchicalIK_8hpp" ],
     [ "Inertia.cpp", "da/dbf/Inertia_8cpp.html", null ],
-    [ "Inertia.h", "db/d17/Inertia_8h.html", [
+    [ "Inertia.hpp", "dc/d13/Inertia_8hpp.html", [
       [ "Inertia", "d6/d91/classdart_1_1dynamics_1_1Inertia.html", "d6/d91/classdart_1_1dynamics_1_1Inertia" ]
     ] ],
-    [ "InvalidIndex.h", "d3/da4/InvalidIndex_8h.html", "d3/da4/InvalidIndex_8h" ],
+    [ "InvalidIndex.hpp", "da/d59/InvalidIndex_8hpp.html", "da/d59/InvalidIndex_8hpp" ],
     [ "InverseKinematics.cpp", "d7/d44/InverseKinematics_8cpp.html", "d7/d44/InverseKinematics_8cpp" ],
-    [ "InverseKinematics.h", "d3/ded/InverseKinematics_8h.html", "d3/ded/InverseKinematics_8h" ],
+    [ "InverseKinematics.hpp", "de/d6a/InverseKinematics_8hpp.html", "de/d6a/InverseKinematics_8hpp" ],
     [ "JacobianNode.cpp", "d8/dbf/JacobianNode_8cpp.html", null ],
-    [ "JacobianNode.h", "d6/dfd/JacobianNode_8h.html", [
+    [ "JacobianNode.hpp", "df/d5d/JacobianNode_8hpp.html", [
       [ "JacobianNode", "d1/d50/classdart_1_1dynamics_1_1JacobianNode.html", "d1/d50/classdart_1_1dynamics_1_1JacobianNode" ]
     ] ],
     [ "Joint.cpp", "d6/de6/Joint_8cpp.html", null ],
-    [ "Joint.h", "de/d50/Joint_8h.html", [
+    [ "Joint.hpp", "db/d4a/Joint_8hpp.html", [
       [ "Joint", "d6/d5b/classdart_1_1dynamics_1_1Joint.html", "d6/d5b/classdart_1_1dynamics_1_1Joint" ],
-      [ "Properties", "d8/d60/structdart_1_1dynamics_1_1Joint_1_1Properties.html", "d8/d60/structdart_1_1dynamics_1_1Joint_1_1Properties" ]
+      [ "ExtendedProperties", "da/d68/structdart_1_1dynamics_1_1Joint_1_1ExtendedProperties.html", "da/d68/structdart_1_1dynamics_1_1Joint_1_1ExtendedProperties" ]
     ] ],
     [ "LineSegmentShape.cpp", "d9/d14/LineSegmentShape_8cpp.html", null ],
-    [ "LineSegmentShape.h", "da/d07/LineSegmentShape_8h.html", [
+    [ "LineSegmentShape.hpp", "d4/d17/LineSegmentShape_8hpp.html", [
       [ "LineSegmentShape", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape" ]
     ] ],
     [ "Linkage.cpp", "d3/d21/Linkage_8cpp.html", "d3/d21/Linkage_8cpp" ],
-    [ "Linkage.h", "d5/dc6/Linkage_8h.html", [
+    [ "Linkage.hpp", "d5/d94/Linkage_8hpp.html", [
       [ "Linkage", "d8/d57/classdart_1_1dynamics_1_1Linkage.html", "d8/d57/classdart_1_1dynamics_1_1Linkage" ],
       [ "Criteria", "de/d88/structdart_1_1dynamics_1_1Linkage_1_1Criteria.html", "de/d88/structdart_1_1dynamics_1_1Linkage_1_1Criteria" ],
       [ "Target", "d0/de1/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Target.html", "d0/de1/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Target" ],
       [ "Terminal", "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html", "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal" ]
     ] ],
     [ "Marker.cpp", "d1/d5e/Marker_8cpp.html", null ],
-    [ "Marker.h", "dc/dab/Marker_8h.html", [
-      [ "Marker", "db/d20/classdart_1_1dynamics_1_1Marker.html", "db/d20/classdart_1_1dynamics_1_1Marker" ],
-      [ "Properties", "d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties.html", "d8/d3f/structdart_1_1dynamics_1_1Marker_1_1Properties" ]
+    [ "Marker.hpp", "d8/d1a/Marker_8hpp.html", [
+      [ "Marker", "db/d20/classdart_1_1dynamics_1_1Marker.html", "db/d20/classdart_1_1dynamics_1_1Marker" ]
     ] ],
     [ "MeshShape.cpp", "d4/d6a/MeshShape_8cpp.html", null ],
-    [ "MeshShape.h", "d0/d7e/MeshShape_8h.html", [
+    [ "MeshShape.hpp", "dc/d74/MeshShape_8hpp.html", [
       [ "MeshShape", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html", "d0/d2d/classdart_1_1dynamics_1_1MeshShape" ]
     ] ],
     [ "MetaSkeleton.cpp", "d1/de4/MetaSkeleton_8cpp.html", "d1/de4/MetaSkeleton_8cpp" ],
-    [ "MetaSkeleton.h", "d1/d5f/MetaSkeleton_8h.html", [
+    [ "MetaSkeleton.hpp", "d0/d96/MetaSkeleton_8hpp.html", [
       [ "MetaSkeleton", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton" ]
     ] ],
-    [ "MultiDofJoint.h", "d4/d92/MultiDofJoint_8h.html", [
-      [ "MultiDofJoint", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint" ],
-      [ "UniqueProperties", "d1/dad/structdart_1_1dynamics_1_1MultiDofJoint_1_1UniqueProperties.html", "d1/dad/structdart_1_1dynamics_1_1MultiDofJoint_1_1UniqueProperties" ],
-      [ "Properties", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties.html", "d5/dbc/structdart_1_1dynamics_1_1MultiDofJoint_1_1Properties" ]
+    [ "MultiDofJoint.hpp", "de/d1a/MultiDofJoint_8hpp.html", [
+      [ "MultiDofJoint", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint" ]
     ] ],
     [ "Node.cpp", "dc/d73/Node_8cpp.html", "dc/d73/Node_8cpp" ],
-    [ "Node.h", "db/d92/Node_8h.html", [
+    [ "Node.hpp", "d7/dc6/Node_8hpp.html", [
       [ "NodeDestructor", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor.html", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor" ],
       [ "Node", "db/dc8/classdart_1_1dynamics_1_1Node.html", "db/dc8/classdart_1_1dynamics_1_1Node" ],
+      [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", null ],
+      [ "Properties", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties.html", null ],
       [ "AccessoryNode", "df/d31/classdart_1_1dynamics_1_1AccessoryNode.html", "df/d31/classdart_1_1dynamics_1_1AccessoryNode" ]
     ] ],
+    [ "NodeManagerJoiner.hpp", "de/d37/NodeManagerJoiner_8hpp.html", [
+      [ "NodeManagerJoinerForBodyNode", "d5/dc2/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode.html", null ],
+      [ "NodeManagerJoinerForBodyNode< Base1 >", "d3/ddb/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_01_4.html", null ],
+      [ "NodeManagerJoinerForBodyNode< Base1, Base2 >", "db/db9/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_01_4.html", "db/db9/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_01_4" ],
+      [ "NodeManagerJoinerForBodyNode< Base1, Base2, OtherBases...>", "da/d5a/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html", "da/d5a/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4" ],
+      [ "NodeManagerJoinerForSkeleton", "d0/d2f/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton.html", null ],
+      [ "NodeManagerJoinerForSkeleton< Base1 >", "d1/dc4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_01_4.html", null ],
+      [ "NodeManagerJoinerForSkeleton< Base1, Base2 >", "db/d96/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_01_4.html", "db/d96/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_01_4" ],
+      [ "NodeManagerJoinerForSkeleton< Base1, Base2, OtherBases...>", "da/de4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html", "da/de4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4" ]
+    ] ],
     [ "PlanarJoint.cpp", "d5/d9e/PlanarJoint_8cpp.html", null ],
-    [ "PlanarJoint.h", "de/d0a/PlanarJoint_8h.html", [
-      [ "PlanarJoint", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint" ],
-      [ "UniqueProperties", "d0/dc3/structdart_1_1dynamics_1_1PlanarJoint_1_1UniqueProperties.html", "d0/dc3/structdart_1_1dynamics_1_1PlanarJoint_1_1UniqueProperties" ],
-      [ "Properties", "d6/d56/structdart_1_1dynamics_1_1PlanarJoint_1_1Properties.html", "d6/d56/structdart_1_1dynamics_1_1PlanarJoint_1_1Properties" ]
+    [ "PlanarJoint.hpp", "df/ded/PlanarJoint_8hpp.html", [
+      [ "PlanarJoint", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint" ]
     ] ],
     [ "PlaneShape.cpp", "d6/d48/PlaneShape_8cpp.html", null ],
-    [ "PlaneShape.h", "de/d65/PlaneShape_8h.html", [
+    [ "PlaneShape.hpp", "d0/de1/PlaneShape_8hpp.html", [
       [ "PlaneShape", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape" ]
     ] ],
-    [ "PointMass.cpp", "de/d03/PointMass_8cpp.html", null ],
-    [ "PointMass.h", "db/d4c/PointMass_8h.html", [
+    [ "PointMass.cpp", "de/d03/PointMass_8cpp.html", "de/d03/PointMass_8cpp" ],
+    [ "PointMass.hpp", "d4/dd0/PointMass_8hpp.html", [
       [ "PointMass", "d5/d55/classdart_1_1dynamics_1_1PointMass.html", "d5/d55/classdart_1_1dynamics_1_1PointMass" ],
+      [ "State", "d4/d3b/structdart_1_1dynamics_1_1PointMass_1_1State.html", "d4/d3b/structdart_1_1dynamics_1_1PointMass_1_1State" ],
       [ "Properties", "d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html", "d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties" ],
       [ "PointMassNotifier", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier" ]
     ] ],
     [ "PrismaticJoint.cpp", "dd/d1b/PrismaticJoint_8cpp.html", null ],
-    [ "PrismaticJoint.h", "d3/d7a/PrismaticJoint_8h.html", [
-      [ "PrismaticJoint", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint" ],
-      [ "UniqueProperties", "df/d30/structdart_1_1dynamics_1_1PrismaticJoint_1_1UniqueProperties.html", "df/d30/structdart_1_1dynamics_1_1PrismaticJoint_1_1UniqueProperties" ],
-      [ "Properties", "da/d47/structdart_1_1dynamics_1_1PrismaticJoint_1_1Properties.html", "da/d47/structdart_1_1dynamics_1_1PrismaticJoint_1_1Properties" ]
+    [ "PrismaticJoint.hpp", "de/d07/PrismaticJoint_8hpp.html", [
+      [ "PrismaticJoint", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint" ]
     ] ],
     [ "ReferentialSkeleton.cpp", "db/d2f/ReferentialSkeleton_8cpp.html", "db/d2f/ReferentialSkeleton_8cpp" ],
-    [ "ReferentialSkeleton.h", "d5/dcf/ReferentialSkeleton_8h.html", [
+    [ "ReferentialSkeleton.hpp", "db/d02/ReferentialSkeleton_8hpp.html", [
       [ "ReferentialSkeleton", "d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html", "d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton" ],
       [ "IndexMap", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap.html", "d8/dd7/structdart_1_1dynamics_1_1ReferentialSkeleton_1_1IndexMap" ]
     ] ],
     [ "RevoluteJoint.cpp", "db/da2/RevoluteJoint_8cpp.html", null ],
-    [ "RevoluteJoint.h", "d1/d44/RevoluteJoint_8h.html", [
-      [ "RevoluteJoint", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint" ],
-      [ "UniqueProperties", "da/de0/structdart_1_1dynamics_1_1RevoluteJoint_1_1UniqueProperties.html", "da/de0/structdart_1_1dynamics_1_1RevoluteJoint_1_1UniqueProperties" ],
-      [ "Properties", "d3/d99/structdart_1_1dynamics_1_1RevoluteJoint_1_1Properties.html", "d3/d99/structdart_1_1dynamics_1_1RevoluteJoint_1_1Properties" ]
+    [ "RevoluteJoint.hpp", "d0/ded/RevoluteJoint_8hpp.html", [
+      [ "RevoluteJoint", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint" ]
     ] ],
     [ "ScrewJoint.cpp", "d0/de5/ScrewJoint_8cpp.html", null ],
-    [ "ScrewJoint.h", "d6/db8/ScrewJoint_8h.html", [
-      [ "ScrewJoint", "db/d9a/classdart_1_1dynamics_1_1ScrewJoint.html", "db/d9a/classdart_1_1dynamics_1_1ScrewJoint" ],
-      [ "UniqueProperties", "dd/da2/structdart_1_1dynamics_1_1ScrewJoint_1_1UniqueProperties.html", "dd/da2/structdart_1_1dynamics_1_1ScrewJoint_1_1UniqueProperties" ],
-      [ "Properties", "de/df9/structdart_1_1dynamics_1_1ScrewJoint_1_1Properties.html", "de/df9/structdart_1_1dynamics_1_1ScrewJoint_1_1Properties" ]
+    [ "ScrewJoint.hpp", "d1/dca/ScrewJoint_8hpp.html", [
+      [ "ScrewJoint", "db/d9a/classdart_1_1dynamics_1_1ScrewJoint.html", "db/d9a/classdart_1_1dynamics_1_1ScrewJoint" ]
     ] ],
     [ "Shape.cpp", "d6/dbd/Shape_8cpp.html", "d6/dbd/Shape_8cpp" ],
-    [ "Shape.h", "de/d8f/Shape_8h.html", [
+    [ "Shape.hpp", "d2/df8/Shape_8hpp.html", [
       [ "Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html", "db/d1c/classdart_1_1dynamics_1_1Shape" ]
     ] ],
+    [ "ShapeFrame.cpp", "d7/d5e/ShapeFrame_8cpp.html", null ],
+    [ "ShapeFrame.hpp", "db/dd7/ShapeFrame_8hpp.html", [
+      [ "VisualAspect", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html", "d1/d66/classdart_1_1dynamics_1_1VisualAspect" ],
+      [ "CollisionAspect", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect" ],
+      [ "DynamicsAspect", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect" ],
+      [ "ShapeFrame", "d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html", "d9/d52/classdart_1_1dynamics_1_1ShapeFrame" ]
+    ] ],
+    [ "ShapeNode.cpp", "d0/df4/dynamics_2ShapeNode_8cpp.html", null ],
+    [ "ShapeNode.hpp", "db/de3/dynamics_2ShapeNode_8hpp.html", [
+      [ "ShapeNode", "d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html", "d4/d9d/classdart_1_1dynamics_1_1ShapeNode" ]
+    ] ],
     [ "SimpleFrame.cpp", "d4/d78/SimpleFrame_8cpp.html", null ],
-    [ "SimpleFrame.h", "d4/d97/SimpleFrame_8h.html", [
+    [ "SimpleFrame.hpp", "d6/dd8/SimpleFrame_8hpp.html", [
       [ "SimpleFrame", "da/d1c/classdart_1_1dynamics_1_1SimpleFrame.html", "da/d1c/classdart_1_1dynamics_1_1SimpleFrame" ]
     ] ],
     [ "SingleDofJoint.cpp", "db/d32/SingleDofJoint_8cpp.html", "db/d32/SingleDofJoint_8cpp" ],
-    [ "SingleDofJoint.h", "db/df8/SingleDofJoint_8h.html", [
-      [ "SingleDofJoint", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint" ],
-      [ "UniqueProperties", "d2/d47/structdart_1_1dynamics_1_1SingleDofJoint_1_1UniqueProperties.html", "d2/d47/structdart_1_1dynamics_1_1SingleDofJoint_1_1UniqueProperties" ],
-      [ "Properties", "d4/dd3/structdart_1_1dynamics_1_1SingleDofJoint_1_1Properties.html", "d4/dd3/structdart_1_1dynamics_1_1SingleDofJoint_1_1Properties" ]
+    [ "SingleDofJoint.hpp", "d3/ddf/SingleDofJoint_8hpp.html", [
+      [ "SingleDofJoint", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint" ]
     ] ],
     [ "Skeleton.cpp", "d2/d7c/Skeleton_8cpp.html", "d2/d7c/Skeleton_8cpp" ],
-    [ "Skeleton.h", "d1/ded/Skeleton_8h.html", [
+    [ "Skeleton.hpp", "d4/d58/Skeleton_8hpp.html", [
       [ "Skeleton", "d3/d19/classdart_1_1dynamics_1_1Skeleton.html", "d3/d19/classdart_1_1dynamics_1_1Skeleton" ],
-      [ "Properties", "dd/dec/structdart_1_1dynamics_1_1Skeleton_1_1Properties.html", "dd/dec/structdart_1_1dynamics_1_1Skeleton_1_1Properties" ],
+      [ "Configuration", "d3/d03/structdart_1_1dynamics_1_1Skeleton_1_1Configuration.html", "d3/d03/structdart_1_1dynamics_1_1Skeleton_1_1Configuration" ],
       [ "DirtyFlags", "d4/d93/structdart_1_1dynamics_1_1Skeleton_1_1DirtyFlags.html", "d4/d93/structdart_1_1dynamics_1_1Skeleton_1_1DirtyFlags" ],
       [ "DataCache", "dc/d9d/structdart_1_1dynamics_1_1Skeleton_1_1DataCache.html", "dc/d9d/structdart_1_1dynamics_1_1Skeleton_1_1DataCache" ]
     ] ],
-    [ "SmartPointer.h", "dd/d4a/SmartPointer_8h.html", "dd/d4a/SmartPointer_8h" ],
+    [ "SmartPointer.hpp", "d2/d9c/dynamics_2SmartPointer_8hpp.html", "d2/d9c/dynamics_2SmartPointer_8hpp" ],
     [ "SoftBodyNode.cpp", "d0/d22/SoftBodyNode_8cpp.html", null ],
-    [ "SoftBodyNode.h", "d0/d9b/SoftBodyNode_8h.html", "d0/d9b/SoftBodyNode_8h" ],
+    [ "SoftBodyNode.hpp", "d3/d5b/SoftBodyNode_8hpp.html", [
+      [ "SoftBodyNode", "dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html", "dc/d54/classdart_1_1dynamics_1_1SoftBodyNode" ],
+      [ "SoftBodyNodeHelper", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper" ]
+    ] ],
     [ "SoftMeshShape.cpp", "d9/de2/SoftMeshShape_8cpp.html", null ],
-    [ "SoftMeshShape.h", "d6/db8/SoftMeshShape_8h.html", [
+    [ "SoftMeshShape.hpp", "de/d8d/SoftMeshShape_8hpp.html", [
       [ "SoftMeshShape", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape" ]
     ] ],
-    [ "TemplatedJacobianNode.h", "d3/dc0/TemplatedJacobianNode_8h.html", [
+    [ "SpecializedNodeManager.hpp", "df/d86/SpecializedNodeManager_8hpp.html", [
+      [ "BodyNodeSpecializedFor", "da/da4/classdart_1_1dynamics_1_1BodyNodeSpecializedFor.html", null ],
+      [ "BodyNodeSpecializedFor< SpecNode >", "d2/d09/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode_01_4.html", "d2/d09/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode_01_4" ],
+      [ "BodyNodeSpecializedFor< SpecNode1, OtherSpecNodes...>", "de/d76/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_4.html", null ],
+      [ "SkeletonSpecializedFor", "d1/dd3/classdart_1_1dynamics_1_1SkeletonSpecializedFor.html", null ],
+      [ "SkeletonSpecializedFor< SpecNode >", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4.html", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4" ],
+      [ "SkeletonSpecializedFor< SpecNode1, OtherSpecNodes...>", "d6/d5e/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_4.html", null ]
+    ] ],
+    [ "TemplatedJacobianNode.hpp", "d3/d00/TemplatedJacobianNode_8hpp.html", [
       [ "TemplatedJacobianNode", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode" ]
     ] ],
     [ "TranslationalJoint.cpp", "df/d58/TranslationalJoint_8cpp.html", null ],
-    [ "TranslationalJoint.h", "db/dec/TranslationalJoint_8h.html", [
+    [ "TranslationalJoint.hpp", "d9/d26/TranslationalJoint_8hpp.html", [
       [ "TranslationalJoint", "dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html", "dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint" ],
       [ "Properties", "da/dbc/structdart_1_1dynamics_1_1TranslationalJoint_1_1Properties.html", "da/dbc/structdart_1_1dynamics_1_1TranslationalJoint_1_1Properties" ]
     ] ],
     [ "UniversalJoint.cpp", "d9/dc8/UniversalJoint_8cpp.html", null ],
-    [ "UniversalJoint.h", "dd/d4c/UniversalJoint_8h.html", [
-      [ "UniversalJoint", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint" ],
-      [ "UniqueProperties", "d9/dd5/structdart_1_1dynamics_1_1UniversalJoint_1_1UniqueProperties.html", "d9/dd5/structdart_1_1dynamics_1_1UniversalJoint_1_1UniqueProperties" ],
-      [ "Properties", "df/df6/structdart_1_1dynamics_1_1UniversalJoint_1_1Properties.html", "df/df6/structdart_1_1dynamics_1_1UniversalJoint_1_1Properties" ]
+    [ "UniversalJoint.hpp", "dc/d57/UniversalJoint_8hpp.html", [
+      [ "UniversalJoint", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint" ]
     ] ],
     [ "WeldJoint.cpp", "d9/d32/WeldJoint_8cpp.html", null ],
-    [ "WeldJoint.h", "db/d1a/WeldJoint_8h.html", [
+    [ "WeldJoint.hpp", "dc/de8/WeldJoint_8hpp.html", [
       [ "WeldJoint", "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html", "d8/da2/classdart_1_1dynamics_1_1WeldJoint" ],
       [ "Properties", "d4/d7c/structdart_1_1dynamics_1_1WeldJoint_1_1Properties.html", "d4/d7c/structdart_1_1dynamics_1_1WeldJoint_1_1Properties" ]
     ] ],
     [ "ZeroDofJoint.cpp", "d9/dd9/ZeroDofJoint_8cpp.html", null ],
-    [ "ZeroDofJoint.h", "da/d08/ZeroDofJoint_8h.html", [
+    [ "ZeroDofJoint.hpp", "d8/d9e/ZeroDofJoint_8hpp.html", [
       [ "ZeroDofJoint", "db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html", "db/d77/classdart_1_1dynamics_1_1ZeroDofJoint" ],
       [ "Properties", "dc/d8c/structdart_1_1dynamics_1_1ZeroDofJoint_1_1Properties.html", "dc/d8c/structdart_1_1dynamics_1_1ZeroDofJoint_1_1Properties" ]
     ] ]

@@ -4,7 +4,6 @@ var ReferentialSkeleton_8cpp =
     [ "convertVector", "db/d2f/ReferentialSkeleton_8cpp.html#a44efb6e764576cd42a718f6c8efe23c7", null ],
     [ "getCOMJacobianTemplate", "db/d2f/ReferentialSkeleton_8cpp.html#a78f04f14872e7db37d45f20a0a471361", null ],
     [ "getCOMPropertyTemplate", "db/d2f/ReferentialSkeleton_8cpp.html#a0dafd76a5568876a927cfa778d8ea729", null ],
-    [ "getVectorObjectIfAvailable", "db/d2f/ReferentialSkeleton_8cpp.html#ac7b96401855672e112351544ed8bfc32", null ],
     [ "isValidBodyNode", "db/d2f/ReferentialSkeleton_8cpp.html#acdc21b49ade69175e14e82a9d8c37634", null ],
     [ "setMatrixFromSkeletonData", "db/d2f/ReferentialSkeleton_8cpp.html#a27632bed7583432d63949f1de70a1817", null ],
     [ "setVectorFromSkeletonData", "db/d2f/ReferentialSkeleton_8cpp.html#aea4199124d21f60d4f6c1a0c3dfa409f", null ],

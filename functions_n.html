@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -154,8 +154,10 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 : <a class="el" href="d8/ddd/classdart_1_1planning_1_1PathFollowingTrajectory.html#a0782e6282d270d9bdb4ff1f4c9afbfae">dart::planning::PathFollowingTrajectory</a>
 </li>
 <li>name
-: <a class="el" href="df/d22/structdart_1_1utils_1_1DofProxy.html#a107ed755f63c0873962dd1df8832bb99">dart::utils::DofProxy</a>
-, <a class="el" href="d5/d46/classdart_1_1utils_1_1urdf__parsing_1_1World.html#a91457c42a13c3975a32674e2fe006a7d">dart::utils::urdf_parsing::World</a>
+: <a class="el" href="d5/d46/classdart_1_1utils_1_1urdf__parsing_1_1World.html#a91457c42a13c3975a32674e2fe006a7d">dart::utils::urdf_parsing::World</a>
+</li>
+<li>NameAspect
+: <a class="el" href="d4/d4c/classdart_1_1dynamics_1_1EntityNode.html#af79d3a6e3096e7368694a79934c259af">dart::dynamics::EntityNode&lt; Base &gt;</a>
 </li>
 <li>NameChangedSignal
 : <a class="el" href="d7/d42/classdart_1_1dynamics_1_1Entity.html#a1ff3fce90beff5cf6f5abda6c4dd1b36">dart::dynamics::Entity</a>
@@ -168,8 +170,9 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>ndim
 : <a class="el" href="d7/dd6/classdart_1_1planning_1_1RRT.html#a26e8d49708915c80f223745de93ea071">dart::planning::RRT</a>
 </li>
-<li>needBroadphaseCollision()
-: <a class="el" href="d5/d5b/structdart_1_1collision_1_1CollisionFilter.html#ae10be09a494ce2458d23e210747da45a">dart::collision::CollisionFilter</a>
+<li>needCollision()
+: <a class="el" href="d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html#a2552fb3c9234f0f9427919fde213cc43">dart::collision::BodyNodeCollisionFilter</a>
+, <a class="el" href="d5/d5b/structdart_1_1collision_1_1CollisionFilter.html#a0a84576327337501fcbf95fc7d1440cc">dart::collision::CollisionFilter</a>
 </li>
 <li>needsAccelerationUpdate()
 : <a class="el" href="d7/d42/classdart_1_1dynamics_1_1Entity.html#a1d79f755abc93dceddf79200f9fd46f5">dart::dynamics::Entity</a>
@@ -188,29 +191,53 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 </li>
 <li>next
 : <a class="el" href="d4/d32/structColorTree.html#a8ecb848a46a773702c018076a3990fed">ColorTree</a>
-, <a class="el" href="dd/dc3/classdart_1_1utils_1_1ElementEnumerator.html#a00f73b9ca7f10c1071c35a9038155ba2">dart::utils::ElementEnumerator</a>
-</li>
-<li>NextResult
-: <a class="el" href="d2/d42/classdart_1_1utils_1_1SdfParser.html#a87dc15818fc719447fd863ea8cff14a8">dart::utils::SdfParser</a>
+, <a class="el" href="d3/dd6/classdart_1_1utils_1_1TemplatedElementEnumerator.html#a0daa5703de447ef32c40c4c51a4de600">dart::utils::TemplatedElementEnumerator&lt; ElementType &gt;</a>
 </li>
 <li>NloptSolver()
 : <a class="el" href="d0/d1c/classdart_1_1optimizer_1_1NloptSolver.html#abe1b82421da21c9738c491749f0e8fb9">dart::optimizer::NloptSolver</a>
 </li>
 <li>NO
-: <a class="el" href="db/d20/classdart_1_1dynamics_1_1Marker.html#abf12fda6c4c28ac7c13a174e48ced31ca8c87070614bd6061dd6273c40031e33f">dart::dynamics::Marker</a>
+: <a class="el" href="d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1aa8bace03b032454677e2c85b11e6a628">dart::dynamics::detail::MarkerProperties</a>
+, <a class="el" href="db/d20/classdart_1_1dynamics_1_1Marker.html#a532fe872390da9afb89b53b181fb6d4b">dart::dynamics::Marker</a>
 </li>
 <li>Node
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a6db9d28bd448a131448276ee03de1e6d">dart::dynamics::BodyNode</a>
-, <a class="el" href="db/dc8/classdart_1_1dynamics_1_1Node.html#a53866d89ce173deb175751fbd89ffea1">dart::dynamics::Node</a>
+, <a class="el" href="db/dc8/classdart_1_1dynamics_1_1Node.html#abfc02dbfa88ba4adc05fd17e4103cfbe">dart::dynamics::Node</a>
+, <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a6db9d28bd448a131448276ee03de1e6d">dart::dynamics::Skeleton</a>
 </li>
 <li>NodeDestructor()
 : <a class="el" href="de/ddb/classdart_1_1dynamics_1_1NodeDestructor.html#a29de015cf0c4b1eb8710e1f3f306a0e7">dart::dynamics::NodeDestructor</a>
+</li>
+<li>NodeDestructorSet
+: <a class="el" href="d8/d2d/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode.html#a452b771d5b6b7490e878ed575a0c5fab">dart::dynamics::detail::BasicNodeManagerForBodyNode</a>
+</li>
+<li>NodeManagerJoinerForBodyNode()
+: <a class="el" href="db/db9/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_01_4.html#a43a4d89b22f5973db07781732444aeed">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2 &gt;</a>
+, <a class="el" href="da/d5a/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html#a547c024e6fcfc16ea7c6e1a3dc3ff2bb">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2, OtherBases...&gt;</a>
+</li>
+<li>NodeManagerJoinerForSkeleton()
+: <a class="el" href="db/d96/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_01_4.html#a5c6158a68ae4c49514a8c5cc958c1248">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2 &gt;</a>
+, <a class="el" href="da/de4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html#a2dd358db947c2eb18579072e33e198b3">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2, OtherBases...&gt;</a>
+</li>
+<li>NodeMap
+: <a class="el" href="d8/d2d/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode.html#a8dcc8f63283540dda57e2e8966238501">dart::dynamics::detail::BasicNodeManagerForBodyNode</a>
+, <a class="el" href="d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a0641f8f56df1bd2b1c33d97879cf353b">dart::gui::osg::WorldNode</a>
+</li>
+<li>NodeNameMgrMap
+: <a class="el" href="d8/d2d/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode.html#ae6d5ba492910b42b287b8b04d0a50cf0">dart::dynamics::detail::BasicNodeManagerForBodyNode</a>
+</li>
+<li>NodePropertiesMap
+: <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#aa4e8681ded5f9003a32b96f81a41b298">dart::dynamics::BodyNode</a>
+</li>
+<li>NodeStateMap
+: <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a0adbb0b3f55baf09a4d4b00ee21a1866">dart::dynamics::BodyNode</a>
 </li>
 <li>NONE
 : <a class="el" href="d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a99d7fcde3398a4439b8a2d2c16f51b7ba35dbe549f6d720df433a65e32591a397">dart::optimizer::snopt::SnoptInterface</a>
 </li>
 <li>normal
 : <a class="el" href="db/d36/structdart_1_1collision_1_1Contact.html#a98fa09fd5905b8da9560a646ff5f7691">dart::collision::Contact</a>
+, <a class="el" href="d1/d33/structdart_1_1gui_1_1osg_1_1PickInfo.html#a249fc3f4e1f29c80d153bb17183772db">dart::gui::osg::PickInfo</a>
 </li>
 <li>NoSlack
 : <a class="el" href="d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a0d76878f36b20c37f7807771d5652538a9cc52aa60ee2ba206ad957dbfe4c3381">dart::optimizer::snopt::SnoptInterface</a>
@@ -220,11 +247,23 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 , <a class="el" href="d7/d42/classdart_1_1dynamics_1_1Entity.html#a618443c8bad16c985f432897381396cc">dart::dynamics::Entity</a>
 , <a class="el" href="db/d38/classdart_1_1dynamics_1_1Frame.html#afbaa31c92bfa9c4b6048a6c570818182">dart::dynamics::Frame</a>
 , <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a52639faf7a863932fb97bd4ab97c42a0">dart::dynamics::Joint</a>
-, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a77aad6eb4d57bfa8b8835f1f88bae9e0">dart::dynamics::PointMassNotifier</a>
+, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a220a6c6dff0959893c23b0150f76090b">dart::dynamics::PointMassNotifier</a>
+</li>
+<li>notifyAlphaUpdate()
+: <a class="el" href="d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ad9c1659650d6b6b8a0e198b38fedcc40">dart::dynamics::MeshShape</a>
+, <a class="el" href="db/d1c/classdart_1_1dynamics_1_1Shape.html#a675ea9bc41741a4a62c8288c75f09fdd">dart::dynamics::Shape</a>
 </li>
 <li>notifyArticulatedInertiaUpdate()
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a1118bb5fbc5f7028575e588e5a7298db">dart::dynamics::BodyNode</a>
-, <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a9d4085bdc50c5c7dc6cfcb34cf19d94d">dart::dynamics::Skeleton</a>
+, <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a28194229625e4042145fe411ffc854a7">dart::dynamics::Skeleton</a>
+</li>
+<li>notifyCollisionObjectDestroying()
+: <a class="el" href="d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#a0656a9cf3dec6b556da231b28b175c3e">dart::collision::BulletCollisionDetector</a>
+, <a class="el" href="d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a62ebd2dbbf06c23919879040e42400bb">dart::collision::CollisionDetector</a>
+</li>
+<li>notifyColorUpdate()
+: <a class="el" href="d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a4e59027042450a0bd3f52dc273b1a475">dart::dynamics::ArrowShape</a>
+, <a class="el" href="db/d1c/classdart_1_1dynamics_1_1Shape.html#ad17cd8fb09091d770ea8af4ebde9b48c">dart::dynamics::Shape</a>
 </li>
 <li>notifyCoriolisUpdate()
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a2199bcd7af128fd8069db670b15ef139">dart::dynamics::BodyNode</a>
@@ -241,26 +280,34 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>notifyPositionUpdate()
 : <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a57977210b66f005c446a3c33b0bb578e">dart::dynamics::Joint</a>
 </li>
+<li>notifyPropertiesUpdate()
+: <a class="el" href="da/db5/classdart_1_1common_1_1detail_1_1AspectWithVersionedProperties.html#a0d756177774029eaebe7b09609701f2f">dart::common::detail::AspectWithVersionedProperties&lt; BaseT, DerivedT, PropertiesDataT, CompositeT, updateProperties &gt;</a>
+</li>
 <li>notifySupportUpdate()
-: <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#adfec7729ce5d098ad9b96b7c8626bf12">dart::dynamics::Skeleton</a>
+: <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#aabd9ca0df8828ea42d1b65cda83eee63">dart::dynamics::Skeleton</a>
 </li>
 <li>notifyTransformUpdate()
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a783cd66b7959865ed4f726ba094fa0bd">dart::dynamics::BodyNode</a>
 , <a class="el" href="db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a47ec0e1eb69ceb89fd2042902061bc2b">dart::dynamics::EndEffector</a>
 , <a class="el" href="d7/d42/classdart_1_1dynamics_1_1Entity.html#ab67377987c332b0e8158b16ed204ea1b">dart::dynamics::Entity</a>
 , <a class="el" href="db/d38/classdart_1_1dynamics_1_1Frame.html#ae18d442162b1e7dd1cd55c2502e40c5c">dart::dynamics::Frame</a>
-, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#ae2e7e619ace6b2944ad57ba8cdada576">dart::dynamics::PointMassNotifier</a>
+, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#af69cf1bf64eedc20ae7b5237eb97e6a2">dart::dynamics::PointMassNotifier</a>
 </li>
 <li>notifyVelocityUpdate()
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#aa42ceefa2dbf4a6927b3106e89b2e13a">dart::dynamics::BodyNode</a>
-, <a class="el" href="db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a2ba271e99517658404d40522a62099bf">dart::dynamics::EndEffector</a>
 , <a class="el" href="d7/d42/classdart_1_1dynamics_1_1Entity.html#ab116df52d83cb7b6edc3b3f9b1bc96ae">dart::dynamics::Entity</a>
 , <a class="el" href="db/d38/classdart_1_1dynamics_1_1Frame.html#a85f57d1939e626446070be1d1ce09221">dart::dynamics::Frame</a>
 , <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a8fe413bf4e47765f2cdff2f5db4a14eb">dart::dynamics::Joint</a>
-, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#ab791947d7e627628eab75106d6ce8b4f">dart::dynamics::PointMassNotifier</a>
+, <a class="el" href="d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a8cd7233aa89dcc8a4f35cc93f3a1fa95">dart::dynamics::PointMassNotifier</a>
 </li>
 <li>NullFunction()
 : <a class="el" href="dd/dfa/classdart_1_1optimizer_1_1NullFunction.html#a6e75d90f421c0dc3f133f27ea153ce3b">dart::optimizer::NullFunction</a>
+</li>
+<li>NUM_MOVE
+: <a class="el" href="d8/dd9/classTeleoperationWorld.html#ae61998efb74601c4c6aca88c6f65f917a9d3d1be05ee6d7f1612bf02c602662f4">TeleoperationWorld</a>
+</li>
+<li>NUM_TYPES
+: <a class="el" href="d7/dd9/classdart_1_1gui_1_1osg_1_1InteractiveTool.html#aa72ba6e417be5aae7c6a66537981a2bda0cbce9d840d0cfaa9fd2fc26de8d6c0d">dart::gui::osg::InteractiveTool</a>
 </li>
 <li>numC()
 : <a class="el" href="d6/df6/structdLCP.html#a703f840d7b5bb8a1d45ecaaa9b1a5f08">dLCP</a>
@@ -274,6 +321,11 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <li>numcolors_done
 : <a class="el" href="de/dbd/structColorProfile.html#a7a0f6fe120d02e4573d2c27be20715cb">ColorProfile</a>
 </li>
+<li>NumDofs
+: <a class="el" href="dd/d8a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointState.html#a58def67c95b92122ca6cf40207fa2f95">dart::dynamics::detail::MultiDofJointState&lt; DOF &gt;</a>
+, <a class="el" href="dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a1ca6b02e6df73e99ecfa4f58209d3f6d">dart::dynamics::detail::MultiDofJointUniqueProperties&lt; DOF &gt;</a>
+, <a class="el" href="da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html#acab629e65cbe6291a2871f9854bc6f03">dart::dynamics::MultiDofJoint&lt; size_t &gt;</a>
+</li>
 <li>numN()
 : <a class="el" href="d6/df6/structdLCP.html#ac0ecd87da7eda6f2a9870dde3f212a19">dLCP</a>
 </li>
@@ -283,7 +335,7 @@ $(document).ready(function(){initNavTree('functions_n.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 22 2016 19:30:00 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:19 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

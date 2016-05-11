@@ -11,7 +11,6 @@ var namespacedart =
     [ "math", "d8/d96/namespacedart_1_1math.html", "d8/d96/namespacedart_1_1math" ],
     [ "optimizer", "d4/d47/namespacedart_1_1optimizer.html", "d4/d47/namespacedart_1_1optimizer" ],
     [ "planning", "d6/dc4/namespacedart_1_1planning.html", "d6/dc4/namespacedart_1_1planning" ],
-    [ "renderer", "db/dd1/namespacedart_1_1renderer.html", "db/dd1/namespacedart_1_1renderer" ],
     [ "simulation", "d4/d0b/namespacedart_1_1simulation.html", "d4/d0b/namespacedart_1_1simulation" ],
     [ "utils", "d8/d28/namespacedart_1_1utils.html", "d8/d28/namespacedart_1_1utils" ]
 ];

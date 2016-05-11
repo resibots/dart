@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -154,6 +154,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d55/structdart_1_1constraint_1_1PGSOption.html">PGSOption</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html">ServoMotorConstraint</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Servo motor constraint.  <a href="../../d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html">SoftContactConstraint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html" title="SoftContactConstraint represents a contact constraint between two bodies. ">SoftContactConstraint</a> represents a contact constraint between two bodies.  <a href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,9 +169,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ab1ca16fdd4b156f83993421c1f0c11df"><td class="memTemplParams" colspan="2">template&lt;typename JacType &gt; </td></tr>
 <tr class="memitem:ab1ca16fdd4b156f83993421c1f0c11df"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#ab1ca16fdd4b156f83993421c1f0c11df">addDampedPseudoInverseToGradient</a> (Eigen::Map&lt; Eigen::VectorXd &gt; &amp;grad, const JacType &amp;J, const Eigen::MatrixXd &amp;nullspace, const Eigen::Vector3d &amp;error, double damping)</td></tr>
 <tr class="separator:ab1ca16fdd4b156f83993421c1f0c11df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab25299cfe8ec0b8199f6f00eece7db2e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#ab25299cfe8ec0b8199f6f00eece7db2e">convertJacobianMethodOutputToGradient</a> (Eigen::Map&lt; Eigen::VectorXd &gt; &amp;grad, const std::weak_ptr&lt; <a class="el" href="../../d5/de6/classdart_1_1dynamics_1_1HierarchicalIK.html">dynamics::HierarchicalIK</a> &gt; &amp;mIK)</td></tr>
-<tr class="separator:ab25299cfe8ec0b8199f6f00eece7db2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2488681e6db07eb614b77f7715eac2c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a2488681e6db07eb614b77f7715eac2c1">solvePGS</a> (int n, int nskip, int, double *A, double *x, double *b, double *lo, double *hi, int *findex, <a class="el" href="../../d8/d55/structdart_1_1constraint_1_1PGSOption.html">PGSOption</a> *option)</td></tr>
+<tr class="memitem:a2488681e6db07eb614b77f7715eac2c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a2488681e6db07eb614b77f7715eac2c1">solvePGS</a> (int n, int nskip, int, double *A, double *x, double *b, double *lo, double *hi, int *findex, <a class="el" href="../../d8/d55/structdart_1_1constraint_1_1PGSOption.html">PGSOption</a> *<a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html#a6884f20bea413374e2bc81da54cb7cf7">option</a>)</td></tr>
 <tr class="separator:a2488681e6db07eb614b77f7715eac2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638541c0a4b2f8e00d73f873393ffa5f"><td class="memTemplParams" colspan="2">template&lt;typename PointMassT , typename SoftBodyNodeT &gt; </td></tr>
 <tr class="memitem:a638541c0a4b2f8e00d73f873393ffa5f"><td class="memTemplItemLeft" align="right" valign="top">static PointMassT&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a638541c0a4b2f8e00d73f873393ffa5f">selectCollidingPointMassT</a> (SoftBodyNodeT _softBodyNode, const Eigen::Vector3d &amp;_point, int _faceId)</td></tr>
@@ -213,40 +214,6 @@ template&lt;typename JacType &gt; </div>
           <td></td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>damping</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab25299cfe8ec0b8199f6f00eece7db2e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void dart::constraint::convertJacobianMethodOutputToGradient </td>
-          <td>(</td>
-          <td class="paramtype">Eigen::Map&lt; Eigen::VectorXd &gt; &amp;&#160;</td>
-          <td class="paramname"><em>grad</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::weak_ptr&lt; dynamics::HierarchicalIK &gt; &amp;&#160;</td>
-          <td class="paramname"><em>mIK</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -385,7 +352,7 @@ template&lt;typename PointMassT , typename SoftBodyNodeT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

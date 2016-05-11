@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">5.1.2</span>
+   &#160;<span id="projectnumber">6.0.0</span>
    </div>
   </td>
  </tr>
@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('dc/d4e/classdart_1_1dynamics_1_1Invers
 <p><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a> is a base class for different ways of computing the error of an <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module.  
  <a href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/ded/InverseKinematics_8h_source.html">InverseKinematics.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/d6a/InverseKinematics_8hpp_source.html">InverseKinematics.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::dynamics::InverseKinematics::ErrorMethod:</div>
 <div class="dyncontent">
@@ -158,6 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab511624a6199223f6c28aa3b98cc0932"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#ab511624a6199223f6c28aa3b98cc0932">computeError</a> ()=0</td></tr>
 <tr class="memdesc:ab511624a6199223f6c28aa3b98cc0932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override this function with your implementation of the error vector computation.  <a href="#ab511624a6199223f6c28aa3b98cc0932">More...</a><br/></td></tr>
 <tr class="separator:ab511624a6199223f6c28aa3b98cc0932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17eb9de38c377610bfd92fadaeb8daa1"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Isometry3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a17eb9de38c377610bfd92fadaeb8daa1">computeDesiredTransform</a> (const Eigen::Isometry3d &amp;_currentTf, const <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a> &amp;_error)=0</td></tr>
+<tr class="memdesc:a17eb9de38c377610bfd92fadaeb8daa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override this function with your implementation of computing the desired given the current transform and error vector.  <a href="#a17eb9de38c377610bfd92fadaeb8daa1">More...</a><br/></td></tr>
+<tr class="separator:a17eb9de38c377610bfd92fadaeb8daa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75bd0c2fed89fd8af252949f60b9a2d4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a75bd0c2fed89fd8af252949f60b9a2d4">evalError</a> (const Eigen::VectorXd &amp;_q)</td></tr>
 <tr class="memdesc:a75bd0c2fed89fd8af252949f60b9a2d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to handle caching the error vector.  <a href="#a75bd0c2fed89fd8af252949f60b9a2d4">More...</a><br/></td></tr>
 <tr class="separator:a75bd0c2fed89fd8af252949f60b9a2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +222,9 @@ Eigen::Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class
 <tr class="memitem:afccee8b918a6087b86e500ece9d07338"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#afccee8b918a6087b86e500ece9d07338">getLinearErrorWeights</a> () const </td></tr>
 <tr class="memdesc:afccee8b918a6087b86e500ece9d07338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the weights that will be applied to each linear component of the error vector.  <a href="#afccee8b918a6087b86e500ece9d07338">More...</a><br/></td></tr>
 <tr class="separator:afccee8b918a6087b86e500ece9d07338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134d4864b2c471eecc7742848ecbeb9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a134d4864b2c471eecc7742848ecbeb9c">getErrorMethodProperties</a> () const </td></tr>
+<tr class="memdesc:a134d4864b2c471eecc7742848ecbeb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html" title="The Properties struct contains settings that are commonly used by methods that compute error for inve...">Properties</a> of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>.  <a href="#a134d4864b2c471eecc7742848ecbeb9c">More...</a><br/></td></tr>
+<tr class="separator:a134d4864b2c471eecc7742848ecbeb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7137c657a64cbb570afad141ae12a50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#af7137c657a64cbb570afad141ae12a50">clearCache</a> ()</td></tr>
 <tr class="memdesc:af7137c657a64cbb570afad141ae12a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the cache to force the error to be recomputed.  <a href="#af7137c657a64cbb570afad141ae12a50">More...</a><br/></td></tr>
 <tr class="separator:af7137c657a64cbb570afad141ae12a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,9 +248,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a4c7e7ed5418232c00d32094a3157f26b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a4c7e7ed5418232c00d32094a3157f26b">mLastError</a></td></tr>
 <tr class="memdesc:a4c7e7ed5418232c00d32094a3157f26b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last error vector computed by this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>.  <a href="#a4c7e7ed5418232c00d32094a3157f26b">More...</a><br/></td></tr>
 <tr class="separator:a4c7e7ed5418232c00d32094a3157f26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4aaf57b3e4c77329e81d80b18f74d3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#ad4aaf57b3e4c77329e81d80b18f74d3f">mProperties</a></td></tr>
-<tr class="memdesc:ad4aaf57b3e4c77329e81d80b18f74d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The properties of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>.  <a href="#ad4aaf57b3e4c77329e81d80b18f74d3f">More...</a><br/></td></tr>
-<tr class="separator:ad4aaf57b3e4c77329e81d80b18f74d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b066660f1cbfadbfcb4fda249e02143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">Properties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a3b066660f1cbfadbfcb4fda249e02143">mErrorP</a></td></tr>
+<tr class="memdesc:a3b066660f1cbfadbfcb4fda249e02143"><td class="mdescLeft">&#160;</td><td class="mdescRight">The properties of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>.  <a href="#a3b066660f1cbfadbfcb4fda249e02143">More...</a><br/></td></tr>
+<tr class="separator:a3b066660f1cbfadbfcb4fda249e02143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classdart_1_1common_1_1Subject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classdart_1_1common_1_1Subject')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html">dart::common::Subject</a></td></tr>
 <tr class="memitem:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d8/dc0/classdart_1_1common_1_1Observer.html">Observer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#acb21558de80efdc434cd64c90a205ba8">mObservers</a></td></tr>
 <tr class="memdesc:acb21558de80efdc434cd64c90a205ba8 inherit pro_attribs_classdart_1_1common_1_1Subject"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current Observers.  <a href="#acb21558de80efdc434cd64c90a205ba8">More...</a><br/></td></tr>
@@ -381,7 +387,46 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Enable this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a> to be cloned to a new IK module. </p>
 
-<p>Implemented in <a class="el" href="../../d9/d4d/classdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion.html#ac6000a12f46b42e54144f4458552dfcb">dart::dynamics::InverseKinematics::TaskSpaceRegion</a>.</p>
+<p>Implemented in <a class="el" href="../../d9/d4d/classdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion.html#a280c8337f302f7a045eab92d9c66f892">dart::dynamics::InverseKinematics::TaskSpaceRegion</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17eb9de38c377610bfd92fadaeb8daa1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Isometry3d dart::dynamics::InverseKinematics::ErrorMethod::computeDesiredTransform </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Isometry3d &amp;&#160;</td>
+          <td class="paramname"><em>_currentTf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d62/namespaceEigen.html#ac27ace7c50a658d3a07238110fa51a2f">Eigen::Vector6d</a> &amp;&#160;</td>
+          <td class="paramname"><em>_error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Override this function with your implementation of computing the desired given the current transform and error vector. </p>
+<p>If you want the desired transform to always be equal to the Target's transform, you can simply call <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a17eb9de38c377610bfd92fadaeb8daa1" title="Override this function with your implementation of computing the desired given the current transform ...">ErrorMethod::computeDesiredTransform</a> to implement this function. </p>
+
+<p>Implemented in <a class="el" href="../../d9/d4d/classdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion.html#a95a483736e76fc036e104882389a46a2">dart::dynamics::InverseKinematics::TaskSpaceRegion</a>.</p>
 
 </div>
 </div>
@@ -497,6 +542,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the clamp that will be applied to the length of the error vector each iteration. </p>
+
+</div>
+</div>
+<a class="anchor" id="a134d4864b2c471eecc7742848ecbeb9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">InverseKinematics::ErrorMethod::Properties</a> dart::dynamics::InverseKinematics::ErrorMethod::getErrorMethodProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html" title="The Properties struct contains settings that are commonly used by methods that compute error for inve...">Properties</a> of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>. </p>
 
 </div>
 </div>
@@ -779,6 +841,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a3b066660f1cbfadbfcb4fda249e02143"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">Properties</a> dart::dynamics::InverseKinematics::ErrorMethod::mErrorP</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The properties of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a117089e9064a708c397de39182efcd75"></a>
 <div class="memitem">
 <div class="memproto">
@@ -867,35 +951,13 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad4aaf57b3e4c77329e81d80b18f74d3f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html">Properties</a> dart::dynamics::InverseKinematics::ErrorMethod::mProperties</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The properties of this <a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html" title="ErrorMethod is a base class for different ways of computing the error of an InverseKinematics module...">ErrorMethod</a>. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a></li><li class="navelem"><a class="el" href="../../dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html">ErrorMethod</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 19:29:59 for DART by
+    <li class="footer">Generated on Tue May 10 2016 22:36:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
