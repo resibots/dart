@@ -83,6 +83,12 @@ double BalanceConstraint::eval(const Eigen::VectorXd& _x)
     return 0.0;
   }
 
+  if(OFF == mErrorMethod)
+  {
+    mLastError.setZero();
+    return 0.0;
+  }
+
   skel->setPositions(_x);
 
   const Eigen::Vector3d& com = skel->getCOM();

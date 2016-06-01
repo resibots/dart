@@ -64,7 +64,8 @@ public:
   {
     FROM_CENTROID = 0,
     FROM_EDGE,
-    OPTIMIZE_BALANCE
+    OPTIMIZE_BALANCE,
+    OFF
   };
 
   /// The BalanceMethod_t determines whether balancing should be achieved by
