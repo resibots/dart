@@ -445,6 +445,12 @@ SkeletonPtr Skeleton::clone(const std::string& cloneName) const
     }
   }
 
+  if(getIK())
+  {
+    skelClone->mWholeBodyIK =
+        std::dynamic_pointer_cast<WholeBodyIK>(getIK()->clone(skelClone));
+  }
+
   skelClone->setProperties(getAspectProperties());
   skelClone->setName(cloneName);
   skelClone->setState(getState());
