@@ -140,7 +140,7 @@ InverseKinematicsPtr InverseKinematics::clone(JacobianNode* _newNode) const
   newIK->setHierarchyLevel(getHierarchyLevel());
   newIK->setDofs(getDofs());
   newIK->setOffset(mOffset);
-  newIK->setTarget(mTarget);
+  newIK->setTarget(mTarget->clone(mTarget->getParentFrame()));
 
   newIK->setObjective(cloneIkFunc(mObjective, newIK.get()));
   newIK->setNullSpaceObjective(cloneIkFunc(mNullSpaceObjective, newIK.get()));
