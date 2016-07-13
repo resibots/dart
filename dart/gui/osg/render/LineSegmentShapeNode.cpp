@@ -144,6 +144,7 @@ LineSegmentShapeGeode::LineSegmentShapeGeode(
 {
   getOrCreateStateSet()->setMode(GL_BLEND, ::osg::StateAttribute::ON);
   getOrCreateStateSet()->setMode(GL_LIGHTING, ::osg::StateAttribute::OFF);
+  getOrCreateStateSet()->setRenderingHint(::osg::StateSet::TRANSPARENT_BIN);
   extractData(true);
 }
 
