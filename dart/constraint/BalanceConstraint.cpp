@@ -40,7 +40,8 @@ namespace constraint {
 //==============================================================================
 BalanceConstraint::BalanceConstraint(
     const std::shared_ptr<dynamics::HierarchicalIK>& _ik,
-    BalanceMethod_t _balanceMethod, ErrorMethod_t _errorMethod)
+    BalanceMethod_t _balanceMethod,
+    ErrorMethod_t _errorMethod)
   : mIK(_ik),
     mErrorMethod(_errorMethod),
     mBalanceMethod(_balanceMethod),
@@ -57,7 +58,14 @@ BalanceConstraint::BalanceConstraint(
 optimizer::FunctionPtr BalanceConstraint::clone(
     const std::shared_ptr<dynamics::HierarchicalIK>& _newIK) const
 {
-  return std::make_shared<BalanceConstraint>(_newIK, mBalanceMethod);
+  std::shared_ptr<BalanceConstraint> bal =
+      std::make_shared<BalanceConstraint>(_newIK, mBalanceMethod, mErrorMethod);
+
+  bal->mOptimizationTolerance = mOptimizationTolerance;
+  bal->mDamping = mDamping;
+  bal->mGradientWeights = mGradientWeights;
+
+  return bal;
 }
 
 //==============================================================================
@@ -397,10 +405,31 @@ const Eigen::Vector3d& BalanceConstraint::getLastError() const
 }
 
 //==============================================================================
+void BalanceConstraint::setGradientWeights(const Eigen::VectorXd& weights)
+{
+  mGradientWeights = weights;
+}
+
+//==============================================================================
+const Eigen::VectorXd& BalanceConstraint::getGradientWeights() const
+{
+  return mGradientWeights;
+}
+
+//==============================================================================
 void BalanceConstraint::clearCaches()
 {
   // This will ensure that the comparison test in eval() fails
   mLastCOM = Eigen::Vector3d::Constant(std::nan(""));
+}
+
+//==============================================================================
+void BalanceConstraint::applyGradientWeights(Eigen::VectorXd& grad) const
+{
+  const std::size_t numComponents =
+      std::min(grad.size(), mGradientWeights.size());
+  for(std::size_t i = 0; i < numComponents; ++i)
+    grad[i] = mGradientWeights[i] * grad[i];
 }
 
 //==============================================================================
