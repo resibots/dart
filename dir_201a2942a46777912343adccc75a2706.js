@@ -5,7 +5,7 @@ var dir_201a2942a46777912343adccc75a2706 =
     [ "Cloneable.hpp", "de/d99/detail_2Cloneable_8hpp.html", null ],
     [ "Composite.hpp", "db/da6/detail_2Composite_8hpp.html", "db/da6/detail_2Composite_8hpp" ],
     [ "CompositeData.hpp", "d2/d01/CompositeData_8hpp.html", "d2/d01/CompositeData_8hpp" ],
-    [ "CompositeJoiner.hpp", "d9/deb/detail_2CompositeJoiner_8hpp.html", "d9/deb/detail_2CompositeJoiner_8hpp" ],
+    [ "CompositeJoiner.hpp", "d9/deb/detail_2CompositeJoiner_8hpp.html", null ],
     [ "ConnectionBody.cpp", "dd/de9/ConnectionBody_8cpp.html", null ],
     [ "ConnectionBody.hpp", "d7/de3/ConnectionBody_8hpp.html", [
       [ "ConnectionBodyBase", "d4/d79/classdart_1_1common_1_1signal_1_1detail_1_1ConnectionBodyBase.html", "d4/d79/classdart_1_1common_1_1signal_1_1detail_1_1ConnectionBodyBase" ],

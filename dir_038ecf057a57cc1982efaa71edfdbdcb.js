@@ -17,7 +17,7 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "CompositeJoiner", "db/d5d/classdart_1_1common_1_1CompositeJoiner.html", "db/d5d/classdart_1_1common_1_1CompositeJoiner" ],
       [ "CompositeJoiner< Base1 >", "d0/dc0/classdart_1_1common_1_1CompositeJoiner_3_01Base1_01_4.html", "d0/dc0/classdart_1_1common_1_1CompositeJoiner_3_01Base1_01_4" ],
       [ "CompositeJoiner< Base1, Base2 >", "d2/d7d/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_01_4.html", "d2/d7d/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_01_4" ],
-      [ "CompositeJoiner< Base1, Base2, OtherBases...>", "dc/d8e/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html", "dc/d8e/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4" ]
+      [ "CompositeJoiner< Base1, Base2, OtherBases... >", "d3/d1e/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4.html", "d3/d1e/classdart_1_1common_1_1CompositeJoiner_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4" ]
     ] ],
     [ "Console.cpp", "d5/d1a/Console_8cpp.html", "d5/d1a/Console_8cpp" ],
     [ "Console.hpp", "d2/d4f/Console_8hpp.html", "d2/d4f/Console_8hpp" ],
@@ -52,7 +52,7 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     [ "RequiresAspect.hpp", "d4/d73/RequiresAspect_8hpp.html", [
       [ "RequiresAspect", "d4/dc5/classdart_1_1common_1_1RequiresAspect.html", null ],
       [ "RequiresAspect< ReqAspect >", "d5/da7/classdart_1_1common_1_1RequiresAspect_3_01ReqAspect_01_4.html", "d5/da7/classdart_1_1common_1_1RequiresAspect_3_01ReqAspect_01_4" ],
-      [ "RequiresAspect< ReqAspect1, OtherReqAspects...>", "db/d67/classdart_1_1common_1_1RequiresAspect_3_01ReqAspect1_00_01OtherReqAspects_8_8_8_4.html", null ]
+      [ "RequiresAspect< ReqAspect1, OtherReqAspects... >", "d6/d7f/classdart_1_1common_1_1RequiresAspect_3_01ReqAspect1_00_01OtherReqAspects_8_8_8_01_4.html", null ]
     ] ],
     [ "Resource.hpp", "d7/d6a/Resource_8hpp.html", "d7/d6a/Resource_8hpp" ],
     [ "ResourceRetriever.hpp", "da/d83/ResourceRetriever_8hpp.html", "da/d83/ResourceRetriever_8hpp" ],
@@ -70,7 +70,7 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "SpecializedForAspect", "dc/d64/classdart_1_1common_1_1SpecializedForAspect.html", "dc/d64/classdart_1_1common_1_1SpecializedForAspect" ],
       [ "SpecializedForAspect< SpecAspect >", "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html", "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4" ],
       [ "type", "d5/d70/structdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4_1_1type.html", null ],
-      [ "SpecializedForAspect< SpecAspect1, OtherSpecAspects...>", "d4/d0b/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_4.html", "d4/d0b/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_4" ]
+      [ "SpecializedForAspect< SpecAspect1, OtherSpecAspects... >", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4.html", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4" ]
     ] ],
     [ "StlHelpers.hpp", "dc/d2e/StlHelpers_8hpp.html", "dc/d2e/StlHelpers_8hpp" ],
     [ "sub_ptr.hpp", "d3/dba/sub__ptr_8hpp.html", "d3/dba/sub__ptr_8hpp" ],

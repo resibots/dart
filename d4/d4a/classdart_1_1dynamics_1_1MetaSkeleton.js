@@ -4,6 +4,7 @@ var classdart_1_1dynamics_1_1MetaSkeleton =
     [ "MetaSkeleton", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ab7569e723777b2834b4fd409e7b11703", null ],
     [ "~MetaSkeleton", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a14623e1df9e8f179facf21ebb66b238a", null ],
     [ "MetaSkeleton", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a80a4245d052e54458455d2885ae304f2", null ],
+    [ "addObserver", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a51b5edd025b0663e92c388facda5284f", null ],
     [ "clearCollidingBodies", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a1b2c2fe955726b264f2e4fd3537dd382", null ],
     [ "clearExternalForces", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a3682740dac6801983295b5bcae9a554e", null ],
     [ "clearInternalForces", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a8bdce217c2d8292a4d1366879bc8dab6", null ],
@@ -105,11 +106,13 @@ var classdart_1_1dynamics_1_1MetaSkeleton =
     [ "getVelocityUpperLimits", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ab98504c76de5955c03029f7d66933418", null ],
     [ "getWorldJacobian", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac1083532af5b277abc53401d978a61d7", null ],
     [ "getWorldJacobian", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ab12b66d6b114cff5fd41eab5682efb86", null ],
+    [ "removeObserver", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#aa512812311ecdbed1dcebf6561020170", null ],
     [ "resetAccelerations", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a252522fc88f5b4606de8119920a5a2dd", null ],
     [ "resetCommands", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a05f03894dc8e7604cacf3ea9319d9fe7", null ],
     [ "resetGeneralizedForces", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a57825238cb68f955e405e5bd8aaf78e4", null ],
     [ "resetPositions", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a2d5743bd10523f194d37c7daf62d9da5", null ],
     [ "resetVelocities", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a65c11584b555e59d2226439def15a3e8", null ],
+    [ "sendDestructionNotification", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a137b5f1e7fb760e29084a42dabec1eb3", null ],
     [ "setAcceleration", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a149b2d34d54d5a4bff253938f0b4e5c9", null ],
     [ "setAccelerationLowerLimit", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a5e512e62403cd88b7ff58cb0d7430160", null ],
     [ "setAccelerationLowerLimits", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a025cdbfd50fc6156c3451ddd622160d3", null ],
@@ -152,5 +155,6 @@ var classdart_1_1dynamics_1_1MetaSkeleton =
     [ "setVelocityUpperLimits", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a0f8b37af581d7158b8ac0a0194f94075", null ],
     [ "setVelocityUpperLimits", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a853e7de99a44b9b6cbede9361c833987", null ],
     [ "mNameChangedSignal", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a25a31c6b43a3070a7901965ac69de281", null ],
+    [ "mObservers", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#acb21558de80efdc434cd64c90a205ba8", null ],
     [ "onNameChanged", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac5fd03d4f660de35f67c8252c253015a", null ]
 ];

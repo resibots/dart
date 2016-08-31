@@ -8,5 +8,13 @@ var classdart_1_1common_1_1ProxyStateAndPropertiesAspect =
     [ "State", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#ad5c5098db24fb82db2ddce658bb64957", null ],
     [ "~ProxyStateAndPropertiesAspect", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a0e3ec094f74d64812ce010e0e988f46a", null ],
     [ "ProxyStateAndPropertiesAspect", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#adfa9314c3ae62193b04bcc79944a6a6b", null ],
-    [ "cloneAspect", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a6398992b10a82098f014488379a57462", null ]
+    [ "cloneAspect", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a6398992b10a82098f014488379a57462", null ],
+    [ "getAspectProperties", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a250b981988f3f8c64861e72b98d58f20", null ],
+    [ "getAspectState", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a8819efe73bcf6ba6227344c0a25fb504", null ],
+    [ "loseComposite", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a95d03e6096ee963a046760819983b2ba", null ],
+    [ "setAspectProperties", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a59a858cf9955e7f7ab2bba025136ea92", null ],
+    [ "setAspectState", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a47fbc88e267594f933370e06a5ab8f00", null ],
+    [ "setComposite", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#ae894ece6a78ec4e3ea31cf4e3a45146f", null ],
+    [ "mProxyProperties", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a86969526d6d22cc72d2e2e6ae270d176", null ],
+    [ "mProxyState", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#acf6978930ba0adca501085b9e413cfa0", null ]
 ];

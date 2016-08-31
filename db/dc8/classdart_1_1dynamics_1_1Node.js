@@ -1,11 +1,12 @@
 var classdart_1_1dynamics_1_1Node =
 [
-    [ "Properties", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties.html", null ],
-    [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", null ],
+    [ "Properties", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties.html", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties" ],
+    [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State" ],
     [ "MakeProperties", "db/dc8/classdart_1_1dynamics_1_1Node.html#ad316e3b3aaa6368ee5758a67c4f468a9", null ],
     [ "MakeState", "db/dc8/classdart_1_1dynamics_1_1Node.html#a743625bcde208b383bfe773442f0aab7", null ],
     [ "~Node", "db/dc8/classdart_1_1dynamics_1_1Node.html#aabce31d5c1b43e2e5a686db2aa95b50e", null ],
     [ "Node", "db/dc8/classdart_1_1dynamics_1_1Node.html#abfc02dbfa88ba4adc05fd17e4103cfbe", null ],
+    [ "addObserver", "db/dc8/classdart_1_1dynamics_1_1Node.html#a51b5edd025b0663e92c388facda5284f", null ],
     [ "attach", "db/dc8/classdart_1_1dynamics_1_1Node.html#a0d2e70846471e02c576e1f2e88c5ecba", null ],
     [ "cloneNode", "db/dc8/classdart_1_1dynamics_1_1Node.html#a7f4a62784268a631779aaf421654e28b", null ],
     [ "copyNodePropertiesTo", "db/dc8/classdart_1_1dynamics_1_1Node.html#a8ed4948b74d2f67abca9d97594cd65f3", null ],
@@ -18,11 +19,16 @@ var classdart_1_1dynamics_1_1Node =
     [ "getOrCreateDestructor", "db/dc8/classdart_1_1dynamics_1_1Node.html#ab1f0bd39805f5a240d18781feb7c0fa5", null ],
     [ "getSkeleton", "db/dc8/classdart_1_1dynamics_1_1Node.html#a90d33f8c84161f202052645252f76509", null ],
     [ "getSkeleton", "db/dc8/classdart_1_1dynamics_1_1Node.html#ae9d52ebdca4f9502a60f01ae1043faa4", null ],
+    [ "getVersion", "db/dc8/classdart_1_1dynamics_1_1Node.html#a965a79476d55c45142391a8431ba2649", null ],
+    [ "incrementVersion", "db/dc8/classdart_1_1dynamics_1_1Node.html#a92688a77a7d2f72fd7cb4c57b68f376a", null ],
     [ "isRemoved", "db/dc8/classdart_1_1dynamics_1_1Node.html#a6381ebc8c88e055a4907b34e43233861", null ],
     [ "registerNameChange", "db/dc8/classdart_1_1dynamics_1_1Node.html#a19b0764de9bc18252a6a230757170afc", null ],
+    [ "removeObserver", "db/dc8/classdart_1_1dynamics_1_1Node.html#aa512812311ecdbed1dcebf6561020170", null ],
+    [ "sendDestructionNotification", "db/dc8/classdart_1_1dynamics_1_1Node.html#a137b5f1e7fb760e29084a42dabec1eb3", null ],
     [ "setName", "db/dc8/classdart_1_1dynamics_1_1Node.html#a160eb754f6132b8abf116d21cd8f8e3a", null ],
     [ "setNodeProperties", "db/dc8/classdart_1_1dynamics_1_1Node.html#a5f7367a8dedfee5dad3e641a31615f51", null ],
     [ "setNodeState", "db/dc8/classdart_1_1dynamics_1_1Node.html#a81a7de31a6a67ccfbf826601d411fe39", null ],
+    [ "setVersionDependentObject", "db/dc8/classdart_1_1dynamics_1_1Node.html#a736c0179a85437e8a77966c9d5470024", null ],
     [ "stageForRemoval", "db/dc8/classdart_1_1dynamics_1_1Node.html#ad58cf787042834b39c4efe9bd44304f0", null ],
     [ "AccessoryNode", "db/dc8/classdart_1_1dynamics_1_1Node.html#a07a57092c147bed2024fba41595f91e8", null ],
     [ "BodyNode", "db/dc8/classdart_1_1dynamics_1_1Node.html#ab59408dd3d4e7a025ca332d546a5688b", null ],
@@ -34,5 +40,7 @@ var classdart_1_1dynamics_1_1Node =
     [ "mDestructor", "db/dc8/classdart_1_1dynamics_1_1Node.html#a6729f60f63bb95d26f4a1de37995fd94", null ],
     [ "mIndexInBodyNode", "db/dc8/classdart_1_1dynamics_1_1Node.html#a871c164de3408d62e8d3c45c1d0dcae0", null ],
     [ "mIndexInSkeleton", "db/dc8/classdart_1_1dynamics_1_1Node.html#a5966521e6e9c264d59048f8b7f5f19c1", null ],
-    [ "mIndexInTree", "db/dc8/classdart_1_1dynamics_1_1Node.html#a2518386305a28786bb722d1dd1ae376a", null ]
+    [ "mIndexInTree", "db/dc8/classdart_1_1dynamics_1_1Node.html#a2518386305a28786bb722d1dd1ae376a", null ],
+    [ "mObservers", "db/dc8/classdart_1_1dynamics_1_1Node.html#acb21558de80efdc434cd64c90a205ba8", null ],
+    [ "mVersion", "db/dc8/classdart_1_1dynamics_1_1Node.html#a4321e571165126347ea3fa68279dae1d", null ]
 ];

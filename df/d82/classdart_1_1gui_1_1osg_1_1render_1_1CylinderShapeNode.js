@@ -2,8 +2,24 @@ var classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode =
 [
     [ "CylinderShapeNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a845abb270735288dbf3b0cbaf68d2035", null ],
     [ "~CylinderShapeNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a02c05b47c07efccad63954831b92baf3", null ],
+    [ "clearUtilization", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#aec1312d507a8cb4f78a1b977644bd297", null ],
     [ "extractData", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a4589e78b500967fb3b60d9bb4f187b04", null ],
+    [ "getNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#ad84d151d8c368ff3e8011334b3024293", null ],
+    [ "getNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#aff4e745855ce2de2f10d927773c1649d", null ],
+    [ "getParentShapeFrameNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a5df9d4b50556afca1b234fbc78d6d1a6", null ],
+    [ "getParentShapeFrameNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a1ab45def5ee0bfeb9c145935971741fc", null ],
+    [ "getShape", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a1c606a71ad654674c78debbadd1b7993", null ],
+    [ "getShapeFrame", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a9168565d1a61b2abd63c2f507b22b38a", null ],
+    [ "getVisualAspect", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72", null ],
+    [ "getVisualAspect", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a492ce50a6a995e0148dea69a1d3aae3b", null ],
     [ "refresh", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a6140d2ace3749ca41dbaeddd1fa69ea6", null ],
+    [ "wasUtilized", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#ab39746a68dfda2f4e521a400e5407b41", null ],
     [ "mCylinderShape", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#aaaeec4e3ddd0a9f26f635cbef0d71a57", null ],
-    [ "mGeode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#aa1400de312cde62e30d556f37eca4054", null ]
+    [ "mGeode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#aa1400de312cde62e30d556f37eca4054", null ],
+    [ "mNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a91c9ab8023e837482e7d40fd3e2326aa", null ],
+    [ "mParentShapeFrameNode", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a7a45df6c1e0454f9c1fef2a161c3b20f", null ],
+    [ "mShape", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a7345754e4d7fa928e5945d2c6d1bc1d0", null ],
+    [ "mShapeFrame", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#afc526a221544a5e8ca7ccadef9d66324", null ],
+    [ "mUtilized", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#afa75cd213eb88dd688c3d37fe1fac3ee", null ],
+    [ "mVisualAspect", "df/d82/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeNode.html#a7f19c73db390bb2f7da584985dae66c9", null ]
 ];

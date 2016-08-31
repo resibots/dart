@@ -21,7 +21,7 @@ var classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect =
     [ "setAspectProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#aa3db46801516b9c681d3349fc1afe1e4", null ],
     [ "setComposite", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a551d0635c8ca05fb3986f31fca48b07d", null ],
     [ "setProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#acb1c2c36d0cd716f7854d299eecad3aa", null ],
-    [ "GetEmbeddedProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a256f36d402b89d8d229674b70933fb24", null ],
+    [ "GetEmbeddedProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#aa9d605b2f6d36600205a36ef297fcda8", null ],
     [ "mTemporaryProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a433e1f90fcb1aa44e6cc784c4d7e1671", null ],
-    [ "SetEmbeddedProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a68ff47733db7577d6b08d96fc986cfd1", null ]
+    [ "SetEmbeddedProperties", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a1ab9802208dbd4cb6954973d4a03a791", null ]
 ];

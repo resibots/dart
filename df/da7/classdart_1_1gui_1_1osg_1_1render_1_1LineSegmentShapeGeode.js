@@ -2,9 +2,25 @@ var classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode =
 [
     [ "LineSegmentShapeGeode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a112e0efcec1f20418e80b396e0dff83f", null ],
     [ "~LineSegmentShapeGeode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a4b0153576f8bb68169593234243b9e6e", null ],
+    [ "clearUtilization", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#aec1312d507a8cb4f78a1b977644bd297", null ],
     [ "extractData", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#ae3afd17965aa35eb56d6f8ea65786b18", null ],
+    [ "getNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#ad84d151d8c368ff3e8011334b3024293", null ],
+    [ "getNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#aff4e745855ce2de2f10d927773c1649d", null ],
+    [ "getParentShapeFrameNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a5df9d4b50556afca1b234fbc78d6d1a6", null ],
+    [ "getParentShapeFrameNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a1ab45def5ee0bfeb9c145935971741fc", null ],
+    [ "getShape", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a1c606a71ad654674c78debbadd1b7993", null ],
+    [ "getShapeFrame", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a9168565d1a61b2abd63c2f507b22b38a", null ],
+    [ "getVisualAspect", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72", null ],
+    [ "getVisualAspect", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a492ce50a6a995e0148dea69a1d3aae3b", null ],
     [ "refresh", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a895148c5d9af7a5c2c5cfc92c71abad5", null ],
+    [ "wasUtilized", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#ab39746a68dfda2f4e521a400e5407b41", null ],
     [ "mDrawable", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#af749c84de22a49d03b15be48f96e3723", null ],
     [ "mLineSegmentShape", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a14edf5eff6b6fdb14f58f6cb83f2b643", null ],
-    [ "mLineWidth", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#aa31ff4c3aef9942ef19226d5fd32265c", null ]
+    [ "mLineWidth", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#aa31ff4c3aef9942ef19226d5fd32265c", null ],
+    [ "mNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a91c9ab8023e837482e7d40fd3e2326aa", null ],
+    [ "mParentShapeFrameNode", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a7a45df6c1e0454f9c1fef2a161c3b20f", null ],
+    [ "mShape", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a7345754e4d7fa928e5945d2c6d1bc1d0", null ],
+    [ "mShapeFrame", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#afc526a221544a5e8ca7ccadef9d66324", null ],
+    [ "mUtilized", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#afa75cd213eb88dd688c3d37fe1fac3ee", null ],
+    [ "mVisualAspect", "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a7f19c73db390bb2f7da584985dae66c9", null ]
 ];

@@ -2,6 +2,8 @@ var classdart_1_1gui_1_1osg_1_1SupportPolygonVisual =
 [
     [ "SupportPolygonVisual", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#adfda2b8311e9a360df505af8ac2b3fe7", null ],
     [ "SupportPolygonVisual", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a95767dd261dc60cc6281e6408542c064", null ],
+    [ "attach", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a87e82f70ffd57bc61c9899ffb32a3887", null ],
+    [ "customAttach", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#addfc90e74fa975097c5a898f719c2a40", null ],
     [ "displayCenterOfMass", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a9bc97730cb2c0d8b52a8fe563dee08b7", null ],
     [ "displayCentroid", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a3e683dfe4ae44a5979f2467b991c8103", null ],
     [ "displayPolygon", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#ad8dff043e897fb9e8308d83fb85a1cd3", null ],
@@ -12,6 +14,8 @@ var classdart_1_1gui_1_1osg_1_1SupportPolygonVisual =
     [ "getPolygonColor", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#ad2afd9d1250fe4e13bba0eeca0d12875", null ],
     [ "getSkeleton", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#ad85f2083c279ac302b1882dec19c574b", null ],
     [ "getValidCOMColor", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a3f5b6fc9404e7a54e103c0cacdbc9926", null ],
+    [ "getViewer", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a4c4034b2c886b74052aede99c5e68e79", null ],
+    [ "getViewer", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#afc97c72692cb6d5b0365aa2334c92352", null ],
     [ "initialize", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a066d655b86d559b1fb8e0c87782c9a0c", null ],
     [ "isCenterOfMassDisplayed", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a25b3ffb54adc999b1ad518a58d5228d2", null ],
     [ "isCentroidDisplayed", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a3c09ac3c4f9321aad12a5d7f69fe3b6a", null ],

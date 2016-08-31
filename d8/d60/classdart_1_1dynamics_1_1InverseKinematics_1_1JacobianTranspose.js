@@ -2,6 +2,26 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose =
 [
     [ "JacobianTranspose", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a25a8489137361920c01e49ef63cb187b", null ],
     [ "~JacobianTranspose", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#aa68ced5cf8141c24aa076022f3191677", null ],
+    [ "addObserver", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a51b5edd025b0663e92c388facda5284f", null ],
+    [ "applyWeights", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#aa2b951535bc1a35b882ce8221fa275ff", null ],
+    [ "clampGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#afd9895eff6da5f076405fc869ab97175", null ],
+    [ "clearCache", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a888731b4b274a85406570a3448d6c471", null ],
     [ "clone", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adb013e3d2e0183079d8a5b70c1cf6cf0", null ],
-    [ "computeGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adaf9267e18591703007f5b425550c8b1", null ]
+    [ "computeGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#adaf9267e18591703007f5b425550c8b1", null ],
+    [ "convertJacobianMethodOutputToGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#abcb09a078c009d83941a0d0bb163f2a2", null ],
+    [ "evalGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#acb8403ba28323560640cac6a1eb7e4cf", null ],
+    [ "getComponentWeights", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a4d8887e76943852ff02a4423afae4aaa", null ],
+    [ "getComponentWiseClamp", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a2be888a28d1b4d4319f95115b0f48989", null ],
+    [ "getGradientMethodProperties", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a1eedbc1f9c3a9783236393f984eafdc7", null ],
+    [ "getMethodName", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a8b0d66d0a9586a32a9ce4257c0c10b29", null ],
+    [ "removeObserver", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#aa512812311ecdbed1dcebf6561020170", null ],
+    [ "sendDestructionNotification", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a137b5f1e7fb760e29084a42dabec1eb3", null ],
+    [ "setComponentWeights", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a9fba6987c5f071533d010bb4c7a43265", null ],
+    [ "setComponentWiseClamp", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a155e99d503735e1e9d769f055699717b", null ],
+    [ "mGradientP", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#ad6e44c86f78b7126405a4513cc0a149a", null ],
+    [ "mIK", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#aa0d3b3fca2c935154f44494f2a0898e4", null ],
+    [ "mLastGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#ad07e1a8119541fb898652b466b4e55e1", null ],
+    [ "mLastPositions", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a9be4823acc2404ef51541f5197522ca0", null ],
+    [ "mMethodName", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a1747a0e1688b185f1b26c58633afa483", null ],
+    [ "mObservers", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#acb21558de80efdc434cd64c90a205ba8", null ]
 ];

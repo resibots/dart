@@ -2,10 +2,26 @@ var classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode =
 [
     [ "MeshShapeNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a085edcb112bca59f475d8a871fcce963", null ],
     [ "~MeshShapeNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#af0ffa5ecd142c6aab495740d47ed0dfe", null ],
+    [ "clearUtilization", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#aec1312d507a8cb4f78a1b977644bd297", null ],
     [ "extractData", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a18a78b5ac8bdbe63e3a6ca68d44bbe97", null ],
     [ "getMaterial", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a992f68ac08380dbd84511b20420d0bf7", null ],
+    [ "getNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#ad84d151d8c368ff3e8011334b3024293", null ],
+    [ "getNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#aff4e745855ce2de2f10d927773c1649d", null ],
+    [ "getParentShapeFrameNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a5df9d4b50556afca1b234fbc78d6d1a6", null ],
+    [ "getParentShapeFrameNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a1ab45def5ee0bfeb9c145935971741fc", null ],
+    [ "getShape", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a1c606a71ad654674c78debbadd1b7993", null ],
+    [ "getShapeFrame", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a9168565d1a61b2abd63c2f507b22b38a", null ],
+    [ "getVisualAspect", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72", null ],
+    [ "getVisualAspect", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a492ce50a6a995e0148dea69a1d3aae3b", null ],
     [ "refresh", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a55db2de7e59dec9dfe43ec3f489af53b", null ],
+    [ "wasUtilized", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#ab39746a68dfda2f4e521a400e5407b41", null ],
     [ "mMaterials", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#aed471cc31560c79c11aea4b874e20892", null ],
     [ "mMeshShape", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a28a0b4d339cce0a797506245ea657004", null ],
-    [ "mRootAiNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a17e3d7504266413e23137ff27bdd938e", null ]
+    [ "mNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a91c9ab8023e837482e7d40fd3e2326aa", null ],
+    [ "mParentShapeFrameNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a7a45df6c1e0454f9c1fef2a161c3b20f", null ],
+    [ "mRootAiNode", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a17e3d7504266413e23137ff27bdd938e", null ],
+    [ "mShape", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a7345754e4d7fa928e5945d2c6d1bc1d0", null ],
+    [ "mShapeFrame", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#afc526a221544a5e8ca7ccadef9d66324", null ],
+    [ "mUtilized", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#afa75cd213eb88dd688c3d37fe1fac3ee", null ],
+    [ "mVisualAspect", "d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a7f19c73db390bb2f7da584985dae66c9", null ]
 ];

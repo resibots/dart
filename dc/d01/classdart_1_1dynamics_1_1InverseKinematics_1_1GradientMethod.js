@@ -3,6 +3,7 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod =
     [ "Properties", "d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html", "d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties" ],
     [ "GradientMethod", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ade06ecdee4f1d1d74205001c1128040a", null ],
     [ "~GradientMethod", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a68b85fe5f92a58d0f9647c1ba35ed4f3", null ],
+    [ "addObserver", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a51b5edd025b0663e92c388facda5284f", null ],
     [ "applyWeights", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#aa2b951535bc1a35b882ce8221fa275ff", null ],
     [ "clampGradient", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#afd9895eff6da5f076405fc869ab97175", null ],
     [ "clearCache", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a888731b4b274a85406570a3448d6c471", null ],
@@ -14,6 +15,8 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod =
     [ "getComponentWiseClamp", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a2be888a28d1b4d4319f95115b0f48989", null ],
     [ "getGradientMethodProperties", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a1eedbc1f9c3a9783236393f984eafdc7", null ],
     [ "getMethodName", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a8b0d66d0a9586a32a9ce4257c0c10b29", null ],
+    [ "removeObserver", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#aa512812311ecdbed1dcebf6561020170", null ],
+    [ "sendDestructionNotification", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a137b5f1e7fb760e29084a42dabec1eb3", null ],
     [ "setComponentWeights", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a9fba6987c5f071533d010bb4c7a43265", null ],
     [ "setComponentWiseClamp", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a155e99d503735e1e9d769f055699717b", null ],
     [ "mGradientP", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ad6e44c86f78b7126405a4513cc0a149a", null ],
@@ -21,5 +24,6 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod =
     [ "mInitialPositionsCache", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a05f468e6ae18bdac2db0747a5001bad1", null ],
     [ "mLastGradient", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#ad07e1a8119541fb898652b466b4e55e1", null ],
     [ "mLastPositions", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a9be4823acc2404ef51541f5197522ca0", null ],
-    [ "mMethodName", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a1747a0e1688b185f1b26c58633afa483", null ]
+    [ "mMethodName", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a1747a0e1688b185f1b26c58633afa483", null ],
+    [ "mObservers", "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#acb21558de80efdc434cd64c90a205ba8", null ]
 ];

@@ -1,96 +1,3 @@
-var NAVTREE =
-[
-  [ "DART", "index.html", [
-    [ "DART - Dynamic Animation and Robotics Toolkits", "index.html", [
-      [ "Introduction", "index.html#intro", null ]
-    ] ],
-    [ "Todo List", "dd/da0/todo.html", null ],
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", "functions_type" ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
-      ] ]
-    ] ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-"annotated.html",
-"d0/db4/classHuboLegIK.html#aa1c4f7638edd97e975be3f326d198a7c",
-"d1/d23/classdart_1_1common_1_1Connection.html#a698d9b80065f15f296a063363289abd4",
-"d1/db2/classdart_1_1common_1_1EmbedState.html#a151d6c4b8d5c134d9f1858b51a87cba9",
-"d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html#aaf94b3534d0365c5a1055495e52f6313",
-"d2/d9a/BasicNodeManager_8hpp.html",
-"d2/ddf/lodepng_8h.html#ada25ccabb89bf38141e9dfa857cbcc93",
-"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a84276d34265eb2fd7feab70650dc3416",
-"d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a54c0a3d18fd968c7ae49747a75e5dd2e",
-"d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a7ac6e5ebc84151ef623faa22db786174",
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac91f3680d8ea55382a1ac58bc2b206c9",
-"d4/de6/classdart_1_1dynamics_1_1CompositeIK.html#a78124876a6511fa52849bdbc7b92285e",
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#ac57e023aa4438ab0e79beb24104f1c34",
-"d5/d7c/urdf__world__parser_8cpp.html",
-"d6/d5b/classdart_1_1dynamics_1_1Joint.html#a013bad422e720744e1faab959f8d197c",
-"d6/d63/classdart_1_1common_1_1Resource.html#a89f0a5cccf9c35b70474afe0a78aabe3",
-"d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aa49233f02a6d3b2d5cfcd0f607c4ce54",
-"d7/d2a/AspectWithVersion_8hpp.html#af70d2d565a1b60c7c28a9a5e66f1f55e",
-"d7/d41/classdart_1_1simulation_1_1World.html#adcfcf7daf4fc391e50ec0cd78575d0af",
-"d7/dd6/classdart_1_1planning_1_1RRT.html",
-"d8/d07/structdart_1_1common_1_1Uri.html#a7eec3aec348bc4ea2ff062a0de36d9d1",
-"d8/d92/Trackball_8hpp_source.html",
-"d9/d04/classdart_1_1common_1_1detail_1_1AspectWithState.html#a75763b57605fb45547ad1a9356238641",
-"d9/d98/classdart_1_1optimizer_1_1ModularFunction.html#aa9e1099f5a2408c705f46387b74f6fbe",
-"d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html",
-"da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html#acf621bbf95a611ef9b462f9566cdc17d",
-"da/da6/classdart_1_1common_1_1Aspect.html#ac311cfffd7174f5a2b5c312e82889ec7",
-"db/d38/classdart_1_1dynamics_1_1Frame.html#a5da04225ea21f1c299f7587aa8e00d98",
-"db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#ab5b63d33cb5cc5e4e11d56461aa694d3",
-"db/db4/classdart_1_1dynamics_1_1Group.html#a5a0e61c101f8d788b388cfeeb4da7762",
-"dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#aa0a042ab60b0886dced1e7e1e457bac7",
-"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#a10b0322711c2272788751b1b5b8d00f6",
-"dd/d53/DantzigLCPSolver_8hpp_source.html",
-"dd/dc0/lodepng_8cpp.html#a4fa266277c615d29050fa1f8fbbd04d3",
-"dd/df4/matrix_8h.html#a63d752429d1017bc41fcc9f8301eb824",
-"de/d99/detail_2Cloneable_8hpp_source.html",
-"df/d24/TemplateJoinerDispatchMacro_8hpp_source.html",
-"functions_b.html"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -111,6 +18,21 @@ function stripPath2(uri)
   var s = uri.substring(i+1);
   var m = uri.substring(0,i+1).match(/\/d\w\/d\w\w\/$/);
   return m ? uri.substring(i-6) : s;
+}
+
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
 }
 
 function localStorageSupported()
@@ -135,7 +57,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -183,7 +105,7 @@ function createIndent(o,domNode,node,level)
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        node.plus_img.src = node.relpath+"arrowright.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -191,7 +113,7 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
+    imgNode.src = node.relpath+"arrowright.png";
   } else {
     var span = document.createElement("span");
     span.style.display = 'inline-block';
@@ -207,11 +129,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -269,7 +193,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -345,9 +269,9 @@ function expandNode(o, node, imm, showRoot)
         $(node.getChildrenUL()).slideDown("fast");
       }
       if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
+        node.plus_img.src = node.relpath+"arrowdown.png";
       }
       node.expanded = true;
     }
@@ -363,14 +287,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -385,7 +308,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -418,11 +341,7 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.src = node.relpath+"arrowdown.png";
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -496,14 +415,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -537,7 +455,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -561,7 +479,7 @@ function initNavTree(toroot,relpath)
   o.node.expanded = false;
   o.node.isLast = true;
   o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
+  o.node.plus_img.src = relpath+"arrowright.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
 
@@ -577,7 +495,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -585,21 +503,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

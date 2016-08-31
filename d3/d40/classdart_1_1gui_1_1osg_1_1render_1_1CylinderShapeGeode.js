@@ -2,8 +2,24 @@ var classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode =
 [
     [ "CylinderShapeGeode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#ac02d444b062938dceb7fc04bfc555af5", null ],
     [ "~CylinderShapeGeode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a470551e676a930a502d28b2d990ff438", null ],
+    [ "clearUtilization", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#aec1312d507a8cb4f78a1b977644bd297", null ],
     [ "extractData", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a58b903d807cd8be56f71db9c1d4b1632", null ],
+    [ "getNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#ad84d151d8c368ff3e8011334b3024293", null ],
+    [ "getNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#aff4e745855ce2de2f10d927773c1649d", null ],
+    [ "getParentShapeFrameNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a5df9d4b50556afca1b234fbc78d6d1a6", null ],
+    [ "getParentShapeFrameNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a1ab45def5ee0bfeb9c145935971741fc", null ],
+    [ "getShape", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a1c606a71ad654674c78debbadd1b7993", null ],
+    [ "getShapeFrame", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a9168565d1a61b2abd63c2f507b22b38a", null ],
+    [ "getVisualAspect", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72", null ],
+    [ "getVisualAspect", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a492ce50a6a995e0148dea69a1d3aae3b", null ],
     [ "refresh", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a6424cf2c03250bbbd45db8db1d025f97", null ],
+    [ "wasUtilized", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#ab39746a68dfda2f4e521a400e5407b41", null ],
     [ "mCylinderShape", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a0b71db473c96cc330ad2f804f616f09e", null ],
-    [ "mDrawable", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a2d97b6d95db18bfd5faffab3c63ece28", null ]
+    [ "mDrawable", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a2d97b6d95db18bfd5faffab3c63ece28", null ],
+    [ "mNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a91c9ab8023e837482e7d40fd3e2326aa", null ],
+    [ "mParentShapeFrameNode", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a7a45df6c1e0454f9c1fef2a161c3b20f", null ],
+    [ "mShape", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a7345754e4d7fa928e5945d2c6d1bc1d0", null ],
+    [ "mShapeFrame", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#afc526a221544a5e8ca7ccadef9d66324", null ],
+    [ "mUtilized", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#afa75cd213eb88dd688c3d37fe1fac3ee", null ],
+    [ "mVisualAspect", "d3/d40/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeGeode.html#a7f19c73db390bb2f7da584985dae66c9", null ]
 ];

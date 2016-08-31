@@ -38,5 +38,5 @@ var dir_7aaf2eefc9c12d3855f042d5a221f589 =
     [ "Result.hpp", "d3/db2/Result_8hpp.html", [
       [ "CollisionResult", "d8/d41/classdart_1_1collision_1_1CollisionResult.html", "d8/d41/classdart_1_1collision_1_1CollisionResult" ]
     ] ],
-    [ "SmartPointer.hpp", "da/d45/collision_2SmartPointer_8hpp.html", null ]
+    [ "SmartPointer.hpp", "da/d45/collision_2SmartPointer_8hpp.html", "da/d45/collision_2SmartPointer_8hpp" ]
 ];

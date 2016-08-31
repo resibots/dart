@@ -1,7 +1,6 @@
 var namespacedart =
 [
     [ "collision", "da/dcd/namespacedart_1_1collision.html", "da/dcd/namespacedart_1_1collision" ],
-    [ "Color", "db/dbc/namespacedart_1_1Color.html", null ],
     [ "common", "dd/d6b/namespacedart_1_1common.html", "dd/d6b/namespacedart_1_1common" ],
     [ "constraint", "dd/d6c/namespacedart_1_1constraint.html", "dd/d6c/namespacedart_1_1constraint" ],
     [ "dynamics", "d7/d5a/namespacedart_1_1dynamics.html", "d7/d5a/namespacedart_1_1dynamics" ],

@@ -37,7 +37,7 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "MultiDofJoint.hpp", "d0/df1/detail_2MultiDofJoint_8hpp.html", "d0/df1/detail_2MultiDofJoint_8hpp" ],
     [ "MultiDofJointAspect.hpp", "de/df6/MultiDofJointAspect_8hpp.html", "de/df6/MultiDofJointAspect_8hpp" ],
     [ "Node.hpp", "d3/d71/detail_2Node_8hpp.html", "d3/d71/detail_2Node_8hpp" ],
-    [ "NodeManagerJoiner.hpp", "d6/d91/detail_2NodeManagerJoiner_8hpp.html", "d6/d91/detail_2NodeManagerJoiner_8hpp" ],
+    [ "NodeManagerJoiner.hpp", "d6/d91/detail_2NodeManagerJoiner_8hpp.html", null ],
     [ "NodePtr.hpp", "de/da4/NodePtr_8hpp.html", [
       [ "TemplateNodePtr", "d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html", "d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr" ],
       [ "TemplateWeakNodePtr", "d5/db5/classdart_1_1dynamics_1_1TemplateWeakNodePtr.html", "d5/db5/classdart_1_1dynamics_1_1TemplateWeakNodePtr" ]
@@ -59,6 +59,6 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "SoftBodyNodeAspect.hpp", "d3/d64/SoftBodyNodeAspect_8hpp.html", "d3/d64/SoftBodyNodeAspect_8hpp" ],
     [ "SpecializedNodeManager.hpp", "d6/d3b/detail_2SpecializedNodeManager_8hpp.html", null ],
     [ "TemplatedJacobianNode.hpp", "df/d2c/detail_2TemplatedJacobianNode_8hpp.html", null ],
-    [ "UniversalJointAspect.cpp", "d2/d4f/UniversalJointAspect_8cpp.html", "d2/d4f/UniversalJointAspect_8cpp" ],
+    [ "UniversalJointAspect.cpp", "d2/d4f/UniversalJointAspect_8cpp.html", null ],
     [ "UniversalJointAspect.hpp", "db/d38/UniversalJointAspect_8hpp.html", "db/d38/UniversalJointAspect_8hpp" ]
 ];

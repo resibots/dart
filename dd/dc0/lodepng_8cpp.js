@@ -234,7 +234,7 @@ var lodepng_8cpp =
     [ "ADAM7_DY", "dd/dc0/lodepng_8cpp.html#a1e68ce500702fd59580e735e977b84f3", null ],
     [ "ADAM7_IX", "dd/dc0/lodepng_8cpp.html#a85488c2cdadbed8c6ac4261a3922e186", null ],
     [ "ADAM7_IY", "dd/dc0/lodepng_8cpp.html#a851ee080587d6fe775d09e376947c880", null ],
-    [ "CLCL_ORDER", "dd/dc0/lodepng_8cpp.html#acc740439d5937d68f23170f31ad1e189", null ],
+    [ "CLCL_ORDER", "dd/dc0/lodepng_8cpp.html#af28303e3493bf54c3bccf14b11039ed9", null ],
     [ "Crc32_crc_table", "dd/dc0/lodepng_8cpp.html#aca8bfab1ea1377cbd8172773f56ab4d3", null ],
     [ "Crc32_crc_table_computed", "dd/dc0/lodepng_8cpp.html#ac961612365e0c5c5633e7b88d8ade52f", null ],
     [ "DISTANCEBASE", "dd/dc0/lodepng_8cpp.html#acaf561f0c4e23840e58b49221ed4a39d", null ],

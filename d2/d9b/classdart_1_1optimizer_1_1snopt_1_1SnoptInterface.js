@@ -1,7 +1,7 @@
 var classdart_1_1optimizer_1_1snopt_1_1SnoptInterface =
 [
     [ "Slack", "df/da5/structdart_1_1optimizer_1_1snopt_1_1SnoptInterface_1_1Slack.html", "df/da5/structdart_1_1optimizer_1_1snopt_1_1SnoptInterface_1_1Slack" ],
-    [ "updateFunc", "d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a6618ad09f1f5436ac7f056d8a2431eb8", null ],
+    [ "updateFunc", "d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a6d1499ed8e537bb252fbe0c6f26875a7", null ],
     [ "AbnormalType", "d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a99d7fcde3398a4439b8a2d2c16f51b7b", [
       [ "NONE", "d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a99d7fcde3398a4439b8a2d2c16f51b7ba35dbe549f6d720df433a65e32591a397", null ],
       [ "INFEASIBLE", "d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a99d7fcde3398a4439b8a2d2c16f51b7ba9424649079bb058d3e9551ef62e742ec", null ],

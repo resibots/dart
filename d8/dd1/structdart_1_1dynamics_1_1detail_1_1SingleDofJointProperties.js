@@ -1,5 +1,26 @@
 var structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties =
 [
     [ "SingleDofJointProperties", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#afb40e675649c0b170adae231c9eb9657", null ],
-    [ "~SingleDofJointProperties", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a162618b23203576748a6b21154758d31", null ]
+    [ "~SingleDofJointProperties", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a162618b23203576748a6b21154758d31", null ],
+    [ "mAccelerationLowerLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a1a9e748a49a28c350cf68de75884f8ab", null ],
+    [ "mAccelerationUpperLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a61dce53eecaed9adf639f412730ff31a", null ],
+    [ "mActuatorType", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a7ccdb96b4f4dbb9389b8252252db095a", null ],
+    [ "mDampingCoefficient", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a64f7ae8ef2a5550971fb2e1ae3baf5aa", null ],
+    [ "mDofName", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a59bba3437c8b08b168e6eae4067054ba", null ],
+    [ "mForceLowerLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#aab082fb8797113c2eef5ca9f8704fb9f", null ],
+    [ "mForceUpperLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a04d97a96fba27ad1c16dc91aa8b6fd1c", null ],
+    [ "mFriction", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a105bedeea08ed42f00ebb4df06c202b8", null ],
+    [ "mInitialPosition", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#ae6a73c16216b1804ab4861cd238d4f88", null ],
+    [ "mInitialVelocity", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a3c3e1a85baca37844417ed66b58b5ba9", null ],
+    [ "mIsPositionLimitEnforced", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a7543b9c19cd45fa54529ec0a4aee4990", null ],
+    [ "mName", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a66f16840ca66f1546f9c6d2fd442f3b2", null ],
+    [ "mPositionLowerLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#ac2fdc461bfb3e1e6b9ef376b8a37958e", null ],
+    [ "mPositionUpperLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a3bb5932516e11ec0c3fccb0f8627e6e0", null ],
+    [ "mPreserveDofName", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a1d8c4174003ff76da7da140a8d6116fc", null ],
+    [ "mRestPosition", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a6bc3f17d13d3d0a18286a849c6abb13e", null ],
+    [ "mSpringStiffness", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a9794c40581ec095923c5921d0e684ee4", null ],
+    [ "mT_ChildBodyToJoint", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#ab821f24538d4da2e38efd8d84588049d", null ],
+    [ "mT_ParentBodyToJoint", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#ae9df26986678236e90a31f889aebd1db", null ],
+    [ "mVelocityLowerLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#ada850b68a8287c8d3972c7f30ac45633", null ],
+    [ "mVelocityUpperLimit", "d8/dd1/structdart_1_1dynamics_1_1detail_1_1SingleDofJointProperties.html#a34d02c5ee8c4468d5f1c475a28f04227", null ]
 ];

@@ -1,8 +1,8 @@
 var Aspect_8hpp =
 [
     [ "Aspect", "da/da6/classdart_1_1common_1_1Aspect.html", "da/da6/classdart_1_1common_1_1Aspect" ],
-    [ "State", "d9/de4/classdart_1_1common_1_1Aspect_1_1State.html", null ],
-    [ "Properties", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties.html", null ],
+    [ "State", "d9/de4/classdart_1_1common_1_1Aspect_1_1State.html", "d9/de4/classdart_1_1common_1_1Aspect_1_1State" ],
+    [ "Properties", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties.html", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties" ],
     [ "CompositeTrackingAspect", "dc/d65/classdart_1_1common_1_1CompositeTrackingAspect.html", "dc/d65/classdart_1_1common_1_1CompositeTrackingAspect" ],
     [ "DART_COMMON_ASPECT_PROPERTY_CONSTRUCTOR", "d4/d97/Aspect_8hpp.html#aafa6d614d23c1dbf5371ef0b5f5348cb", null ],
     [ "DART_COMMON_ASPECT_STATE_PROPERTY_CONSTRUCTORS", "d4/d97/Aspect_8hpp.html#af7c393dd3687db38cad84853343c9872", null ],

@@ -2,8 +2,24 @@ var classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode =
 [
     [ "PlaneShapeNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a1b41501a498d7c5b98e5944aa590d219", null ],
     [ "~PlaneShapeNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#ad9976c42e2296f8055ac52fb7b4a81d9", null ],
+    [ "clearUtilization", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#aec1312d507a8cb4f78a1b977644bd297", null ],
     [ "extractData", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#af9ec1e9e0d47f5fd6c7b7b81c351b310", null ],
+    [ "getNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#ad84d151d8c368ff3e8011334b3024293", null ],
+    [ "getNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#aff4e745855ce2de2f10d927773c1649d", null ],
+    [ "getParentShapeFrameNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a5df9d4b50556afca1b234fbc78d6d1a6", null ],
+    [ "getParentShapeFrameNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a1ab45def5ee0bfeb9c145935971741fc", null ],
+    [ "getShape", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a1c606a71ad654674c78debbadd1b7993", null ],
+    [ "getShapeFrame", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a9168565d1a61b2abd63c2f507b22b38a", null ],
+    [ "getVisualAspect", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72", null ],
+    [ "getVisualAspect", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a492ce50a6a995e0148dea69a1d3aae3b", null ],
     [ "refresh", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a216c160ba407ae3a7465edf3a107490d", null ],
+    [ "wasUtilized", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#ab39746a68dfda2f4e521a400e5407b41", null ],
     [ "mGeode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#aa59310b188d78523bcb93925d03b3962", null ],
-    [ "mPlaneShape", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a1e3163940bee500e33b72fb311859e2f", null ]
+    [ "mNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a91c9ab8023e837482e7d40fd3e2326aa", null ],
+    [ "mParentShapeFrameNode", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a7a45df6c1e0454f9c1fef2a161c3b20f", null ],
+    [ "mPlaneShape", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a1e3163940bee500e33b72fb311859e2f", null ],
+    [ "mShape", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a7345754e4d7fa928e5945d2c6d1bc1d0", null ],
+    [ "mShapeFrame", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#afc526a221544a5e8ca7ccadef9d66324", null ],
+    [ "mUtilized", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#afa75cd213eb88dd688c3d37fe1fac3ee", null ],
+    [ "mVisualAspect", "d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a7f19c73db390bb2f7da584985dae66c9", null ]
 ];

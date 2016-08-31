@@ -137,19 +137,19 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "Node.hpp", "d7/dc6/Node_8hpp.html", [
       [ "NodeDestructor", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor.html", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor" ],
       [ "Node", "db/dc8/classdart_1_1dynamics_1_1Node.html", "db/dc8/classdart_1_1dynamics_1_1Node" ],
-      [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", null ],
-      [ "Properties", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties.html", null ],
+      [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State" ],
+      [ "Properties", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties.html", "df/da8/classdart_1_1dynamics_1_1Node_1_1Properties" ],
       [ "AccessoryNode", "df/d31/classdart_1_1dynamics_1_1AccessoryNode.html", "df/d31/classdart_1_1dynamics_1_1AccessoryNode" ]
     ] ],
     [ "NodeManagerJoiner.hpp", "de/d37/NodeManagerJoiner_8hpp.html", [
       [ "NodeManagerJoinerForBodyNode", "d5/dc2/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode.html", null ],
       [ "NodeManagerJoinerForBodyNode< Base1 >", "d3/ddb/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_01_4.html", null ],
       [ "NodeManagerJoinerForBodyNode< Base1, Base2 >", "db/db9/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_01_4.html", "db/db9/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_01_4" ],
-      [ "NodeManagerJoinerForBodyNode< Base1, Base2, OtherBases...>", "da/d5a/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html", "da/d5a/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4" ],
+      [ "NodeManagerJoinerForBodyNode< Base1, Base2, OtherBases... >", "de/dc0/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4.html", "de/dc0/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4" ],
       [ "NodeManagerJoinerForSkeleton", "d0/d2f/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton.html", null ],
       [ "NodeManagerJoinerForSkeleton< Base1 >", "d1/dc4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_01_4.html", null ],
       [ "NodeManagerJoinerForSkeleton< Base1, Base2 >", "db/d96/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_01_4.html", "db/d96/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_01_4" ],
-      [ "NodeManagerJoinerForSkeleton< Base1, Base2, OtherBases...>", "da/de4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4.html", "da/de4/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_4" ]
+      [ "NodeManagerJoinerForSkeleton< Base1, Base2, OtherBases... >", "d6/d7e/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4.html", "d6/d7e/classdart_1_1dynamics_1_1NodeManagerJoinerForSkeleton_3_01Base1_00_01Base2_00_01OtherBases_8_8_8_01_4" ]
     ] ],
     [ "PlanarJoint.cpp", "d5/d9e/PlanarJoint_8cpp.html", null ],
     [ "PlanarJoint.hpp", "df/ded/PlanarJoint_8hpp.html", [
@@ -226,10 +226,10 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "SpecializedNodeManager.hpp", "df/d86/SpecializedNodeManager_8hpp.html", [
       [ "BodyNodeSpecializedFor", "da/da4/classdart_1_1dynamics_1_1BodyNodeSpecializedFor.html", null ],
       [ "BodyNodeSpecializedFor< SpecNode >", "d2/d09/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode_01_4.html", "d2/d09/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode_01_4" ],
-      [ "BodyNodeSpecializedFor< SpecNode1, OtherSpecNodes...>", "de/d76/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_4.html", null ],
+      [ "BodyNodeSpecializedFor< SpecNode1, OtherSpecNodes... >", "d2/d76/classdart_1_1dynamics_1_1BodyNodeSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_01_4.html", null ],
       [ "SkeletonSpecializedFor", "d1/dd3/classdart_1_1dynamics_1_1SkeletonSpecializedFor.html", null ],
       [ "SkeletonSpecializedFor< SpecNode >", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4.html", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4" ],
-      [ "SkeletonSpecializedFor< SpecNode1, OtherSpecNodes...>", "d6/d5e/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_4.html", null ]
+      [ "SkeletonSpecializedFor< SpecNode1, OtherSpecNodes... >", "df/d8d/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_01_4.html", null ]
     ] ],
     [ "TemplatedJacobianNode.hpp", "d3/d00/TemplatedJacobianNode_8hpp.html", [
       [ "TemplatedJacobianNode", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode" ]

@@ -20,7 +20,7 @@ var structdLCP =
     [ "transfer_i_to_C", "d6/df6/structdLCP.html#a40bc7d64d0aae3a4d8e9538d8f536c1d", null ],
     [ "transfer_i_to_N", "d6/df6/structdLCP.html#a6402360da2109d8fdfcab5951d22aaea", null ],
     [ "unpermute", "d6/df6/structdLCP.html#ada5ae9958b96bd71e1bee15c48969996", null ],
-    [ "m_A", "d6/df6/structdLCP.html#a65092d6c41da47b38ff76d678608c335", null ],
+    [ "m_A", "d6/df6/structdLCP.html#a6147f4484deb5b3daac23928b05b6b3d", null ],
     [ "m_b", "d6/df6/structdLCP.html#a5916ba285cbfe85dfe21a7d753cfb0b7", null ],
     [ "m_C", "d6/df6/structdLCP.html#a302e3eaf59334347b60a3050d922d93c", null ],
     [ "m_d", "d6/df6/structdLCP.html#a55490e310b80025b1d77536ad27ed2d3", null ],

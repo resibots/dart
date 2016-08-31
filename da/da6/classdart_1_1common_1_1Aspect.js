@@ -1,7 +1,7 @@
 var classdart_1_1common_1_1Aspect =
 [
-    [ "Properties", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties.html", null ],
-    [ "State", "d9/de4/classdart_1_1common_1_1Aspect_1_1State.html", null ],
+    [ "Properties", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties.html", "d4/d13/classdart_1_1common_1_1Aspect_1_1Properties" ],
+    [ "State", "d9/de4/classdart_1_1common_1_1Aspect_1_1State.html", "d9/de4/classdart_1_1common_1_1Aspect_1_1State" ],
     [ "MakeProperties", "da/da6/classdart_1_1common_1_1Aspect.html#acae8a0c9409acc0066cf0c7000d80b58", null ],
     [ "MakeState", "da/da6/classdart_1_1common_1_1Aspect.html#aa3969ed77fdfacf60c2f121dede92869", null ],
     [ "~Aspect", "da/da6/classdart_1_1common_1_1Aspect.html#ab4164941ad6d4c29827417e9ae14e1db", null ],

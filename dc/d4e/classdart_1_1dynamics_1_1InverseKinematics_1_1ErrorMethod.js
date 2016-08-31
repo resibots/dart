@@ -4,6 +4,7 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod =
     [ "Bounds", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a4c940824f69c15ac230ca9ecd1dafab4", null ],
     [ "ErrorMethod", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#acb43b9038a5fa87318b1ab3ae9fdd2d5", null ],
     [ "~ErrorMethod", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a15e150ee2ff0fae977c3103032bfb284", null ],
+    [ "addObserver", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a51b5edd025b0663e92c388facda5284f", null ],
     [ "clearCache", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#af7137c657a64cbb570afad141ae12a50", null ],
     [ "clone", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a899e84db84097ebc94ac0cc42b8a1311", null ],
     [ "computeDesiredTransform", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a17eb9de38c377610bfd92fadaeb8daa1", null ],
@@ -18,6 +19,8 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod =
     [ "getLinearBounds", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a06409e1723cfa9263a33e569be3dac7e", null ],
     [ "getLinearErrorWeights", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#afccee8b918a6087b86e500ece9d07338", null ],
     [ "getMethodName", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a6de3f56a3bbca885cf3e26f7cfd92f0a", null ],
+    [ "removeObserver", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#aa512812311ecdbed1dcebf6561020170", null ],
+    [ "sendDestructionNotification", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a137b5f1e7fb760e29084a42dabec1eb3", null ],
     [ "setAngularBounds", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a8c5b38bf4d977ef616070009ab925664", null ],
     [ "setAngularBounds", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a3a909c8854d0b6b77de21f2557dedb05", null ],
     [ "setAngularErrorWeights", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a9b3ca8e1c444239455bd796773409cd1", null ],
@@ -32,5 +35,6 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod =
     [ "mIK", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a117089e9064a708c397de39182efcd75", null ],
     [ "mLastError", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#a4c7e7ed5418232c00d32094a3157f26b", null ],
     [ "mLastPositions", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#aad1566f7023e43d6f0ea65b54c215270", null ],
-    [ "mMethodName", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#ac3f793a1ec5bcc10419f79ac4d7b2840", null ]
+    [ "mMethodName", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#ac3f793a1ec5bcc10419f79ac4d7b2840", null ],
+    [ "mObservers", "dc/d4e/classdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod.html#acb21558de80efdc434cd64c90a205ba8", null ]
 ];

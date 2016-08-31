@@ -8,6 +8,6 @@ var detail_2EmbeddedAspect_8hpp =
     [ "DefaultGetEmbeddedState", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a2a2f8ce04195f9a3371d593f6cfdb7f5", null ],
     [ "DefaultSetEmbeddedProperties", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a06e67830e86a4da0d2c2540883519d09", null ],
     [ "DefaultSetEmbeddedState", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a14834fc099d26feab94e204afc944f10", null ],
-    [ "EmbeddedPropertiesAspect", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a970f990cb694ef206b320e8127131500", null ],
-    [ "EmbeddedStateAspect", "de/d1c/detail_2EmbeddedAspect_8hpp.html#af0240976a16c38b1dc483532858b3012", null ]
+    [ "EmbeddedPropertiesAspect", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a4d6f3f69fec2d94c7e52bbd6a43b2004", null ],
+    [ "EmbeddedStateAspect", "de/d1c/detail_2EmbeddedAspect_8hpp.html#a3518863ed904cf988a0148c9990ed373", null ]
 ];
