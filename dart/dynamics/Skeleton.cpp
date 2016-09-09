@@ -455,6 +455,8 @@ SkeletonPtr Skeleton::clone(const std::string& cloneName) const
   skelClone->setName(cloneName);
   skelClone->setState(getState());
 
+  skelClone->setPositions(getPositions());
+
   return skelClone;
 }
 
