@@ -5,7 +5,6 @@ var DARTCollide_8cpp =
     [ "dMULTIPLYOP0_331", "d2/db2/DARTCollide_8cpp.html#acd7c95f0b919f96b818a3793644058f9", null ],
     [ "dMULTIPLYOP1_331", "d2/db2/DARTCollide_8cpp.html#aadc8a10a7a740934f6be6e88a8d61032", null ],
     [ "dRecip", "d2/db2/DARTCollide_8cpp.html#a8d68a516c6cf1719b4169ee9e8eba19f", null ],
-    [ "REPORT_UNSUPPORTED_SHAPES", "d2/db2/DARTCollide_8cpp.html#a2d4c253055d2c841dfe461931fe307fa", null ],
     [ "TEMP_INNER14", "d2/db2/DARTCollide_8cpp.html#a32ca4c87185a2e44eccd27fe6962f483", null ],
     [ "TST", "d2/db2/DARTCollide_8cpp.html#aeeb3066b2701c8ecff449645fe45ea6f", null ],
     [ "TST", "d2/db2/DARTCollide_8cpp.html#a19e189e2e0a0a91b06a684bd017070d2", null ],

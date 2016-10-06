@@ -1,8 +1,7 @@
 var classdart_1_1dynamics_1_1DynamicsAspect =
 [
     [ "AspectImplementation", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a594d0df157edcab5a947a41979817709", null ],
-    [ "Base", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#ae9e7b9279d48e7a359b4eae5e683fa6b", null ],
-    [ "BaseClass", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a1638780d1d5b06ce259cbe0a3b0180ff", null ],
+    [ "Base", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a7bb03b043167678c2ff062d35591d8db", null ],
     [ "CompositeType", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a682be15baab3ae6b8dbcdd888b467379", null ],
     [ "Derived", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#ab1051e16bc5e9f0c35d17207de55a225", null ],
     [ "Properties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a528633e861283ac7bb41706d88a62916", null ],

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>DART: /home/js/dev/dart/doxygen/dart/collision/fcl/FCLCollisionDetector.cpp File Reference</title>
+<title>DART: /home/js/Downloads/dartsim-dart-ade98ba/dart/collision/fcl/FCLCollisionDetector.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('d2/d00/FCLCollisionDetector_8cpp.html'
 <code>#include &lt;fcl/collision.h&gt;</code><br />
 <code>#include &lt;fcl/collision_object.h&gt;</code><br />
 <code>#include &lt;fcl/collision_data.h&gt;</code><br />
+<code>#include &lt;fcl/distance.h&gt;</code><br />
 <code>#include &lt;fcl/BVH/BVH_model.h&gt;</code><br />
 <code>#include &lt;fcl/broadphase/broadphase.h&gt;</code><br />
 <code>#include &lt;fcl/shape/geometric_shapes.h&gt;</code><br />
@@ -124,12 +125,14 @@ $(document).ready(function(){initNavTree('d2/d00/FCLCollisionDetector_8cpp.html'
 <code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d78/CollisionObject_8hpp_source.html">dart/collision/CollisionObject.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">dart/collision/CollisionFilter.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dcb/DistanceFilter_8hpp_source.html">dart/collision/DistanceFilter.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/df8/FCLTypes_8hpp_source.html">dart/collision/fcl/FCLTypes.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/def/FCLCollisionObject_8hpp_source.html">dart/collision/fcl/FCLCollisionObject.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d30/FCLCollisionGroup_8hpp_source.html">dart/collision/fcl/FCLCollisionGroup.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/df5/tri__tri__intersection__test_8hpp_source.html">dart/collision/fcl/tri_tri_intersection_test.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/dd7/ShapeFrame_8hpp_source.html">dart/dynamics/ShapeFrame.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/df8/Shape_8hpp_source.html">dart/dynamics/Shape.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc2/SphereShape_8hpp_source.html">dart/dynamics/SphereShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br />
@@ -173,34 +176,37 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Whether the collision iteration can stop. </p>
+<p>Whether the distance iteration can stop. </p>
 
 </div>
 </div>
-<a class="anchor" id="a5e627085b05e70762d035642bc590dfa"></a>
+<a class="anchor" id="a0acfeeed75bdbfcce853d184867df958"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fcl::CollisionRequest fclRequest</td>
+          <td class="memname">fcl::DistanceRequest fclRequest</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>FCL collision request. </p>
+<p>FCL distance request. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae8111feed3c58ffd7eb44d7e72b695f3"></a>
+<a class="anchor" id="a37333c35cd31f2f8e2894372155123fb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fcl::CollisionResult fclResult</td>
+          <td class="memname">fcl::DistanceResult fclResult</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>FCL collision result. </p>
+<p>FCL distance result. </p>
 
 </div>
 </div>
@@ -219,17 +225,18 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6884f20bea413374e2bc81da54cb7cf7"></a>
+<a class="anchor" id="aa74c680362cb6bf436f5bff45dd8bdaf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const CollisionOption&amp; option</td>
+          <td class="memname">const DistanceOption&amp; option</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Collision option of DART. </p>
+<p>Distance option of DART. </p>
 
 </div>
 </div>
@@ -245,17 +252,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acb2ddba315ea0578567a9c9f95271a10"></a>
+<a class="anchor" id="ae1e5cffa828121b8dc80cacee4670b90"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">CollisionResult* result</td>
+          <td class="memname">DistanceResult* result</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Collision result of DART. </p>
+<p>Distance result of DART. </p>
+
+</div>
+</div>
+<a class="anchor" id="a555e824d98d2461c524bc9be76b7e064"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double unclampedMinDistance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimum distance identical to DistanceResult::minDistnace if result is not nullptr. </p>
 
 </div>
 </div>
@@ -265,7 +287,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_d9bc0d3f4e4fe81f6b2799c71d86043d.html">fcl</a></li><li class="navelem"><a class="el" href="../../d2/d00/FCLCollisionDetector_8cpp.html">FCLCollisionDetector.cpp</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:31 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:24 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

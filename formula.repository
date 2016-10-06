@@ -8,5 +8,3 @@
 \form#7:$X=(w_X,v_X)@in se(3), @quad Y=(w_Y,v_Y)@in se(3) $
 \form#8:$ad^{@,*}_V F = (m @times w + f @times v@,,~ f @times w),$
 \form#9:$F=(m,f)@in se^{@,*}(3), @quad V=(w,v)@in se(3) $
-\form#10:$J * \ddot{q}$
-\form#11:$J \ddot{q}$

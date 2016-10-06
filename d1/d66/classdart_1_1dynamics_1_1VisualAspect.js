@@ -1,8 +1,7 @@
 var classdart_1_1dynamics_1_1VisualAspect =
 [
     [ "AspectImplementation", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a594d0df157edcab5a947a41979817709", null ],
-    [ "Base", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#ae9e7b9279d48e7a359b4eae5e683fa6b", null ],
-    [ "BaseClass", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#aee7e6f21696b01c885d94a3ee3e781a9", null ],
+    [ "Base", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a9970a86c49c31ffa69a9ae4fe1bda06f", null ],
     [ "CompositeType", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a682be15baab3ae6b8dbcdd888b467379", null ],
     [ "Derived", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#ab1051e16bc5e9f0c35d17207de55a225", null ],
     [ "Properties", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a528633e861283ac7bb41706d88a62916", null ],

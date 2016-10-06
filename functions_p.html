@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a40185fc29c7fb48dfa9d2c61d629d445">dart::dynamics::PlanarJoint</a>
 </li>
 <li>PlanarJointProperties()
-: <a class="el" href="dc/d06/structdart_1_1dynamics_1_1detail_1_1PlanarJointProperties.html#a462c9f88cbde2511800c290fb65be834">dart::dynamics::detail::PlanarJointProperties</a>
+: <a class="el" href="dc/d06/structdart_1_1dynamics_1_1detail_1_1PlanarJointProperties.html#a8124dbbc597d8c079451122542a5e71a">dart::dynamics::detail::PlanarJointProperties</a>
 </li>
 <li>PlanarJointUniqueProperties()
 : <a class="el" href="d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#a0d2d703f6dfd51a446e8ff36620dff50">dart::dynamics::detail::PlanarJointUniqueProperties</a>
@@ -312,6 +312,12 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>point
 : <a class="el" href="db/d36/structdart_1_1collision_1_1Contact.html#a864b94e00e5f0d1fdf9fd6b14fd3931d">dart::collision::Contact</a>
 </li>
+<li>Point
+: <a class="el" href="da/d53/classdart_1_1dynamics_1_1GenericJoint.html#ac112e84b6e09e3dc3490bf0f80df0cd3">dart::dynamics::GenericJoint&lt; ConfigSpaceT &gt;</a>
+, <a class="el" href="d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a3b8fe77a51843041eae2b24ae469c89d">dart::math::RealVectorSpace&lt; Dimension &gt;</a>
+, <a class="el" href="d8/db9/structdart_1_1math_1_1SE3Space.html#a57fea96d15dd981ff30af429e7103d5e">dart::math::SE3Space</a>
+, <a class="el" href="d3/df4/structdart_1_1math_1_1SO3Space.html#aefc797fd36457cd0aae3a000cdd95fa3">dart::math::SO3Space</a>
+</li>
 <li>pointer_const_type
 : <a class="el" href="d6/d65/classdart_1_1common_1_1UriComponent.html#af31d3c6be4f8b0a3abfb21737d0e862e">dart::common::UriComponent</a>
 </li>
@@ -358,9 +364,8 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="dc/d15/structLodePNGEncoderSettings.html#ad70b06025a5138e5ca02d0035ecccb28">LodePNGEncoderSettings</a>
 </li>
 <li>preserveDofName()
-: <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a65ccdd97bae3bae02b59660fb4823dba">dart::dynamics::Joint</a>
-, <a class="el" href="da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html#a134f0244d7341ae730beaa9e09541257">dart::dynamics::MultiDofJoint&lt; DOF &gt;</a>
-, <a class="el" href="d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html#a4dc2f94785c2ef2d4e9c72fe51c73a76">dart::dynamics::SingleDofJoint</a>
+: <a class="el" href="da/d53/classdart_1_1dynamics_1_1GenericJoint.html#a59ce80703b9e3f60868775b28626a857">dart::dynamics::GenericJoint&lt; ConfigSpaceT &gt;</a>
+, <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a65ccdd97bae3bae02b59660fb4823dba">dart::dynamics::Joint</a>
 , <a class="el" href="db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#a2e07f1516e113ba05d9abfab77ded2ba">dart::dynamics::ZeroDofJoint</a>
 </li>
 <li>preserveName()
@@ -381,7 +386,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ad2037bcb19b0112393d8ee5c9f9167d6">dart::dynamics::PrismaticJoint</a>
 </li>
 <li>PrismaticJointProperties()
-: <a class="el" href="dd/d5c/structdart_1_1dynamics_1_1detail_1_1PrismaticJointProperties.html#ae219f679aab780dd285396d88722015a">dart::dynamics::detail::PrismaticJointProperties</a>
+: <a class="el" href="dd/d5c/structdart_1_1dynamics_1_1detail_1_1PrismaticJointProperties.html#a566fedfdca24d19287b81136af875469">dart::dynamics::detail::PrismaticJointProperties</a>
 </li>
 <li>PrismaticJointUniqueProperties()
 : <a class="el" href="d4/d0d/structdart_1_1dynamics_1_1detail_1_1PrismaticJointUniqueProperties.html#a6aad87ae768dc166b1a69927b06d3e92">dart::dynamics::detail::PrismaticJointUniqueProperties</a>
@@ -410,12 +415,13 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#ab8c41ba8c1959c3af906331998abe032">dart::common::EmbeddedStateAndPropertiesAspect&lt; CompositeT, StateDataT, PropertiesDataT &gt;</a>
 , <a class="el" href="d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html#a419f06f0f6b8fe40c0493b96404519af">dart::common::ProxyStateAndPropertiesAspect&lt; CompositeT, StateT, PropertiesT &gt;</a>
 , <a class="el" href="dc/dc5/structdart_1_1dynamics_1_1ArrowShape_1_1Properties.html#ae353b73c190451d692c90cfbf0f81670">dart::dynamics::ArrowShape::Properties</a>
-, <a class="el" href="db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties.html#adde1d666dc81a5f60816fd4c29a7fd0b">dart::dynamics::BallJoint::Properties</a>
+, <a class="el" href="db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties.html#adc940dc69dbfaf6e94212c57dba2e49b">dart::dynamics::BallJoint::Properties</a>
 , <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dart::dynamics::BodyNode</a>
 , <a class="el" href="d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html#a3431ee48cb34626c28a95e5300445066">dart::dynamics::CompositePropertiesNode&lt; Base &gt;</a>
 , <a class="el" href="db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a31cecba1996f866a1caa4d9ec53c7522">dart::dynamics::EndEffector</a>
 , <a class="el" href="d2/d87/classdart_1_1dynamics_1_1EulerJoint.html#a1e8c6f6bb691c8791c5f332f880b2611">dart::dynamics::EulerJoint</a>
-, <a class="el" href="d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties.html#a394547704b9aff23168ccbd03f07e948">dart::dynamics::FreeJoint::Properties</a>
+, <a class="el" href="d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties.html#aef4bec43a41fdcf7c646a901797386da">dart::dynamics::FreeJoint::Properties</a>
+, <a class="el" href="da/d53/classdart_1_1dynamics_1_1GenericJoint.html#a9a3089245ab839f160ef968632e4f93f">dart::dynamics::GenericJoint&lt; ConfigSpaceT &gt;</a>
 , <a class="el" href="d3/d04/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Properties.html#a97cce876cbb48884adb49d8b8eaa0c35">dart::dynamics::InverseKinematics::Analytical::Properties</a>
 , <a class="el" href="db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html#a0383c2595e61ddc7cd25dabff852201a">dart::dynamics::InverseKinematics::ErrorMethod::Properties</a>
 , <a class="el" href="d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html#a460861676f7e58b33aab6cb406307e4f">dart::dynamics::InverseKinematics::GradientMethod::Properties</a>
@@ -423,7 +429,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d8/d4d/structdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion_1_1Properties.html#a314310382d72dce6dafda1a82266cafa">dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties</a>
 , <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a50ab28a753b66dbcce46b4a4fb28fe64">dart::dynamics::Joint</a>
 , <a class="el" href="db/d20/classdart_1_1dynamics_1_1Marker.html#a4aedac8ac137a3a2586f66904505cd30">dart::dynamics::Marker</a>
-, <a class="el" href="da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html#a84c77f705605aa933c6cfaa1f3dd9158">dart::dynamics::MultiDofJoint&lt; DOF &gt;</a>
 , <a class="el" href="da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#ad19efe7718a6084757f4a667e3c515cb">dart::dynamics::PlanarJoint</a>
 , <a class="el" href="d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html#acc9cc4a35a1acddff1d9333556783720">dart::dynamics::PointMass::Properties</a>
 , <a class="el" href="de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a27c903a6fad57cb3f3d9fc6f02a13cf2">dart::dynamics::PrismaticJoint</a>
@@ -431,10 +436,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="db/d9a/classdart_1_1dynamics_1_1ScrewJoint.html#a2a7aba450674b8ec2b2329af0955d1d5">dart::dynamics::ScrewJoint</a>
 , <a class="el" href="d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html#af825bfb12107a6b755cd4343e7be2dda">dart::dynamics::ShapeFrame</a>
 , <a class="el" href="d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html#a8c1c11f2c4984445639e2cc53e8a9e16">dart::dynamics::ShapeNode</a>
-, <a class="el" href="d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html#aad393adb42737680b946b68c9dab51d6">dart::dynamics::SingleDofJoint</a>
 , <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#af32cf0ec3fd380a2f78ef54b6007a5d1">dart::dynamics::Skeleton</a>
 , <a class="el" href="dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a247dc8bd1355f4f771331ad0193919ad">dart::dynamics::SoftBodyNode</a>
-, <a class="el" href="da/dbc/structdart_1_1dynamics_1_1TranslationalJoint_1_1Properties.html#a1b8221a7817761d1ebfec564bdf2fd54">dart::dynamics::TranslationalJoint::Properties</a>
+, <a class="el" href="da/dbc/structdart_1_1dynamics_1_1TranslationalJoint_1_1Properties.html#ad9ecb10879ad85cfb97040d863105370">dart::dynamics::TranslationalJoint::Properties</a>
 , <a class="el" href="d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#ac60bbd5b62c272f9721e2d35f6d8e7a3">dart::dynamics::UniversalJoint</a>
 , <a class="el" href="d4/d7c/structdart_1_1dynamics_1_1WeldJoint_1_1Properties.html#a11735b57a2c71342bc96b42b8135a7fe">dart::dynamics::WeldJoint::Properties</a>
 , <a class="el" href="dc/d8c/structdart_1_1dynamics_1_1ZeroDofJoint_1_1Properties.html#aecea39fe423c9f5269eec239aeffbfc3">dart::dynamics::ZeroDofJoint::Properties</a>
@@ -449,7 +453,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a9e86f0788ffffaddb6547f1eb1da6b65">dart::common::EmbeddedStateAndPropertiesAspect&lt; CompositeT, StateDataT, PropertiesDataT &gt;</a>
 </li>
 <li>ProxyCloneable()
-: <a class="el" href="d1/dd5/classdart_1_1common_1_1ProxyCloneable.html#a1493f4e3bc9df42046d14c6bfa3a71f7">dart::common::ProxyCloneable&lt; Base, OwnerT, DataT, setData, getData &gt;</a>
+: <a class="el" href="d1/dd5/classdart_1_1common_1_1ProxyCloneable.html#a9cad37bb58860d02b05e43ce4508f100">dart::common::ProxyCloneable&lt; Base, OwnerT, DataT, setData, getData &gt;</a>
 </li>
 <li>ProxyPropertiesAspect()
 : <a class="el" href="da/dcb/classdart_1_1common_1_1detail_1_1ProxyPropertiesAspect.html#abb35d59311862af0f2148335057de301">dart::common::detail::ProxyPropertiesAspect&lt; BaseT, CompositeT, PropertiesT &gt;</a>
@@ -474,7 +478,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:33 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:28 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

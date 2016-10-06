@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -127,14 +127,14 @@ Inheritance diagram for dart::common::EmbedStateAndPropertiesOnTopOf&lt; Derived
   <map id="dart::common::EmbedStateAndPropertiesOnTopOf_3C_20DerivedT_2C_20StateDataT_2C_20PropertiesDataT_2C_20CompositeBases_20_3E_map" name="dart::common::EmbedStateAndPropertiesOnTopOf&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;_map">
 <area href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html" alt="dart::common::CompositeJoiner&lt; EmbedStateAndProperties&lt; DerivedT, StateDataT, PropertiesDataT &gt;, CompositeBases... &gt;" shape="rect" coords="1815,0,2531,24"/>
 <area href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. " alt="dart::dynamics::BodyNode" shape="rect" coords="0,112,716,136"/>
-<area href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html" title="class MultiDofJoint " alt="dart::dynamics::MultiDofJoint&lt; DOF &gt;" shape="rect" coords="726,112,1442,136"/>
-<area href="../../d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html" title="class SingleDofJoint " alt="dart::dynamics::SingleDofJoint" shape="rect" coords="1452,112,2168,136"/>
-<area href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. " alt="dart::dynamics::SoftBodyNode" shape="rect" coords="2178,112,2894,136"/>
-<area href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html" alt="dart::dynamics::MultiDofJoint&lt; 3 &gt;" shape="rect" coords="2904,112,3620,136"/>
-<area href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html" alt="dart::dynamics::MultiDofJoint&lt; 6 &gt;" shape="rect" coords="3993,112,4709,136"/>
-<area href="../../d7/de3/classdart_1_1dynamics_1_1BallJoint.html" title="class BallJoint " alt="dart::dynamics::BallJoint" shape="rect" coords="2541,168,3257,192"/>
-<area href="../../dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html" title="class TranslationalJoint " alt="dart::dynamics::TranslationalJoint" shape="rect" coords="3267,168,3983,192"/>
-<area href="../../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html" title="class FreeJoint " alt="dart::dynamics::FreeJoint" shape="rect" coords="3993,168,4709,192"/>
+<area href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html" alt="dart::dynamics::GenericJoint&lt; ConfigSpaceT &gt;" shape="rect" coords="726,112,1442,136"/>
+<area href="../../dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html" title="SoftBodyNode represent a soft body that has one deformable skin. " alt="dart::dynamics::SoftBodyNode" shape="rect" coords="1452,112,2168,136"/>
+<area href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html" alt="dart::dynamics::GenericJoint&lt; math::R3Space &gt;" shape="rect" coords="2178,112,2894,136"/>
+<area href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html" alt="dart::dynamics::GenericJoint&lt; math::SE3Space &gt;" shape="rect" coords="2904,112,3620,136"/>
+<area href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html" alt="dart::dynamics::GenericJoint&lt; math::SO3Space &gt;" shape="rect" coords="3630,112,4346,136"/>
+<area href="../../dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html" title="class TranslationalJoint " alt="dart::dynamics::TranslationalJoint" shape="rect" coords="2178,168,2894,192"/>
+<area href="../../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html" title="class FreeJoint " alt="dart::dynamics::FreeJoint" shape="rect" coords="2904,168,3620,192"/>
+<area href="../../d7/de3/classdart_1_1dynamics_1_1BallJoint.html" title="class BallJoint " alt="dart::dynamics::BallJoint" shape="rect" coords="3630,168,4346,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -175,7 +175,7 @@ class dart::common::EmbedStateAndPropertiesOnTopOf&lt; DerivedT, StateDataT, Pro
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a844993fd4688b42447438b7e7dbc9f49">Aspect</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#a626dca017eb1b15e23dbf4db92dec38e">Impl::Aspect</a></td>
@@ -189,7 +189,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#af20c2c0f8ddd417717904a8a49871123">AspectProperties</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#a380d4497709ebb713ed1d7fa04250ae8">Impl::AspectProperties</a></td>
@@ -203,7 +203,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#aed0debe178ca978e90b5c039e4edf74f">AspectPropertiesData</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#afd992e4ff9109aa3c5fd95db88ee26fc">Impl::AspectPropertiesData</a></td>
@@ -217,7 +217,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a063e4ea1a01e576564a325ac7ba6ea9e">AspectState</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#addfc09cb47fa6ee187049da5fb170fbf">Impl::AspectState</a></td>
@@ -231,7 +231,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#aa5f7608053743f1642caa24599a627c3">AspectStateData</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#ac5c3bbd139b79a04540bc86ff34bb517">Impl::AspectStateData</a></td>
@@ -245,7 +245,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a938202965f278bce5202ab3c1714d479">Base</a> =  <a class="el" href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html">CompositeJoiner</a>&lt;<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#aea33dcced2d344092574deb6aa84782f">Impl</a>, CompositeBases...&gt;</td>
@@ -259,7 +259,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a2713c49ecc7539a889544c91f1c56672">Derived</a> =  typename <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#a539538beb609af370e095d37b506732a">Impl::Derived</a></td>
@@ -273,7 +273,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">dart::common::EmbedStateAndPropertiesOnTopOf</a>&lt; DerivedT, StateDataT, PropertiesDataT, CompositeBases &gt;::<a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#aea33dcced2d344092574deb6aa84782f">Impl</a> =  <a class="el" href="../../da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html">EmbedStateAndProperties</a>&lt;DerivedT, StateDataT, PropertiesDataT&gt;</td>
@@ -288,7 +288,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
 <div class="memtemplate">
 template&lt;typename... Args&gt; </div>
 <table class="mlabels">
@@ -316,7 +316,7 @@ template&lt;typename... Args&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typename... CompositeBases&gt; </div>
+template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , typename... CompositeBases&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -343,7 +343,7 @@ template&lt;class DerivedT, typename StateDataT, typename PropertiesDataT, typen
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html">EmbedStateAndPropertiesOnTopOf</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:31 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:25 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

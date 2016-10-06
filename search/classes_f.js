@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['range',['Range',['../d6/d32/structdart_1_1math_1_1detail_1_1Range.html',1,'dart::math::detail']]],
+  ['realvectorspace',['RealVectorSpace',['../d7/d50/structdart_1_1math_1_1RealVectorSpace.html',1,'dart::math']]],
   ['recording',['Recording',['../df/d79/structdart_1_1dynamics_1_1Recording.html',1,'dart::dynamics']]],
   ['recording',['Recording',['../dd/d87/classdart_1_1simulation_1_1Recording.html',1,'dart::simulation']]],
   ['recordingeventhandler',['RecordingEventHandler',['../d1/ded/classRecordingEventHandler.html',1,'']]],

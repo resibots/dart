@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -273,6 +273,12 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 : <a class="el" href="d7/d27/ContactConstraint_8cpp.html#a30e2fcf76be9305b552146a7b93cf064">ContactConstraint.cpp</a>
 , <a class="el" href="d2/d9e/SoftContactConstraint_8cpp.html#a30e2fcf76be9305b552146a7b93cf064">SoftContactConstraint.cpp</a>
 </li>
+<li>DART_DEFAULT_MIN_DISTANCE
+: <a class="el" href="d6/d78/DistanceResult_8cpp.html#ab67aee2317f65a3a9f07dd90e3188201">DistanceResult.cpp</a>
+</li>
+<li>DART_DEFAULT_UNCLAMPED_MIN_DISTANCE
+: <a class="el" href="d6/d78/DistanceResult_8cpp.html#a27ff14d1bba9b6e5a2f42552c476900f">DistanceResult.cpp</a>
+</li>
 <li>DART_DEPRECATED
 : <a class="el" href="d8/dbb/Deprecated_8hpp.html#ac4a19939c6bdb3dafe1202b7059d53cd">Deprecated.hpp</a>
 </li>
@@ -297,10 +303,10 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 , <a class="el" href="d7/def/Geometry_8cpp.html#a965dd71b99bacf40a89e0acf48b2e6e5">Geometry.cpp</a>
 </li>
 <li>DART_ERP
-: <a class="el" href="d7/d27/ContactConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">ContactConstraint.cpp</a>
-, <a class="el" href="db/d4f/JointConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">JointConstraint.cpp</a>
-, <a class="el" href="db/d5d/JointLimitConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">JointLimitConstraint.cpp</a>
+: <a class="el" href="db/d5d/JointLimitConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">JointLimitConstraint.cpp</a>
 , <a class="el" href="d2/d9e/SoftContactConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">SoftContactConstraint.cpp</a>
+, <a class="el" href="d7/d27/ContactConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">ContactConstraint.cpp</a>
+, <a class="el" href="db/d4f/JointConstraint_8cpp.html#ac12c507c1b5d92519e5929d66d57ca7d">JointConstraint.cpp</a>
 </li>
 <li>DART_ERROR_ALLOWANCE
 : <a class="el" href="d7/d27/ContactConstraint_8cpp.html#a0f1f4106a1f7a30bd2b04d8754bb9e16">ContactConstraint.cpp</a>
@@ -673,10 +679,9 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 <li>dLCP_FAST
 : <a class="el" href="df/d8a/lcp_8cpp.html#a6af264233150aee517da1fd85594a4ed">lcp.cpp</a>
 </li>
-<li>dLDLTAddTL
-: <a class="el" href="dd/df4/matrix_8h.html#ad4a41058fffb63646c797a065881cc57">matrix.h</a>
+<li>dLDLTAddTL()
+: <a class="el" href="dd/df4/matrix_8h.html#a9a0237c6f6a2cb44fbdcd05fb88c95a4">matrix.h</a>
 , <a class="el" href="d5/d84/matrix_8cpp.html#a9a0237c6f6a2cb44fbdcd05fb88c95a4">matrix.cpp</a>
-, <a class="el" href="dd/df4/matrix_8h.html#a9a0237c6f6a2cb44fbdcd05fb88c95a4">matrix.h</a>
 </li>
 <li>dLDLTRemove
 : <a class="el" href="dd/df4/matrix_8h.html#afec8d55fd90d61c206db791518858115">matrix.h</a>
@@ -684,8 +689,8 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 , <a class="el" href="dd/df4/matrix_8h.html#a168ae0ee95130aa375e9f64582b8a09f">matrix.h</a>
 </li>
 <li>dMakeRandomMatrix()
-: <a class="el" href="d4/d08/misc_8h.html#a1af15a3d6cdfafcd00d1d4c796d33651">misc.h</a>
-, <a class="el" href="d7/d5f/misc_8cpp.html#a1af15a3d6cdfafcd00d1d4c796d33651">misc.cpp</a>
+: <a class="el" href="d7/d5f/misc_8cpp.html#a1af15a3d6cdfafcd00d1d4c796d33651">misc.cpp</a>
+, <a class="el" href="d4/d08/misc_8h.html#a1af15a3d6cdfafcd00d1d4c796d33651">misc.h</a>
 </li>
 <li>dMakeRandomVector()
 : <a class="el" href="d7/d5f/misc_8cpp.html#af009c7b7e59be0c05ccb9e2415591847">misc.cpp</a>
@@ -709,25 +714,25 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 , <a class="el" href="d4/d08/misc_8h.html#a6b54c2fb1ef1b99b475604e4f9198b00">misc.h</a>
 </li>
 <li>dMessage()
-: <a class="el" href="dd/db1/error_8cpp.html#a5e90d8eb6ec81e72f49a80310a5a1191">error.cpp</a>
-, <a class="el" href="da/d41/error_8h.html#a5e90d8eb6ec81e72f49a80310a5a1191">error.h</a>
+: <a class="el" href="da/d41/error_8h.html#a5e90d8eb6ec81e72f49a80310a5a1191">error.h</a>
+, <a class="el" href="dd/db1/error_8cpp.html#a5e90d8eb6ec81e72f49a80310a5a1191">error.cpp</a>
 </li>
 <li>dMessageFunction
 : <a class="el" href="da/d41/error_8h.html#a0c0ce9cb4f48118d0fea0b9bda6705ce">error.h</a>
 </li>
-<li>dMultiply0
-: <a class="el" href="dd/df4/matrix_8h.html#a44b996c3b2b29b948ab3c18f826facb5">matrix.h</a>
+<li>dMultiply0()
+: <a class="el" href="dd/df4/matrix_8h.html#a78506c02dfe789fec581018876159424">matrix.h</a>
 , <a class="el" href="d5/d84/matrix_8cpp.html#a78506c02dfe789fec581018876159424">matrix.cpp</a>
-, <a class="el" href="dd/df4/matrix_8h.html#a78506c02dfe789fec581018876159424">matrix.h</a>
 </li>
 <li>dMultiply1
 : <a class="el" href="dd/df4/matrix_8h.html#a37eaec2d4f2305e714a640e847d1a744">matrix.h</a>
 , <a class="el" href="d5/d84/matrix_8cpp.html#abeda2497db2a8231839ffdc15c4597bf">matrix.cpp</a>
 , <a class="el" href="dd/df4/matrix_8h.html#abeda2497db2a8231839ffdc15c4597bf">matrix.h</a>
 </li>
-<li>dMultiply2()
-: <a class="el" href="d5/d84/matrix_8cpp.html#a842d675cc97adfdaedb1f956c69f005c">matrix.cpp</a>
-, <a class="el" href="dd/df4/matrix_8h.html#abb69f0a2cc566e4b2a178b90dcda6468">matrix.h</a>
+<li>dMultiply2
+: <a class="el" href="dd/df4/matrix_8h.html#abb69f0a2cc566e4b2a178b90dcda6468">matrix.h</a>
+, <a class="el" href="d5/d84/matrix_8cpp.html#a842d675cc97adfdaedb1f956c69f005c">matrix.cpp</a>
+, <a class="el" href="dd/df4/matrix_8h.html#a842d675cc97adfdaedb1f956c69f005c">matrix.h</a>
 </li>
 <li>dMULTIPLYOP0_331
 : <a class="el" href="d2/db2/DARTCollide_8cpp.html#acd7c95f0b919f96b818a3793644058f9">DARTCollide.cpp</a>
@@ -745,8 +750,8 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 : <a class="el" href="d5/d84/matrix_8cpp.html#adb5ce778d1595048b64a83f2c8f77861">matrix.cpp</a>
 </li>
 <li>done
-: <a class="el" href="d2/d00/FCLCollisionDetector_8cpp.html#a1d39aac66e12dae50a24cd7a9100ef33">FCLCollisionDetector.cpp</a>
-, <a class="el" href="db/d73/BulletCollisionDetector_8cpp.html#a1d39aac66e12dae50a24cd7a9100ef33">BulletCollisionDetector.cpp</a>
+: <a class="el" href="db/d73/BulletCollisionDetector_8cpp.html#a1d39aac66e12dae50a24cd7a9100ef33">BulletCollisionDetector.cpp</a>
+, <a class="el" href="d2/d00/FCLCollisionDetector_8cpp.html#a1d39aac66e12dae50a24cd7a9100ef33">FCLCollisionDetector.cpp</a>
 </li>
 <li>DOT
 : <a class="el" href="d9/df5/tri__tri__intersection__test_8hpp.html#a7942047af87f6f42fe6880a4c7c842ae">tri_tri_intersection_test.hpp</a>
@@ -929,16 +934,16 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 , <a class="el" href="d7/d5f/misc_8cpp.html#a42c9bdc5bc28e650ddff9b0d13246c31">misc.cpp</a>
 </li>
 <li>dRandInt()
-: <a class="el" href="d7/d5f/misc_8cpp.html#a6c509fb4e134251f819453542517f345">misc.cpp</a>
-, <a class="el" href="d4/d08/misc_8h.html#a6c509fb4e134251f819453542517f345">misc.h</a>
+: <a class="el" href="d4/d08/misc_8h.html#a6c509fb4e134251f819453542517f345">misc.h</a>
+, <a class="el" href="d7/d5f/misc_8cpp.html#a6c509fb4e134251f819453542517f345">misc.cpp</a>
 </li>
 <li>dRandReal()
 : <a class="el" href="d4/d08/misc_8h.html#aaa7ae0f46a1478309f4ad65a083a0b87">misc.h</a>
 , <a class="el" href="d7/d5f/misc_8cpp.html#a6ce48054965eab1eb27eb99c669618a5">misc.cpp</a>
 </li>
 <li>dRandSetSeed()
-: <a class="el" href="d7/d5f/misc_8cpp.html#aa4c173c0117b4407b797140cfbf81353">misc.cpp</a>
-, <a class="el" href="d4/d08/misc_8h.html#aa4c173c0117b4407b797140cfbf81353">misc.h</a>
+: <a class="el" href="d4/d08/misc_8h.html#aa4c173c0117b4407b797140cfbf81353">misc.h</a>
+, <a class="el" href="d7/d5f/misc_8cpp.html#aa4c173c0117b4407b797140cfbf81353">misc.cpp</a>
 </li>
 <li>dReal
 : <a class="el" href="dc/d54/common_8h.html#a973ec569e405922437be98473d2aa6f8">common.h</a>
@@ -951,12 +956,13 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 : <a class="el" href="dc/d54/common_8h.html#a3afabe2db377f8fa3c488a2aadf6612a">common.h</a>
 </li>
 <li>dRemoveRowCol()
-: <a class="el" href="d5/d84/matrix_8cpp.html#a394534ef2da5827bc464f8e189edd9e5">matrix.cpp</a>
+: <a class="el" href="dd/df4/matrix_8h.html#a394534ef2da5827bc464f8e189edd9e5">matrix.h</a>
+, <a class="el" href="d5/d84/matrix_8cpp.html#a394534ef2da5827bc464f8e189edd9e5">matrix.cpp</a>
 , <a class="el" href="dd/df4/matrix_8h.html#a1a32d3cb5e94d83de0ca92937368c2da">matrix.h</a>
 </li>
 <li>dSetDebugHandler()
-: <a class="el" href="dd/db1/error_8cpp.html#a33d2c72558299fda7b2ddf8e6f687ccd">error.cpp</a>
-, <a class="el" href="da/d41/error_8h.html#a33d2c72558299fda7b2ddf8e6f687ccd">error.h</a>
+: <a class="el" href="da/d41/error_8h.html#a33d2c72558299fda7b2ddf8e6f687ccd">error.h</a>
+, <a class="el" href="dd/db1/error_8cpp.html#a33d2c72558299fda7b2ddf8e6f687ccd">error.cpp</a>
 </li>
 <li>dSetErrorHandler()
 : <a class="el" href="da/d41/error_8h.html#acb656dd8d417391b33da7e9698058ab0">error.h</a>
@@ -966,9 +972,9 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 : <a class="el" href="da/d41/error_8h.html#acef85e5273815d6dba40800c529e528d">error.h</a>
 , <a class="el" href="dd/db1/error_8cpp.html#acef85e5273815d6dba40800c529e528d">error.cpp</a>
 </li>
-<li>dSetValue
-: <a class="el" href="dd/df4/matrix_8h.html#a2d8ce74721daf1c266ac1648a869b420">matrix.h</a>
-, <a class="el" href="d5/d84/matrix_8cpp.html#add067c18d3224aab698a933498ec7a4f">matrix.cpp</a>
+<li>dSetValue()
+: <a class="el" href="d5/d84/matrix_8cpp.html#add067c18d3224aab698a933498ec7a4f">matrix.cpp</a>
+, <a class="el" href="dd/df4/matrix_8h.html#a2d8ce74721daf1c266ac1648a869b420">matrix.h</a>
 </li>
 <li>dSetZero
 : <a class="el" href="dd/df4/matrix_8h.html#a0a7f1efe28ad003d34657dab5bf04b3d">matrix.h</a>
@@ -982,8 +988,9 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 , <a class="el" href="d5/d84/matrix_8cpp.html#ad66c59cfddda3da7862f023257f68a81">matrix.cpp</a>
 </li>
 <li>dSolveL1()
-: <a class="el" href="d0/dfb/fastlsolve_8cpp.html#a678c1306ce31b0a7c17debde3f30dc15">fastlsolve.cpp</a>
-, <a class="el" href="dd/df4/matrix_8h.html#a8140234c480b3f2e4737bbdaa34b3c4b">matrix.h</a>
+: <a class="el" href="dd/df4/matrix_8h.html#a8140234c480b3f2e4737bbdaa34b3c4b">matrix.h</a>
+, <a class="el" href="d0/dfb/fastlsolve_8cpp.html#a678c1306ce31b0a7c17debde3f30dc15">fastlsolve.cpp</a>
+, <a class="el" href="dd/df4/matrix_8h.html#a5957b632071e41f2269e44a4e9ff9547">matrix.h</a>
 </li>
 <li>dSolveL1_1()
 : <a class="el" href="d9/d3d/fastldlt_8cpp.html#a2d80f1fde2bd5f9fdb5b4b5476af21f1">fastldlt.cpp</a>
@@ -1017,12 +1024,12 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 : <a class="el" href="d2/d4f/Console_8hpp.html#a629c9358594739a393fed2a82f8f8137">Console.hpp</a>
 </li>
 <li>dTestRand()
-: <a class="el" href="d7/d5f/misc_8cpp.html#a99653257340e4e1520653a475d4e52ff">misc.cpp</a>
-, <a class="el" href="d4/d08/misc_8h.html#a0309a8eade8717cff03718bcc8d5495a">misc.h</a>
+: <a class="el" href="d4/d08/misc_8h.html#a0309a8eade8717cff03718bcc8d5495a">misc.h</a>
+, <a class="el" href="d7/d5f/misc_8cpp.html#a99653257340e4e1520653a475d4e52ff">misc.cpp</a>
 </li>
 <li>dTestSolveLCP()
-: <a class="el" href="df/d8a/lcp_8cpp.html#a8f96d6fbb224357cbcb26d577392aca3">lcp.cpp</a>
-, <a class="el" href="d8/df5/lcp_8h.html#a8f96d6fbb224357cbcb26d577392aca3">lcp.h</a>
+: <a class="el" href="d8/df5/lcp_8h.html#a8f96d6fbb224357cbcb26d577392aca3">lcp.h</a>
+, <a class="el" href="df/d8a/lcp_8cpp.html#a8f96d6fbb224357cbcb26d577392aca3">lcp.cpp</a>
 </li>
 <li>dtmsg
 : <a class="el" href="d2/d4f/Console_8hpp.html#a826562d8b387d3249a9bbd1f851f57b4">Console.hpp</a>
@@ -1042,8 +1049,8 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 <li>dVector4
 : <a class="el" href="dc/d54/common_8h.html#a2d352003389649fa4d9b52bd61db2bc9">common.h</a>
 </li>
-<li>dVectorScale()
-: <a class="el" href="dd/df4/matrix_8h.html#a0dca740b9acc4e2fe8a4a2f59c8a3dd9">matrix.h</a>
+<li>dVectorScale
+: <a class="el" href="dd/df4/matrix_8h.html#ae63ea6b7ae615bcc8bed52294622b1ea">matrix.h</a>
 , <a class="el" href="d5/d84/matrix_8cpp.html#a0dca740b9acc4e2fe8a4a2f59c8a3dd9">matrix.cpp</a>
 </li>
 <li>dWorldID
@@ -1058,7 +1065,7 @@ $(document).ready(function(){initNavTree('globals_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:33 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:28 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

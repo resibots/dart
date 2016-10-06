@@ -26,17 +26,32 @@ var dir_7aaf2eefc9c12d3855f042d5a221f589 =
     [ "CollisionObject.hpp", "dc/d78/CollisionObject_8hpp.html", [
       [ "CollisionObject", "dd/d11/classdart_1_1collision_1_1CollisionObject.html", "dd/d11/classdart_1_1collision_1_1CollisionObject" ]
     ] ],
+    [ "CollisionOption.cpp", "da/d1b/CollisionOption_8cpp.html", null ],
+    [ "CollisionOption.hpp", "de/df0/CollisionOption_8hpp.html", [
+      [ "CollisionOption", "d4/d5b/structdart_1_1collision_1_1CollisionOption.html", "d4/d5b/structdart_1_1collision_1_1CollisionOption" ]
+    ] ],
+    [ "CollisionResult.cpp", "d9/dda/CollisionResult_8cpp.html", null ],
+    [ "CollisionResult.hpp", "db/d44/CollisionResult_8hpp.html", [
+      [ "CollisionResult", "d8/d41/classdart_1_1collision_1_1CollisionResult.html", "d8/d41/classdart_1_1collision_1_1CollisionResult" ]
+    ] ],
     [ "Contact.cpp", "d4/d26/Contact_8cpp.html", null ],
     [ "Contact.hpp", "df/d90/Contact_8hpp.html", [
       [ "Contact", "db/d36/structdart_1_1collision_1_1Contact.html", "db/d36/structdart_1_1collision_1_1Contact" ]
     ] ],
-    [ "Option.cpp", "d7/d0a/Option_8cpp.html", null ],
-    [ "Option.hpp", "dc/d86/Option_8hpp.html", [
-      [ "CollisionOption", "d4/d5b/structdart_1_1collision_1_1CollisionOption.html", "d4/d5b/structdart_1_1collision_1_1CollisionOption" ]
+    [ "DistanceFilter.cpp", "df/d6c/DistanceFilter_8cpp.html", null ],
+    [ "DistanceFilter.hpp", "de/dcb/DistanceFilter_8hpp.html", [
+      [ "DistanceFilter", "d2/d0a/structdart_1_1collision_1_1DistanceFilter.html", "d2/d0a/structdart_1_1collision_1_1DistanceFilter" ],
+      [ "BodyNodeDistanceFilter", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter.html", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter" ]
     ] ],
-    [ "Result.cpp", "d9/d55/Result_8cpp.html", null ],
-    [ "Result.hpp", "d3/db2/Result_8hpp.html", [
-      [ "CollisionResult", "d8/d41/classdart_1_1collision_1_1CollisionResult.html", "d8/d41/classdart_1_1collision_1_1CollisionResult" ]
+    [ "DistanceOption.cpp", "d8/ddb/DistanceOption_8cpp.html", null ],
+    [ "DistanceOption.hpp", "d6/d07/DistanceOption_8hpp.html", [
+      [ "DistanceOption", "da/d12/structdart_1_1collision_1_1DistanceOption.html", "da/d12/structdart_1_1collision_1_1DistanceOption" ]
     ] ],
+    [ "DistanceResult.cpp", "d6/d78/DistanceResult_8cpp.html", "d6/d78/DistanceResult_8cpp" ],
+    [ "DistanceResult.hpp", "df/de9/DistanceResult_8hpp.html", [
+      [ "DistanceResult", "d0/d4e/structdart_1_1collision_1_1DistanceResult.html", "d0/d4e/structdart_1_1collision_1_1DistanceResult" ]
+    ] ],
+    [ "Option.hpp", "dc/d86/Option_8hpp.html", null ],
+    [ "Result.hpp", "d3/db2/Result_8hpp.html", null ],
     [ "SmartPointer.hpp", "da/d45/collision_2SmartPointer_8hpp.html", "da/d45/collision_2SmartPointer_8hpp" ]
 ];

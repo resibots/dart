@@ -10,6 +10,7 @@ var searchData=
   ['soft',['SOFT',['../d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html#a81206d67359f7e10b2d179a6c47671a1a74a315cb7eb421e0d213dda207c8da61',1,'dart::dynamics::detail::MarkerProperties']]],
   ['soft_5fmesh',['SOFT_MESH',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497',1,'dart::dynamics::Shape']]],
   ['solution',['Solution',['../d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a1c337f54c6162498c26908088dda78c4a2df07e69137a4a7638e80f24444d33f1',1,'dart::optimizer::snopt::SnoptInterface']]],
+  ['sphere',['SPHERE',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01',1,'dart::dynamics::Shape']]],
   ['static',['STATIC',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0fa502f95055f5bf314bf89d827ca9ca209',1,'dart::dynamics::Shape']]],
   ['step_5fcollision',['STEP_COLLISION',['../d7/dd6/classdart_1_1planning_1_1RRT.html#a38adc04d2f3c41b2fcd838b15961c357ad3b80a815ac2e4b6dd1deed007ba36c7',1,'dart::planning::RRT']]],
   ['step_5fprogress',['STEP_PROGRESS',['../d7/dd6/classdart_1_1planning_1_1RRT.html#a38adc04d2f3c41b2fcd838b15961c357a3288cfb4d8915f3ac364c1aaf82e999a',1,'dart::planning::RRT']]],

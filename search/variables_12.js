@@ -7,6 +7,8 @@ var searchData=
   ['setembeddedproperties',['SetEmbeddedProperties',['../d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html#a1ab9802208dbd4cb6954973d4a03a791',1,'dart::common::detail::EmbeddedPropertiesAspect']]],
   ['setembeddedstate',['SetEmbeddedState',['../d5/da0/classdart_1_1common_1_1detail_1_1EmbeddedStateAspect.html#ac44c34587477600401a8cd64ade20e1f',1,'dart::common::detail::EmbeddedStateAspect']]],
   ['shape',['shape',['../d1/d33/structdart_1_1gui_1_1osg_1_1PickInfo.html#a7b39de72607370ac2c55dc9719db0889',1,'dart::gui::osg::PickInfo']]],
+  ['shapeframe1',['shapeFrame1',['../d0/d4e/structdart_1_1collision_1_1DistanceResult.html#affef61217040ec673f6b0bddcf25e516',1,'dart::collision::DistanceResult']]],
+  ['shapeframe2',['shapeFrame2',['../d0/d4e/structdart_1_1collision_1_1DistanceResult.html#ab16f5028588d0a839189caaaa09283df',1,'dart::collision::DistanceResult']]],
   ['shouldertf',['shoulderTf',['../da/d3b/classHuboArmIK.html#a687a5ca52dfd1c21a174409cc627aaa9',1,'HuboArmIK']]],
   ['sixteenbit',['sixteenbit',['../de/dbd/structColorProfile.html#a4060733b0b18c705f404e57fe7074492',1,'ColorProfile']]],
   ['sixteenbit_5fdone',['sixteenbit_done',['../de/dbd/structColorProfile.html#a73c5a699599d34017e7101ae355bafce',1,'ColorProfile']]],

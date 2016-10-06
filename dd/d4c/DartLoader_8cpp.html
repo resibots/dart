@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>DART: /home/js/dev/dart/doxygen/dart/utils/urdf/DartLoader.cpp File Reference</title>
+<title>DART: /home/js/Downloads/dartsim-dart-ade98ba/dart/utils/urdf/DartLoader.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -128,11 +128,12 @@ $(document).ready(function(){initNavTree('dd/d4c/DartLoader_8cpp.html','../../')
 <code>#include &quot;<a class="el" href="../../d1/d8d/FreeJoint_8hpp_source.html">dart/dynamics/FreeJoint.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/ded/PlanarJoint_8hpp_source.html">dart/dynamics/PlanarJoint.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/df8/Shape_8hpp_source.html">dart/dynamics/Shape.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc2/SphereShape_8hpp_source.html">dart/dynamics/SphereShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d74/MeshShape_8hpp_source.html">dart/dynamics/MeshShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/dbb/World_8hpp_source.html">dart/simulation/World.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d60/URDFTypes_8hpp_source.html">dart/utils/urdf/URDFTypes.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d41/urdf__world__parser_8hpp_source.html">dart/utils/urdf/urdf_world_parser.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -144,8 +145,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aaaf4c5ad7bf28325973ac11490a88da7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d4c/DartLoader_8cpp.html#aaaf4c5ad7bf28325973ac11490a88da7">ModelInterfacePtr</a> = boost::shared_ptr&lt; urdf::ModelInterface &gt;</td></tr>
-<tr class="separator:aaaf4c5ad7bf28325973ac11490a88da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b8511877e0c1607dc16415de735bbf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a07b8511877e0c1607dc16415de735bbf">dart::utils::ModelInterfacePtr</a> = urdf_shared_ptr&lt; urdf::ModelInterface &gt;</td></tr>
+<tr class="separator:a07b8511877e0c1607dc16415de735bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -158,26 +159,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ae0dccbcd41c0661ed42f77f0835ab004"><td class="memItemLeft" align="right" valign="top">template dynamics::ShapePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ae0dccbcd41c0661ed42f77f0835ab004">dart::utils::DartLoader::createShape&lt; urdf::Collision &gt;</a> (const urdf::Collision *_vizOrCol, const common::Uri &amp;_baseUri, const common::ResourceRetrieverPtr &amp;_resourceRetriever)</td></tr>
 <tr class="separator:ae0dccbcd41c0661ed42f77f0835ab004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="aaaf4c5ad7bf28325973ac11490a88da7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dd/d4c/DartLoader_8cpp.html#aaaf4c5ad7bf28325973ac11490a88da7">ModelInterfacePtr</a> =  boost::shared_ptr&lt;urdf::ModelInterface&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_558fb1470c9a14158ce5db1674bc31a0.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_3167900535d36e4d345e8f71f69e35cd.html">urdf</a></li><li class="navelem"><a class="el" href="../../dd/d4c/DartLoader_8cpp.html">DartLoader.cpp</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:31 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:25 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

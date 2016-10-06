@@ -26,6 +26,10 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
       [ "Branch", "dd/d80/classdart_1_1dynamics_1_1Branch.html", "dd/d80/classdart_1_1dynamics_1_1Branch" ],
       [ "Criteria", "d1/d21/structdart_1_1dynamics_1_1Branch_1_1Criteria.html", "d1/d21/structdart_1_1dynamics_1_1Branch_1_1Criteria" ]
     ] ],
+    [ "CapsuleShape.cpp", "d0/dac/CapsuleShape_8cpp.html", null ],
+    [ "CapsuleShape.hpp", "d9/db5/CapsuleShape_8hpp.html", [
+      [ "CapsuleShape", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape" ]
+    ] ],
     [ "Chain.cpp", "dc/d94/Chain_8cpp.html", null ],
     [ "Chain.hpp", "df/ddb/Chain_8hpp.html", [
       [ "Chain", "d3/d43/classdart_1_1dynamics_1_1Chain.html", "d3/d43/classdart_1_1dynamics_1_1Chain" ],
@@ -36,13 +40,16 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
       [ "CompositePropertiesNode", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode" ],
       [ "CompositeNode", "d9/de8/classdart_1_1dynamics_1_1CompositeNode.html", "d9/de8/classdart_1_1dynamics_1_1CompositeNode" ]
     ] ],
+    [ "ConeShape.cpp", "d3/d0c/ConeShape_8cpp.html", null ],
+    [ "ConeShape.hpp", "d6/d62/ConeShape_8hpp.html", [
+      [ "ConeShape", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html", "de/d3e/classdart_1_1dynamics_1_1ConeShape" ]
+    ] ],
     [ "CylinderShape.cpp", "d2/d9f/CylinderShape_8cpp.html", null ],
     [ "CylinderShape.hpp", "d0/d3e/CylinderShape_8hpp.html", [
       [ "CylinderShape", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html", "d3/d73/classdart_1_1dynamics_1_1CylinderShape" ]
     ] ],
     [ "DegreeOfFreedom.cpp", "d4/d56/DegreeOfFreedom_8cpp.html", null ],
     [ "DegreeOfFreedom.hpp", "da/d28/DegreeOfFreedom_8hpp.html", [
-      [ "MultiDofJoint", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint" ],
       [ "DegreeOfFreedom", "de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html", "de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom" ]
     ] ],
     [ "EllipsoidShape.cpp", "d0/d4f/EllipsoidShape_8cpp.html", null ],
@@ -84,6 +91,9 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "FreeJoint.hpp", "d1/d8d/FreeJoint_8hpp.html", [
       [ "FreeJoint", "d3/df1/classdart_1_1dynamics_1_1FreeJoint.html", "d3/df1/classdart_1_1dynamics_1_1FreeJoint" ],
       [ "Properties", "d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties.html", "d3/d91/structdart_1_1dynamics_1_1FreeJoint_1_1Properties" ]
+    ] ],
+    [ "GenericJoint.hpp", "df/d79/GenericJoint_8hpp.html", [
+      [ "GenericJoint", "da/d53/classdart_1_1dynamics_1_1GenericJoint.html", "da/d53/classdart_1_1dynamics_1_1GenericJoint" ]
     ] ],
     [ "Group.cpp", "de/d74/Group_8cpp.html", null ],
     [ "Group.hpp", "d1/d6f/Group_8hpp.html", [
@@ -130,8 +140,9 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "MetaSkeleton.hpp", "d0/d96/MetaSkeleton_8hpp.html", [
       [ "MetaSkeleton", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html", "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton" ]
     ] ],
-    [ "MultiDofJoint.hpp", "de/d1a/MultiDofJoint_8hpp.html", [
-      [ "MultiDofJoint", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html", "da/d30/classdart_1_1dynamics_1_1MultiDofJoint" ]
+    [ "MultiSphereShape.cpp", "db/dd2/MultiSphereShape_8cpp.html", null ],
+    [ "MultiSphereShape.hpp", "d3/d22/MultiSphereShape_8hpp.html", [
+      [ "MultiSphereShape", "dd/dbb/classdart_1_1dynamics_1_1MultiSphereShape.html", "dd/dbb/classdart_1_1dynamics_1_1MultiSphereShape" ]
     ] ],
     [ "Node.cpp", "dc/d73/Node_8cpp.html", "dc/d73/Node_8cpp" ],
     [ "Node.hpp", "d7/dc6/Node_8hpp.html", [
@@ -202,10 +213,6 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "SimpleFrame.hpp", "d6/dd8/SimpleFrame_8hpp.html", [
       [ "SimpleFrame", "da/d1c/classdart_1_1dynamics_1_1SimpleFrame.html", "da/d1c/classdart_1_1dynamics_1_1SimpleFrame" ]
     ] ],
-    [ "SingleDofJoint.cpp", "db/d32/SingleDofJoint_8cpp.html", "db/d32/SingleDofJoint_8cpp" ],
-    [ "SingleDofJoint.hpp", "d3/ddf/SingleDofJoint_8hpp.html", [
-      [ "SingleDofJoint", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html", "d7/d33/classdart_1_1dynamics_1_1SingleDofJoint" ]
-    ] ],
     [ "Skeleton.cpp", "d2/d7c/Skeleton_8cpp.html", "d2/d7c/Skeleton_8cpp" ],
     [ "Skeleton.hpp", "d4/d58/Skeleton_8hpp.html", [
       [ "Skeleton", "d3/d19/classdart_1_1dynamics_1_1Skeleton.html", "d3/d19/classdart_1_1dynamics_1_1Skeleton" ],
@@ -230,6 +237,10 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
       [ "SkeletonSpecializedFor", "d1/dd3/classdart_1_1dynamics_1_1SkeletonSpecializedFor.html", null ],
       [ "SkeletonSpecializedFor< SpecNode >", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4.html", "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4" ],
       [ "SkeletonSpecializedFor< SpecNode1, OtherSpecNodes... >", "df/d8d/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode1_00_01OtherSpecNodes_8_8_8_01_4.html", null ]
+    ] ],
+    [ "SphereShape.cpp", "de/d9a/SphereShape_8cpp.html", null ],
+    [ "SphereShape.hpp", "d1/dc2/SphereShape_8hpp.html", [
+      [ "SphereShape", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html", "d8/dc9/classdart_1_1dynamics_1_1SphereShape" ]
     ] ],
     [ "TemplatedJacobianNode.hpp", "d3/d00/TemplatedJacobianNode_8hpp.html", [
       [ "TemplatedJacobianNode", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html", "d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode" ]

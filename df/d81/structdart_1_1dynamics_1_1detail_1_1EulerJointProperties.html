@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -124,27 +124,29 @@ Inheritance diagram for dart::dynamics::detail::EulerJointProperties:</div>
  <div class="center">
   <img src="../../df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.png" usemap="#dart::dynamics::detail::EulerJointProperties_map" alt=""/>
   <map id="dart::dynamics::detail::EulerJointProperties_map" name="dart::dynamics::detail::EulerJointProperties_map">
-<area href="../../dc/d3d/structdart_1_1dynamics_1_1detail_1_1MultiDofJointProperties.html" alt="dart::dynamics::detail::MultiDofJointProperties&lt; DOF &gt;" shape="rect" coords="183,56,539,80"/>
-<area href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html" alt="dart::dynamics::detail::EulerJointUniqueProperties" shape="rect" coords="549,56,905,80"/>
-<area href="../../da/d99/structdart_1_1dynamics_1_1detail_1_1JointProperties.html" alt="dart::dynamics::detail::JointProperties" shape="rect" coords="0,0,356,24"/>
-<area href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html" alt="dart::dynamics::detail::MultiDofJointUniqueProperties&lt; DOF &gt;" shape="rect" coords="366,0,722,24"/>
+<area href="../../d6/d83/structdart_1_1dynamics_1_1detail_1_1GenericJointProperties.html" alt="dart::dynamics::detail::GenericJointProperties&lt; ConfigSpaceT &gt;" shape="rect" coords="208,56,615,80"/>
+<area href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html" alt="dart::dynamics::detail::EulerJointUniqueProperties" shape="rect" coords="625,56,1032,80"/>
+<area href="../../da/d99/structdart_1_1dynamics_1_1detail_1_1JointProperties.html" alt="dart::dynamics::detail::JointProperties" shape="rect" coords="0,0,407,24"/>
+<area href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html" alt="dart::dynamics::detail::GenericJointUniqueProperties&lt; ConfigSpaceT &gt;" shape="rect" coords="417,0,824,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a75ea3e6474e22b85419718d8bb3a1dfa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> = Eigen::Matrix&lt; double, DOF, 1 &gt;</td></tr>
-<tr class="separator:a75ea3e6474e22b85419718d8bb3a1dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a324406c2c16c024327f1d9ee15bf9586"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a324406c2c16c024327f1d9ee15bf9586">BoolArray</a> = std::array&lt; bool, DOF &gt;</td></tr>
-<tr class="separator:a324406c2c16c024327f1d9ee15bf9586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec951a331ee4af0c8c1b3c75a5d302d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7ec951a331ee4af0c8c1b3c75a5d302d">StringArray</a> = std::array&lt; std::string, DOF &gt;</td></tr>
-<tr class="separator:a7ec951a331ee4af0c8c1b3c75a5d302d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2327cb9ede35862e564ef6955e166cd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> = typename ConfigSpaceT::EuclideanPoint</td></tr>
+<tr class="separator:ab2327cb9ede35862e564ef6955e166cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad750b77a3c9ac4003d37f4d60fa618bb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> = typename ConfigSpaceT::Vector</td></tr>
+<tr class="separator:ad750b77a3c9ac4003d37f4d60fa618bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a0393d267f8c3927a6491d99c02b30"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad6a0393d267f8c3927a6491d99c02b30">BoolArray</a> = std::array&lt; bool, <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab578b680e99b1f276fd2fd5a4b097458">NumDofs</a> &gt;</td></tr>
+<tr class="separator:ad6a0393d267f8c3927a6491d99c02b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7568cdc6919bd4f6fc9e501752ef2ad0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a7568cdc6919bd4f6fc9e501752ef2ad0">StringArray</a> = std::array&lt; std::string, <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab578b680e99b1f276fd2fd5a4b097458">NumDofs</a> &gt;</td></tr>
+<tr class="separator:a7568cdc6919bd4f6fc9e501752ef2ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa713e0f5df5614acb9029e3078d7ea7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.html#aa713e0f5df5614acb9029e3078d7ea7e">EulerJointProperties</a> (const <a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html">MultiDofJoint</a>&lt; 3 &gt;::Properties &amp;_multiDofProperties=<a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html">MultiDofJoint</a>&lt; 3 &gt;::Properties(), const <a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a> &amp;_eulerJointProperties=<a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a>())</td></tr>
-<tr class="memdesc:aa713e0f5df5614acb9029e3078d7ea7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Composed constructor.  <a href="#aa713e0f5df5614acb9029e3078d7ea7e">More...</a><br /></td></tr>
-<tr class="separator:aa713e0f5df5614acb9029e3078d7ea7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af504719aaf3091a3072434ed70d1c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.html#a1af504719aaf3091a3072434ed70d1c8">EulerJointProperties</a> (const <a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt; <a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a> &gt;::Properties &amp;<a class="el" href="../../d6/d83/structdart_1_1dynamics_1_1detail_1_1GenericJointProperties.html">GenericJointProperties</a>=<a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt; <a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a> &gt;::Properties(), const <a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a> &amp;eulerJointProperties=<a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a>())</td></tr>
+<tr class="memdesc:a1af504719aaf3091a3072434ed70d1c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Composed constructor.  <a href="#a1af504719aaf3091a3072434ed70d1c8">More...</a><br /></td></tr>
+<tr class="separator:a1af504719aaf3091a3072434ed70d1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a217a5a4801716abb4ba17f21ac72e78d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.html#a217a5a4801716abb4ba17f21ac72e78d">~EulerJointProperties</a> ()=default</td></tr>
 <tr class="separator:a217a5a4801716abb4ba17f21ac72e78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -165,75 +167,75 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7ccdb96b4f4dbb9389b8252252db095a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a5ea81df326ac05ff5ab74eeb59c3259a">ActuatorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d99/structdart_1_1dynamics_1_1detail_1_1JointProperties.html#a7ccdb96b4f4dbb9389b8252252db095a">mActuatorType</a></td></tr>
 <tr class="memdesc:a7ccdb96b4f4dbb9389b8252252db095a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actuator type.  <a href="#a7ccdb96b4f4dbb9389b8252252db095a">More...</a><br /></td></tr>
 <tr class="separator:a7ccdb96b4f4dbb9389b8252252db095a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fcf94dd3d1c51656ed081b1f7b0c79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a47fcf94dd3d1c51656ed081b1f7b0c79">mPositionLowerLimits</a></td></tr>
-<tr class="memdesc:a47fcf94dd3d1c51656ed081b1f7b0c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower limit of position.  <a href="#a47fcf94dd3d1c51656ed081b1f7b0c79">More...</a><br /></td></tr>
-<tr class="separator:a47fcf94dd3d1c51656ed081b1f7b0c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee33a181c4b857074ce6f6438484251f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#aee33a181c4b857074ce6f6438484251f">mPositionUpperLimits</a></td></tr>
-<tr class="memdesc:aee33a181c4b857074ce6f6438484251f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper limit of position.  <a href="#aee33a181c4b857074ce6f6438484251f">More...</a><br /></td></tr>
-<tr class="separator:aee33a181c4b857074ce6f6438484251f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5af2ca683bc1bd80d59907add509b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a4f5af2ca683bc1bd80d59907add509b3">mInitialPositions</a></td></tr>
-<tr class="memdesc:a4f5af2ca683bc1bd80d59907add509b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial positions.  <a href="#a4f5af2ca683bc1bd80d59907add509b3">More...</a><br /></td></tr>
-<tr class="separator:a4f5af2ca683bc1bd80d59907add509b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041031b54b95083f91a087e05d485a1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a041031b54b95083f91a087e05d485a1f">mVelocityLowerLimits</a></td></tr>
-<tr class="memdesc:a041031b54b95083f91a087e05d485a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#a041031b54b95083f91a087e05d485a1f">More...</a><br /></td></tr>
-<tr class="separator:a041031b54b95083f91a087e05d485a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d66c21579fdc753471778331824fb65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a3d66c21579fdc753471778331824fb65">mVelocityUpperLimits</a></td></tr>
-<tr class="memdesc:a3d66c21579fdc753471778331824fb65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value allowed.  <a href="#a3d66c21579fdc753471778331824fb65">More...</a><br /></td></tr>
-<tr class="separator:a3d66c21579fdc753471778331824fb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59f25fe16b5c16a6f830c9d65ce7510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#ac59f25fe16b5c16a6f830c9d65ce7510">mInitialVelocities</a></td></tr>
-<tr class="memdesc:ac59f25fe16b5c16a6f830c9d65ce7510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial velocities.  <a href="#ac59f25fe16b5c16a6f830c9d65ce7510">More...</a><br /></td></tr>
-<tr class="separator:ac59f25fe16b5c16a6f830c9d65ce7510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a730caa0e74f5205dd1d4ff06115d8224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a730caa0e74f5205dd1d4ff06115d8224">mAccelerationLowerLimits</a></td></tr>
-<tr class="memdesc:a730caa0e74f5205dd1d4ff06115d8224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#a730caa0e74f5205dd1d4ff06115d8224">More...</a><br /></td></tr>
-<tr class="separator:a730caa0e74f5205dd1d4ff06115d8224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a245604326070f7f6ffef3d693dc8ec91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a245604326070f7f6ffef3d693dc8ec91">mAccelerationUpperLimits</a></td></tr>
-<tr class="memdesc:a245604326070f7f6ffef3d693dc8ec91"><td class="mdescLeft">&#160;</td><td class="mdescRight">upper limit of generalized acceleration  <a href="#a245604326070f7f6ffef3d693dc8ec91">More...</a><br /></td></tr>
-<tr class="separator:a245604326070f7f6ffef3d693dc8ec91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af40d52ed0f6084cd7a18217c71838790"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#af40d52ed0f6084cd7a18217c71838790">mForceLowerLimits</a></td></tr>
-<tr class="memdesc:af40d52ed0f6084cd7a18217c71838790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#af40d52ed0f6084cd7a18217c71838790">More...</a><br /></td></tr>
-<tr class="separator:af40d52ed0f6084cd7a18217c71838790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae11a321a5e12c044e4d2503b2b3804f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#ae11a321a5e12c044e4d2503b2b3804f5">mForceUpperLimits</a></td></tr>
-<tr class="memdesc:ae11a321a5e12c044e4d2503b2b3804f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value allowed.  <a href="#ae11a321a5e12c044e4d2503b2b3804f5">More...</a><br /></td></tr>
-<tr class="separator:ae11a321a5e12c044e4d2503b2b3804f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a00aeb1146451cc6a2cecdedee013b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a6a00aeb1146451cc6a2cecdedee013b6">mSpringStiffnesses</a></td></tr>
-<tr class="memdesc:a6a00aeb1146451cc6a2cecdedee013b6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> spring stiffness.  <a href="#a6a00aeb1146451cc6a2cecdedee013b6">More...</a><br /></td></tr>
-<tr class="separator:a6a00aeb1146451cc6a2cecdedee013b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a253801c8f9c96d25ac2d777e97906ff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a253801c8f9c96d25ac2d777e97906ff2">mRestPositions</a></td></tr>
-<tr class="memdesc:a253801c8f9c96d25ac2d777e97906ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rest joint position for joint spring.  <a href="#a253801c8f9c96d25ac2d777e97906ff2">More...</a><br /></td></tr>
-<tr class="separator:a253801c8f9c96d25ac2d777e97906ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78b784bde589ff788526b86f31ad12a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a78b784bde589ff788526b86f31ad12a4">mDampingCoefficients</a></td></tr>
-<tr class="memdesc:a78b784bde589ff788526b86f31ad12a4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> damping coefficient.  <a href="#a78b784bde589ff788526b86f31ad12a4">More...</a><br /></td></tr>
-<tr class="separator:a78b784bde589ff788526b86f31ad12a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a234e9d461e5979ebefc3d275b464397b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a234e9d461e5979ebefc3d275b464397b">mFrictions</a></td></tr>
-<tr class="memdesc:a234e9d461e5979ebefc3d275b464397b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> Coulomb friction.  <a href="#a234e9d461e5979ebefc3d275b464397b">More...</a><br /></td></tr>
-<tr class="separator:a234e9d461e5979ebefc3d275b464397b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05bc1ff7721120fe2cf0c24918471d3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a324406c2c16c024327f1d9ee15bf9586">BoolArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a05bc1ff7721120fe2cf0c24918471d3d">mPreserveDofNames</a></td></tr>
-<tr class="memdesc:a05bc1ff7721120fe2cf0c24918471d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the name of the corresponding DOF is not allowed to be overwritten.  <a href="#a05bc1ff7721120fe2cf0c24918471d3d">More...</a><br /></td></tr>
-<tr class="separator:a05bc1ff7721120fe2cf0c24918471d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db6123e70b393039a25c587642138f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7ec951a331ee4af0c8c1b3c75a5d302d">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7db6123e70b393039a25c587642138f9">mDofNames</a></td></tr>
-<tr class="memdesc:a7db6123e70b393039a25c587642138f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the DegreesOfFreedom for this <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>.  <a href="#a7db6123e70b393039a25c587642138f9">More...</a><br /></td></tr>
-<tr class="separator:a7db6123e70b393039a25c587642138f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d7e06113ecfaf4a8a5976dda1642f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#aa4d7e06113ecfaf4a8a5976dda1642f1">mPositionLowerLimits</a></td></tr>
+<tr class="memdesc:aa4d7e06113ecfaf4a8a5976dda1642f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower limit of position.  <a href="#aa4d7e06113ecfaf4a8a5976dda1642f1">More...</a><br /></td></tr>
+<tr class="separator:aa4d7e06113ecfaf4a8a5976dda1642f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eeb9119012fe814ddc0fb22228242db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a0eeb9119012fe814ddc0fb22228242db">mPositionUpperLimits</a></td></tr>
+<tr class="memdesc:a0eeb9119012fe814ddc0fb22228242db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper limit of position.  <a href="#a0eeb9119012fe814ddc0fb22228242db">More...</a><br /></td></tr>
+<tr class="separator:a0eeb9119012fe814ddc0fb22228242db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da9a8d55ec9de2b33a21c8ebe8a4125"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a8da9a8d55ec9de2b33a21c8ebe8a4125">mInitialPositions</a></td></tr>
+<tr class="memdesc:a8da9a8d55ec9de2b33a21c8ebe8a4125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial positions.  <a href="#a8da9a8d55ec9de2b33a21c8ebe8a4125">More...</a><br /></td></tr>
+<tr class="separator:a8da9a8d55ec9de2b33a21c8ebe8a4125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbcbf0c066ada35fecb66bccf25f1ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#accbcbf0c066ada35fecb66bccf25f1ce">mVelocityLowerLimits</a></td></tr>
+<tr class="memdesc:accbcbf0c066ada35fecb66bccf25f1ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#accbcbf0c066ada35fecb66bccf25f1ce">More...</a><br /></td></tr>
+<tr class="separator:accbcbf0c066ada35fecb66bccf25f1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4305dcdf9ac1d67d240914cd2ddc7e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a4305dcdf9ac1d67d240914cd2ddc7e58">mVelocityUpperLimits</a></td></tr>
+<tr class="memdesc:a4305dcdf9ac1d67d240914cd2ddc7e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value allowed.  <a href="#a4305dcdf9ac1d67d240914cd2ddc7e58">More...</a><br /></td></tr>
+<tr class="separator:a4305dcdf9ac1d67d240914cd2ddc7e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e8c0a448074ef3282c0c57f29bb9c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad9e8c0a448074ef3282c0c57f29bb9c2">mInitialVelocities</a></td></tr>
+<tr class="memdesc:ad9e8c0a448074ef3282c0c57f29bb9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial velocities.  <a href="#ad9e8c0a448074ef3282c0c57f29bb9c2">More...</a><br /></td></tr>
+<tr class="separator:ad9e8c0a448074ef3282c0c57f29bb9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d43dbf06642ee4f5a6f2fc54fe14b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a06d43dbf06642ee4f5a6f2fc54fe14b9">mAccelerationLowerLimits</a></td></tr>
+<tr class="memdesc:a06d43dbf06642ee4f5a6f2fc54fe14b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#a06d43dbf06642ee4f5a6f2fc54fe14b9">More...</a><br /></td></tr>
+<tr class="separator:a06d43dbf06642ee4f5a6f2fc54fe14b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fb726ca6b6e525613b14ff7f3834cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a72fb726ca6b6e525613b14ff7f3834cc">mAccelerationUpperLimits</a></td></tr>
+<tr class="memdesc:a72fb726ca6b6e525613b14ff7f3834cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">upper limit of generalized acceleration  <a href="#a72fb726ca6b6e525613b14ff7f3834cc">More...</a><br /></td></tr>
+<tr class="separator:a72fb726ca6b6e525613b14ff7f3834cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca0b4730cf0fdb9a0e343b0245c0b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#aaca0b4730cf0fdb9a0e343b0245c0b4f">mForceLowerLimits</a></td></tr>
+<tr class="memdesc:aaca0b4730cf0fdb9a0e343b0245c0b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min value allowed.  <a href="#aaca0b4730cf0fdb9a0e343b0245c0b4f">More...</a><br /></td></tr>
+<tr class="separator:aaca0b4730cf0fdb9a0e343b0245c0b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af667440e3a64d66906b6c63f6b770fcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#af667440e3a64d66906b6c63f6b770fcf">mForceUpperLimits</a></td></tr>
+<tr class="memdesc:af667440e3a64d66906b6c63f6b770fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value allowed.  <a href="#af667440e3a64d66906b6c63f6b770fcf">More...</a><br /></td></tr>
+<tr class="separator:af667440e3a64d66906b6c63f6b770fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44a5592d680713b541a590132ff384b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ae44a5592d680713b541a590132ff384b">mSpringStiffnesses</a></td></tr>
+<tr class="memdesc:ae44a5592d680713b541a590132ff384b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> spring stiffness.  <a href="#ae44a5592d680713b541a590132ff384b">More...</a><br /></td></tr>
+<tr class="separator:ae44a5592d680713b541a590132ff384b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad147835511b5695f6b34048ccb197e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad147835511b5695f6b34048ccb197e9e">mRestPositions</a></td></tr>
+<tr class="memdesc:ad147835511b5695f6b34048ccb197e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rest joint position for joint spring.  <a href="#ad147835511b5695f6b34048ccb197e9e">More...</a><br /></td></tr>
+<tr class="separator:ad147835511b5695f6b34048ccb197e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82004a93517e9424f839b4e5a8a3cf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a82004a93517e9424f839b4e5a8a3cf30">mDampingCoefficients</a></td></tr>
+<tr class="memdesc:a82004a93517e9424f839b4e5a8a3cf30"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> damping coefficient.  <a href="#a82004a93517e9424f839b4e5a8a3cf30">More...</a><br /></td></tr>
+<tr class="separator:a82004a93517e9424f839b4e5a8a3cf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e3d280d052b10204606f2f80b2e919"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ac0e3d280d052b10204606f2f80b2e919">mFrictions</a></td></tr>
+<tr class="memdesc:ac0e3d280d052b10204606f2f80b2e919"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> Coulomb friction.  <a href="#ac0e3d280d052b10204606f2f80b2e919">More...</a><br /></td></tr>
+<tr class="separator:ac0e3d280d052b10204606f2f80b2e919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e070d1eb7bef9d9bf67151e1328cda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad6a0393d267f8c3927a6491d99c02b30">BoolArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a11e070d1eb7bef9d9bf67151e1328cda">mPreserveDofNames</a></td></tr>
+<tr class="memdesc:a11e070d1eb7bef9d9bf67151e1328cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the name of the corresponding DOF is not allowed to be overwritten.  <a href="#a11e070d1eb7bef9d9bf67151e1328cda">More...</a><br /></td></tr>
+<tr class="separator:a11e070d1eb7bef9d9bf67151e1328cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee4d32ea0d9a4406ce6642a74d6747b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a7568cdc6919bd4f6fc9e501752ef2ad0">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a4ee4d32ea0d9a4406ce6642a74d6747b">mDofNames</a></td></tr>
+<tr class="memdesc:a4ee4d32ea0d9a4406ce6642a74d6747b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the DegreesOfFreedom for this <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>.  <a href="#a4ee4d32ea0d9a4406ce6642a74d6747b">More...</a><br /></td></tr>
+<tr class="separator:a4ee4d32ea0d9a4406ce6642a74d6747b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f9dbbdcc83ad46bbcd6e70c1e049605"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a0b735c7227b11e97b9323ea1054337c0">AxisOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html#a7f9dbbdcc83ad46bbcd6e70c1e049605">mAxisOrder</a></td></tr>
 <tr class="memdesc:a7f9dbbdcc83ad46bbcd6e70c1e049605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler angle order.  <a href="#a7f9dbbdcc83ad46bbcd6e70c1e049605">More...</a><br /></td></tr>
 <tr class="separator:a7f9dbbdcc83ad46bbcd6e70c1e049605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1ca6b02e6df73e99ecfa4f58209d3f6d"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a1ca6b02e6df73e99ecfa4f58209d3f6d">NumDofs</a> = DOF</td></tr>
-<tr class="separator:a1ca6b02e6df73e99ecfa4f58209d3f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab578b680e99b1f276fd2fd5a4b097458"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab578b680e99b1f276fd2fd5a4b097458">NumDofs</a> = ConfigSpaceT::NumDofs</td></tr>
+<tr class="separator:ab578b680e99b1f276fd2fd5a4b097458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a324406c2c16c024327f1d9ee15bf9586"></a>
+<a class="anchor" id="ad6a0393d267f8c3927a6491d99c02b30"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::<a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a324406c2c16c024327f1d9ee15bf9586">BoolArray</a> =  std::array&lt;bool, DOF&gt;</td>
+          <td class="memname">using <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::<a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad6a0393d267f8c3927a6491d99c02b30">BoolArray</a> =  std::array&lt;bool, <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab578b680e99b1f276fd2fd5a4b097458">NumDofs</a>&gt;</td>
         </tr>
       </table>
   </td>
@@ -245,17 +247,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a7ec951a331ee4af0c8c1b3c75a5d302d"></a>
+<a class="anchor" id="ab2327cb9ede35862e564ef6955e166cd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::<a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7ec951a331ee4af0c8c1b3c75a5d302d">StringArray</a> =  std::array&lt;std::string, DOF&gt;</td>
+          <td class="memname">using <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::<a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> =  typename ConfigSpaceT::EuclideanPoint</td>
         </tr>
       </table>
   </td>
@@ -267,17 +269,39 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a75ea3e6474e22b85419718d8bb3a1dfa"></a>
+<a class="anchor" id="a7568cdc6919bd4f6fc9e501752ef2ad0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::<a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> =  Eigen::Matrix&lt;double, DOF, 1&gt;</td>
+          <td class="memname">using <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::<a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a7568cdc6919bd4f6fc9e501752ef2ad0">StringArray</a> =  std::array&lt;std::string, <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab578b680e99b1f276fd2fd5a4b097458">NumDofs</a>&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad750b77a3c9ac4003d37f4d60fa618bb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ConfigSpaceT&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::<a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> =  typename ConfigSpaceT::Vector</td>
         </tr>
       </table>
   </td>
@@ -290,21 +314,21 @@ template&lt;std::size_t DOF&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa713e0f5df5614acb9029e3078d7ea7e"></a>
+<a class="anchor" id="a1af504719aaf3091a3072434ed70d1c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">dart::dynamics::detail::EulerJointProperties::EulerJointProperties </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html">MultiDofJoint</a>&lt; 3 &gt;::Properties &amp;&#160;</td>
-          <td class="paramname"><em>_multiDofProperties</em> = <code><a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html">MultiDofJoint</a>&lt;3&gt;::Properties()</code>, </td>
+          <td class="paramtype">const <a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt; <a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a> &gt;::Properties &amp;&#160;</td>
+          <td class="paramname"><em>GenericJointProperties</em> = <code><a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt;<a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a>&gt;::Properties()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a> &amp;&#160;</td>
-          <td class="paramname"><em>_eulerJointProperties</em> = <code><a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a>()</code>&#160;</td>
+          <td class="paramname"><em>eulerJointProperties</em> = <code><a class="el" href="../../d1/d50/structdart_1_1dynamics_1_1detail_1_1EulerJointUniqueProperties.html">EulerJointUniqueProperties</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -342,17 +366,17 @@ template&lt;std::size_t DOF&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a730caa0e74f5205dd1d4ff06115d8224"></a>
+<a class="anchor" id="a06d43dbf06642ee4f5a6f2fc54fe14b9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mAccelerationLowerLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mAccelerationLowerLimits</td>
         </tr>
       </table>
   </td>
@@ -366,17 +390,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a245604326070f7f6ffef3d693dc8ec91"></a>
+<a class="anchor" id="a72fb726ca6b6e525613b14ff7f3834cc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mAccelerationUpperLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mAccelerationUpperLimits</td>
         </tr>
       </table>
   </td>
@@ -434,17 +458,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a78b784bde589ff788526b86f31ad12a4"></a>
+<a class="anchor" id="a82004a93517e9424f839b4e5a8a3cf30"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mDampingCoefficients</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mDampingCoefficients</td>
         </tr>
       </table>
   </td>
@@ -458,17 +482,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a7db6123e70b393039a25c587642138f9"></a>
+<a class="anchor" id="a4ee4d32ea0d9a4406ce6642a74d6747b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a7ec951a331ee4af0c8c1b3c75a5d302d">StringArray</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mDofNames</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a7568cdc6919bd4f6fc9e501752ef2ad0">StringArray</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mDofNames</td>
         </tr>
       </table>
   </td>
@@ -482,17 +506,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af40d52ed0f6084cd7a18217c71838790"></a>
+<a class="anchor" id="aaca0b4730cf0fdb9a0e343b0245c0b4f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mForceLowerLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mForceLowerLimits</td>
         </tr>
       </table>
   </td>
@@ -506,17 +530,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae11a321a5e12c044e4d2503b2b3804f5"></a>
+<a class="anchor" id="af667440e3a64d66906b6c63f6b770fcf"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mForceUpperLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mForceUpperLimits</td>
         </tr>
       </table>
   </td>
@@ -530,17 +554,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a234e9d461e5979ebefc3d275b464397b"></a>
+<a class="anchor" id="ac0e3d280d052b10204606f2f80b2e919"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mFrictions</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mFrictions</td>
         </tr>
       </table>
   </td>
@@ -554,17 +578,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a4f5af2ca683bc1bd80d59907add509b3"></a>
+<a class="anchor" id="a8da9a8d55ec9de2b33a21c8ebe8a4125"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mInitialPositions</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mInitialPositions</td>
         </tr>
       </table>
   </td>
@@ -578,17 +602,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac59f25fe16b5c16a6f830c9d65ce7510"></a>
+<a class="anchor" id="ad9e8c0a448074ef3282c0c57f29bb9c2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mInitialVelocities</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mInitialVelocities</td>
         </tr>
       </table>
   </td>
@@ -646,17 +670,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a47fcf94dd3d1c51656ed081b1f7b0c79"></a>
+<a class="anchor" id="aa4d7e06113ecfaf4a8a5976dda1642f1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mPositionLowerLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mPositionLowerLimits</td>
         </tr>
       </table>
   </td>
@@ -670,17 +694,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aee33a181c4b857074ce6f6438484251f"></a>
+<a class="anchor" id="a0eeb9119012fe814ddc0fb22228242db"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mPositionUpperLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mPositionUpperLimits</td>
         </tr>
       </table>
   </td>
@@ -694,17 +718,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a05bc1ff7721120fe2cf0c24918471d3d"></a>
+<a class="anchor" id="a11e070d1eb7bef9d9bf67151e1328cda"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a324406c2c16c024327f1d9ee15bf9586">BoolArray</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mPreserveDofNames</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad6a0393d267f8c3927a6491d99c02b30">BoolArray</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mPreserveDofNames</td>
         </tr>
       </table>
   </td>
@@ -718,17 +742,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a253801c8f9c96d25ac2d777e97906ff2"></a>
+<a class="anchor" id="ad147835511b5695f6b34048ccb197e9e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mRestPositions</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ab2327cb9ede35862e564ef6955e166cd">EuclideanPoint</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mRestPositions</td>
         </tr>
       </table>
   </td>
@@ -742,17 +766,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6a00aeb1146451cc6a2cecdedee013b6"></a>
+<a class="anchor" id="ae44a5592d680713b541a590132ff384b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mSpringStiffnesses</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mSpringStiffnesses</td>
         </tr>
       </table>
   </td>
@@ -810,17 +834,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a041031b54b95083f91a087e05d485a1f"></a>
+<a class="anchor" id="accbcbf0c066ada35fecb66bccf25f1ce"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mVelocityLowerLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mVelocityLowerLimits</td>
         </tr>
       </table>
   </td>
@@ -834,17 +858,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3d66c21579fdc753471778331824fb65"></a>
+<a class="anchor" id="a4305dcdf9ac1d67d240914cd2ddc7e58"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html#a75ea3e6474e22b85419718d8bb3a1dfa">Vector</a> <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::mVelocityUpperLimits</td>
+          <td class="memname"><a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#ad750b77a3c9ac4003d37f4d60fa618bb">Vector</a> <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::mVelocityUpperLimits</td>
         </tr>
       </table>
   </td>
@@ -858,17 +882,17 @@ template&lt;std::size_t DOF&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1ca6b02e6df73e99ecfa4f58209d3f6d"></a>
+<a class="anchor" id="ab578b680e99b1f276fd2fd5a4b097458"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t DOF&gt; </div>
+template&lt;class ConfigSpaceT&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::size_t <a class="el" href="../../dd/d2a/structdart_1_1dynamics_1_1detail_1_1MultiDofJointUniqueProperties.html">dart::dynamics::detail::MultiDofJointUniqueProperties</a>&lt; DOF &gt;::NumDofs = DOF</td>
+          <td class="memname">constexpr std::size_t <a class="el" href="../../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html">dart::dynamics::detail::GenericJointUniqueProperties</a>&lt; ConfigSpaceT &gt;::NumDofs = ConfigSpaceT::NumDofs</td>
         </tr>
       </table>
   </td>
@@ -886,7 +910,7 @@ template&lt;std::size_t DOF&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html">detail</a></li><li class="navelem"><a class="el" href="../../df/d81/structdart_1_1dynamics_1_1detail_1_1EulerJointProperties.html">EulerJointProperties</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:33 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:26 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

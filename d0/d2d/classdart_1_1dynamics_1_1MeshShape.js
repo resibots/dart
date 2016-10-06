@@ -15,13 +15,18 @@ var classdart_1_1dynamics_1_1MeshShape =
       [ "DYNAMIC", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9", null ]
     ] ],
     [ "ShapeType", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0d", [
+      [ "SPHERE", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01", null ],
       [ "BOX", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502", null ],
       [ "ELLIPSOID", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf", null ],
       [ "CYLINDER", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7", null ],
+      [ "CAPSULE", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd", null ],
+      [ "CONE", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb", null ],
       [ "PLANE", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a", null ],
+      [ "MULTISPHERE", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351", null ],
       [ "MESH", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703", null ],
       [ "SOFT_MESH", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497", null ],
-      [ "LINE_SEGMENT", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ]
+      [ "LINE_SEGMENT", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ],
+      [ "UNSUPPORTED", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba", null ]
     ] ],
     [ "MeshShape", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ac33484b81d8bdf872d7823a5072e06a7", null ],
     [ "~MeshShape", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ab92a5e369f1d1a738d92634682690c6c", null ],
@@ -43,7 +48,10 @@ var classdart_1_1dynamics_1_1MeshShape =
     [ "getMeshUri", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a820603a0d1353c9e70a4be249f769204", null ],
     [ "getScale", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a695b284553aa3429392b716ee3ed16b3", null ],
     [ "getShapeType", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a008111ba607c45955131361d493e053d", null ],
+    [ "getStaticType", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a38f07f1fbe8f37410ac4110f8d68ecd5", null ],
+    [ "getType", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ae750bd80ae90d63a45427d240ccf7eee", null ],
     [ "getVolume", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a0a8824b5ebb8b738ce0431d58e162877", null ],
+    [ "is", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#acc78c57b5accd3f4ef1848d413a9279f", null ],
     [ "loadMesh", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a4b8bc065fa91d815f37626cada588758", null ],
     [ "loadMesh", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ade1491cd318e941a21cc2db3ed4ea166", null ],
     [ "notifyAlphaUpdate", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ad9c1659650d6b6b8a0e198b38fedcc40", null ],
@@ -72,6 +80,7 @@ var classdart_1_1dynamics_1_1MeshShape =
     [ "mObservers", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#acb21558de80efdc434cd64c90a205ba8", null ],
     [ "mResourceRetriever", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a0a0664ae7f5007260b50c60e554c14fb", null ],
     [ "mScale", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a354fcd58f9b788ed013b75714b1cb5b7", null ],
+    [ "mType", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVolume", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ]
 ];

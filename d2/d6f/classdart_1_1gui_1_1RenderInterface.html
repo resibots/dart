@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -163,12 +163,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeffe527e87a5d375fb2e1d6d85433b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0653cff3db2be7cb43ba7e6ec828bab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#ad0653cff3db2be7cb43ba7e6ec828bab">scale</a> (const Eigen::Vector3d &amp;_scale)</td></tr>
 <tr class="separator:ad0653cff3db2be7cb43ba7e6ec828bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb69cf7ff286e34ae08e2e7da8d602ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#acb69cf7ff286e34ae08e2e7da8d602ab">drawSphere</a> (double _radius)</td></tr>
+<tr class="separator:acb69cf7ff286e34ae08e2e7da8d602ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46cdd01c2c3b203fdd9305bc89832e1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a46cdd01c2c3b203fdd9305bc89832e1f">drawEllipsoid</a> (const Eigen::Vector3d &amp;_size)</td></tr>
 <tr class="separator:a46cdd01c2c3b203fdd9305bc89832e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c14bc7ec645a4049b7458939714603"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a90c14bc7ec645a4049b7458939714603">drawCube</a> (const Eigen::Vector3d &amp;_size)</td></tr>
 <tr class="separator:a90c14bc7ec645a4049b7458939714603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af979e1a59830a6e99a5de4371d237af9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#af979e1a59830a6e99a5de4371d237af9">drawCylinder</a> (double _radius, double _height)</td></tr>
 <tr class="separator:af979e1a59830a6e99a5de4371d237af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5620c8b8dcbfd06f59dc49c9a97b3d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a4a5620c8b8dcbfd06f59dc49c9a97b3d">drawCapsule</a> (double _radius, double _height)</td></tr>
+<tr class="separator:a4a5620c8b8dcbfd06f59dc49c9a97b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f92ff83b123940de34c437179d873c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a72f92ff83b123940de34c437179d873c">drawCone</a> (double _radius, double _height)</td></tr>
+<tr class="separator:a72f92ff83b123940de34c437179d873c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb3c2b1db3e9600b7a0f788c1052b8d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a8fb3c2b1db3e9600b7a0f788c1052b8d">drawMesh</a> (const Eigen::Vector3d &amp;_scale, const aiScene *_mesh)</td></tr>
 <tr class="separator:a8fb3c2b1db3e9600b7a0f788c1052b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68341839f831c2c5e8a56611c93c18c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a68341839f831c2c5e8a56611c93c18c9">drawSoftMesh</a> (const aiMesh *mesh)</td></tr>
@@ -320,6 +326,78 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a41d41f378070a67388921e42e09a6a5e">dart::gui::OpenGLRenderInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a5620c8b8dcbfd06f59dc49c9a97b3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::gui::RenderInterface::drawCapsule </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a124b51e50a65bb76c9c5807b0e41ab04">dart::gui::OpenGLRenderInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a72f92ff83b123940de34c437179d873c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::gui::RenderInterface::drawCone </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#af364d3bffb35f5055dee4030df7cf1cb">dart::gui::OpenGLRenderInterface</a>.</p>
 
 </div>
 </div>
@@ -530,6 +608,32 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a66a3e95b106d6c188d0aaad246be5156">dart::gui::OpenGLRenderInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb69cf7ff286e34ae08e2e7da8d602ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::gui::RenderInterface::drawSphere </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>_radius</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a57763160295c14a7a7ad5f29775d26c2">dart::gui::OpenGLRenderInterface</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1244,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d0/dcf/namespacedart_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html">RenderInterface</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:33 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:26 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

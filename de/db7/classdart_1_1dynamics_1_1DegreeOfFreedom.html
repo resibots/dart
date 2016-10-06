@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -419,11 +419,9 @@ Protected Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:a2b27269e818d7b63995be0e0f812bf54"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#a2b27269e818d7b63995be0e0f812bf54">Joint</a></td></tr>
 <tr class="separator:a2b27269e818d7b63995be0e0f812bf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31cc087f0ac9ac50e860d73cfe4e9e3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#ad31cc087f0ac9ac50e860d73cfe4e9e3">SingleDofJoint</a></td></tr>
-<tr class="separator:ad31cc087f0ac9ac50e860d73cfe4e9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:added7c08f59c0cac1eea44589343b7ec"><td class="memTemplParams" colspan="2">template&lt;std::size_t &gt; </td></tr>
-<tr class="memitem:added7c08f59c0cac1eea44589343b7ec"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#added7c08f59c0cac1eea44589343b7ec">MultiDofJoint</a></td></tr>
-<tr class="separator:added7c08f59c0cac1eea44589343b7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925f583182ced8a2fef780b42b2b18ab"><td class="memTemplParams" colspan="2">template&lt;class &gt; </td></tr>
+<tr class="memitem:a925f583182ced8a2fef780b42b2b18ab"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#a925f583182ced8a2fef780b42b2b18ab">GenericJoint</a></td></tr>
+<tr class="separator:a925f583182ced8a2fef780b42b2b18ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a11291b70c2cbded85d321ce539c62f"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#a6a11291b70c2cbded85d321ce539c62f">Skeleton</a></td></tr>
 <tr class="separator:a6a11291b70c2cbded85d321ce539c62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -889,9 +887,9 @@ Friends</h2></td></tr>
 
 <p>Get the name of this <a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html" title="DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...">DegreeOfFreedom</a>. </p>
 <p><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html" title="DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...">DegreeOfFreedom</a>'s name will be automatically given by the joint it belongs to. Below is the naming policy:</p><ul>
-<li><a class="el" href="../../d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html" title="class SingleDofJoint ">SingleDofJoint</a> <br />
+<li>GenericJoint&lt;RealSpace&gt; <br />
  Same name as the joint it belongs to.</li>
-<li><a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html" title="class MultiDofJoint ">MultiDofJoint</a> <br />
+<li>GenericJoint&lt;[multi_dof_joint_space]&gt; <br />
  "[Joint_name]+[affix]" is used. The affix is determined according to the role they play in the joint. For example, suppose there's a <a class="el" href="../../dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html" title="class TranslationalJoint ">TranslationalJoint</a> named "trans_joint". Then the each dof to be named "trans_joint_x", "trans_joint_y", and "trans_joint_z".</li>
 <li><a class="el" href="../../db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html" title="class ZeroDofJoint ">ZeroDofJoint</a> <br />
  <a class="el" href="../../db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html" title="class ZeroDofJoint ">ZeroDofJoint</a> doesn't have dof.</li>
@@ -2006,6 +2004,28 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a925f583182ced8a2fef780b42b2b18ab"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2b27269e818d7b63995be0e0f812bf54"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2015,48 +2035,6 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">friend class <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html">Joint</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="added7c08f59c0cac1eea44589343b7ec"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../da/d30/classdart_1_1dynamics_1_1MultiDofJoint.html">MultiDofJoint</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad31cc087f0ac9ac50e860d73cfe4e9e3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../d7/d33/classdart_1_1dynamics_1_1SingleDofJoint.html">SingleDofJoint</a></td>
         </tr>
       </table>
   </td>
@@ -2206,7 +2184,7 @@ template&lt;std::size_t &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html">DegreeOfFreedom</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:32 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:25 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

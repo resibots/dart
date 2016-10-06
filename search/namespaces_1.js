@@ -5,6 +5,7 @@ var searchData=
   ['common',['common',['../dd/d6b/namespacedart_1_1common.html',1,'dart']]],
   ['constraint',['constraint',['../dd/d6c/namespacedart_1_1constraint.html',1,'dart']]],
   ['dart',['dart',['../d1/d83/namespacedart.html',1,'']]],
+  ['detail',['detail',['../d7/da2/namespacedart_1_1math_1_1detail.html',1,'dart::math']]],
   ['detail',['detail',['../d3/dd0/namespacedart_1_1common_1_1detail.html',1,'dart::common']]],
   ['detail',['detail',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html',1,'dart::dynamics']]],
   ['detail',['detail',['../d5/de8/namespacedart_1_1common_1_1signal_1_1detail.html',1,'dart::common::signal']]],

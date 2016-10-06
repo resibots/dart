@@ -10,13 +10,18 @@ var classdart_1_1dynamics_1_1PlaneShape =
       [ "DYNAMIC", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9", null ]
     ] ],
     [ "ShapeType", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0d", [
+      [ "SPHERE", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01", null ],
       [ "BOX", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502", null ],
       [ "ELLIPSOID", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf", null ],
       [ "CYLINDER", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7", null ],
+      [ "CAPSULE", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd", null ],
+      [ "CONE", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb", null ],
       [ "PLANE", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a", null ],
+      [ "MULTISPHERE", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351", null ],
       [ "MESH", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703", null ],
       [ "SOFT_MESH", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497", null ],
-      [ "LINE_SEGMENT", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ]
+      [ "LINE_SEGMENT", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ],
+      [ "UNSUPPORTED", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba", null ]
     ] ],
     [ "PlaneShape", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a7243a821411d9b883b2c1ea520c42c3d", null ],
     [ "PlaneShape", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a004d3ca6187b5834025dcf004abe34b6", null ],
@@ -34,7 +39,10 @@ var classdart_1_1dynamics_1_1PlaneShape =
     [ "getNormal", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a7feaeaaaa43f788750abf11ea926823c", null ],
     [ "getOffset", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#ae2542f2bb10f09b5e12a93b25f145291", null ],
     [ "getShapeType", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a008111ba607c45955131361d493e053d", null ],
+    [ "getStaticType", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a6c1494866c14f63f032d75846606933d", null ],
+    [ "getType", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a40dbcf056d2f1857c6ee541296208f67", null ],
     [ "getVolume", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a0a8824b5ebb8b738ce0431d58e162877", null ],
+    [ "is", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#acc78c57b5accd3f4ef1848d413a9279f", null ],
     [ "notifyAlphaUpdate", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a675ea9bc41741a4a62c8288c75f09fdd", null ],
     [ "notifyColorUpdate", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#ad17cd8fb09091d770ea8af4ebde9b48c", null ],
     [ "refreshData", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a9d3a188f020eb6b01b1472602247c010", null ],
@@ -53,6 +61,7 @@ var classdart_1_1dynamics_1_1PlaneShape =
     [ "mNormal", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a9027f36f592fcdcacc7cebb1a005eb9a", null ],
     [ "mObservers", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#acb21558de80efdc434cd64c90a205ba8", null ],
     [ "mOffset", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a5f9837381bc76d79925feabbdc093ea1", null ],
+    [ "mType", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVolume", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ]
 ];

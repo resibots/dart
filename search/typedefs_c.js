@@ -13,5 +13,6 @@ var searchData=
   ['nodetypestatevector',['NodeTypeStateVector',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a0bb77b3df8f4729a1189ebf5e76e79a7',1,'dart::dynamics::detail']]],
   ['nodevectorproxyaspect',['NodeVectorProxyAspect',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#aa9a3d57c3321925384db8730cea50723',1,'dart::dynamics::detail']]],
   ['nodevectorproxyaspectproperties',['NodeVectorProxyAspectProperties',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a91b0675d6e58afb0e87db8d4f3c795ec',1,'dart::dynamics::detail']]],
-  ['nodevectorproxyaspectstate',['NodeVectorProxyAspectState',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a1f93b7ec0c4d7a16a227206f7d683ef0',1,'dart::dynamics::detail']]]
+  ['nodevectorproxyaspectstate',['NodeVectorProxyAspectState',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a1f93b7ec0c4d7a16a227206f7d683ef0',1,'dart::dynamics::detail']]],
+  ['nullspace',['NullSpace',['../d8/d96/namespacedart_1_1math.html#a2e6eb0a4590dec732af1b119739d5189',1,'dart::math']]]
 ];

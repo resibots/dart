@@ -24,6 +24,8 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
       [ "FixedFrameProperties", "d8/d8b/structdart_1_1dynamics_1_1detail_1_1FixedFrameProperties.html", "d8/d8b/structdart_1_1dynamics_1_1detail_1_1FixedFrameProperties" ]
     ] ],
     [ "FixedJacobianNode.hpp", "d9/d2a/detail_2FixedJacobianNode_8hpp.html", "d9/d2a/detail_2FixedJacobianNode_8hpp" ],
+    [ "GenericJoint.hpp", "df/d64/detail_2GenericJoint_8hpp.html", "df/d64/detail_2GenericJoint_8hpp" ],
+    [ "GenericJointAspect.hpp", "d6/dd1/GenericJointAspect_8hpp.html", "d6/dd1/GenericJointAspect_8hpp" ],
     [ "InverseKinematics.hpp", "d7/dff/detail_2InverseKinematics_8hpp.html", null ],
     [ "InverseKinematicsPtr.hpp", "d8/d11/InverseKinematicsPtr_8hpp.html", "d8/d11/InverseKinematicsPtr_8hpp" ],
     [ "JointAspect.hpp", "d9/dbd/JointAspect_8hpp.html", "d9/dbd/JointAspect_8hpp" ],
@@ -34,8 +36,6 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "MarkerAspect.hpp", "d1/d67/MarkerAspect_8hpp.html", [
       [ "MarkerProperties", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties" ]
     ] ],
-    [ "MultiDofJoint.hpp", "d0/df1/detail_2MultiDofJoint_8hpp.html", "d0/df1/detail_2MultiDofJoint_8hpp" ],
-    [ "MultiDofJointAspect.hpp", "de/df6/MultiDofJointAspect_8hpp.html", "de/df6/MultiDofJointAspect_8hpp" ],
     [ "Node.hpp", "d3/d71/detail_2Node_8hpp.html", "d3/d71/detail_2Node_8hpp" ],
     [ "NodeManagerJoiner.hpp", "d6/d91/detail_2NodeManagerJoiner_8hpp.html", null ],
     [ "NodePtr.hpp", "de/da4/NodePtr_8hpp.html", [
@@ -50,10 +50,9 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "RevoluteJointAspect.hpp", "d4/d97/RevoluteJointAspect_8hpp.html", "d4/d97/RevoluteJointAspect_8hpp" ],
     [ "ScrewJointAspect.cpp", "d3/ddd/ScrewJointAspect_8cpp.html", null ],
     [ "ScrewJointAspect.hpp", "d0/d6d/ScrewJointAspect_8hpp.html", "d0/d6d/ScrewJointAspect_8hpp" ],
+    [ "Shape.hpp", "d1/d9a/detail_2Shape_8hpp.html", null ],
     [ "ShapeFrameAspect.hpp", "d2/d45/ShapeFrameAspect_8hpp.html", "d2/d45/ShapeFrameAspect_8hpp" ],
     [ "ShapeNode.hpp", "d7/da0/dynamics_2detail_2ShapeNode_8hpp.html", "d7/da0/dynamics_2detail_2ShapeNode_8hpp" ],
-    [ "SingleDofJointAspect.cpp", "dd/d5d/SingleDofJointAspect_8cpp.html", null ],
-    [ "SingleDofJointAspect.hpp", "d8/dfa/SingleDofJointAspect_8hpp.html", "d8/dfa/SingleDofJointAspect_8hpp" ],
     [ "Skeleton.hpp", "dd/dfc/detail_2Skeleton_8hpp.html", null ],
     [ "SkeletonAspect.hpp", "d9/de0/SkeletonAspect_8hpp.html", "d9/de0/SkeletonAspect_8hpp" ],
     [ "SoftBodyNodeAspect.hpp", "d3/d64/SoftBodyNodeAspect_8hpp.html", "d3/d64/SoftBodyNodeAspect_8hpp" ],

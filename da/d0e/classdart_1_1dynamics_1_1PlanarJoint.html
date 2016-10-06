@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -128,8 +128,8 @@ Inheritance diagram for dart::dynamics::PlanarJoint:</div>
  <div class="center">
   <img src="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.png" usemap="#dart::dynamics::PlanarJoint_map" alt=""/>
   <map id="dart::dynamics::PlanarJoint_map" name="dart::dynamics::PlanarJoint_map">
-<area href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html" title="This is an alternative to EmbedProperties which allows your class to also inherit other Composite obj..." alt="dart::common::EmbedPropertiesOnTopOf&lt; DerivedT, PropertiesDataT, CompositeBases &gt;" shape="rect" coords="0,56,611,80"/>
-<area href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html" alt="dart::common::CompositeJoiner&lt; EmbedProperties&lt; DerivedT, PropertiesDataT &gt;, CompositeBases... &gt;" shape="rect" coords="0,0,611,24"/>
+<area href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html" title="This is an alternative to EmbedProperties which allows your class to also inherit other Composite obj..." alt="dart::common::EmbedPropertiesOnTopOf&lt; DerivedT, PropertiesDataT, CompositeBases &gt;" shape="rect" coords="0,56,595,80"/>
+<area href="../../db/d5d/classdart_1_1common_1_1CompositeJoiner.html" alt="dart::common::CompositeJoiner&lt; EmbedProperties&lt; DerivedT, PropertiesDataT &gt;, CompositeBases... &gt;" shape="rect" coords="0,0,595,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -141,8 +141,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a8b5b8681964b8287fa0ac9427324821b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad19efe7718a6084757f4a667e3c515cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#ad19efe7718a6084757f4a667e3c515cb">Properties</a> = <a class="el" href="../../dc/d06/structdart_1_1dynamics_1_1detail_1_1PlanarJointProperties.html">detail::PlanarJointProperties</a></td></tr>
 <tr class="separator:ad19efe7718a6084757f4a667e3c515cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03a3ff46e1b09794cf5997f352266893"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a03a3ff46e1b09794cf5997f352266893">Base</a> = <a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#aeb37e555891caca5a1edb022e5a35f6b">detail::PlanarJointBase</a></td></tr>
-<tr class="separator:a03a3ff46e1b09794cf5997f352266893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828dbe2ef5b25f43b1b1075a77ab9462"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a828dbe2ef5b25f43b1b1075a77ab9462">Base</a> = <a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt; <a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a> &gt;</td></tr>
+<tr class="separator:a828dbe2ef5b25f43b1b1075a77ab9462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11332640ee8bf15a4d85852ee5073d80"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a11332640ee8bf15a4d85852ee5073d80">Impl</a> = EmbedProperties&lt; DerivedT, PropertiesDataT &gt;</td></tr>
 <tr class="separator:a11332640ee8bf15a4d85852ee5073d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e7c44cb7dfd94ea61cadb38ff619116"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a1e7c44cb7dfd94ea61cadb38ff619116">Derived</a> = typename <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#a97ea5474e8a99d03350e48a531c87ec7">Impl::Derived</a></td></tr>
@@ -157,23 +157,32 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a67ae498cab2a84e45ddad4bab62d818a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a67ae498cab2a84e45ddad4bab62d818a">hasPlanarJointAspect</a> () const </td></tr>
+<tr class="memdesc:a67ae498cab2a84e45ddad4bab62d818a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this Composite currently has PlanarJointAspect .  <a href="#a67ae498cab2a84e45ddad4bab62d818a">More...</a><br /></td></tr>
 <tr class="separator:a67ae498cab2a84e45ddad4bab62d818a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09127495be26e7854044ac6987066d77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a09127495be26e7854044ac6987066d77">getPlanarJointAspect</a> ()</td></tr>
+<tr class="memdesc:a09127495be26e7854044ac6987066d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a(an) PlanarJointAspect from this Composite.  <a href="#a09127495be26e7854044ac6987066d77">More...</a><br /></td></tr>
 <tr class="separator:a09127495be26e7854044ac6987066d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a30f632e471678202d2f13535ab0856"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a2a30f632e471678202d2f13535ab0856">getPlanarJointAspect</a> () const </td></tr>
+<tr class="memdesc:a2a30f632e471678202d2f13535ab0856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a(an) PlanarJointAspect from this Composite.  <a href="#a2a30f632e471678202d2f13535ab0856">More...</a><br /></td></tr>
 <tr class="separator:a2a30f632e471678202d2f13535ab0856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2dc5c1c4790918322359b05d55b442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#afd2dc5c1c4790918322359b05d55b442">getPlanarJointAspect</a> (const bool createIfNull)</td></tr>
+<tr class="memdesc:afd2dc5c1c4790918322359b05d55b442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a(an) PlanarJointAspect from this Composite.  <a href="#afd2dc5c1c4790918322359b05d55b442">More...</a><br /></td></tr>
 <tr class="separator:afd2dc5c1c4790918322359b05d55b442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512929f9057664c946101ef7b9843147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a512929f9057664c946101ef7b9843147">setPlanarJointAspect</a> (const <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> *aspect)</td></tr>
+<tr class="memdesc:a512929f9057664c946101ef7b9843147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a clone of PlanarJointAspect and place the clone into this Composite.  <a href="#a512929f9057664c946101ef7b9843147">More...</a><br /></td></tr>
 <tr class="separator:a512929f9057664c946101ef7b9843147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b816710173a25e9c208abe18758791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a73b816710173a25e9c208abe18758791">setPlanarJointAspect</a> (std::unique_ptr&lt; <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> &gt; &amp;&amp;aspect)</td></tr>
+<tr class="memdesc:a73b816710173a25e9c208abe18758791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use move semantics to place PlanarJointAspect into this Composite.  <a href="#a73b816710173a25e9c208abe18758791">More...</a><br /></td></tr>
 <tr class="separator:a73b816710173a25e9c208abe18758791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06a2982fca74eddb470f8d0a7bd60939"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a06a2982fca74eddb470f8d0a7bd60939"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a06a2982fca74eddb470f8d0a7bd60939">createPlanarJointAspect</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a06a2982fca74eddb470f8d0a7bd60939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a(an) PlanarJointAspect inside of this Composite.  <a href="#a06a2982fca74eddb470f8d0a7bd60939">More...</a><br /></td></tr>
 <tr class="separator:a06a2982fca74eddb470f8d0a7bd60939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb98058ad4ff5e84a1bdb9d30d3c96c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a1bb98058ad4ff5e84a1bdb9d30d3c96c">removePlanarJointAspect</a> ()</td></tr>
+<tr class="memdesc:a1bb98058ad4ff5e84a1bdb9d30d3c96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a(an) PlanarJointAspect from this Composite.  <a href="#a1bb98058ad4ff5e84a1bdb9d30d3c96c">More...</a><br /></td></tr>
 <tr class="separator:a1bb98058ad4ff5e84a1bdb9d30d3c96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd06489e0d1439b42c42d41849e4602"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d2/d2f/classdart_1_1common_1_1EmbedPropertiesOnTopOf.html#a7a09a3abbcd10a188a9dafff5a420cfb">Aspect</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a2cd06489e0d1439b42c42d41849e4602">releasePlanarJointAspect</a> ()</td></tr>
+<tr class="memdesc:a2cd06489e0d1439b42c42d41849e4602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a(an) PlanarJointAspect from this Composite, but return its unique_ptr instead of letting it be deleted.  <a href="#a2cd06489e0d1439b42c42d41849e4602">More...</a><br /></td></tr>
 <tr class="separator:a2cd06489e0d1439b42c42d41849e4602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40185fc29c7fb48dfa9d2c61d629d445"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a40185fc29c7fb48dfa9d2c61d629d445">PlanarJoint</a> (const <a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html">PlanarJoint</a> &amp;)=delete</td></tr>
 <tr class="separator:a40185fc29c7fb48dfa9d2c61d629d445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,12 +339,12 @@ template&lt;class DerivedT, typename PropertiesDataT, typename... CompositeBases
 
 </div>
 </div>
-<a class="anchor" id="a03a3ff46e1b09794cf5997f352266893"></a>
+<a class="anchor" id="a828dbe2ef5b25f43b1b1075a77ab9462"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a03a3ff46e1b09794cf5997f352266893">dart::dynamics::PlanarJoint::Base</a> =  <a class="el" href="../../de/dfe/namespacedart_1_1dynamics_1_1detail.html#aeb37e555891caca5a1edb022e5a35f6b">detail::PlanarJointBase</a></td>
+          <td class="memname">using <a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a828dbe2ef5b25f43b1b1075a77ab9462">dart::dynamics::PlanarJoint::Base</a> =  <a class="el" href="../../da/d53/classdart_1_1dynamics_1_1GenericJoint.html">GenericJoint</a>&lt;<a class="el" href="../../d8/d96/namespacedart_1_1math.html#a8e29b2372aaaa279ee9041a06354ce57">math::R3Space</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -582,6 +591,8 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Construct a(an) PlanarJointAspect inside of this Composite. </p>
+
 </div>
 </div>
 <a class="anchor" id="afd2dc5c1c4790918322359b05d55b442"></a>
@@ -606,6 +617,9 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get a(an) PlanarJointAspect from this Composite. </p>
+<p>If _createIfNull is true, then a(an) PlanarJointAspect will be generated if one does not already exist. </p>
+
 </div>
 </div>
 <a class="anchor" id="a2a30f632e471678202d2f13535ab0856"></a>
@@ -629,6 +643,8 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Get a(an) PlanarJointAspect from this Composite. </p>
+
 </div>
 </div>
 <a class="anchor" id="a09127495be26e7854044ac6987066d77"></a>
@@ -651,6 +667,8 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get a(an) PlanarJointAspect from this Composite. </p>
 
 </div>
 </div>
@@ -832,6 +850,8 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Check if this Composite currently has PlanarJointAspect . </p>
+
 </div>
 </div>
 <a class="anchor" id="a3cb2f0413561d64780115baf7db2c434"></a>
@@ -897,6 +917,9 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Remove a(an) PlanarJointAspect from this Composite, but return its unique_ptr instead of letting it be deleted. </p>
+<p>This allows you to safely use move semantics to transfer a(an) PlanarJointAspect between two Composites. </p>
+
 </div>
 </div>
 <a class="anchor" id="a1bb98058ad4ff5e84a1bdb9d30d3c96c"></a>
@@ -919,6 +942,8 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Remove a(an) PlanarJointAspect from this Composite. </p>
 
 </div>
 </div>
@@ -1002,6 +1027,9 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Make a clone of PlanarJointAspect and place the clone into this Composite. </p>
+<p>If a(an) PlanarJointAspect already exists in this Composite, the existing PlanarJointAspect will be destroyed. </p>
+
 </div>
 </div>
 <a class="anchor" id="a73b816710173a25e9c208abe18758791"></a>
@@ -1025,6 +1053,9 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Use move semantics to place PlanarJointAspect into this Composite. </p>
+<p>If a(an) PlanarJointAspect already exists in this Composite, the existing PlanarJointAspect will be destroyed. </p>
 
 </div>
 </div>
@@ -1259,7 +1290,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html">PlanarJoint</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:32 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:26 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

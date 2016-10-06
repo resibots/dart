@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -566,12 +566,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8bdce217c2d8292a4d1366879bc8dab6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a8bdce217c2d8292a4d1366879bc8dab6">clearInternalForces</a> ()=0</td></tr>
 <tr class="memdesc:a8bdce217c2d8292a4d1366879bc8dab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the internal forces of the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a8bdce217c2d8292a4d1366879bc8dab6">More...</a><br /></td></tr>
 <tr class="separator:a8bdce217c2d8292a4d1366879bc8dab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15744ae937928567ca69384b5e6df963"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a15744ae937928567ca69384b5e6df963">getKineticEnergy</a> () const =0</td></tr>
-<tr class="memdesc:a15744ae937928567ca69384b5e6df963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the kinetic energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a15744ae937928567ca69384b5e6df963">More...</a><br /></td></tr>
-<tr class="separator:a15744ae937928567ca69384b5e6df963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be9c8acefe927db06e9742f84405393"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a9be9c8acefe927db06e9742f84405393">getPotentialEnergy</a> () const =0</td></tr>
-<tr class="memdesc:a9be9c8acefe927db06e9742f84405393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a9be9c8acefe927db06e9742f84405393">More...</a><br /></td></tr>
-<tr class="separator:a9be9c8acefe927db06e9742f84405393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff6a3471e83845fe0d56f5e51fb06026"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#aff6a3471e83845fe0d56f5e51fb06026">computeLagrangian</a> () const </td></tr>
+<tr class="memdesc:aff6a3471e83845fe0d56f5e51fb06026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute and return Lagrangian of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#aff6a3471e83845fe0d56f5e51fb06026">More...</a><br /></td></tr>
+<tr class="separator:aff6a3471e83845fe0d56f5e51fb06026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242d8011736271e4133585a96fc93c67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a242d8011736271e4133585a96fc93c67">getKineticEnergy</a> () const </td></tr>
+<tr class="memdesc:a242d8011736271e4133585a96fc93c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the kinetic energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a242d8011736271e4133585a96fc93c67">More...</a><br /></td></tr>
+<tr class="separator:a242d8011736271e4133585a96fc93c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65b6bebe2e0db2347f5e326681d353a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac65b6bebe2e0db2347f5e326681d353a">computeKineticEnergy</a> () const =0</td></tr>
+<tr class="memdesc:ac65b6bebe2e0db2347f5e326681d353a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the kinetic energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#ac65b6bebe2e0db2347f5e326681d353a">More...</a><br /></td></tr>
+<tr class="separator:ac65b6bebe2e0db2347f5e326681d353a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7782146a7d9dbf227b2703fe8c2959"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a6e7782146a7d9dbf227b2703fe8c2959">getPotentialEnergy</a> () const </td></tr>
+<tr class="memdesc:a6e7782146a7d9dbf227b2703fe8c2959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a6e7782146a7d9dbf227b2703fe8c2959">More...</a><br /></td></tr>
+<tr class="separator:a6e7782146a7d9dbf227b2703fe8c2959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1188c0b00b9963fed78bb4c8cd97774"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ad1188c0b00b9963fed78bb4c8cd97774">computePotentialEnergy</a> () const =0</td></tr>
+<tr class="memdesc:ad1188c0b00b9963fed78bb4c8cd97774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#ad1188c0b00b9963fed78bb4c8cd97774">More...</a><br /></td></tr>
+<tr class="separator:ad1188c0b00b9963fed78bb4c8cd97774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2c2fe955726b264f2e4fd3537dd382"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a1b2c2fe955726b264f2e4fd3537dd382">clearCollidingBodies</a> ()=0</td></tr>
 <tr class="memdesc:a1b2c2fe955726b264f2e4fd3537dd382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear collision flags of the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a1b2c2fe955726b264f2e4fd3537dd382">More...</a><br /></td></tr>
 <tr class="separator:a1b2c2fe955726b264f2e4fd3537dd382"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -827,6 +836,77 @@ Protected Attributes</h2></td></tr>
 <p>Clear the internal forces of the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#ae5ff38e15969a0406465bbdd17a2ecaa">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a8a009d6467f3bd5699d52dfb5025d381">dart::dynamics::ReferentialSkeleton</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac65b6bebe2e0db2347f5e326681d353a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double dart::dynamics::MetaSkeleton::computeKineticEnergy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the kinetic energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+
+<p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a4a68f7974d4a9765067dbbf2a04c7cfe">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a683d365974f5765cc378fefd4fb7feae">dart::dynamics::ReferentialSkeleton</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aff6a3471e83845fe0d56f5e51fb06026"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double dart::dynamics::MetaSkeleton::computeLagrangian </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute and return Lagrangian of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad1188c0b00b9963fed78bb4c8cd97774"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double dart::dynamics::MetaSkeleton::computePotentialEnergy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+
+<p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#aee0c5f05a457f7a4e8c90a004fb645a4">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a994005c1902147e8a3878815466dbdad">dart::dynamics::ReferentialSkeleton</a>.</p>
 
 </div>
 </div>
@@ -2617,30 +2697,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a15744ae937928567ca69384b5e6df963"></a>
+<a class="anchor" id="a242d8011736271e4133585a96fc93c67"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual double dart::dynamics::MetaSkeleton::getKineticEnergy </td>
+          <td class="memname">double dart::dynamics::MetaSkeleton::getKineticEnergy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get the kinetic energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
-
-<p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a9b1aa386c6648866d21b4870624b7af7">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#af43100e2f5edae4e250a91679b53f406">dart::dynamics::ReferentialSkeleton</a>.</p>
 
 </div>
 </div>
@@ -3134,30 +3204,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9be9c8acefe927db06e9742f84405393"></a>
+<a class="anchor" id="a6e7782146a7d9dbf227b2703fe8c2959"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual double dart::dynamics::MetaSkeleton::getPotentialEnergy </td>
+          <td class="memname">double dart::dynamics::MetaSkeleton::getPotentialEnergy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
-
-<p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a669fa99f1b9e888bf7c8b2e645dfdcc8">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a2da09e9d1cbd00f913d628614acf3939">dart::dynamics::ReferentialSkeleton</a>.</p>
 
 </div>
 </div>
@@ -4611,7 +4671,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:32 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:26 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

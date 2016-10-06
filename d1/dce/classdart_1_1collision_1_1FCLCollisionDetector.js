@@ -1,7 +1,7 @@
 var classdart_1_1collision_1_1FCLCollisionDetector =
 [
     [ "FCLCollisionGeometryDeleter", "d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html", "d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter" ],
-    [ "ShapeMap", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a0b91171d87103666dae5df1fe39d56a9", null ],
+    [ "ShapeMap", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#ad0f33e5c0365f0d7ece796bf4b9c9be1", null ],
     [ "ContactPointComputationMethod", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62", [
       [ "FCL", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62aab09b75d1e79a121b9629b03030bbe6b", null ],
       [ "DART", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0250fc8ec23e3748fce8ae636ecc62ac24618884af764ca6b74ed387d8ea832", null ]
@@ -13,7 +13,7 @@ var classdart_1_1collision_1_1FCLCollisionDetector =
     [ "~FCLCollisionDetector", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a6bc2fe2ddc2bda62839847bdb7267fd7", null ],
     [ "FCLCollisionDetector", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a21016049c1f32c5683da660ef35a40cd", null ],
     [ "claimCollisionObject", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a5668d53928f87dcc1db946a0523345c8", null ],
-    [ "claimFCLCollisionGeometry", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a69dde275e645aca2699b60543ed50e18", null ],
+    [ "claimFCLCollisionGeometry", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#af75f20131feffc4f0e6835c00ddbc8c1", null ],
     [ "cloneWithoutCollisionObjects", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a754645bd570aaf76c98f7f746c2ba172", null ],
     [ "collide", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa43cb2f36a415c752bb47a1f35a6b8b8", null ],
     [ "collide", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a9aed57abb6a522eb9bd4fd039358993d", null ],
@@ -23,7 +23,9 @@ var classdart_1_1collision_1_1FCLCollisionDetector =
     [ "createCollisionGroupAsSharedPtr", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a94e45c3c9acb18730448617fbe65f4d4", null ],
     [ "createCollisionGroupAsSharedPtr", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#adb7f36b2dd0ed0d5f050397bdcd1f0c6", null ],
     [ "createCollisionObject", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a8c8fb9d5e735c85597bafa13bcabee3a", null ],
-    [ "createFCLCollisionGeometry", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aad0dd76f235ee157e6ecd4713766947c", null ],
+    [ "createFCLCollisionGeometry", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a91b0af649da544474b14e14679fc4826", null ],
+    [ "distance", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#ac22d51e32b0fee102ca16634f84c2f90", null ],
+    [ "distance", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#af83fcfdac6806348f67e31802983fc38", null ],
     [ "getContactPointComputationMethod", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aca1a3be71515b1478408dcc0573f57b1", null ],
     [ "getPrimitiveShapeType", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#aa572f99603ba4a1d53fc3cc64a321db5", null ],
     [ "getStaticType", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#a7cdb927a45535fc03d6b2daf8b1ad696", null ],

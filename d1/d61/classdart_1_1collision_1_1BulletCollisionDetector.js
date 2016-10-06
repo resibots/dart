@@ -14,6 +14,8 @@ var classdart_1_1collision_1_1BulletCollisionDetector =
     [ "createCollisionGroupAsSharedPtr", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#a94e45c3c9acb18730448617fbe65f4d4", null ],
     [ "createCollisionGroupAsSharedPtr", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#adb7f36b2dd0ed0d5f050397bdcd1f0c6", null ],
     [ "createCollisionObject", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#ad8fac5915c710239f37be6e2c49a8543", null ],
+    [ "distance", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#acc4d9af2172f2b72b73f9e47d002fa57", null ],
+    [ "distance", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#aba6de4f1347790f5e603796431bef513", null ],
     [ "getStaticType", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#ad42dea0272242915216a00de818de0f2", null ],
     [ "getType", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#a31b7d488aac616e5d1615fea84159df8", null ],
     [ "notifyCollisionObjectDestroying", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#a0656a9cf3dec6b556da231b28b175c3e", null ],

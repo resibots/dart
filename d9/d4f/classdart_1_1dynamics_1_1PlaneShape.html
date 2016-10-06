@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('d9/d4f/classdart_1_1dynamics_1_1PlaneS
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
@@ -138,14 +139,20 @@ Inheritance diagram for dart::dynamics::PlaneShape:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a52bc86be856e82f6f6d3d86da9cb4b0d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0d">ShapeType</a> { <br />
-&#160;&#160;<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502">BOX</a>, 
+&#160;&#160;<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01">SPHERE</a>, 
+<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502">BOX</a>, 
 <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf">ELLIPSOID</a>, 
 <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7">CYLINDER</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd">CAPSULE</a>, 
+<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb">CONE</a>, 
 <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a">PLANE</a>, 
+<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351">MULTISPHERE</a>, 
 <br />
 &#160;&#160;<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703">MESH</a>, 
 <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497">SOFT_MESH</a>, 
-<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599">LINE_SEGMENT</a>
+<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599">LINE_SEGMENT</a>, 
+<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba">UNSUPPORTED</a>
 <br />
  }</td></tr>
 <tr class="separator:a52bc86be856e82f6f6d3d86da9cb4b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +178,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a004d3ca6187b5834025dcf004abe34b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a004d3ca6187b5834025dcf004abe34b6">PlaneShape</a> (const Eigen::Vector3d &amp;_normal, const Eigen::Vector3d &amp;_point)</td></tr>
 <tr class="memdesc:a004d3ca6187b5834025dcf004abe34b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a004d3ca6187b5834025dcf004abe34b6">More...</a><br /></td></tr>
 <tr class="separator:a004d3ca6187b5834025dcf004abe34b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40dbcf056d2f1857c6ee541296208f67"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a40dbcf056d2f1857c6ee541296208f67">getType</a> () const override</td></tr>
+<tr class="memdesc:a40dbcf056d2f1857c6ee541296208f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the shape type.  <a href="#a40dbcf056d2f1857c6ee541296208f67">More...</a><br /></td></tr>
+<tr class="separator:a40dbcf056d2f1857c6ee541296208f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9442a47096421e395af58c56e02c20c6"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a9442a47096421e395af58c56e02c20c6">computeInertia</a> (double mass) const override</td></tr>
 <tr class="separator:a9442a47096421e395af58c56e02c20c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ca8cd3857f836da605fb34303cf5458"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a3ca8cd3857f836da605fb34303cf5458">setNormal</a> (const Eigen::Vector3d &amp;_normal)</td></tr>
@@ -197,6 +207,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad768ba8f5a08d1d9d1857f262dd2c6d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#ad768ba8f5a08d1d9d1857f262dd2c6d2">computeSignedDistance</a> (const Eigen::Vector3d &amp;_point) const </td></tr>
 <tr class="memdesc:ad768ba8f5a08d1d9d1857f262dd2c6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute signed distance between the plane and the given point.  <a href="#ad768ba8f5a08d1d9d1857f262dd2c6d2">More...</a><br /></td></tr>
 <tr class="separator:ad768ba8f5a08d1d9d1857f262dd2c6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc78c57b5accd3f4ef1848d413a9279f"><td class="memTemplParams" colspan="2">template&lt;typename ShapeT &gt; </td></tr>
+<tr class="memitem:acc78c57b5accd3f4ef1848d413a9279f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#acc78c57b5accd3f4ef1848d413a9279f">is</a> () const </td></tr>
+<tr class="memdesc:acc78c57b5accd3f4ef1848d413a9279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get true if the types of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> and the template parameter (a shape class) are identical.  <a href="#acc78c57b5accd3f4ef1848d413a9279f">More...</a><br /></td></tr>
+<tr class="separator:acc78c57b5accd3f4ef1848d413a9279f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b65c33aeb523ea716523e76c169bec7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../da/d06/classdart_1_1math_1_1BoundingBox.html">math::BoundingBox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9b65c33aeb523ea716523e76c169bec7">getBoundingBox</a> () const </td></tr>
 <tr class="memdesc:a9b65c33aeb523ea716523e76c169bec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bounding box of the shape in its local coordinate frame.  <a href="#a9b65c33aeb523ea716523e76c169bec7">More...</a><br /></td></tr>
 <tr class="separator:a9b65c33aeb523ea716523e76c169bec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +250,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad17cd8fb09091d770ea8af4ebde9b48c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that the color (rgba) of this shape has updated.  <a href="#ad17cd8fb09091d770ea8af4ebde9b48c">More...</a><br /></td></tr>
 <tr class="separator:ad17cd8fb09091d770ea8af4ebde9b48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6c1494866c14f63f032d75846606933d"><td class="memItemLeft" align="right" valign="top">static const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a6c1494866c14f63f032d75846606933d">getStaticType</a> ()</td></tr>
+<tr class="memdesc:a6c1494866c14f63f032d75846606933d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns shape type for this class.  <a href="#a6c1494866c14f63f032d75846606933d">More...</a><br /></td></tr>
+<tr class="separator:a6c1494866c14f63f032d75846606933d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a137b5f1e7fb760e29084a42dabec1eb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a137b5f1e7fb760e29084a42dabec1eb3">sendDestructionNotification</a> () const </td></tr>
@@ -262,6 +282,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa4ec0172edc2d98894b5a41228b598a8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#aa4ec0172edc2d98894b5a41228b598a8">mVariance</a></td></tr>
 <tr class="memdesc:aa4ec0172edc2d98894b5a41228b598a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The DataVariance of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a>.  <a href="#aa4ec0172edc2d98894b5a41228b598a8">More...</a><br /></td></tr>
 <tr class="separator:aa4ec0172edc2d98894b5a41228b598a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6e8972545c65851285061e11cc6d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0d">ShapeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a0c6e8972545c65851285061e11cc6d24">mType</a></td></tr>
+<tr class="separator:a0c6e8972545c65851285061e11cc6d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb21558de80efdc434cd64c90a205ba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db0/utils_2CMakeLists_8txt.html#a4bbe5abad37a6a52381861a66a6d8521">std::set</a>&lt; <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a1bc1613ca5d6d0e8b2fbce5ef15dd38f">Observer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#acb21558de80efdc434cd64c90a205ba8">mObservers</a></td></tr>
 <tr class="memdesc:acb21558de80efdc434cd64c90a205ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current Observers.  <a href="#acb21558de80efdc434cd64c90a205ba8">More...</a><br /></td></tr>
 <tr class="separator:acb21558de80efdc434cd64c90a205ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -350,20 +372,31 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Deprecated in 6.1. Please use <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715" title="Returns a string representing the shape type. ">getType()</a> instead. </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502"></a>BOX&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01"></a>SPHERE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502"></a>BOX&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf"></a>ELLIPSOID&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7"></a>CYLINDER&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd"></a>CAPSULE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb"></a>CONE&#160;</td><td class="fielddoc">
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a"></a>PLANE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351"></a>MULTISPHERE&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703"></a>MESH&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497"></a>SOFT_MESH&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599"></a>LINE_SEGMENT&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba"></a>UNSUPPORTED&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -744,6 +777,60 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Deprecated in 6.1. Please use <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715" title="Returns a string representing the shape type. ">getType()</a> instead. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6c1494866c14f63f032d75846606933d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; dart::dynamics::PlaneShape::getStaticType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns shape type for this class. </p>
+
+</div>
+</div>
+<a class="anchor" id="a40dbcf056d2f1857c6ee541296208f67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; dart::dynamics::PlaneShape::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a string representing the shape type. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#acc78c57b5accd3f4ef1848d413a9279f" title="Get true if the types of this Shape and the template parameter (a shape class) are identical...">is()</a> </dd></dl>
+
+<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715">dart::dynamics::Shape</a>.</p>
 
 </div>
 </div>
@@ -770,6 +857,35 @@ Private Attributes</h2></td></tr>
 
 <p>Get volume of this shape. </p>
 <p>The volume will be automatically calculated by the sub-classes such as <a class="el" href="../../d4/d45/classdart_1_1dynamics_1_1BoxShape.html">BoxShape</a>, <a class="el" href="../../db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html">EllipsoidShape</a>, <a class="el" href="../../d3/d73/classdart_1_1dynamics_1_1CylinderShape.html">CylinderShape</a>, and <a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html">MeshShape</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc78c57b5accd3f4ef1848d413a9279f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ShapeT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::dynamics::Shape::is </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get true if the types of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> and the template parameter (a shape class) are identical. </p>
+<p>This function is a syntactic sugar, which is identical to: (<a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715" title="Returns a string representing the shape type. ">getType()</a> == ShapeType::getStaticType()).</p>
+<p>Example code: </p><div class="fragment"><div class="line"><span class="keyword">auto</span> shape = bodyNode-&gt;getShapeNode(0)-&gt;getShape();</div><div class="line"><span class="keywordflow">if</span> (shape-&gt;is&lt;BoxShape&gt;())</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">&quot;The shape type is box!\n&quot;</span>;</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715" title="Returns a string representing the shape type. ">getType()</a> </dd></dl>
 
 </div>
 </div>
@@ -1210,6 +1326,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0c6e8972545c65851285061e11cc6d24"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0d">ShapeType</a> dart::dynamics::Shape::mType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>Deprecated in 6.1.</dd></dl>
+<p>Please use <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715" title="Returns a string representing the shape type. ">getType()</a> instead. Type of primitive shpae. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa4ec0172edc2d98894b5a41228b598a8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1260,7 +1398,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html">PlaneShape</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:32 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:26 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -3,7 +3,7 @@ var classdart_1_1dynamics_1_1PlanarJoint =
     [ "Aspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a7a09a3abbcd10a188a9dafff5a420cfb", null ],
     [ "AspectProperties", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#addc9941aced02c95143557599e8bccf5", null ],
     [ "AspectPropertiesData", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a2c5e9d784c674edc0763646d88870ba6", null ],
-    [ "Base", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a03a3ff46e1b09794cf5997f352266893", null ],
+    [ "Base", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a828dbe2ef5b25f43b1b1075a77ab9462", null ],
     [ "Derived", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a1e7c44cb7dfd94ea61cadb38ff619116", null ],
     [ "Impl", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a11332640ee8bf15a4d85852ee5073d80", null ],
     [ "PlaneType", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#acbfcbc8f4a149dea51b3a5fa1efd9782", null ],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['namemanager',['NameManager',['../d9/dc9/classdart_1_1common_1_1NameManager.html#a2e7bd233950b82eb1a5b3bfd556787fb',1,'dart::common::NameManager']]],
   ['needcollision',['needCollision',['../d5/d5b/structdart_1_1collision_1_1CollisionFilter.html#a0a84576327337501fcbf95fc7d1440cc',1,'dart::collision::CollisionFilter::needCollision()'],['../d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html#a2552fb3c9234f0f9427919fde213cc43',1,'dart::collision::BodyNodeCollisionFilter::needCollision()']]],
+  ['needdistance',['needDistance',['../d2/d0a/structdart_1_1collision_1_1DistanceFilter.html#ab20db762884d43f61dc505360b0d4ee0',1,'dart::collision::DistanceFilter::needDistance()'],['../d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter.html#a4fa1283d82f2ad3c16fd14353c6515da',1,'dart::collision::BodyNodeDistanceFilter::needDistance()']]],
   ['needsaccelerationupdate',['needsAccelerationUpdate',['../d7/d42/classdart_1_1dynamics_1_1Entity.html#a1d79f755abc93dceddf79200f9fd46f5',1,'dart::dynamics::Entity']]],
   ['needspartialaccelerationupdate',['needsPartialAccelerationUpdate',['../d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a5d5a4cca4c2773616744e2cc6c9261d9',1,'dart::dynamics::PointMassNotifier']]],
   ['needstransformupdate',['needsTransformUpdate',['../d7/d42/classdart_1_1dynamics_1_1Entity.html#a42aeb59b1bc894f994e5dcadf81c1c70',1,'dart::dynamics::Entity']]],

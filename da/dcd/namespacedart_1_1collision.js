@@ -1,6 +1,7 @@
 var namespacedart_1_1collision =
 [
     [ "BodyNodeCollisionFilter", "d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter.html", "d5/d22/structdart_1_1collision_1_1BodyNodeCollisionFilter" ],
+    [ "BodyNodeDistanceFilter", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter.html", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter" ],
     [ "BulletCollisionDetector", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html", "d1/d61/classdart_1_1collision_1_1BulletCollisionDetector" ],
     [ "BulletCollisionGroup", "d0/dbd/classdart_1_1collision_1_1BulletCollisionGroup.html", "d0/dbd/classdart_1_1collision_1_1BulletCollisionGroup" ],
     [ "BulletCollisionObject", "d9/ddc/classdart_1_1collision_1_1BulletCollisionObject.html", "d9/ddc/classdart_1_1collision_1_1BulletCollisionObject" ],
@@ -15,6 +16,9 @@ var namespacedart_1_1collision =
     [ "DARTCollisionGroup", "dd/ddb/classdart_1_1collision_1_1DARTCollisionGroup.html", "dd/ddb/classdart_1_1collision_1_1DARTCollisionGroup" ],
     [ "DARTCollisionObject", "d4/db7/classdart_1_1collision_1_1DARTCollisionObject.html", "d4/db7/classdart_1_1collision_1_1DARTCollisionObject" ],
     [ "dContactGeom", "d9/dea/structdart_1_1collision_1_1dContactGeom.html", "d9/dea/structdart_1_1collision_1_1dContactGeom" ],
+    [ "DistanceFilter", "d2/d0a/structdart_1_1collision_1_1DistanceFilter.html", "d2/d0a/structdart_1_1collision_1_1DistanceFilter" ],
+    [ "DistanceOption", "da/d12/structdart_1_1collision_1_1DistanceOption.html", "da/d12/structdart_1_1collision_1_1DistanceOption" ],
+    [ "DistanceResult", "d0/d4e/structdart_1_1collision_1_1DistanceResult.html", "d0/d4e/structdart_1_1collision_1_1DistanceResult" ],
     [ "FCLCollisionDetector", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html", "d1/dce/classdart_1_1collision_1_1FCLCollisionDetector" ],
     [ "FCLCollisionGroup", "dd/d99/classdart_1_1collision_1_1FCLCollisionGroup.html", "dd/d99/classdart_1_1collision_1_1FCLCollisionGroup" ],
     [ "FCLCollisionObject", "d8/d9f/classdart_1_1collision_1_1FCLCollisionObject.html", "d8/d9f/classdart_1_1collision_1_1FCLCollisionObject" ],

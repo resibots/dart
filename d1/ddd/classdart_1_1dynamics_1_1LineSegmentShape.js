@@ -10,13 +10,18 @@ var classdart_1_1dynamics_1_1LineSegmentShape =
       [ "DYNAMIC", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9", null ]
     ] ],
     [ "ShapeType", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0d", [
+      [ "SPHERE", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01", null ],
       [ "BOX", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502", null ],
       [ "ELLIPSOID", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf", null ],
       [ "CYLINDER", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7", null ],
+      [ "CAPSULE", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd", null ],
+      [ "CONE", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb", null ],
       [ "PLANE", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a", null ],
+      [ "MULTISPHERE", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351", null ],
       [ "MESH", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703", null ],
       [ "SOFT_MESH", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497", null ],
-      [ "LINE_SEGMENT", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ]
+      [ "LINE_SEGMENT", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ],
+      [ "UNSUPPORTED", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba", null ]
     ] ],
     [ "LineSegmentShape", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a9018a109d55502935c7b4429b546decc", null ],
     [ "LineSegmentShape", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#ae4a47f436808d27b764b254170444071", null ],
@@ -34,10 +39,13 @@ var classdart_1_1dynamics_1_1LineSegmentShape =
     [ "getDataVariance", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a709cc0dc204d0c086f10ac4d1200c10f", null ],
     [ "getID", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a59f9401d81166f53d2f72baa73ac392e", null ],
     [ "getShapeType", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a008111ba607c45955131361d493e053d", null ],
+    [ "getStaticType", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a5bbd0b1426e8a555533093dee7bc93c9", null ],
     [ "getThickness", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a5e8ea175abc7e5e89e837fde1ee9b50a", null ],
+    [ "getType", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#aaf48d36366a8ca3e43fbdfb9b478a204", null ],
     [ "getVertex", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a2850b2bd58b8b36aacb1b366467cdca3", null ],
     [ "getVertices", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a9249fbf049af2ca02a828903c6cf1420", null ],
     [ "getVolume", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a0a8824b5ebb8b738ce0431d58e162877", null ],
+    [ "is", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#acc78c57b5accd3f4ef1848d413a9279f", null ],
     [ "notifyAlphaUpdate", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a675ea9bc41741a4a62c8288c75f09fdd", null ],
     [ "notifyColorUpdate", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#ad17cd8fb09091d770ea8af4ebde9b48c", null ],
     [ "refreshData", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a9d3a188f020eb6b01b1472602247c010", null ],
@@ -58,6 +66,7 @@ var classdart_1_1dynamics_1_1LineSegmentShape =
     [ "mID", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#adefad047400d9d53ed10a07816c3636e", null ],
     [ "mObservers", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#acb21558de80efdc434cd64c90a205ba8", null ],
     [ "mThickness", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a35e6805d7d5eee797073d61f03316414", null ],
+    [ "mType", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVertices", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a3e2eeaaca28476cb71715983ac1adeee", null ],
     [ "mVolume", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ]

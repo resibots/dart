@@ -32,6 +32,8 @@ var searchData=
   ['dart_5fcommon_5fset_5faspect_5fproperty_5fcustom',['DART_COMMON_SET_ASPECT_PROPERTY_CUSTOM',['../d4/d97/Aspect_8hpp.html#a5ffa0ee5f0566026daf70c7ad82eede2',1,'Aspect.hpp']]],
   ['dart_5fcommon_5fset_5fget_5faspect_5fproperty',['DART_COMMON_SET_GET_ASPECT_PROPERTY',['../d4/d97/Aspect_8hpp.html#a4bc78bec0238569437a550238273195f',1,'Aspect.hpp']]],
   ['dart_5fcontact_5fconstraint_5fepsilon',['DART_CONTACT_CONSTRAINT_EPSILON',['../d7/d27/ContactConstraint_8cpp.html#a30e2fcf76be9305b552146a7b93cf064',1,'DART_CONTACT_CONSTRAINT_EPSILON():&#160;ContactConstraint.cpp'],['../d2/d9e/SoftContactConstraint_8cpp.html#a30e2fcf76be9305b552146a7b93cf064',1,'DART_CONTACT_CONSTRAINT_EPSILON():&#160;SoftContactConstraint.cpp']]],
+  ['dart_5fdefault_5fmin_5fdistance',['DART_DEFAULT_MIN_DISTANCE',['../d6/d78/DistanceResult_8cpp.html#ab67aee2317f65a3a9f07dd90e3188201',1,'DistanceResult.cpp']]],
+  ['dart_5fdefault_5funclamped_5fmin_5fdistance',['DART_DEFAULT_UNCLAMPED_MIN_DISTANCE',['../d6/d78/DistanceResult_8cpp.html#a27ff14d1bba9b6e5a2f42552c476900f',1,'DistanceResult.cpp']]],
   ['dart_5fdeprecated',['DART_DEPRECATED',['../d8/dbb/Deprecated_8hpp.html#ac4a19939c6bdb3dafe1202b7059d53cd',1,'Deprecated.hpp']]],
   ['dart_5fdynamics_5fmake_5fbn_5fdependent_5fptr',['DART_DYNAMICS_MAKE_BN_DEPENDENT_PTR',['../d2/d9c/dynamics_2SmartPointer_8hpp.html#a660a98f95ab4c939d746eeca7d873d09',1,'SmartPointer.hpp']]],
   ['dart_5fdynamics_5fmake_5fbodynodeptr',['DART_DYNAMICS_MAKE_BODYNODEPTR',['../d2/d9c/dynamics_2SmartPointer_8hpp.html#ab97cb6ca79847b58b9e862f916bb3a8a',1,'SmartPointer.hpp']]],

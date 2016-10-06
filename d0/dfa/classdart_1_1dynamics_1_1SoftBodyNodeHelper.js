@@ -5,6 +5,7 @@ var classdart_1_1dynamics_1_1SoftBodyNodeHelper =
     [ "makeCylinderProperties", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#ab3679b662c3f4293976bb75738592010", null ],
     [ "makeEllipsoidProperties", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a58564eb81b3e3553d01063698532715b", null ],
     [ "makeSinglePointMassProperties", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a877f02436b19c7586955b6d72d84247d", null ],
+    [ "makeSphereProperties", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#ac834797017a91dd7fa517ddfec3faea0", null ],
     [ "setBox", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a5f4ae6ece7d14231257ca7c3ae4181b7", null ],
     [ "setBox", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a56dd702c1bc0a41b47085f8ec76264ea", null ],
     [ "setCylinder", "d0/dfa/classdart_1_1dynamics_1_1SoftBodyNodeHelper.html#a1dd544d4082dff17d82fb1df02db8347", null ],

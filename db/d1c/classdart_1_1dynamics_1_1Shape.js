@@ -10,15 +10,21 @@ var classdart_1_1dynamics_1_1Shape =
       [ "DYNAMIC", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9", null ]
     ] ],
     [ "ShapeType", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0d", [
+      [ "SPHERE", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01", null ],
       [ "BOX", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da7176c735acd02ef5a1e03bd78a44e502", null ],
       [ "ELLIPSOID", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf", null ],
       [ "CYLINDER", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7", null ],
+      [ "CAPSULE", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd", null ],
+      [ "CONE", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb", null ],
       [ "PLANE", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da59fa94d70966ab54b5fbb478d2ba0c6a", null ],
+      [ "MULTISPHERE", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351", null ],
       [ "MESH", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da02a8e4903d35a12457ea62b4d6346703", null ],
       [ "SOFT_MESH", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497", null ],
-      [ "LINE_SEGMENT", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ]
+      [ "LINE_SEGMENT", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599", null ],
+      [ "UNSUPPORTED", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba", null ]
     ] ],
     [ "Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a75aa60456007c8a607c0ca5b3066f460", null ],
+    [ "Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a59ee93e10035592e4d8c69f6f611f6c3", null ],
     [ "~Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html#aeb636289f25b7ca29ad5701212fd85bd", null ],
     [ "addDataVariance", "db/d1c/classdart_1_1dynamics_1_1Shape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a51b5edd025b0663e92c388facda5284f", null ],
@@ -30,7 +36,9 @@ var classdart_1_1dynamics_1_1Shape =
     [ "getDataVariance", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a709cc0dc204d0c086f10ac4d1200c10f", null ],
     [ "getID", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a59f9401d81166f53d2f72baa73ac392e", null ],
     [ "getShapeType", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a008111ba607c45955131361d493e053d", null ],
+    [ "getType", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a7abd5aaf01b44ca0515527e4f42ab715", null ],
     [ "getVolume", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a0a8824b5ebb8b738ce0431d58e162877", null ],
+    [ "is", "db/d1c/classdart_1_1dynamics_1_1Shape.html#acc78c57b5accd3f4ef1848d413a9279f", null ],
     [ "notifyAlphaUpdate", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a675ea9bc41741a4a62c8288c75f09fdd", null ],
     [ "notifyColorUpdate", "db/d1c/classdart_1_1dynamics_1_1Shape.html#ad17cd8fb09091d770ea8af4ebde9b48c", null ],
     [ "refreshData", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a9d3a188f020eb6b01b1472602247c010", null ],

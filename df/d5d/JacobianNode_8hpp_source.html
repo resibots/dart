@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>DART: /home/js/dev/dart/doxygen/dart/dynamics/JacobianNode.hpp Source File</title>
+<title>DART: /home/js/Downloads/dartsim-dart-ade98ba/dart/dynamics/JacobianNode.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">6.0.1</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
   </td>
  </tr>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('df/d5d/JacobianNode_8hpp_source.html',
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_aab6a9362137222bee00ed382c919e136"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#aab6a9362137222bee00ed382c919e136">dart::dynamics::JacobianNode::getAngularJacobianDeriv</a></div><div class="ttdeci">virtual math::AngularJacobian getAngularJacobianDeriv(const Frame *_inCoordinatesOf=Frame::World()) const =0</div><div class="ttdoc">Return the angular Jacobian time derivative, in terms of any coordinate Frame. </div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_ad6a6d69a44f423d63b839ae0c116ea7f"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#ad6a6d69a44f423d63b839ae0c116ea7f">dart::dynamics::JacobianNode::mIsWorldJacobianDirty</a></div><div class="ttdeci">bool mIsWorldJacobianDirty</div><div class="ttdoc">Dirty flag for world Jacobian. </div><div class="ttdef"><b>Definition:</b> JacobianNode.hpp:281</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_a1a3c6080599c613b4500afbef00c421e"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a1a3c6080599c613b4500afbef00c421e">dart::dynamics::JacobianNode::getNumDependentGenCoords</a></div><div class="ttdeci">virtual std::size_t getNumDependentGenCoords() const =0</div><div class="ttdoc">The number of the generalized coordinates which affect this JacobianNode. </div></div>
-<div class="ttc" id="namespacedart_html"><div class="ttname"><a href="../../d1/d83/namespacedart.html">dart</a></div><div class="ttdef"><b>Definition:</b> BulletCollisionDetector.cpp:54</div></div>
+<div class="ttc" id="namespacedart_html"><div class="ttname"><a href="../../d1/d83/namespacedart.html">dart</a></div><div class="ttdef"><b>Definition:</b> BulletCollisionDetector.cpp:58</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html">dart::dynamics::JacobianNode</a></div><div class="ttdoc">The JacobianNode class serves as a common interface for BodyNodes and EndEffectors to both be used as...</div><div class="ttdef"><b>Definition:</b> JacobianNode.hpp:52</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_aed02db81d0e67a2ac05df23fd813ec92"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#aed02db81d0e67a2ac05df23fd813ec92">dart::dynamics::JacobianNode::clearIK</a></div><div class="ttdeci">void clearIK()</div><div class="ttdoc">Wipe away the IK module for this JacobianNode, leaving it as a nullptr. </div><div class="ttdef"><b>Definition:</b> JacobianNode.cpp:78</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_a2f158ac167895e540709929d3265f1e5"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a2f158ac167895e540709929d3265f1e5">dart::dynamics::JacobianNode::getDependentDof</a></div><div class="ttdeci">virtual DegreeOfFreedom * getDependentDof(std::size_t _index)=0</div><div class="ttdoc">Get a pointer to the _indexth dependent DegreeOfFreedom for this BodyNode. </div></div>
@@ -143,8 +143,8 @@ $(document).ready(function(){initNavTree('df/d5d/JacobianNode_8hpp_source.html',
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_a8c4f6611187977b8ac6f77823b2fba1f"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a8c4f6611187977b8ac6f77823b2fba1f">dart::dynamics::JacobianNode::getOrCreateIK</a></div><div class="ttdeci">const std::shared_ptr&lt; InverseKinematics &gt; &amp; getOrCreateIK()</div><div class="ttdoc">Get a pointer to an IK module for this JacobianNode. </div><div class="ttdef"><b>Definition:</b> JacobianNode.cpp:59</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_aafc10f6336f58c14cfc8133669feb8e4"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#aafc10f6336f58c14cfc8133669feb8e4">dart::dynamics::JacobianNode::~JacobianNode</a></div><div class="ttdeci">virtual ~JacobianNode()</div><div class="ttdoc">Virtual destructor. </div><div class="ttdef"><b>Definition:</b> JacobianNode.cpp:43</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_ac30b338ab8e37e1bc3ebae82467b0d86"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#ac30b338ab8e37e1bc3ebae82467b0d86">dart::dynamics::JacobianNode::getNumDependentDofs</a></div><div class="ttdeci">virtual std::size_t getNumDependentDofs() const =0</div><div class="ttdoc">Same as getNumDependentGenCoords() </div></div>
-<div class="ttc" id="classdart_1_1dynamics_1_1BodyNode_html"><div class="ttname"><a href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dart::dynamics::BodyNode</a></div><div class="ttdoc">BodyNode class represents a single node of the skeleton. </div><div class="ttdef"><b>Definition:</b> BodyNode.hpp:71</div></div>
-<div class="ttc" id="classdart_1_1dynamics_1_1DegreeOfFreedom_html"><div class="ttname"><a href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html">dart::dynamics::DegreeOfFreedom</a></div><div class="ttdoc">DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...</div><div class="ttdef"><b>Definition:</b> DegreeOfFreedom.hpp:53</div></div>
+<div class="ttc" id="classdart_1_1dynamics_1_1BodyNode_html"><div class="ttname"><a href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dart::dynamics::BodyNode</a></div><div class="ttdoc">BodyNode class represents a single node of the skeleton. </div><div class="ttdef"><b>Definition:</b> BodyNode.hpp:72</div></div>
+<div class="ttc" id="classdart_1_1dynamics_1_1DegreeOfFreedom_html"><div class="ttname"><a href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html">dart::dynamics::DegreeOfFreedom</a></div><div class="ttdoc">DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...</div><div class="ttdef"><b>Definition:</b> DegreeOfFreedom.hpp:51</div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_aa3cbcd072f6485b98cd9c63d82884025"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#aa3cbcd072f6485b98cd9c63d82884025">dart::dynamics::JacobianNode::getJacobianSpatialDeriv</a></div><div class="ttdeci">virtual const math::Jacobian &amp; getJacobianSpatialDeriv() const =0</div><div class="ttdoc">Return the spatial time derivative of the generalized Jacobian targeting the origin of this BodyNode...</div></div>
 <div class="ttc" id="Node_8hpp_html"><div class="ttname"><a href="../../d7/dc6/Node_8hpp.html">Node.hpp</a></div></div>
 <div class="ttc" id="classdart_1_1dynamics_1_1JacobianNode_html_ad4de7f1c725b675d49cd2c23eb5b65af"><div class="ttname"><a href="../../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#ad4de7f1c725b675d49cd2c23eb5b65af">dart::dynamics::JacobianNode::getWorldJacobian</a></div><div class="ttdeci">virtual const math::Jacobian &amp; getWorldJacobian() const =0</div><div class="ttdoc">Return the generalized Jacobian targeting the origin of this JacobianNode. </div></div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('df/d5d/JacobianNode_8hpp_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_ce1d750ba4a7950ac0659613f96015b8.html">dynamics</a></li><li class="navelem"><a class="el" href="../../df/d5d/JacobianNode_8hpp.html">JacobianNode.hpp</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 00:19:31 for DART by
+    <li class="footer">Generated on Thu Oct 6 2016 16:53:24 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
