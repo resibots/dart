@@ -48,11 +48,10 @@ endmacro()
 #   dart_add_library(_libname source1 [source2 ...])
 #===============================================================================
 macro(dart_add_library _name)
-  add_library(${_name} ${ARGN})
+  add_library(${_name} STATIC ${ARGN})
   set_target_properties(
     ${_name} PROPERTIES
-    SOVERSION "${DART_MAJOR_VERSION}.${DART_MINOR_VERSION}"
+    #SOVERSION "${DART_MAJOR_VERSION}.${DART_MINOR_VERSION}"
     VERSION "${DART_VERSION}"
   )
 endmacro()
-
